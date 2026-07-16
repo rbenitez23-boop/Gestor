@@ -14,7 +14,8 @@ export function detenerEscaner() {
   sesionActiva = null;
 }
 
-export function renderScanner(container: HTMLElement, db: Database, onChanged: () => void) {
+export function renderScanner(container: HTMLElement, dbInicial: Database, onChanged: () => void) {
+  let db = dbInicial;
   container.innerHTML = `
     <div style="margin-bottom:16px"><h1 style="font-size:22px;font-weight:800">Escáner QR</h1><p style="color:var(--gris-med);font-size:13px">Apunta la cámara al código del material para registrar el movimiento en segundos</p></div>
 
@@ -122,8 +123,9 @@ export function renderScanner(container: HTMLElement, db: Database, onChanged: (
           });
           return next;
         }, `Escáner: ${tipo} de ${m.nombre}`);
+        db = store.current!; // refleja el stock nuevo para el siguiente escaneo, sin reiniciar la cámara
         toast(`${tipo} registrada ✓`, 's');
-        onChanged();
+        reanudar();
       } catch (e) {
         toast('Error: ' + (e as Error).message, 'e');
       } finally {
