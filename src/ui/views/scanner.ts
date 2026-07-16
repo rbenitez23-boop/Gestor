@@ -1,32 +1,25 @@
-import jsQR from 'jsqr';
 import type { Database, TipoMovimiento } from '../../types';
 import { resolverCodigoEscaneado, TIPOS_MOV_ESCANER } from '../../domain/scanner';
 import { calcularStockPorAlmacen } from '../../domain/stock';
 import { agregarMovimiento } from '../../domain/movimientos';
 import { store } from '../../services/store';
+import { iniciarCamaraQr, type SesionCamara } from '../../services/qrCamera';
 import { toast, esc, showLoader, hideLoader } from '../helpers';
 
-let activeStream: MediaStream | null = null;
-let rafId: number | null = null;
+let sesionActiva: SesionCamara | null = null;
 
 /** Apaga la cámara — se debe llamar siempre que el usuario navega fuera de esta pantalla (batería + privacidad). */
 export function detenerEscaner() {
-  if (rafId !== null) cancelAnimationFrame(rafId);
-  rafId = null;
-  if (activeStream) {
-    activeStream.getTracks().forEach((t) => t.stop());
-    activeStream = null;
-  }
+  sesionActiva?.detener();
+  sesionActiva = null;
 }
 
 export function renderScanner(container: HTMLElement, db: Database, onChanged: () => void) {
-  let pausado = false;
-
   container.innerHTML = `
     <div style="margin-bottom:16px"><h1 style="font-size:22px;font-weight:800">Escáner QR</h1><p style="color:var(--gris-med);font-size:13px">Apunta la cámara al código del material para registrar el movimiento en segundos</p></div>
 
     <div class="card" style="padding:16px;max-width:480px;margin:0 auto">
-      <div id="sc-camera-wrap" style="position:relative;border-radius:var(--radius-sm);overflow:hidden;background:#000;aspect-ratio:1/1;">
+      <div style="position:relative;border-radius:var(--radius-sm);overflow:hidden;background:#000;aspect-ratio:1/1;">
         <video id="sc-video" playsinline muted style="width:100%;height:100%;object-fit:cover;display:block"></video>
         <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 40px rgba(0,0,0,.25)"></div>
       </div>
@@ -37,41 +30,15 @@ export function renderScanner(container: HTMLElement, db: Database, onChanged: (
 
   const video = container.querySelector('#sc-video') as HTMLVideoElement;
   const statusEl = container.querySelector('#sc-status') as HTMLElement;
-  const canvas = document.createElement('canvas');
-  const ctx = canvas.getContext('2d', { willReadFrequently: true });
 
-  async function iniciarCamara() {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
-      activeStream = stream;
-      video.srcObject = stream;
-      await video.play();
+  iniciarCamaraQr(video, onCodigoDetectado)
+    .then((sesion) => {
+      sesionActiva = sesion;
       statusEl.textContent = 'Apunta al código QR del material…';
-      tick();
-    } catch (e) {
-      statusEl.innerHTML = `<span style="color:var(--rojo)">No se pudo acceder a la cámara: ${esc((e as Error).message)}. Revisa los permisos de cámara de tu navegador para este sitio.</span>`;
-    }
-  }
-
-  function tick() {
-    if (pausado) {
-      rafId = requestAnimationFrame(tick);
-      return;
-    }
-    if (video.readyState === video.HAVE_ENOUGH_DATA && ctx) {
-      canvas.width = video.videoWidth;
-      canvas.height = video.videoHeight;
-      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-      const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      const code = jsQR(imageData.data, imageData.width, imageData.height);
-      if (code && code.data) {
-        onCodigoDetectado(code.data);
-        rafId = requestAnimationFrame(tick);
-        return;
-      }
-    }
-    rafId = requestAnimationFrame(tick);
-  }
+    })
+    .catch((e: Error) => {
+      statusEl.innerHTML = `<span style="color:var(--rojo)">No se pudo acceder a la cámara: ${esc(e.message)}. Revisa los permisos de cámara de tu navegador para este sitio.</span>`;
+    });
 
   function onCodigoDetectado(codigo: string) {
     const material = resolverCodigoEscaneado(db, codigo);
@@ -79,7 +46,7 @@ export function renderScanner(container: HTMLElement, db: Database, onChanged: (
       statusEl.innerHTML = `<span style="color:var(--naranja)">Código "${esc(codigo)}" no corresponde a ningún material activo.</span>`;
       return;
     }
-    pausado = true;
+    sesionActiva?.pausar(true);
     statusEl.textContent = '✅ Material encontrado';
     mostrarAccionRapida(material.id);
   }
@@ -166,10 +133,8 @@ export function renderScanner(container: HTMLElement, db: Database, onChanged: (
   }
 
   function reanudar() {
-    pausado = false;
+    sesionActiva?.pausar(false);
     container.querySelector('#sc-result')!.innerHTML = '';
     statusEl.textContent = 'Apunta al código QR del material…';
   }
-
-  iniciarCamara();
 }

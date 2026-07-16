@@ -7,7 +7,7 @@ import { renderMateriales } from './ui/views/materiales';
 import { renderMovimientos } from './ui/views/movimientos';
 import { renderCompras } from './ui/views/compras';
 import { renderProveedores } from './ui/views/proveedores';
-import { renderRemisiones } from './ui/views/remisiones';
+import { renderRemisiones, detenerEscaneoRemision } from './ui/views/remisiones';
 import { renderContable } from './ui/views/contable';
 import { renderRecetario } from './ui/views/recetario';
 import { renderAutoRemision } from './ui/views/autoRemision';
@@ -61,6 +61,7 @@ function renderApp() {
   // contenedor en cada navegación sin un "ciclo de vida" formal, así que
   // esta es la única oportunidad de hacer esta limpieza.
   if (vistaAnterior === 'scanner' && view !== 'scanner') detenerEscaner();
+  if (vistaAnterior === 'remisiones' && view !== 'remisiones') detenerEscaneoRemision();
   vistaAnterior = view;
 
   const navigate = (v: ViewId) => {

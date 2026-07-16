@@ -1,7 +1,17 @@
 import type { Database, TipoPaquete } from '../../types';
-import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
+import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, marcarSalidaEscaneada, registrarRegresoEscaneado, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
+import { resolverCodigoEscaneado } from '../../domain/scanner';
 import { store } from '../../services/store';
+import { iniciarCamaraQr, type SesionCamara } from '../../services/qrCamera';
 import { openModal, closeModal, toast, esc, downloadCsv, showLoader, hideLoader } from '../helpers';
+
+let sesionEscaneoRem: SesionCamara | null = null;
+
+/** Apaga la cámara del escaneo dentro de una remisión — se llama al navegar fuera de esta pantalla. */
+export function detenerEscaneoRemision() {
+  sesionEscaneoRem?.detener();
+  sesionEscaneoRem = null;
+}
 
 export function renderRemisiones(container: HTMLElement, db: Database, onChanged: () => void) {
   drawLista(container, db, onChanged);
@@ -211,7 +221,9 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
     <div class="no-print" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
       <button class="btn btn-ghost btn-sm" id="rd-volver">← Volver</button>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        ${!rem.cerrada ? `<button class="btn btn-success" id="rd-regreso">Registrar regreso</button>` : ''}
+        ${!rem.cerrada ? `<button class="btn btn-primary" id="rd-scan-salida">📷 Escanear salida</button>` : ''}
+        ${!rem.cerrada ? `<button class="btn btn-success" id="rd-scan-regreso">📷 Escanear regreso</button>` : ''}
+        ${!rem.cerrada ? `<button class="btn btn-success" id="rd-regreso">Registrar regreso (manual)</button>` : ''}
         <button class="btn btn-ghost" id="rd-toggle">${rem.cerrada ? '🔓 Reabrir' : '🔒 Cerrar'}</button>
         <button class="btn btn-orange" id="rd-print">🖨️ Imprimir / Descargar PDF</button>
       </div>
@@ -329,6 +341,8 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
   });
 
   container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, onChanged));
 }
 
 // ── MODAL: REGISTRAR REGRESO ─────────────────────────────────────────
@@ -377,4 +391,162 @@ function openRegresoModal(folio: string, db: Database, onChanged: () => void) {
       hideLoader();
     }
   });
+}
+
+// ── ESCANEO DE SALIDA (empacar) ──────────────────────────────────────
+function openEscaneoSalidaModal(folio: string, db: Database, onChanged: () => void) {
+  const rem = db.remisiones.find((r) => r.folio === folio)!;
+  const body = `
+    <div style="position:relative;border-radius:var(--radius-sm);overflow:hidden;background:#000;aspect-ratio:1/1;max-width:320px;margin:0 auto">
+      <video id="es-video" playsinline muted style="width:100%;height:100%;object-fit:cover;display:block"></video>
+      <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 30px rgba(0,0,0,.25)"></div>
+    </div>
+    <div id="es-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Empacados: 0 / ${rem.items.length}</div>
+    <div id="es-lista" style="margin-top:12px;max-height:220px;overflow-y:auto"></div>`;
+  const footer = `<button class="btn btn-primary" data-close-modal>Listo</button>`;
+  const modal = openModal('Escanear salida — ' + folio, body, footer);
+
+  const pintarLista = (remActual: typeof rem) => {
+    modal.querySelector('#es-lista')!.innerHTML = remActual.items
+      .map((it) => `<div style="display:flex;justify-content:space-between;padding:5px 0;font-size:12px;border-bottom:1px solid var(--gris)"><span>${it.checkSalida ? '✅' : '⬜'} ${esc(it.materialNombre)}</span></div>`)
+      .join('');
+  };
+  pintarLista(rem);
+
+  const video = modal.querySelector('#es-video') as HTMLVideoElement;
+  const statusEl = modal.querySelector('#es-status') as HTMLElement;
+
+  iniciarCamaraQr(video, (codigo) => {
+    const material = resolverCodigoEscaneado(db, codigo);
+    if (!material) return;
+    store
+      .mutate((current) => marcarSalidaEscaneada(current, folio, material.id).db, `Escanear salida: ${material.nombre}`)
+      .then(() => {
+        const remActual = store.current!.remisiones.find((r) => r.folio === folio)!;
+        const marcados = remActual.items.filter((it) => it.checkSalida).length;
+        statusEl.textContent = `Empacados: ${marcados} / ${remActual.items.length}`;
+        pintarLista(remActual);
+        toast(`✓ ${material.nombre} empacado`, 's');
+      })
+      .catch((e) => toast('Error: ' + (e as Error).message, 'e'));
+  })
+    .then((sesion) => {
+      sesionEscaneoRem = sesion;
+    })
+    .catch((e: Error) => {
+      statusEl.innerHTML = `<span style="color:var(--rojo)">No se pudo acceder a la cámara: ${esc(e.message)}</span>`;
+    });
+
+  const observer = new MutationObserver(() => {
+    if (!document.body.contains(modal)) {
+      detenerEscaneoRemision();
+      onChanged();
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.body, { childList: true });
+}
+
+// ── ESCANEO DE REGRESO (con estado por pieza) ────────────────────────
+function openEscaneoRegresoModal(folio: string, db: Database, onChanged: () => void) {
+  const rem = db.remisiones.find((r) => r.folio === folio)!;
+  const body = `
+    <div style="position:relative;border-radius:var(--radius-sm);overflow:hidden;background:#000;aspect-ratio:1/1;max-width:320px;margin:0 auto" id="er-camara-wrap">
+      <video id="er-video" playsinline muted style="width:100%;height:100%;object-fit:cover;display:block"></video>
+      <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 30px rgba(0,0,0,.25)"></div>
+    </div>
+    <div id="er-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Regresados: 0 / ${rem.items.length}</div>
+    <div id="er-form"></div>
+    <div id="er-lista" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>`;
+  const footer = `<button class="btn btn-primary" data-close-modal>Listo</button>`;
+  const modal = openModal('Escanear regreso — ' + folio, body, footer);
+
+  const video = modal.querySelector('#er-video') as HTMLVideoElement;
+  const statusEl = modal.querySelector('#er-status') as HTMLElement;
+  const formEl = modal.querySelector('#er-form') as HTMLElement;
+
+  const pintarLista = (remActual: typeof rem) => {
+    modal.querySelector('#er-lista')!.innerHTML = remActual.items
+      .map((it) => `<div style="display:flex;justify-content:space-between;padding:5px 0;font-size:12px;border-bottom:1px solid var(--gris)"><span>${it.checkRegreso ? '✅' : '⬜'} ${esc(it.materialNombre)}</span>${it.checkRegreso ? `<span style="color:var(--gris-med)">${it.cantidadRegresada ?? 0} — ${esc(it.estadoRegreso || '')}</span>` : ''}</div>`)
+      .join('');
+  };
+  pintarLista(rem);
+
+  iniciarCamaraQr(video, (codigo) => {
+    const material = resolverCodigoEscaneado(db, codigo);
+    if (!material) return;
+    const remActual = store.current!.remisiones.find((r) => r.folio === folio)!;
+    const item = remActual.items.find((it) => it.materialId === material.id);
+    if (!item) return;
+    sesionEscaneoRem?.pausar(true);
+    const salieron = item.cantidadEnviar ?? item.totalUnidades;
+
+    formEl.innerHTML = `
+      <div class="card" style="padding:12px;margin-top:10px">
+        <div style="font-weight:700;margin-bottom:8px">${esc(item.materialNombre)} — salieron ${salieron}</div>
+        <div class="frow">
+          <div class="fg"><label class="fl">Cantidad que regresa</label><input type="number" class="fc" id="er-cant" value="${salieron}" min="0" max="${salieron}"/></div>
+          <div class="fg"><label class="fl">Estado</label>
+            <select class="fc" id="er-estado">
+              <option value="Bien">✅ Bien</option>
+              <option value="Roto">🔧 Roto</option>
+              <option value="Perdido">❌ Perdido</option>
+              <option value="No regresó">🚫 No regresó</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-success" id="er-confirmar" style="width:100%">Confirmar y seguir escaneando</button>
+      </div>`;
+
+    const estadoSel = formEl.querySelector('#er-estado') as HTMLSelectElement;
+    const cantInput = formEl.querySelector('#er-cant') as HTMLInputElement;
+    estadoSel.addEventListener('change', () => {
+      if (estadoSel.value === 'Perdido' || estadoSel.value === 'No regresó') cantInput.value = '0';
+      else if (Number(cantInput.value) === 0) cantInput.value = String(salieron);
+    });
+
+    formEl.querySelector('#er-confirmar')?.addEventListener('click', async () => {
+      const cant = Number(cantInput.value) || 0;
+      const estado = estadoSel.value as 'Bien' | 'Roto' | 'Perdido' | 'No regresó';
+      showLoader('Guardando…');
+      try {
+        let completa = false;
+        await store.mutate((current) => {
+          const r = registrarRegresoEscaneado(current, folio, material.id, cant, estado, '');
+          completa = r.remisionCompleta;
+          return r.db;
+        }, `Escanear regreso: ${material.nombre}`);
+        const remNueva = store.current!.remisiones.find((r) => r.folio === folio)!;
+        const marcados = remNueva.items.filter((it) => it.checkRegreso).length;
+        statusEl.textContent = `Regresados: ${marcados} / ${remNueva.items.length}`;
+        pintarLista(remNueva);
+        formEl.innerHTML = '';
+        toast(`✓ ${material.nombre} registrado`, 's');
+        if (completa) {
+          toast('🎉 Remisión completa — se cerró automáticamente', 's');
+        }
+        sesionEscaneoRem?.pausar(false);
+      } catch (e) {
+        toast('Error: ' + (e as Error).message, 'e');
+        sesionEscaneoRem?.pausar(false);
+      } finally {
+        hideLoader();
+      }
+    });
+  })
+    .then((sesion) => {
+      sesionEscaneoRem = sesion;
+    })
+    .catch((e: Error) => {
+      statusEl.innerHTML = `<span style="color:var(--rojo)">No se pudo acceder a la cámara: ${esc(e.message)}</span>`;
+    });
+
+  const observer = new MutationObserver(() => {
+    if (!document.body.contains(modal)) {
+      detenerEscaneoRemision();
+      onChanged();
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.body, { childList: true });
 }

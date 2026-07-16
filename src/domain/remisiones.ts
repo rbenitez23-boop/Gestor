@@ -201,3 +201,103 @@ export function agregarFotoRemision(db: Database, folio: string, url: string): D
     remisiones: db.remisiones.map((r) => (r.folio === folio && r.fotos.length < 3 ? { ...r, fotos: [...r.fotos, url] } : r)),
   };
 }
+
+export interface ResultadoEscaneoSalida {
+  db: Database;
+  encontrado: boolean;
+  yaEstaba: boolean;
+  totalMarcados: number;
+  totalItems: number;
+}
+
+/** Marca "Salida ✓" en el ítem de la remisión que corresponde a ese material — usado por el escáner al empacar. */
+export function marcarSalidaEscaneada(db: Database, folio: string, materialId: string): ResultadoEscaneoSalida {
+  const rem = db.remisiones.find((r) => r.folio === folio);
+  if (!rem) return { db, encontrado: false, yaEstaba: false, totalMarcados: 0, totalItems: 0 };
+  const idx = rem.items.findIndex((it) => it.materialId === materialId);
+  if (idx === -1) return { db, encontrado: false, yaEstaba: false, totalMarcados: 0, totalItems: rem.items.length };
+  const yaEstaba = rem.items[idx]?.checkSalida === true;
+
+  const next: Database = {
+    ...db,
+    remisiones: db.remisiones.map((r) =>
+      r.folio === folio ? { ...r, items: r.items.map((it, i) => (i === idx ? { ...it, checkSalida: true } : it)) } : r
+    ),
+  };
+  const remActualizada = next.remisiones.find((r) => r.folio === folio)!;
+  const totalMarcados = remActualizada.items.filter((it) => it.checkSalida).length;
+  return { db: next, encontrado: true, yaEstaba, totalMarcados, totalItems: remActualizada.items.length };
+}
+
+export interface ResultadoEscaneoRegreso {
+  db: Database;
+  encontrado: boolean;
+  yaEstaba: boolean;
+  remisionCompleta: boolean;
+}
+
+/**
+ * Registra el regreso de UN material específico (escaneado uno por uno) —
+ * crea el movimiento de Regreso real por la cantidad indicada, guarda el
+ * estado (Bien/Roto/Perdido/No regresó) en el propio ítem, y si al
+ * terminar TODOS los ítems de la remisión ya tienen su regreso marcado,
+ * la cierra automáticamente — igual que hacía el flujo manual, pero
+ * material por material en vez de todo de un jalón.
+ */
+export function registrarRegresoEscaneado(
+  db: Database,
+  folio: string,
+  materialId: string,
+  cantidadRegresa: number,
+  estado: 'Bien' | 'Roto' | 'Perdido' | 'No regresó',
+  responsable: string
+): ResultadoEscaneoRegreso {
+  const rem = db.remisiones.find((r) => r.folio === folio);
+  if (!rem) return { db, encontrado: false, yaEstaba: false, remisionCompleta: false };
+  const idx = rem.items.findIndex((it) => it.materialId === materialId);
+  if (idx === -1) return { db, encontrado: false, yaEstaba: false, remisionCompleta: false };
+  const item = rem.items[idx]!;
+  const yaEstaba = item.checkRegreso === true;
+
+  let next = db;
+  if (cantidadRegresa > 0) {
+    const r = crearMovimientoInterno(next, {
+      fecha: new Date().toISOString(),
+      materialId: item.materialId,
+      materialNombre: item.materialNombre,
+      tipo: 'Regreso',
+      tipoPaquete: item.tipoPaquete,
+      cantPaquetes: cantidadRegresa,
+      unidadesPaq: item.unidadesPaq,
+      origen: '',
+      destino: rem.almacen || 'Matriz',
+      cliente: rem.cliente || '',
+      estado: 'Disponible',
+      responsable,
+      notas: `Regreso remisión ${folio} (escaneado) — estado: ${estado}`,
+      fechaRegreso: '',
+      numSeries: '',
+    });
+    next = r.db;
+  }
+
+  next = {
+    ...next,
+    remisiones: next.remisiones.map((r) =>
+      r.folio === folio
+        ? { ...r, items: r.items.map((it, i) => (i === idx ? { ...it, checkRegreso: true, cantidadRegresada: cantidadRegresa, estadoRegreso: estado } : it)) }
+        : r
+    ),
+  };
+
+  const remActualizada = next.remisiones.find((r) => r.folio === folio)!;
+  const remisionCompleta = remActualizada.items.every((it) => it.checkRegreso === true);
+  if (remisionCompleta) {
+    next = {
+      ...next,
+      remisiones: next.remisiones.map((r) => (r.folio === folio ? { ...r, cerrada: true, fechaRegreso: new Date().toISOString() } : r)),
+    };
+  }
+
+  return { db: next, encontrado: true, yaEstaba, remisionCompleta };
+}

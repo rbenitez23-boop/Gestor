@@ -106,6 +106,8 @@ export interface RemisionItem {
   cantPaquetesEnviar?: number;
   checkSalida?: boolean;
   checkRegreso?: boolean;
+  cantidadRegresada?: number;
+  estadoRegreso?: 'Bien' | 'Roto' | 'Perdido' | 'No regresó';
 }
 
 export interface Remision {

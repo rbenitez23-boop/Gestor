@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { crearRemision, eliminarRemision, registrarRegreso, toggleRemisionCerrada } from '../../src/domain/remisiones';
+import { crearRemision, eliminarRemision, registrarRegreso, toggleRemisionCerrada, marcarSalidaEscaneada, registrarRegresoEscaneado } from '../../src/domain/remisiones';
 import type { Database, Material, Movimiento } from '../../src/types';
 
 function baseMaterial(partial: Partial<Material>): Material {
@@ -121,6 +121,87 @@ describe('registrarRegreso', () => {
     });
     const cerrada = toggleRemisionCerrada(withRem, folio, true);
     expect(() => registrarRegreso(cerrada, folio, [], 'Ana', '')).toThrow();
+  });
+});
+
+describe('escaneo de salida y regreso material por material', () => {
+  function remisionDeDosItems() {
+    const db = baseDb(
+      [baseMaterial({ id: 'MAT-0001', nombre: 'Arco' }), baseMaterial({ id: 'MAT-0002', nombre: 'Bocina' })],
+      [altaMov('MAT-0001', 'Matriz', 10), { ...altaMov('MAT-0002', 'Matriz', 10), idMov: 'MOV-000002' }]
+    );
+    return crearRemision(db, {
+      cliente: 'Colegio X', evento: '', fechaSalida: '2026-08-01', fechaRegreso: '',
+      almacen: 'Matriz', almacenSede: '', responsable: '', notas: '',
+      tipoEvento: 'Campamento', numEquipos: '', numCampistas: '', numStaff: '', numMaestros: '',
+      items: [
+        { materialId: 'MAT-0001', materialNombre: 'Arco', tipoPaquete: 'Pieza Única', cantPaquetes: 2, unidadesPaq: 1, totalUnidades: 2 },
+        { materialId: 'MAT-0002', materialNombre: 'Bocina', tipoPaquete: 'Pieza Única', cantPaquetes: 1, unidadesPaq: 1, totalUnidades: 1 },
+      ],
+    });
+  }
+
+  it('marcarSalidaEscaneada marca solo el ítem escaneado, sin tocar los demás', () => {
+    const { db } = remisionDeDosItems();
+    const r = marcarSalidaEscaneada(db, db.remisiones[0]!.folio, 'MAT-0001');
+    expect(r.encontrado).toBe(true);
+    expect(r.yaEstaba).toBe(false);
+    expect(r.totalMarcados).toBe(1);
+    expect(r.totalItems).toBe(2);
+    const item1 = r.db.remisiones[0]!.items.find((i) => i.materialId === 'MAT-0001');
+    const item2 = r.db.remisiones[0]!.items.find((i) => i.materialId === 'MAT-0002');
+    expect(item1?.checkSalida).toBe(true);
+    expect(item2?.checkSalida).toBeFalsy();
+  });
+
+  it('marcarSalidaEscaneada detecta si un material ya se había escaneado antes', () => {
+    const { db } = remisionDeDosItems();
+    const folio = db.remisiones[0]!.folio;
+    const r1 = marcarSalidaEscaneada(db, folio, 'MAT-0001');
+    const r2 = marcarSalidaEscaneada(r1.db, folio, 'MAT-0001');
+    expect(r2.yaEstaba).toBe(true);
+  });
+
+  it('marcarSalidaEscaneada no encuentra materiales que no pertenecen a esa remisión', () => {
+    const { db } = remisionDeDosItems();
+    const r = marcarSalidaEscaneada(db, db.remisiones[0]!.folio, 'MAT-9999');
+    expect(r.encontrado).toBe(false);
+  });
+
+  it('registrarRegresoEscaneado crea el movimiento de Regreso y guarda cantidad/estado en el ítem', () => {
+    const { db } = remisionDeDosItems();
+    const folio = db.remisiones[0]!.folio;
+    const r = registrarRegresoEscaneado(db, folio, 'MAT-0001', 2, 'Bien', 'Ana');
+    expect(r.encontrado).toBe(true);
+    const item = r.db.remisiones[0]!.items.find((i) => i.materialId === 'MAT-0001');
+    expect(item?.checkRegreso).toBe(true);
+    expect(item?.cantidadRegresada).toBe(2);
+    expect(item?.estadoRegreso).toBe('Bien');
+    const movRegreso = r.db.movimientos.find((m) => m.tipo === 'Regreso' && m.materialId === 'MAT-0001');
+    expect(movRegreso?.totalUnidades).toBe(2);
+  });
+
+  it('no crea movimiento de Regreso si la cantidad es 0 (material roto/perdido, no vuelve al inventario)', () => {
+    const { db } = remisionDeDosItems();
+    const folio = db.remisiones[0]!.folio;
+    const r = registrarRegresoEscaneado(db, folio, 'MAT-0001', 0, 'Roto', 'Ana');
+    const movRegreso = r.db.movimientos.find((m) => m.tipo === 'Regreso' && m.materialId === 'MAT-0001');
+    expect(movRegreso).toBeUndefined();
+    const item = r.db.remisiones[0]!.items.find((i) => i.materialId === 'MAT-0001');
+    expect(item?.checkRegreso).toBe(true);
+    expect(item?.estadoRegreso).toBe('Roto');
+  });
+
+  it('cierra la remisión automáticamente cuando el último ítem termina su regreso', () => {
+    const { db } = remisionDeDosItems();
+    const folio = db.remisiones[0]!.folio;
+    const r1 = registrarRegresoEscaneado(db, folio, 'MAT-0001', 2, 'Bien', 'Ana');
+    expect(r1.remisionCompleta).toBe(false);
+    expect(r1.db.remisiones[0]!.cerrada).toBe(false);
+
+    const r2 = registrarRegresoEscaneado(r1.db, folio, 'MAT-0002', 1, 'Bien', 'Ana');
+    expect(r2.remisionCompleta).toBe(true);
+    expect(r2.db.remisiones[0]!.cerrada).toBe(true);
   });
 });
 
