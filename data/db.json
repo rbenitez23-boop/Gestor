@@ -25635,26 +25635,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0003",
-      "materialNombre": "Tela negra",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001501",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0233",
       "materialNombre": "Vasos de plastico",
       "tipo": "Salida",
@@ -26071,6 +26051,26 @@
       "numSeries": "",
       "idMov": "MOV-001522",
       "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T19:24:15.476Z",
+      "materialId": "MAT-0003",
+      "materialNombre": "Tela negra",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001523",
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33642,7 +33642,8 @@
           "costoTotalItem": 60,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0233",
