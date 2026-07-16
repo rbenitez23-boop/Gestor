@@ -33543,8 +33543,7 @@
           "costoTotalItem": 750,
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5,
-          "checkSalida": true
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0227",
@@ -33558,7 +33557,8 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0301",
