@@ -34867,7 +34867,7 @@
           "material": "Leche evaporada",
           "cantidad": 0.5,
           "escala": "Equipo",
-          "notas": "1 lata = 2 equipos",
+          "notas": "",
           "tipoUso": "Consumible"
         },
         {
@@ -34881,28 +34881,28 @@
           "material": "Galletas María",
           "cantidad": 0.25,
           "escala": "Equipo",
-          "notas": "paquete",
+          "notas": "",
           "tipoUso": "Consumible"
         },
         {
           "material": "Colorante",
           "cantidad": 1,
           "escala": "Equipo",
-          "notas": "sin importar equipos",
+          "notas": "",
           "tipoUso": "Consumible"
         },
         {
           "material": "Gorro de chef",
           "cantidad": 1,
           "escala": "Campamento",
-          "notas": "Para todos los talleres de cocina",
+          "notas": "",
           "tipoUso": "Consumible"
         },
         {
           "material": "Plumón pintacaritas",
           "cantidad": 2,
           "escala": "Campamento",
-          "notas": "Para todos los talleres de cocina",
+          "notas": "",
           "tipoUso": "Consumible"
         },
         {
@@ -34935,6 +34935,13 @@
         },
         {
           "material": "Tabla de madera",
+          "cantidad": 1,
+          "escala": "Equipo",
+          "notas": "",
+          "tipoUso": "Consumible"
+        },
+        {
+          "material": "Queso Crema",
           "cantidad": 1,
           "escala": "Equipo",
           "notas": "",
