@@ -25159,7 +25159,7 @@
       "materialNombre": "Bombones",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 28,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25170,7 +25170,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001472",
-      "totalUnidades": 28,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -25339,7 +25339,7 @@
       "materialNombre": "Cyalumes",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25350,7 +25350,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001481",
-      "totalUnidades": 3,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -25539,7 +25539,7 @@
       "materialNombre": "Palito de bombón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 28,
+      "cantPaquetes": 50,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25550,7 +25550,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001491",
-      "totalUnidades": 28,
+      "totalUnidades": 50,
       "regreso": false
     },
     {
@@ -25599,7 +25599,7 @@
       "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 9,
+      "cantPaquetes": 5,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25610,7 +25610,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001494",
-      "totalUnidades": 9,
+      "totalUnidades": 5,
       "regreso": false
     },
     {
@@ -25619,7 +25619,7 @@
       "materialNombre": "Pelota mini (Bote o morral)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25630,7 +25630,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001495",
-      "totalUnidades": 3,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -25659,7 +25659,7 @@
       "materialNombre": "Pelotas de tennis (Morral)",
       "tipo": "Salida",
       "tipoPaquete": "Bolsa",
-      "cantPaquetes": 19,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25670,7 +25670,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001497",
-      "totalUnidades": 19,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -33223,15 +33223,15 @@
           "materialId": "MAT-0214",
           "materialNombre": "Bombones",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 28,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 28,
+          "totalUnidades": 1,
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1680,
+          "costoTotalItem": 60,
           "stockEnDestino": 0,
-          "cantidadEnviar": 28,
-          "cantPaquetesEnviar": 28
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0216",
@@ -33349,15 +33349,15 @@
           "materialId": "MAT-0211",
           "materialNombre": "Cyalumes",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 1,
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 240,
+          "costoTotalItem": 80,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0001",
@@ -33489,15 +33489,15 @@
           "materialId": "MAT-0135",
           "materialNombre": "Palito de bombón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 28,
+          "cantPaquetes": 50,
           "unidadesPaq": 1,
-          "totalUnidades": 28,
+          "totalUnidades": 50,
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 840,
+          "costoTotalItem": 1500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 28,
-          "cantPaquetesEnviar": 28
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0220",
@@ -33531,29 +33531,29 @@
           "materialId": "MAT-0068",
           "materialNombre": "Pelota de paracaídas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 9,
+          "cantPaquetes": 5,
           "unidadesPaq": 1,
-          "totalUnidades": 9,
+          "totalUnidades": 5,
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1350,
+          "costoTotalItem": 750,
           "stockEnDestino": 0,
-          "cantidadEnviar": 9,
-          "cantPaquetesEnviar": 9
+          "cantidadEnviar": 5,
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0227",
           "materialNombre": "Pelota mini (Bote o morral)",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 1,
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 450,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0301",
@@ -33573,15 +33573,15 @@
           "materialId": "MAT-0081",
           "materialNombre": "Pelotas de tennis (Morral)",
           "tipoPaquete": "Bolsa",
-          "cantPaquetes": 19,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 19,
+          "totalUnidades": 1,
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2850,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 19,
-          "cantPaquetesEnviar": 19
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0085",
