@@ -25854,26 +25854,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:46:45.465Z",
-      "materialId": "MAT-0016",
-      "materialNombre": "Cofres",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001526",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:47:29.066Z",
       "materialId": "MAT-0137",
       "materialNombre": "Globos",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001540",
       "totalUnidades": 15,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:37.101Z",
+      "materialId": "MAT-0016",
+      "materialNombre": "Cofres",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001541",
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
