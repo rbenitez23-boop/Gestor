@@ -25854,26 +25854,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:46:26.321Z",
-      "materialId": "MAT-0216",
-      "materialNombre": "Cerillos",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001524",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:46:45.465Z",
       "materialId": "MAT-0016",
       "materialNombre": "Cofres",
@@ -26090,6 +26070,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001536",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:14.777Z",
+      "materialId": "MAT-0216",
+      "materialNombre": "Cerillos",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001537",
       "totalUnidades": 1,
       "regreso": false
     }
