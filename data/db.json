@@ -25135,26 +25135,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0038",
-      "materialNombre": "Baúl vacío",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001471",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0002",
       "materialNombre": "Bocina",
       "tipo": "Salida",
@@ -25169,7 +25149,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001472",
+      "idMov": "MOV-001471",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25189,7 +25169,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001473",
+      "idMov": "MOV-001472",
       "totalUnidades": 28,
       "regreso": false
     },
@@ -25209,7 +25189,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001474",
+      "idMov": "MOV-001473",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25229,7 +25209,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001475",
+      "idMov": "MOV-001474",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25249,7 +25229,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001476",
+      "idMov": "MOV-001475",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25269,7 +25249,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001477",
+      "idMov": "MOV-001476",
       "totalUnidades": 21,
       "regreso": false
     },
@@ -25289,7 +25269,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001478",
+      "idMov": "MOV-001477",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25309,7 +25289,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001479",
+      "idMov": "MOV-001478",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25329,7 +25309,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001480",
+      "idMov": "MOV-001479",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25349,7 +25329,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001481",
+      "idMov": "MOV-001480",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -25369,7 +25349,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001482",
+      "idMov": "MOV-001481",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25389,7 +25369,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001483",
+      "idMov": "MOV-001482",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -25409,7 +25389,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001484",
+      "idMov": "MOV-001483",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25419,7 +25399,7 @@
       "materialNombre": "Huellas impresas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 10,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25429,8 +25409,8 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001485",
-      "totalUnidades": 3,
+      "idMov": "MOV-001484",
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -25449,7 +25429,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001486",
+      "idMov": "MOV-001485",
       "totalUnidades": 28,
       "regreso": false
     },
@@ -25469,7 +25449,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001487",
+      "idMov": "MOV-001486",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25489,7 +25469,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001488",
+      "idMov": "MOV-001487",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -25509,7 +25489,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001489",
+      "idMov": "MOV-001488",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25529,7 +25509,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001490",
+      "idMov": "MOV-001489",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -25549,7 +25529,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001491",
+      "idMov": "MOV-001490",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -25569,7 +25549,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001492",
+      "idMov": "MOV-001491",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25589,7 +25569,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001493",
+      "idMov": "MOV-001492",
       "totalUnidades": 28,
       "regreso": false
     },
@@ -25609,7 +25589,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001494",
+      "idMov": "MOV-001493",
       "totalUnidades": 28,
       "regreso": false
     },
@@ -25629,7 +25609,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001495",
+      "idMov": "MOV-001494",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -25649,7 +25629,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001496",
+      "idMov": "MOV-001495",
       "totalUnidades": 9,
       "regreso": false
     },
@@ -25669,7 +25649,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001497",
+      "idMov": "MOV-001496",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25689,7 +25669,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001498",
+      "idMov": "MOV-001497",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25709,7 +25689,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001499",
+      "idMov": "MOV-001498",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -25729,7 +25709,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001500",
+      "idMov": "MOV-001499",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25749,7 +25729,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001501",
+      "idMov": "MOV-001500",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -25769,7 +25749,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001502",
+      "idMov": "MOV-001501",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25789,7 +25769,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001503",
+      "idMov": "MOV-001502",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25809,28 +25789,8 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001504",
+      "idMov": "MOV-001503",
       "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0309",
-      "materialNombre": "Tinaja",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001505",
-      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -25849,7 +25809,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001506",
+      "idMov": "MOV-001504",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -25869,7 +25829,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001507",
+      "idMov": "MOV-001505",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25889,7 +25849,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001508",
+      "idMov": "MOV-001506",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25909,7 +25869,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001509",
+      "idMov": "MOV-001507",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25929,7 +25889,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001510",
+      "idMov": "MOV-001508",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25949,7 +25909,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001511",
+      "idMov": "MOV-001509",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25969,7 +25929,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001512",
+      "idMov": "MOV-001510",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -25989,7 +25949,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001513",
+      "idMov": "MOV-001511",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26009,7 +25969,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001514",
+      "idMov": "MOV-001512",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26029,7 +25989,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001515",
+      "idMov": "MOV-001513",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26049,7 +26009,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001516",
+      "idMov": "MOV-001514",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26069,7 +26029,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001517",
+      "idMov": "MOV-001515",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26089,7 +26049,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001518",
+      "idMov": "MOV-001516",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26109,28 +26069,8 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001519",
+      "idMov": "MOV-001517",
       "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0017",
-      "materialNombre": "Huellas impresas",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001520",
-      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -26149,7 +26089,7 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001521",
+      "idMov": "MOV-001518",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -26169,28 +26109,8 @@
       "notas": "Remisión REM-0008",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001522",
+      "idMov": "MOV-001519",
       "totalUnidades": 10,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0309",
-      "materialNombre": "Tinaja",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001523",
-      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -33326,20 +33246,6 @@
           "cantPaquetesEnviar": 6
         },
         {
-          "materialId": "MAT-0038",
-          "materialNombre": "Baúl vacío",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 250,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 250,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0002",
           "materialNombre": "Bocina",
           "tipoPaquete": "Pieza Única",
@@ -33525,15 +33431,15 @@
           "materialId": "MAT-0017",
           "materialNombre": "Huellas impresas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 10,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 10,
           "costoUnitario": 180,
           "clasificacion": "Consumible",
-          "costoTotalItem": 540,
+          "costoTotalItem": 1800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0195",
@@ -33802,20 +33708,6 @@
           "cantPaquetesEnviar": 2
         },
         {
-          "materialId": "MAT-0309",
-          "materialNombre": "Tinaja",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 300,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 300,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0233",
           "materialNombre": "Vasos de plastico",
           "tipoPaquete": "Pieza Única",
@@ -34012,20 +33904,6 @@
           "cantPaquetesEnviar": 1
         },
         {
-          "materialId": "MAT-0017",
-          "materialNombre": "Huellas impresas",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
-          "unidadesPaq": 1,
-          "totalUnidades": 6,
-          "costoUnitario": 180,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 1080,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
-        },
-        {
           "materialId": "MAT-0118",
           "materialNombre": "Papel kraft",
           "tipoPaquete": "Pieza Única",
@@ -34052,20 +33930,6 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
-        },
-        {
-          "materialId": "MAT-0309",
-          "materialNombre": "Tinaja",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
-          "unidadesPaq": 1,
-          "totalUnidades": 2,
-          "costoUnitario": 300,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 600,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
