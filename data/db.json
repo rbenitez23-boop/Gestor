@@ -25295,6 +25295,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0211",
+      "materialNombre": "Cyalumes",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001481",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0137",
       "materialNombre": "Globos",
       "tipo": "Salida",
@@ -25974,26 +25994,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:12:03.405Z",
-      "materialId": "MAT-0001",
-      "materialNombre": "Extensión",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001520",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T19:17:30.049Z",
       "materialId": "MAT-0135",
       "materialNombre": "Palito de bombón",
@@ -26054,9 +26054,9 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:33:07.606Z",
-      "materialId": "MAT-0211",
-      "materialNombre": "Cyalumes",
+      "fecha": "2026-07-16T19:33:17.548Z",
+      "materialId": "MAT-0001",
+      "materialNombre": "Extensión",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -33359,8 +33359,7 @@
           "costoTotalItem": 80,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0001",
