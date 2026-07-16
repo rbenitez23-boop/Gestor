@@ -25295,8 +25295,8 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0001",
-      "materialNombre": "Extensión",
+      "materialId": "MAT-0211",
+      "materialNombre": "Cyalumes",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -25309,7 +25309,7 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001482",
+      "idMov": "MOV-001481",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26054,9 +26054,9 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:11:37.855Z",
-      "materialId": "MAT-0211",
-      "materialNombre": "Cyalumes",
+      "fecha": "2026-07-16T19:12:03.405Z",
+      "materialId": "MAT-0001",
+      "materialNombre": "Extensión",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -33359,8 +33359,7 @@
           "costoTotalItem": 80,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0001",
@@ -33374,7 +33373,8 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0137",
