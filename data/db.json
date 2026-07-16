@@ -26112,6 +26112,86 @@
       "idMov": "MOV-001519",
       "totalUnidades": 1,
       "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0017",
+      "materialNombre": "Huellas impresas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001520",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0118",
+      "materialNombre": "Papel kraft",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001521",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0023",
+      "materialNombre": "Pintura",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001522",
+      "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0309",
+      "materialNombre": "Tinaja",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001523",
+      "totalUnidades": 2,
+      "regreso": false
     }
   ],
   "almacenes": [
@@ -33930,6 +34010,62 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0017",
+          "materialNombre": "Huellas impresas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "costoUnitario": 180,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1080,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
+        },
+        {
+          "materialId": "MAT-0118",
+          "materialNombre": "Papel kraft",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0023",
+          "materialNombre": "Pintura",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "costoUnitario": 35,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 350,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0309",
+          "materialNombre": "Tinaja",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "costoUnitario": 300,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 600,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
@@ -39143,39 +39279,6 @@
           "escala": "Campamento",
           "notas": "",
           "tipoUso": "Reutilizable"
-        }
-      ]
-    },
-    "Patitas en acción": {
-      "categoria": "Activa",
-      "materiales": [
-        {
-          "material": "Huellas impresas",
-          "cantidad": 2,
-          "escala": "Equipo",
-          "notas": "",
-          "tipoUso": "Consumible"
-        },
-        {
-          "material": "Papel kraft",
-          "cantidad": 1,
-          "escala": "Equipo",
-          "notas": "",
-          "tipoUso": "Consumible"
-        },
-        {
-          "material": "Pintura",
-          "cantidad": 1,
-          "escala": "Campamento",
-          "notas": "",
-          "tipoUso": "Consumible"
-        },
-        {
-          "material": "Tinaja",
-          "cantidad": 1,
-          "escala": "Equipo",
-          "notas": "",
-          "tipoUso": "Consumible"
         }
       ]
     }
