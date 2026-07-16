@@ -25575,26 +25575,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0081",
-      "materialNombre": "Pelotas de tennis (Morral)",
-      "tipo": "Salida",
-      "tipoPaquete": "Bolsa",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001497",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0085",
       "materialNombre": "Proyector",
       "tipo": "Salida",
@@ -25790,6 +25770,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001507",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0171",
+      "materialNombre": "Cuchillo de plástico",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001508",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26054,11 +26054,11 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:20:42.891Z",
-      "materialId": "MAT-0171",
-      "materialNombre": "Cuchillo de plástico",
+      "fecha": "2026-07-16T19:21:27.928Z",
+      "materialId": "MAT-0081",
+      "materialNombre": "Pelotas de tennis (Morral)",
       "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
+      "tipoPaquete": "Bolsa",
       "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
@@ -33585,7 +33585,8 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0085",
@@ -33739,8 +33740,7 @@
           "costoTotalItem": 25,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0033",
