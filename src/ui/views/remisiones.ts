@@ -119,14 +119,27 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       <div class="fg"><label class="fl">Maestros</label><input type="number" class="fc" id="rm-maestros" min="0" placeholder="Ej: 2"/></div>
     </div>
     <div style="margin-top:14px">
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:10px;flex-wrap:wrap">
         <span style="font-weight:700;font-size:13px">Materiales</span>
-        <button class="btn btn-success btn-sm" id="rm-add-item">+ Agregar material</button>
+        <div style="display:flex;gap:8px;align-items:center;flex:1;min-width:180px">
+          <input class="fc" id="rm-buscar-item" placeholder="🔍 Buscar en lo ya agregado…" style="flex:1"/>
+          <button class="btn btn-success btn-sm" id="rm-add-item">+ Agregar material</button>
+        </div>
       </div>
       <div id="rm-items-list"></div>
     </div>`;
   const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Crear remisión</button>`;
   const modal = openModal('Nueva remisión', body, footer);
+
+  const marcarDuplicados = () => {
+    const selects = Array.from(modal.querySelectorAll('[data-rm-mat]')) as HTMLSelectElement[];
+    const conteo = new Map<string, number>();
+    selects.forEach((s) => conteo.set(s.value, (conteo.get(s.value) || 0) + 1));
+    selects.forEach((s) => {
+      s.style.borderColor = s.value && (conteo.get(s.value) || 0) > 1 ? 'var(--rojo)' : '';
+      s.title = s.value && (conteo.get(s.value) || 0) > 1 ? 'Este material ya está agregado en otra fila' : '';
+    });
+  };
 
   const addItemRow = () => {
     const i = itemCount++;
@@ -135,13 +148,25 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
     row.id = `rm-item-${i}`;
     row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end';
     row.innerHTML = `
-      <div><label class="fl">Material</label><select class="fc" data-rm-mat>${matOptions}</select></div>
+      <div><label class="fl">Material</label><select class="fc" data-rm-mat><option value="">— Selecciona un material —</option>${matOptions}</select></div>
       <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="1" min="1"/></div>
       <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
     modal.querySelector('#rm-items-list')!.appendChild(row);
-    row.querySelector('[data-remove-item]')?.addEventListener('click', () => row.remove());
+    row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
+      row.remove();
+      marcarDuplicados();
+    });
+    row.querySelector('[data-rm-mat]')?.addEventListener('change', marcarDuplicados);
   };
   modal.querySelector('#rm-add-item')?.addEventListener('click', addItemRow);
+  modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
+    const q = (e.target as HTMLInputElement).value.toLowerCase();
+    modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
+      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+      const nombre = (sel.selectedOptions[0]?.textContent || '').toLowerCase();
+      row.style.display = !q || nombre.includes(q) ? '' : 'none';
+    });
+  });
   addItemRow();
 
   modal.querySelector('#rm-save')?.addEventListener('click', async () => {
@@ -156,7 +181,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
       const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
       const opt = sel.selectedOptions[0];
-      if (!opt) return;
+      if (!opt || !opt.value) return;
       const uds = Number(opt.dataset.uds) || 1;
       const totalUnidades = Number(cantInput.value) || 0;
       if (totalUnidades <= 0) return;
@@ -433,9 +458,12 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       <div class="fg"><label class="fl">Maestros</label><input type="number" class="fc" id="rm-maestros" min="0" value="${rem.numMaestros || ''}"/></div>
     </div>
     <div style="margin-top:14px">
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:10px;flex-wrap:wrap">
         <span style="font-weight:700;font-size:13px">Materiales</span>
-        <button class="btn btn-success btn-sm" id="rm-add-item">+ Agregar material</button>
+        <div style="display:flex;gap:8px;align-items:center;flex:1;min-width:180px">
+          <input class="fc" id="rm-buscar-item" placeholder="🔍 Buscar en lo ya agregado…" style="flex:1"/>
+          <button class="btn btn-success btn-sm" id="rm-add-item">+ Agregar material</button>
+        </div>
       </div>
       <div id="rm-items-list"></div>
     </div>`;
@@ -446,8 +474,19 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
   (modal.querySelector('#rm-almacen') as HTMLSelectElement).value = rem.almacen || '';
   (modal.querySelector('#rm-almacen-sede') as HTMLSelectElement).value = rem.almacenSede || '';
 
+  const marcarDuplicados = () => {
+    const selects = Array.from(modal.querySelectorAll('[data-rm-mat]')) as HTMLSelectElement[];
+    const conteo = new Map<string, number>();
+    selects.forEach((s) => conteo.set(s.value, (conteo.get(s.value) || 0) + 1));
+    selects.forEach((s) => {
+      s.style.borderColor = s.value && (conteo.get(s.value) || 0) > 1 ? 'var(--rojo)' : '';
+      s.title = s.value && (conteo.get(s.value) || 0) > 1 ? 'Este material ya está agregado en otra fila' : '';
+    });
+  };
+
   const addItemRow = (materialId = '', cantidad = 1) => {
     const i = itemCount++;
+    const placeholder = materialId ? '' : '<option value="">— Selecciona un material —</option>';
     const matOptions = db.materiales
       .filter((m) => m.activo !== false)
       .map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" ${m.id === materialId ? 'selected' : ''}>${esc(m.nombre)}</option>`)
@@ -456,15 +495,28 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
     row.id = `rm-item-${i}`;
     row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end';
     row.innerHTML = `
-      <div><label class="fl">Material</label><select class="fc" data-rm-mat>${matOptions}</select></div>
+      <div><label class="fl">Material</label><select class="fc" data-rm-mat>${placeholder}${matOptions}</select></div>
       <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
       <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
     modal.querySelector('#rm-items-list')!.appendChild(row);
-    row.querySelector('[data-remove-item]')?.addEventListener('click', () => row.remove());
+    row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
+      row.remove();
+      marcarDuplicados();
+    });
+    row.querySelector('[data-rm-mat]')?.addEventListener('change', marcarDuplicados);
   };
   modal.querySelector('#rm-add-item')?.addEventListener('click', () => addItemRow());
+  modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
+    const q = (e.target as HTMLInputElement).value.toLowerCase();
+    modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
+      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+      const nombre = (sel.selectedOptions[0]?.textContent || '').toLowerCase();
+      row.style.display = !q || nombre.includes(q) ? '' : 'none';
+    });
+  });
   if (rem.items.length) rem.items.forEach((it) => addItemRow(it.materialId, it.totalUnidades));
   else addItemRow();
+  marcarDuplicados();
 
   modal.querySelector('#rm-save')?.addEventListener('click', async () => {
     const cliente = (document.getElementById('rm-cliente') as HTMLInputElement).value.trim();
@@ -478,7 +530,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
       const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
       const opt = sel.selectedOptions[0];
-      if (!opt) return;
+      if (!opt || !opt.value) return;
       const uds = Number(opt.dataset.uds) || 1;
       const totalUnidades = Number(cantInput.value) || 0;
       if (totalUnidades <= 0) return;

@@ -45,7 +45,7 @@ export function renderRecetario(container: HTMLElement, db: Database, onChanged:
       el.addEventListener('click', () => {
         const nombre = el.dataset.edit!;
         const item = actividades.find((a) => a.nombre === nombre);
-        if (item) openActividadModal(item.nombre, item.actividad, onChanged);
+        if (item) openActividadModal(item.nombre, item.actividad, db, onChanged);
       })
     );
     tbody.querySelectorAll<HTMLElement>('[data-del]').forEach((el) =>
@@ -71,7 +71,7 @@ export function renderRecetario(container: HTMLElement, db: Database, onChanged:
     const q = (e.target as HTMLInputElement).value.toLowerCase();
     renderRows(actividades.filter((a) => a.nombre.toLowerCase().includes(q)));
   });
-  container.querySelector('#rec-new')?.addEventListener('click', () => openActividadModal(null, { categoria: 'Activa', materiales: [] }, onChanged));
+  container.querySelector('#rec-new')?.addEventListener('click', () => openActividadModal(null, { categoria: 'Activa', materiales: [] }, db, onChanged));
 
   container.querySelector('#rec-export')?.addEventListener('click', () => {
     downloadCsv(
@@ -84,7 +84,7 @@ export function renderRecetario(container: HTMLElement, db: Database, onChanged:
 
 let matRowCount = 0;
 
-function openActividadModal(nombreOriginal: string | null, actividad: Actividad, onChanged: () => void) {
+function openActividadModal(nombreOriginal: string | null, actividad: Actividad, db: Database, onChanged: () => void) {
   matRowCount = 0;
   const body = `
     <div class="frow">
@@ -99,7 +99,10 @@ function openActividadModal(nombreOriginal: string | null, actividad: Actividad,
         <button class="btn btn-success btn-sm" id="ac-add-mat">+ Agregar material</button>
       </div>
       <div id="ac-mats"></div>
-    </div>`;
+    </div>
+    <datalist id="ac-materiales-catalogo">
+      ${db.materiales.filter((m) => m.activo !== false).map((m) => `<option value="${esc(m.nombre)}">`).join('')}
+    </datalist>`;
   const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="ac-save">Guardar</button>`;
   const modal = openModal(nombreOriginal ? 'Editar actividad' : 'Nueva actividad', body, footer);
 
@@ -109,7 +112,7 @@ function openActividadModal(nombreOriginal: string | null, actividad: Actividad,
     row.id = `ac-mat-${i}`;
     row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:6px;margin-bottom:6px;align-items:center';
     row.innerHTML = `
-      <input class="fc" placeholder="Material" data-mat-nombre value="${esc(m.material)}"/>
+      <input class="fc" placeholder="Material — empieza a escribir para ver sugerencias" data-mat-nombre value="${esc(m.material)}" list="ac-materiales-catalogo"/>
       <input type="number" class="fc" placeholder="Cant." data-mat-cant value="${m.cantidad}" min="0" step="0.25"/>
       <select class="fc" data-mat-escala>
         ${['Campamento', 'Equipo', 'Campista', 'Campista + Staff', 'Campista + Staff + Maestro'].map((e) => `<option ${m.escala === e ? 'selected' : ''}>${e}</option>`).join('')}
@@ -117,6 +120,15 @@ function openActividadModal(nombreOriginal: string | null, actividad: Actividad,
       <button class="btn btn-ghost btn-sm" data-remove-mat>✕</button>`;
     modal.querySelector('#ac-mats')!.appendChild(row);
     row.querySelector('[data-remove-mat]')?.addEventListener('click', () => row.remove());
+    const inputNombre = row.querySelector('[data-mat-nombre]') as HTMLInputElement;
+    const nombresCatalogo = new Set(db.materiales.filter((mm) => mm.activo !== false).map((mm) => mm.nombre.toLowerCase()));
+    const checarCoincidencia = () => {
+      const v = inputNombre.value.trim().toLowerCase();
+      inputNombre.style.borderColor = v && !nombresCatalogo.has(v) ? 'var(--naranja)' : '';
+      inputNombre.title = v && !nombresCatalogo.has(v) ? 'Este nombre no coincide exacto con ningún material del catálogo — revisa que no sea un error de dedo (a menos que sea un alias a propósito)' : '';
+    };
+    inputNombre.addEventListener('input', checarCoincidencia);
+    checarCoincidencia();
   };
   modal.querySelector('#ac-add-mat')?.addEventListener('click', () => addMatRow(nuevoMaterialReceta()));
   if (actividad.materiales.length) actividad.materiales.forEach(addMatRow);
