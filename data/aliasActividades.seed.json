@@ -1,0 +1,58 @@
+[
+  {
+    "variante": "tiro con arco",
+    "canonica": "Clínica arco"
+  },
+  {
+    "variante": "clinica de arco",
+    "canonica": "Clínica arco"
+  },
+  {
+    "variante": "clinica arco",
+    "canonica": "Clínica arco"
+  },
+  {
+    "variante": "arqueria",
+    "canonica": "Clínica arco"
+  },
+  {
+    "variante": "tiro con rifle",
+    "canonica": "Clínica rifle"
+  },
+  {
+    "variante": "clinica de rifle",
+    "canonica": "Clínica rifle"
+  },
+  {
+    "variante": "tiro con resortera",
+    "canonica": "Clínica resortera"
+  },
+  {
+    "variante": "clinica de resortera",
+    "canonica": "Clínica resortera"
+  },
+  {
+    "variante": "hondas",
+    "canonica": "Clínica resortera"
+  },
+  {
+    "variante": "cine nocturno",
+    "canonica": "Noche cine"
+  },
+  {
+    "variante": "noche de cine",
+    "canonica": "Noche cine"
+  },
+  {
+    "variante": "fogata nocturna",
+    "canonica": "Fogata"
+  },
+  {
+    "variante": "bulling",
+    "canonica": "Bulldog"
+  },
+  {
+    "variante": "tiro con hondas",
+    "canonica": "Clínica resortera"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "tipoEvento": "Campamento",
+    "material": "Bocina",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Botiquín",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Caja de medicamentos",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Cangurera",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Cinta elefante",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Cinta peligro",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Cerillos",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Chaleco de paramédico",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Conos de agua",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Cuchillo",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Diurex",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Esponja",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Estuche de papelería (Cutter, 2 válvulas, hojas de colores, tijeras, pluma, plumón)",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Extensión",
+    "cantidad": 2
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Faja",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Jabón",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Salvavidas naranja",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Campamento",
+    "material": "Tajín",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Botiquín",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Caja de medicamentos",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Cangurera",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Cinta elefante",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Cinta peligro",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Chaleco de paramédico",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Conos de agua",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Diurex",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Dispensador de agua",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Estuche de papelería (Cutter, 2 válvulas, hojas de colores, tijeras, pluma, plumón)",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Garrafón",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Excursión",
+    "material": "Megáfono",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Bocina",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Botiquín",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Caja de medicamentos",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Cangurera",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Cinta elefante",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Cinta peligro",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Chaleco de paramédico",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Diurex",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Estuche de papelería (Cutter, 2 válvulas, hojas de colores, tijeras, pluma, plumón)",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Extensión",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Faja",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Megáfono",
+    "cantidad": 1
+  },
+  {
+    "tipoEvento": "Evento",
+    "material": "Tajín",
+    "cantidad": 1
+  }
+]

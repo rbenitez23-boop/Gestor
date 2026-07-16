@@ -1,0 +1,26 @@
+{
+  "name": "pena-grande-inventario",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema de inventario de Peña Grande — SPA estática, sin servidor propio, con GitHub como base de datos.",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "seed": "node scripts/generate-seed.mjs && node scripts/generate-recetario-seed.mjs && node scripts/build-db.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/qrcode": "^1.5.5",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

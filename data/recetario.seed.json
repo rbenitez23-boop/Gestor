@@ -1,0 +1,4634 @@
+{
+  "¿Quién falta?": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Tela negra",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Puede usarse el paracaídas",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "¡Ay María!": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Galletas María",
+        "cantidad": 1,
+        "escala": "Campistas + Staff",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Antifaces": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Hojas de colores",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Brillantina",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Stickers",
+        "cantidad": 20,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pegamento silicón líquido",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pritt",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Resorte de pulseras",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Carrete completo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Máscara base",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fiesta de espuma": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Lata de espuma",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Muéganos": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Linterna",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Dementores": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Cyallums",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinaja de agua",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pistola de agua",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "1, 2, 3 ¡Atrapa!": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fiesta de colores": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Bolsa de Holly",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Amarrados": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "100 Campistas dijeron": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Proyector",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pollo chillón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Radar": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Pistola de agua",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Faro": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Linterna",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fogata": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Bombones",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "Mandar extras",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinaja de agua",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Material reciclado",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Hojas, palitos sucios, kraft",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cerillos",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Caja",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Ocote",
+        "cantidad": 6,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Leña",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Solo en campamentos en colegio o sede salón",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de bombón",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "Mandar 10 extras",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Aros musicales": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Asesinato del señor Taibo": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tarjetas de historia",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Revisar en bodega",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pasa esponjas": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Esponjas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Baúl vacío",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Se vacía en el campamento",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Atento a los conos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Balones rompehielos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Balón rompehielos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Batik": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Pinturas caballito",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "Colores vibrantes",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Ligas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Paquete completo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de bombón",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Basta (pizarrones)": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Plumón de pizarrón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pizarrón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Atínale si puedes": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Bastones": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Palo de escoba",
+        "cantidad": 1,
+        "escala": "Campistas + Staff",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Estrella": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pollo loco",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Noche cine": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Proyector",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Computadora",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Palomitas",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Caminaro": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ball game": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Cangrejos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de colores",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Globo pregunta": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Baúl vacío",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Se vacía en el campamento",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Clínica rifle": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Blancos de metal",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Paquete",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Diábolos",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Paquete",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Rifle",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 rifle por cada 2 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Bacteria": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Peluca afro",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pieza de espuma",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Cartas proyectivas": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cartas Proyectivas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fugitivo": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Tela negra",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Conociendo al equipo": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Preguntas rompehielos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Gota, gota, chorro": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Choque eléctrico": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cartas Choque Electrico",
+        "cantidad": 5,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Basta (lona)": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lona de basta",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Conexiones": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Bola de estambre",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Lluvia de colores": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Construyendo el Empire State": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Plastilina",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Barra grande o caja surtida",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 30,
+        "escala": "Equipo",
+        "notas": "Se pueden sustituir por popotes",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Clínica resortera": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Blancos de metal",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Resortera",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "2 por equipo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Karaoke": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Micrófono",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Batalla naval": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Si no hay, se pueden mandar conos platos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Boleadora": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota inflable yoga",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Quema de miedos": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Plumas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Colores diferentes",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Bola tóxica": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota inflable yoga",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Dibujo a ciegas": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Plumón de pizarrón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumas",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pizarrón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Clínica arco": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Flechas",
+        "cantidad": 6,
+        "escala": "Campamento",
+        "notas": "6 por arco",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Arco",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 arco por cada 2 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Block de tiro",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Volley toalla": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Si no hay, se pueden mandar conos platos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Telas de volley toalla",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "1 por pareja",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Sardinas enlatadas": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Tela negra",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Bulldog": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Evaluaciones": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Plumas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Waterpolo": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Porterías armables",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bomba y válvula para balones",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 bomba, 2 válvulas",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota Waterpolo",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Pelota azul inflable",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El resorte": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Resorte",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Amarrado para formar un círculo",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Cohetes": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Botella de agua vacía",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Botella de 1.5 lts",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Corchos",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Llevar dos extras",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bomba y válvula para balones",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Mandar válvulas extras",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 6,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pritt",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Búsqueda de estrellas": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Cyallums",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Rally nocturno": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Hojas de colores",
+        "cantidad": 6,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cofres",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Monedas de chocolate",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pluma",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cyallums",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Búsqueda de trangrams": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Tangrams",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Fijarse que estén completos",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Búsqueda de huellas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cofres",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Monedas de chocolate",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Huellas impresas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Diferente color",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El último en pie": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Pieza de espuma",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "Rectángulos azules y rosas",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Jenga gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Resorteras gigantes",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Acua aerobics": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Frisbee acuático": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Frisbee",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Búsqueda de insectos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Goma y sacapuntas",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lápices",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumas",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pinceles",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pintura",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "Colores diferentes",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Insect book",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cajas de insectos",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Alberca recreativa": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Frisbee",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Porterías armables",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota Waterpolo",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Pelota azul inflable",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Salvavidas inflable",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bomba de globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fiesta Nocturna": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Luces de colores",
+        "cantidad": 6,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pinturas neón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cyallums",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Accesorios divertidos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tela negra",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cámara Go pro",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Familia izquierdo": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Plumas",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Historia de familia izquierdo",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Disfrazados": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Papel china o crepé",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "Pliegos de diferentes colores",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pritt",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Resbalin": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Resbalín",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Figura espejo": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tarjetas Figura Espejo",
+        "cantidad": 6,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Tubos locos": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Tubos de pvc con agujeros",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Baúl vacío",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Gallinero": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 20,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Malla circular",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Revisar en bodega",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Caja de la creatividad": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Escudos": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Papel kraft",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Pliego",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pintura",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Noche de juegos": {
+    "categoria": "Nocturna",
+    "materiales": [
+      {
+        "material": "Jenga gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Dominó",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palillos chinos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pipes and connectors",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bolos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Juego de latas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Juegos de mesa",
+        "cantidad": 5,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Luces de colores",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Volleyball acuático": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Balón de volleyball",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Canaletas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tubos de pvc",
+        "cantidad": 2,
+        "escala": "Campista",
+        "notas": "Tubo partido a la mitad",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Globo gigante": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Bomba de globos",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Embudo",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bolsa de harina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Globos",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Paddle board": {
+    "categoria": "Acuática",
+    "materiales": [
+      {
+        "material": "Paddle board",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Remos",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Chaleco Salvavidas",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bomba para inflar",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Helados": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Bowl de metal",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cucharas desechables minis",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Leche",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 lt para 4 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Media crema",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vainilla",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Azúcar",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "100 gr para 4 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Sal de grano",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 kg para 4 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vasos desechables minis",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bolsa Ziploc",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Chispa de colores",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lechera",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hielo",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Lo compra director",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Hora de lectura": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cuentos caja de rescate",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Cazando ratoncitos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Costal de pelotas (Espuma colores)",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Pelotas de colores",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "La bomba": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tarjetas La Bomba",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Cazadores y saltadores": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Espagueti",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Laberintos suspendidos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Laberinto suspendido",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Revisar en bodega",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Chincharos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Maratón": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Dado gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Preguntas de maratón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lona de maratón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Cocodrilos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Paracaídas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Colita de Wuiky": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Listones de colores (Los gruesos de 10cm largo)",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Meditación al aire libre": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Comandos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Palo de madera",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Minas": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Catsup mostaza gel espuma",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 de cada una",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Platos de cartón",
+        "cantidad": 20,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Llaveros": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Cuentas de colores",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "1 bote para 4 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Resorte",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Carrete completo",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Argollas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Mistery box": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Caja de Mistery Box",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "De Isla en Isla": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Aspiradora",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Números locos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Hojas de colores",
+        "cantidad": 10,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 5,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pay de limón": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Base de pay",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lechera",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Leche evaporada",
+        "cantidad": 0.5,
+        "escala": "Equipo",
+        "notas": "1 lata = 2 equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Limones",
+        "cantidad": 8,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Galletas María",
+        "cantidad": 0.25,
+        "escala": "Equipo",
+        "notas": "paquete",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Colorante",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "sin importar equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Gorro de chef",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Para todos los talleres de cocina",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumón pintacaritas",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Para todos los talleres de cocina",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bowl de metal",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Exprimidor",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuchillo de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tabla de madera",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Oso, salmón y mosquito": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Dragones": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Paracaídas": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Paracaídas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota de espuma",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El heladero": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Balón de basket mini",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pasa aro": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pasa la playera": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Playerotas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El láser": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Cuerda larga",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pelota incógnita": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota pequeña",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Picassos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Papel kraft",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El limón": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pinta tu paisaje": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Papel china o crepé",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "1 pliego para 6 niños",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cotonetes",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "medio cotonete por niño",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cloro",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El pulpo": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Espagueti",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pies transportadores": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Costal de pelotas colores (Ensucia mi cuarto)",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Costal de pelotas",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El Topo": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Plantbook": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cajas de insectos",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Goma y sacapuntas",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "Dos y dos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lápices",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumas",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plumones",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pinceles",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pintura",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "Colores diferentes",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Plantbook",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Portarretratos": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Portarretratos",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pinceles",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Diamantina",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "En polvo o de silicón",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Vaso de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pintura",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Foamy",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Stickers",
+        "cantidad": 30,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "El Toro": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Baúl vacío",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Se debe vaciar en el camp",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Costal de pelotas (Espuma colores)",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Pelotas de colores",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Elefantes": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Piezas jenga gigante",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Diadema elástica",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Tiene una pelota colgante",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Preguntas de sobremesa": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tarjetas de Preguntas de Sobremesa",
+        "cantidad": 8,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pulseras (Cuentas)": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Resorte de pulseras",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Carrete completo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Caja de cuentas",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 4,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ratonera": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Paliacates",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pieza de espuma",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ensucia mi cuarto": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Costal de pelotas colores (Ensucia mi cuarto)",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Costal",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pulseras (con hilos)": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Círculo de cartón",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "Mandar pedazo de cartón grande",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hilos de colores",
+        "cantidad": 7,
+        "escala": "Campamento",
+        "notas": "Carrete completo de diferentes colores",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Encendedor",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Reino animal": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tarjetas de Reino Animal",
+        "cantidad": 1,
+        "escala": "Campistas + Staff",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Romanos": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ropa loca": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Pelota de espuma",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Mochila de disfraces",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Reto del huevo": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Globos",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Huevo",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Llevar dos extras",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cinta diurex",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 4,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tijeras",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Foamy",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Focus frisbee": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Frisbee con cuerdas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ruidoso": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Focus ring": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Tapa con cuerdas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "tapa de garrafón con cola de rata",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota pequeña",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Telarañas": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Tijeras",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Estambre",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Fortalezas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Baúl vacío",
+        "cantidad": 1,
+        "escala": "Campistas + Staff",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pieza de espuma",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "Rectángulos rosas y azules",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Toco, soco, loco": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Toco Soco Loco Impreso",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Vocaciones del futuro": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Hojas de papel",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pintura",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Sushi": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Gorro de chef",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tapete de madera",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Alga nori",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bowl de metal",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pepino",
+        "cantidad": 0.5,
+        "escala": "Equipo",
+        "notas": "1 para dos equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Zanahoria",
+        "cantidad": 0.5,
+        "escala": "Equipo",
+        "notas": "1 para dos equipos",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Salsa de soya",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Que tenga más de la mitad",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Arroz",
+        "cantidad": 0.25,
+        "escala": "Equipo",
+        "notas": "1/4 taza por equipo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuchara de metal",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tabla de madera",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelador",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuchillo de sierra",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Platos de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pelota africana": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Balón de futbol",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Yoga": {
+    "categoria": "Pasiva",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Gato": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Gato gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "En caso de no estar, usar conos de platos y aros",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Gran Guerrero": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Indiana jones": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aspiradora",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "NO bombas rojas",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota inflable gigante",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Kick ball": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Balón de futbol",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "La Isla": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 10,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Red de pesca",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Foamy",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Manzanas enchiladas": {
+    "categoria": "Taller",
+    "materiales": [
+      {
+        "material": "Forritos de chamoy",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Manzana",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palitos de madera",
+        "cantidad": 1,
+        "escala": "Campista + Staff + Maestro",
+        "notas": "Los de punta de lanza",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Miguelito",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Bote completo",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Platos de plástico",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Más aros, más oro": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Mastermind": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Plumas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "Colores diferentes",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Match madness": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "Deben de ir por pares",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ojiva nuclear": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Anillo con cuerdas",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Palo de escoba",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Atorado a un cono para sostenerse",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Olimpiadas PG": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota mini (Bote o morral)",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Orugas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Orugas de colores",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pesca de medusas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Redes",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Balones mini de basket",
+        "cantidad": 3,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pelotón": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Casacas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aspiradora",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "NO bombas rojas",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota inflable grande",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Pinball": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Aspiradora",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota inflable grande",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Pingüinos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono plato",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Pizza a la orden": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pieza de espuma",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Quemados": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de paracaídas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Racoon circle": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cuerda naranja",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Una que es plana y rectangular",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Rally del tesoro": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cofres",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Monedas de chocolate",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pistas de rally",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Un color diferente por equipo",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Rally de retos": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pluma",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Hojas de colores",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Gallitos",
+        "cantidad": 3,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tabla de equilibrio",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Runners": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Aros",
+        "cantidad": 5,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bandera de flag",
+        "cantidad": 2,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Saltando y esquivando": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Espagueti",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Shaky shaky": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Contenedor con cinturón",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Los que parecen balones de americano",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Pelota pequeña",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "tubo de pelotas por cada dos equipos",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Sillas locas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Paliacates",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Stop": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de espuma",
+        "cantidad": 5,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Lona stop",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Tiburones": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Paracaídas",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Torneo deportivo": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Balón de volleyball",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Balón de basket/americano",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de algodón",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Balón de futbol",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Guantes de portero",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Dos pares",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Bandera de árbitro",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tarjeta de árbitro",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Amarilla y roja",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Casacas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "Naranjas y azules",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bomba y válvula para balones",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Traslado 360": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Red de pesca",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tinajas",
+        "cantidad": 2,
+        "escala": "Equipo",
+        "notas": "Se pueden sustituir por canastas",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Costal de pelotas (Espuma colores)",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Pelotas de colores",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Tela negra",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cuerda de tirolesa",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "Si no hay, usar cuerda de algodón",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Twister twist": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Tarjetas con figuras impresas",
+        "cantidad": 10,
+        "escala": "Campamento",
+        "notas": "Figuras diferentes",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Ultimate frisbee": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Casacas",
+        "cantidad": 1,
+        "escala": "Campista",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Frisbee",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Wuiky ball": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota wuiky ball",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "Pelota naranja",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Yes and no": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Tarjetas de yes and no",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "Se pueden hacer en el camp",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Zumba matutina": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Bocina",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      },
+      {
+        "material": "Extensión",
+        "cantidad": 2,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Reutilizable"
+      }
+    ]
+  },
+  "Roba queso": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pelota de espuma",
+        "cantidad": 20,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelota de tennis",
+        "cantidad": 1,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono alto",
+        "cantidad": 5,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Busqueda de banderas": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Cono alto",
+        "cantidad": 20,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Cono plato",
+        "cantidad": 20,
+        "escala": "Campamento",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  },
+  "Catch pants": {
+    "categoria": "Activa",
+    "materiales": [
+      {
+        "material": "Pantalones",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      },
+      {
+        "material": "Pelotas de Catch pants (1x2 equipos)",
+        "cantidad": 1,
+        "escala": "Equipo",
+        "notas": "",
+        "tipoUso": "Consumible"
+      }
+    ]
+  }
+}

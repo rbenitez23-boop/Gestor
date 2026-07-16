@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ALM-01",
+    "nombre": "Matriz",
+    "ubicacion": "",
+    "activo": true,
+    "descripcion": ""
+  },
+  {
+    "id": "ALM-02",
+    "nombre": "Rancho A",
+    "ubicacion": "",
+    "activo": true,
+    "descripcion": ""
+  },
+  {
+    "id": "ALM-03",
+    "nombre": "Rancho B",
+    "ubicacion": "",
+    "activo": true,
+    "descripcion": ""
+  }
+]
