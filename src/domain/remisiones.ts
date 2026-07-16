@@ -279,6 +279,66 @@ export function agregarFotoRemision(db: Database, folio: string, url: string): D
   };
 }
 
+export interface ResultadoSalidaEscaneada {
+  db: Database;
+  encontrado: boolean;
+  totalMarcados: number;
+  totalItems: number;
+}
+
+/**
+ * Marca "Salida ✓" en el ítem escaneado, pero además permite ajustar la
+ * cantidad REAL que se manda si es distinta a lo planeado (ej. la
+ * remisión decía 3 arcos pero al empacar solo se mandan 2) — reemplaza
+ * el movimiento de Salida de ese material específico con la cantidad
+ * correcta, sin tocar los demás ítems de la remisión.
+ */
+export function registrarSalidaEscaneada(db: Database, folio: string, materialId: string, cantidadReal: number): ResultadoSalidaEscaneada {
+  const rem = db.remisiones.find((r) => r.folio === folio);
+  if (!rem) return { db, encontrado: false, totalMarcados: 0, totalItems: 0 };
+  const idx = rem.items.findIndex((it) => it.materialId === materialId);
+  if (idx === -1) return { db, encontrado: false, totalMarcados: 0, totalItems: rem.items.length };
+  const item = rem.items[idx]!;
+
+  const sinMovViejo: Database = {
+    ...db,
+    movimientos: db.movimientos.filter((m) => !(m.tipo === 'Salida' && m.materialId === materialId && m.notas.includes(`Remisión ${folio}`))),
+  };
+
+  let next = sinMovViejo;
+  if (cantidadReal > 0) {
+    const r = crearMovimientoInterno(next, {
+      fecha: new Date().toISOString(),
+      materialId: item.materialId,
+      materialNombre: item.materialNombre,
+      tipo: 'Salida',
+      tipoPaquete: item.tipoPaquete,
+      cantPaquetes: Math.ceil(cantidadReal / (item.unidadesPaq || 1)),
+      unidadesPaq: item.unidadesPaq,
+      origen: rem.almacen || 'Matriz',
+      destino: '',
+      cliente: rem.cliente,
+      estado: 'Ocupado',
+      responsable: '',
+      notas: `Remisión ${folio}${rem.evento ? ' — ' + rem.evento : ''} (ajustado al escanear salida)`,
+      fechaRegreso: '',
+      numSeries: '',
+    });
+    next = r.db;
+  }
+
+  next = {
+    ...next,
+    remisiones: next.remisiones.map((r) =>
+      r.folio === folio ? { ...r, items: r.items.map((it, i) => (i === idx ? { ...it, checkSalida: true, cantidadEnviar: cantidadReal, totalUnidades: cantidadReal } : it)) } : r
+    ),
+  };
+
+  const remActualizada = next.remisiones.find((r) => r.folio === folio)!;
+  const totalMarcados = remActualizada.items.filter((it) => it.checkSalida).length;
+  return { db: next, encontrado: true, totalMarcados, totalItems: remActualizada.items.length };
+}
+
 export interface ResultadoEscaneoSalida {
   db: Database;
   encontrado: boolean;
