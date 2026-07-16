@@ -26014,26 +26014,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:22:07.827Z",
-      "materialId": "MAT-0103",
-      "materialNombre": "Tarjetas Figura Espejo",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001522",
-      "totalUnidades": 6,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T19:28:44.068Z",
       "materialId": "MAT-0118",
       "materialNombre": "Papel kraft",
@@ -26071,6 +26051,26 @@
       "numSeries": "",
       "idMov": "MOV-001524",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T19:35:09.836Z",
+      "materialId": "MAT-0103",
+      "materialNombre": "Tarjetas Figura Espejo",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001525",
+      "totalUnidades": 6,
       "regreso": false
     }
   ],
