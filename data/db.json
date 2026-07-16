@@ -25315,6 +25315,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0137",
+      "materialNombre": "Globos",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001483",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0017",
       "materialNombre": "Huellas impresas",
       "tipo": "Salida",
@@ -25371,26 +25391,6 @@
       "numSeries": "",
       "idMov": "MOV-001486",
       "totalUnidades": 19,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0215",
-      "materialNombre": "Material reciclado",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001487",
-      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -26054,9 +26054,9 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:33:28.108Z",
-      "materialId": "MAT-0137",
-      "materialNombre": "Globos",
+      "fecha": "2026-07-16T19:33:43.754Z",
+      "materialId": "MAT-0215",
+      "materialNombre": "Material reciclado",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -33388,8 +33388,7 @@
           "costoTotalItem": 50,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0017",
@@ -33445,7 +33444,8 @@
           "costoTotalItem": 0,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0060",
