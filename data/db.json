@@ -25675,6 +25675,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0233",
+      "materialNombre": "Vasos de plastico",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 3,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001502",
+      "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0312",
       "materialNombre": "Botiquín",
       "tipo": "Salida",
@@ -25770,26 +25790,6 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001507",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0171",
-      "materialNombre": "Cuchillo de plástico",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001508",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:20:19.248Z",
-      "materialId": "MAT-0233",
-      "materialNombre": "Vasos de plastico",
+      "fecha": "2026-07-16T19:20:42.891Z",
+      "materialId": "MAT-0171",
+      "materialNombre": "Cuchillo de plástico",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001522",
-      "totalUnidades": 3,
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33655,8 +33655,7 @@
           "costoTotalItem": 90,
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3,
-          "checkSalida": true
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0312",
@@ -33740,7 +33739,8 @@
           "costoTotalItem": 25,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0033",
