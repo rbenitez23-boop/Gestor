@@ -25515,11 +25515,11 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0227",
-      "materialNombre": "Pelota mini (Bote o morral)",
+      "materialId": "MAT-0068",
+      "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 5,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25529,8 +25529,8 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001495",
-      "totalUnidades": 1,
+      "idMov": "MOV-001494",
+      "totalUnidades": 5,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:34:14.079Z",
-      "materialId": "MAT-0068",
-      "materialNombre": "Pelota de paracaídas",
+      "fecha": "2026-07-16T19:34:26.478Z",
+      "materialId": "MAT-0227",
+      "materialNombre": "Pelota mini (Bote o morral)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 5,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 5,
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33543,8 +33543,7 @@
           "costoTotalItem": 750,
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5,
-          "checkSalida": true
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0227",
@@ -33558,7 +33557,8 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0301",
