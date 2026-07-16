@@ -69,8 +69,14 @@ function apiBase(): { url: string; headers: Record<string, string> } {
   };
 }
 
-// Los archivos se escriben codificados en base64 estándar; usamos
+// Los archivos se escriben/leen codificados en base64 estándar; usamos
 // TextDecoder/Encoder para soportar acentos y ñ correctamente (UTF-8).
+function decodeBase64Utf8(b64: string): string {
+  const binary = atob(b64.replace(/\n/g, ''));
+  const bytes = Uint8Array.from(binary, (c) => c.charCodeAt(0));
+  return new TextDecoder('utf-8').decode(bytes);
+}
+
 function encodeBase64Utf8(text: string): string {
   const bytes = new TextEncoder().encode(text);
   let binary = '';
@@ -82,37 +88,36 @@ function encodeBase64Utf8(text: string): string {
  * Lee la base de datos actual desde el repositorio (siempre la versión
  * más reciente de la rama).
  *
- * NOTA IMPORTANTE: la API de "Contents" de GitHub solo incluye el
- * contenido codificado en base64 cuando el archivo pesa menos de 1 MB.
- * Nuestro `data/db.json` crece con el historial real (movimientos,
- * remisiones) y ya supera ese límite. En vez de pelear con los distintos
- * media types de esa API, leemos el contenido real directamente desde
- * `raw.githubusercontent.com` — el servicio de archivos crudos de GitHub,
- * que no tiene ese límite práctico — y usamos la API de Contents
- * únicamente para obtener el `sha` (necesario para el control de
- * concurrencia al guardar).
+ * NOTA IMPORTANTE — por qué NO usamos raw.githubusercontent.com:
+ * Ese servicio de GitHub pasa por una red de caché (CDN) que puede tardar
+ * unos minutos en reflejar un commit recién hecho — así que después de
+ * guardar, una lectura inmediata podía traer todavía la versión anterior,
+ * aunque el commit ya existiera. Usamos en su lugar la API de "Git Blobs"
+ * (`/git/blobs/{sha}`), que identifica el contenido por su propio hash:
+ * como el sha cambia cada vez que el archivo cambia, es matemáticamente
+ * imposible que devuelva datos viejos bajo un sha nuevo — y de paso sigue
+ * soportando archivos grandes (hasta 100 MB) sin el límite de 1 MB de la
+ * API de "Contents" para contenido embebido.
  */
 export async function loadDatabase(): Promise<LoadedDatabase> {
   const cfg = getStoredConfig();
   if (!cfg) throw new NotConfiguredError();
   const { url, headers } = apiBase();
 
-  // 1) Metadatos — siempre trae el `sha`, sin importar el tamaño del archivo.
+  // 1) Metadatos — siempre trae el `sha` actual, sin importar el tamaño.
   const metaRes = await fetch(url, { headers, cache: 'no-store' });
   if (metaRes.status === 401 || metaRes.status === 403) throw new AuthError();
   if (!metaRes.ok) throw new Error(`No se pudo leer la base de datos (HTTP ${metaRes.status})`);
   const meta = await metaRes.json();
 
-  // 2) Contenido real, siempre desde el servicio de archivos crudos.
-  // IMPORTANTE: no se manda el header Authorization aquí — agregarlo
-  // provoca que el navegador bloquee la petición por política CORS
-  // (preflight) contra raw.githubusercontent.com. Como el repositorio es
-  // público, el contenido se puede leer sin token de todas formas.
-  const rawUrl = `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/${DB_PATH}`;
-  const rawRes = await fetch(rawUrl, { cache: 'no-store' });
-  if (!rawRes.ok) throw new Error(`No se pudo leer el contenido de la base de datos (HTTP ${rawRes.status})`);
-  const text = await rawRes.text();
-  return { data: JSON.parse(text) as Database, sha: meta.sha };
+  // 2) Contenido real por su sha exacto — inmune a caché desactualizada.
+  const blobUrl = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/git/blobs/${meta.sha}`;
+  const blobRes = await fetch(blobUrl, { headers, cache: 'no-store' });
+  if (blobRes.status === 401 || blobRes.status === 403) throw new AuthError();
+  if (!blobRes.ok) throw new Error(`No se pudo leer el contenido de la base de datos (HTTP ${blobRes.status})`);
+  const blob = await blobRes.json();
+  const content = decodeBase64Utf8(blob.content);
+  return { data: JSON.parse(content) as Database, sha: meta.sha };
 }
 
 /**
