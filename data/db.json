@@ -26052,6 +26052,26 @@
       "idMov": "MOV-001516",
       "totalUnidades": 10,
       "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0321",
+      "materialNombre": "Veggies",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001517",
+      "totalUnidades": 2,
+      "regreso": false
     }
   ],
   "almacenes": [
@@ -33828,6 +33848,20 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0321",
+          "materialNombre": "Veggies",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
