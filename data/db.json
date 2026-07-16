@@ -39145,6 +39145,39 @@
           "tipoUso": "Reutilizable"
         }
       ]
+    },
+    "Patitas en acción": {
+      "categoria": "Activa",
+      "materiales": [
+        {
+          "material": "Huellas impresas",
+          "cantidad": 2,
+          "escala": "Equipo",
+          "notas": "",
+          "tipoUso": "Consumible"
+        },
+        {
+          "material": "Papel kraft",
+          "cantidad": 1,
+          "escala": "Equipo",
+          "notas": "",
+          "tipoUso": "Consumible"
+        },
+        {
+          "material": "Pintura",
+          "cantidad": 1,
+          "escala": "Campamento",
+          "notas": "",
+          "tipoUso": "Consumible"
+        },
+        {
+          "material": "Tinaja",
+          "cantidad": 1,
+          "escala": "Equipo",
+          "notas": "",
+          "tipoUso": "Consumible"
+        }
+      ]
     }
   },
   "materialesObligatorios": [
