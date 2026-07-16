@@ -25174,26 +25174,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0118",
-      "materialNombre": "Papel kraft",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001514",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:50:58.100Z",
       "materialId": "MAT-0005",
       "materialNombre": "Aros",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001577",
       "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:55:18.050Z",
+      "materialId": "MAT-0118",
+      "materialNombre": "Papel kraft",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001578",
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33880,7 +33880,8 @@
           "costoTotalItem": 60,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0023",
