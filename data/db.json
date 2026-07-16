@@ -33558,8 +33558,7 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0301",
