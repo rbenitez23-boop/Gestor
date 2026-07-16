@@ -25255,6 +25255,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001479",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0008",
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
@@ -25271,26 +25291,6 @@
       "numSeries": "",
       "idMov": "MOV-001480",
       "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0211",
-      "materialNombre": "Cyalumes",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001481",
-      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -25875,6 +25875,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001514",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0023",
       "materialNombre": "Pintura",
       "tipo": "Salida",
@@ -26034,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:32:46.027Z",
-      "materialId": "MAT-0327",
-      "materialNombre": "Costal Pelotas de colores",
+      "fecha": "2026-07-16T19:33:07.606Z",
+      "materialId": "MAT-0211",
+      "materialNombre": "Cyalumes",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26050,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33305,14 +33325,13 @@
           "tipoPaquete": "Pieza Única",
           "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0008",
@@ -33340,7 +33359,8 @@
           "costoTotalItem": 80,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0001",
