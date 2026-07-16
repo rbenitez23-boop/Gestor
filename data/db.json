@@ -33314,7 +33314,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 15,
           "cantPaquetesEnviar": 15,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0007",
