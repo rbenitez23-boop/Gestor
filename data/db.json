@@ -25994,26 +25994,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:40:48.178Z",
-      "materialId": "MAT-0214",
-      "materialNombre": "Bombones",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001519",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:46:06.390Z",
       "materialId": "MAT-0005",
       "materialNombre": "Aros",
@@ -26090,6 +26070,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:46:36.992Z",
+      "materialId": "MAT-0214",
+      "materialNombre": "Bombones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001525",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -33255,7 +33255,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0216",
