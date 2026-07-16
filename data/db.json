@@ -25115,26 +25115,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0327",
-      "materialNombre": "Costal Pelotas de colores",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001479",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0008",
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
@@ -26090,6 +26070,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001541",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:42.637Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001542",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -33358,7 +33358,8 @@
           "costoTotalItem": 500,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0008",
