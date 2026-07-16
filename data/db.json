@@ -25635,11 +25635,11 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0233",
-      "materialNombre": "Vasos de plastico",
+      "materialId": "MAT-0003",
+      "materialNombre": "Tela negra",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25649,8 +25649,8 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001502",
-      "totalUnidades": 3,
+      "idMov": "MOV-001501",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:24:15.476Z",
-      "materialId": "MAT-0003",
-      "materialNombre": "Tela negra",
+      "fecha": "2026-07-16T19:24:33.408Z",
+      "materialId": "MAT-0233",
+      "materialNombre": "Vasos de plastico",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001523",
-      "totalUnidades": 1,
+      "totalUnidades": 3,
       "regreso": false
     }
   ],
@@ -33642,8 +33642,7 @@
           "costoTotalItem": 60,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0233",
@@ -33657,7 +33656,8 @@
           "costoTotalItem": 90,
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantPaquetesEnviar": 3,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0312",
