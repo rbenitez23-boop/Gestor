@@ -25095,26 +25095,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0037",
-      "materialNombre": "Balón de basket mini",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001470",
-      "totalUnidades": 3,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0002",
       "materialNombre": "Bocina",
       "tipo": "Salida",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001521",
       "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:46:12.698Z",
+      "materialId": "MAT-0037",
+      "materialNombre": "Balón de basket mini",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 3,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001522",
+      "totalUnidades": 3,
       "regreso": false
     }
   ],
@@ -33224,7 +33224,8 @@
           "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantPaquetesEnviar": 3,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0002",
