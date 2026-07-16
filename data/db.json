@@ -25854,26 +25854,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:46:19.099Z",
-      "materialId": "MAT-0002",
-      "materialNombre": "Bocina",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001523",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:46:26.321Z",
       "materialId": "MAT-0216",
       "materialNombre": "Cerillos",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001534",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:06.798Z",
+      "materialId": "MAT-0002",
+      "materialNombre": "Bocina",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001535",
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -33240,7 +33240,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0214",
