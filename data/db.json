@@ -25854,26 +25854,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:47:40.255Z",
-      "materialId": "MAT-0211",
-      "materialNombre": "Cyalumes",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001532",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:50:58.100Z",
       "materialId": "MAT-0005",
       "materialNombre": "Aros",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001543",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:50.416Z",
+      "materialId": "MAT-0211",
+      "materialNombre": "Cyalumes",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001544",
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
