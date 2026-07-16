@@ -25894,26 +25894,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:47:14.132Z",
-      "materialId": "MAT-0007",
-      "materialNombre": "Cono plato",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001528",
-      "totalUnidades": 10,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:47:29.066Z",
       "materialId": "MAT-0137",
       "materialNombre": "Globos",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001538",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:23.971Z",
+      "materialId": "MAT-0007",
+      "materialNombre": "Cono plato",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001539",
+      "totalUnidades": 10,
       "regreso": false
     }
   ],
