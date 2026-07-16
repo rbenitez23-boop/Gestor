@@ -25575,6 +25575,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0081",
+      "materialNombre": "Pelotas de tennis (Morral)",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001497",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0085",
       "materialNombre": "Proyector",
       "tipo": "Salida",
@@ -25591,26 +25611,6 @@
       "numSeries": "",
       "idMov": "MOV-001498",
       "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0103",
-      "materialNombre": "Tarjetas Figura Espejo",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001499",
-      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:21:27.928Z",
-      "materialId": "MAT-0081",
-      "materialNombre": "Pelotas de tennis (Morral)",
+      "fecha": "2026-07-16T19:22:07.827Z",
+      "materialId": "MAT-0103",
+      "materialNombre": "Tarjetas Figura Espejo",
       "tipo": "Salida",
-      "tipoPaquete": "Bolsa",
-      "cantPaquetes": 1,
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001522",
-      "totalUnidades": 1,
+      "totalUnidades": 6,
       "regreso": false
     }
   ],
@@ -33585,8 +33585,7 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0085",
@@ -33614,7 +33613,8 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantPaquetesEnviar": 6,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0109",
