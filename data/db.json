@@ -25155,26 +25155,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0135",
-      "materialNombre": "Palito de bombón",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 30,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001491",
-      "totalUnidades": 30,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0220",
       "materialNombre": "Palomitas",
       "tipo": "Salida",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001551",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:52:41.495Z",
+      "materialId": "MAT-0135",
+      "materialNombre": "Palito de bombón",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 30,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001552",
+      "totalUnidades": 30,
       "regreso": false
     }
   ],
@@ -33536,7 +33536,8 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 30,
-          "cantPaquetesEnviar": 30
+          "cantPaquetesEnviar": 30,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0220",
