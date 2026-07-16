@@ -25515,26 +25515,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0068",
-      "materialNombre": "Pelota de paracaídas",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 5,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001494",
-      "totalUnidades": 5,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0227",
       "materialNombre": "Pelota mini (Bote o morral)",
       "tipo": "Salida",
@@ -26071,6 +26051,26 @@
       "numSeries": "",
       "idMov": "MOV-001521",
       "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T19:19:04.159Z",
+      "materialId": "MAT-0068",
+      "materialNombre": "Pelota de paracaídas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 5,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001522",
+      "totalUnidades": 5,
       "regreso": false
     }
   ],
@@ -33543,7 +33543,8 @@
           "costoTotalItem": 750,
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5
+          "cantPaquetesEnviar": 5,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0227",
