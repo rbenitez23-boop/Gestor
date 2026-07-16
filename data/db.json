@@ -25914,26 +25914,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T20:47:19.674Z",
-      "materialId": "MAT-0295",
-      "materialNombre": "Contenedor con cinturon (Shaky Shaky)",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001529",
-      "totalUnidades": 3,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:47:29.066Z",
       "materialId": "MAT-0137",
       "materialNombre": "Globos",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001537",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:51:19.116Z",
+      "materialId": "MAT-0295",
+      "materialNombre": "Contenedor con cinturon (Shaky Shaky)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 3,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001538",
+      "totalUnidades": 3,
       "regreso": false
     }
   ],
