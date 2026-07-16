@@ -1,5 +1,5 @@
 import type { Database, TipoPaquete } from '../../types';
-import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, marcarSalidaEscaneada, registrarRegresoEscaneado, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
+import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, marcarSalidaEscaneada, registrarRegresoEscaneado, editarRemision, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
 import { resolverCodigoEscaneado } from '../../domain/scanner';
 import { store } from '../../services/store';
 import { iniciarCamaraQr, type SesionCamara } from '../../services/qrCamera';
@@ -224,6 +224,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
         ${!rem.cerrada ? `<button class="btn btn-primary" id="rd-scan-salida">📷 Escanear salida</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-scan-regreso">📷 Escanear regreso</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-regreso">Registrar regreso (manual)</button>` : ''}
+        ${!rem.cerrada ? `<button class="btn btn-ghost" id="rd-editar">✏️ Editar</button>` : ''}
         <button class="btn btn-ghost" id="rd-toggle">${rem.cerrada ? '🔓 Reabrir' : '🔒 Cerrar'}</button>
         <button class="btn btn-orange" id="rd-print">🖨️ Imprimir / Descargar PDF</button>
       </div>
@@ -341,6 +342,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
   });
 
   container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-editar')?.addEventListener('click', () => openEditarRemisionModal(rem.folio, db, onChanged));
   container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, onChanged));
   container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, onChanged));
 }
@@ -383,6 +385,132 @@ function openRegresoModal(folio: string, db: Database, onChanged: () => void) {
     try {
       await store.mutate((current) => registrarRegreso(current, folio, items, responsable, notas), `Regreso remisión ${folio}`);
       toast('Regreso registrado ✓', 's');
+      closeModal();
+      onChanged();
+    } catch (e) {
+      toast('Error: ' + (e as Error).message, 'e');
+    } finally {
+      hideLoader();
+    }
+  });
+}
+
+// ── EDITAR REMISIÓN ACTIVA (materiales, cantidades, datos del evento) ──
+function openEditarRemisionModal(folio: string, db: Database, onChanged: () => void) {
+  const rem = db.remisiones.find((r) => r.folio === folio)!;
+  itemCount = 0;
+  const almacenOptions = db.almacenes.filter((a) => a.activo !== false).map((a) => `<option value="${esc(a.nombre)}">${esc(a.nombre)}</option>`).join('');
+
+  const body = `
+    <div class="card" style="padding:10px 14px;margin-bottom:14px;font-size:12px;background:var(--blanco)">✏️ Estás editando <b>${esc(folio)}</b> — al guardar, se recalculan los movimientos de salida con las cantidades nuevas y se reinicia el checklist de empacado.</div>
+    <div class="frow">
+      <div class="fg"><label class="fl">Cliente / Colegio <span>*</span></label><input class="fc" id="rm-cliente" value="${esc(rem.cliente)}"/></div>
+      <div class="fg"><label class="fl">Evento</label><input class="fc" id="rm-evento" value="${esc(rem.evento)}"/></div>
+    </div>
+    <div class="frow">
+      <div class="fg"><label class="fl">Fecha de salida <span>*</span></label><input type="date" class="fc" id="rm-salida" value="${esc(rem.fechaSalida)}"/></div>
+      <div class="fg"><label class="fl">Almacén de origen</label><select class="fc" id="rm-almacen">${almacenOptions}</select></div>
+    </div>
+    <div class="frow">
+      <div class="fg"><label class="fl">Almacén sede (opcional)</label><select class="fc" id="rm-almacen-sede"><option value="">Sin sede fija</option>${almacenOptions}</select></div>
+      <div class="fg"><label class="fl">Responsable</label><input class="fc" id="rm-resp" value="${esc(rem.responsable)}"/></div>
+    </div>
+    <div class="fg"><label class="fl">Notas</label><textarea class="fc" id="rm-notas" rows="2">${esc(rem.notas)}</textarea></div>
+
+    <div class="section-title">Datos del evento</div>
+    <div class="frow">
+      <div class="fg"><label class="fl">Tipo de evento</label>
+        <select class="fc" id="rm-tipo-evento"><option>Campamento</option><option>Excursión</option><option>Evento</option></select>
+      </div>
+      <div class="fg"><label class="fl">Número de equipos</label><input type="number" class="fc" id="rm-equipos" min="0" value="${rem.numEquipos || ''}"/></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+      <div class="fg"><label class="fl">Campistas</label><input type="number" class="fc" id="rm-campistas" min="0" value="${rem.numCampistas || ''}"/></div>
+      <div class="fg"><label class="fl">Staff</label><input type="number" class="fc" id="rm-staff" min="0" value="${rem.numStaff || ''}"/></div>
+      <div class="fg"><label class="fl">Maestros</label><input type="number" class="fc" id="rm-maestros" min="0" value="${rem.numMaestros || ''}"/></div>
+    </div>
+    <div style="margin-top:14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <span style="font-weight:700;font-size:13px">Materiales</span>
+        <button class="btn btn-success btn-sm" id="rm-add-item">+ Agregar material</button>
+      </div>
+      <div id="rm-items-list"></div>
+    </div>`;
+  const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Guardar cambios</button>`;
+  const modal = openModal(`Editar remisión ${folio}`, body, footer);
+
+  (modal.querySelector('#rm-tipo-evento') as HTMLSelectElement).value = rem.tipoEvento || 'Campamento';
+  (modal.querySelector('#rm-almacen') as HTMLSelectElement).value = rem.almacen || '';
+  (modal.querySelector('#rm-almacen-sede') as HTMLSelectElement).value = rem.almacenSede || '';
+
+  const addItemRow = (materialId = '', cantidad = 1) => {
+    const i = itemCount++;
+    const matOptions = db.materiales
+      .filter((m) => m.activo !== false)
+      .map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" ${m.id === materialId ? 'selected' : ''}>${esc(m.nombre)}</option>`)
+      .join('');
+    const row = document.createElement('div');
+    row.id = `rm-item-${i}`;
+    row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end';
+    row.innerHTML = `
+      <div><label class="fl">Material</label><select class="fc" data-rm-mat>${matOptions}</select></div>
+      <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
+      <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
+    modal.querySelector('#rm-items-list')!.appendChild(row);
+    row.querySelector('[data-remove-item]')?.addEventListener('click', () => row.remove());
+  };
+  modal.querySelector('#rm-add-item')?.addEventListener('click', () => addItemRow());
+  if (rem.items.length) rem.items.forEach((it) => addItemRow(it.materialId, it.totalUnidades));
+  else addItemRow();
+
+  modal.querySelector('#rm-save')?.addEventListener('click', async () => {
+    const cliente = (document.getElementById('rm-cliente') as HTMLInputElement).value.trim();
+    const fechaSalida = (document.getElementById('rm-salida') as HTMLInputElement).value;
+    if (!cliente || !fechaSalida) {
+      toast('Cliente y fecha de salida son requeridos', 'e');
+      return;
+    }
+    const items: NuevaRemisionInput['items'] = [];
+    modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
+      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+      const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
+      const opt = sel.selectedOptions[0];
+      if (!opt) return;
+      const uds = Number(opt.dataset.uds) || 1;
+      const totalUnidades = Number(cantInput.value) || 0;
+      if (totalUnidades <= 0) return;
+      items.push({
+        materialId: opt.value,
+        materialNombre: opt.textContent || '',
+        tipoPaquete: (opt.dataset.tipo || 'Pieza Única') as TipoPaquete,
+        cantPaquetes: Math.ceil(totalUnidades / uds),
+        unidadesPaq: uds,
+        totalUnidades,
+      });
+    });
+
+    showLoader('Guardando en GitHub…');
+    try {
+      await store.mutate(
+        (current) =>
+          editarRemision(current, folio, {
+            cliente,
+            evento: (document.getElementById('rm-evento') as HTMLInputElement).value,
+            fechaSalida,
+            almacen: (document.getElementById('rm-almacen') as HTMLSelectElement).value,
+            almacenSede: (document.getElementById('rm-almacen-sede') as HTMLSelectElement).value,
+            responsable: (document.getElementById('rm-resp') as HTMLInputElement).value,
+            notas: (document.getElementById('rm-notas') as HTMLTextAreaElement).value,
+            tipoEvento: (document.getElementById('rm-tipo-evento') as HTMLSelectElement).value,
+            numEquipos: Number((document.getElementById('rm-equipos') as HTMLInputElement).value) || '',
+            numCampistas: Number((document.getElementById('rm-campistas') as HTMLInputElement).value) || '',
+            numStaff: Number((document.getElementById('rm-staff') as HTMLInputElement).value) || '',
+            numMaestros: Number((document.getElementById('rm-maestros') as HTMLInputElement).value) || '',
+            items,
+          }),
+        `Editar remisión ${folio}`
+      );
+      toast('Remisión actualizada ✓', 's');
       closeModal();
       onChanged();
     } catch (e) {

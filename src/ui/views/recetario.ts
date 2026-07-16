@@ -140,10 +140,10 @@ function openActividadModal(nombreOriginal: string | null, actividad: Actividad,
         tipoUso: 'Consumible',
       });
     });
-    if (!materiales.length) {
-      toast('Agrega al menos un material', 'e');
-      return;
-    }
+    // Nota: se permite guardar sin materiales — hay actividades reales
+    // (pláticas, dinámicas de grupo, reflexiones) que no ocupan nada del
+    // almacén, y forzar a capturar un material inventado generaba datos
+    // sucios en el catálogo.
     const nuevaActividad: Actividad = { categoria: (document.getElementById('ac-categoria') as HTMLSelectElement).value, materiales };
 
     showLoader('Guardando en GitHub…');

@@ -41,11 +41,18 @@ export function renderAutoRemision(container: HTMLElement, db: Database, onChang
     const numMaestros = Number((document.getElementById('ar-maestros') as HTMLInputElement).value) || 0;
 
     const resultado = analizarPrograma(db, texto, tipoEvento, numEquipos, numCampistas, numStaff, numMaestros);
-    renderResultado(container, db, resultado, tipoEvento, onChanged);
+    renderResultado(container, db, resultado, tipoEvento, { numEquipos, numCampistas, numStaff, numMaestros }, onChanged);
   });
 }
 
-function renderResultado(container: HTMLElement, db: Database, resultado: ResultadoAutoRemision, tipoEvento: string, onChanged: () => void) {
+function renderResultado(
+  container: HTMLElement,
+  db: Database,
+  resultado: ResultadoAutoRemision,
+  tipoEvento: string,
+  numeros: { numEquipos: number; numCampistas: number; numStaff: number; numMaestros: number },
+  onChanged: () => void
+) {
   const box = container.querySelector('#ar-resultado')!;
   const { actividadesDetectadas, items, advertencias } = resultado;
 
@@ -131,7 +138,10 @@ function renderResultado(container: HTMLElement, db: Database, resultado: Result
           responsable: '',
           notas: 'Creada vía Auto-Remisión',
           tipoEvento,
-          numEquipos: '', numCampistas: '', numStaff: '', numMaestros: '',
+          numEquipos: numeros.numEquipos || '',
+          numCampistas: numeros.numCampistas || '',
+          numStaff: numeros.numStaff || '',
+          numMaestros: numeros.numMaestros || '',
           items: seleccionados.map(({ it, i }) => {
             const cant = Number((document.getElementById(`ar-cant-${i}`) as HTMLInputElement).value) || it.totalUnidades;
             return {
