@@ -25395,6 +25395,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0215",
+      "materialNombre": "Material reciclado",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001487",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0060",
       "materialNombre": "Monedas de chocolate",
       "tipo": "Salida",
@@ -25994,26 +26014,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:17:30.049Z",
-      "materialId": "MAT-0135",
-      "materialNombre": "Palito de bombón",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 30,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001521",
-      "totalUnidades": 30,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T19:22:07.827Z",
       "materialId": "MAT-0103",
       "materialNombre": "Tarjetas Figura Espejo",
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:33:43.754Z",
-      "materialId": "MAT-0215",
-      "materialNombre": "Material reciclado",
+      "fecha": "2026-07-16T19:33:59.148Z",
+      "materialId": "MAT-0135",
+      "materialNombre": "Palito de bombón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 30,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 1,
+      "totalUnidades": 30,
       "regreso": false
     }
   ],
@@ -33444,8 +33444,7 @@
           "costoTotalItem": 0,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0060",
