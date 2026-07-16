@@ -25195,11 +25195,11 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0007",
-      "materialNombre": "Cono plato",
+      "materialId": "MAT-0006",
+      "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 15,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25209,8 +25209,8 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001477",
-      "totalUnidades": 10,
+      "idMov": "MOV-001476",
+      "totalUnidades": 15,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:31:32.689Z",
-      "materialId": "MAT-0006",
-      "materialNombre": "Cono alto",
+      "fecha": "2026-07-16T19:32:17.606Z",
+      "materialId": "MAT-0007",
+      "materialNombre": "Cono plato",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 15,
+      "cantPaquetes": 10,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 15,
+      "totalUnidades": 10,
       "regreso": false
     }
   ],
@@ -33289,8 +33289,7 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 15,
-          "cantPaquetesEnviar": 15,
-          "checkSalida": true
+          "cantPaquetesEnviar": 15
         },
         {
           "materialId": "MAT-0007",
@@ -33304,7 +33303,8 @@
           "costoTotalItem": 250,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0295",
