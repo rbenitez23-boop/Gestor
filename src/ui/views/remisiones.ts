@@ -1,8 +1,9 @@
-import type { Database, TipoPaquete } from '../../types';
-import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, marcarSalidaEscaneada, registrarRegresoEscaneado, editarRemision, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
+import type { Database, TipoPaquete, Remision } from '../../types';
+import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, registrarSalidaEscaneada, registrarRegresoEscaneado, editarRemision, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
 import { resolverCodigoEscaneado } from '../../domain/scanner';
 import { store } from '../../services/store';
 import { iniciarCamaraQr, type SesionCamara } from '../../services/qrCamera';
+import { generarQrDataUrl } from '../../services/qr';
 import { openModal, closeModal, toast, esc, downloadCsv, showLoader, hideLoader } from '../helpers';
 
 let sesionEscaneoRem: SesionCamara | null = null;
@@ -225,6 +226,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-scan-regreso">📷 Escanear regreso</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-regreso">Registrar regreso (manual)</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-ghost" id="rd-editar">✏️ Editar</button>` : ''}
+        <button class="btn btn-ghost" id="rd-etiquetas">🏷️ Etiquetas de esta remisión</button>
         <button class="btn btn-ghost" id="rd-toggle">${rem.cerrada ? '🔓 Reabrir' : '🔒 Cerrar'}</button>
         <button class="btn btn-orange" id="rd-print">🖨️ Imprimir / Descargar PDF</button>
       </div>
@@ -343,6 +345,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
 
   container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, onChanged));
   container.querySelector('#rd-editar')?.addEventListener('click', () => openEditarRemisionModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-etiquetas')?.addEventListener('click', () => renderEtiquetasDeRemision(container, db, rem, onChanged));
   container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, onChanged));
   container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, onChanged));
 }
@@ -530,33 +533,57 @@ function openEscaneoSalidaModal(folio: string, db: Database, onChanged: () => vo
       <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 30px rgba(0,0,0,.25)"></div>
     </div>
     <div id="es-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Empacados: 0 / ${rem.items.length}</div>
-    <div id="es-lista" style="margin-top:12px;max-height:220px;overflow-y:auto"></div>`;
+    <div id="es-form"></div>
+    <div id="es-lista" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>`;
   const footer = `<button class="btn btn-primary" data-close-modal>Listo</button>`;
   const modal = openModal('Escanear salida — ' + folio, body, footer);
 
   const pintarLista = (remActual: typeof rem) => {
     modal.querySelector('#es-lista')!.innerHTML = remActual.items
-      .map((it) => `<div style="display:flex;justify-content:space-between;padding:5px 0;font-size:12px;border-bottom:1px solid var(--gris)"><span>${it.checkSalida ? '✅' : '⬜'} ${esc(it.materialNombre)}</span></div>`)
+      .map((it) => `<div style="display:flex;justify-content:space-between;padding:5px 0;font-size:12px;border-bottom:1px solid var(--gris)"><span>${it.checkSalida ? '✅' : '⬜'} ${esc(it.materialNombre)}</span>${it.checkSalida ? `<span style="color:var(--gris-med)">${it.cantidadEnviar ?? it.totalUnidades}</span>` : ''}</div>`)
       .join('');
   };
   pintarLista(rem);
 
   const video = modal.querySelector('#es-video') as HTMLVideoElement;
   const statusEl = modal.querySelector('#es-status') as HTMLElement;
+  const formEl = modal.querySelector('#es-form') as HTMLElement;
 
   iniciarCamaraQr(video, (codigo) => {
     const material = resolverCodigoEscaneado(db, codigo);
     if (!material) return;
-    store
-      .mutate((current) => marcarSalidaEscaneada(current, folio, material.id).db, `Escanear salida: ${material.nombre}`)
-      .then(() => {
-        const remActual = store.current!.remisiones.find((r) => r.folio === folio)!;
-        const marcados = remActual.items.filter((it) => it.checkSalida).length;
-        statusEl.textContent = `Empacados: ${marcados} / ${remActual.items.length}`;
-        pintarLista(remActual);
-        toast(`✓ ${material.nombre} empacado`, 's');
-      })
-      .catch((e) => toast('Error: ' + (e as Error).message, 'e'));
+    const remActual = store.current!.remisiones.find((r) => r.folio === folio)!;
+    const item = remActual.items.find((it) => it.materialId === material.id);
+    if (!item) return;
+    sesionEscaneoRem?.pausar(true);
+    const planeado = item.cantidadEnviar ?? item.totalUnidades;
+
+    formEl.innerHTML = `
+      <div class="card" style="padding:12px;margin-top:10px">
+        <div style="font-weight:700;margin-bottom:8px">${esc(item.materialNombre)} — la remisión pedía ${planeado}</div>
+        <div class="fg"><label class="fl">Cantidad real que se manda</label><input type="number" class="fc" id="es-cant" value="${planeado}" min="0"/></div>
+        <button class="btn btn-success" id="es-confirmar" style="width:100%">✅ Confirmar y seguir escaneando</button>
+      </div>`;
+
+    formEl.querySelector('#es-confirmar')?.addEventListener('click', async () => {
+      const cant = Number((formEl.querySelector('#es-cant') as HTMLInputElement).value) || 0;
+      showLoader('Guardando…');
+      try {
+        await store.mutate((current) => registrarSalidaEscaneada(current, folio, material.id, cant).db, `Escanear salida: ${material.nombre}`);
+        const remNueva = store.current!.remisiones.find((r) => r.folio === folio)!;
+        const marcados = remNueva.items.filter((it) => it.checkSalida).length;
+        statusEl.textContent = `Empacados: ${marcados} / ${remNueva.items.length}`;
+        pintarLista(remNueva);
+        formEl.innerHTML = '';
+        toast(cant === planeado ? `✓ ${material.nombre} empacado` : `✓ ${material.nombre} ajustado a ${cant}`, 's');
+        sesionEscaneoRem?.pausar(false);
+      } catch (e) {
+        toast('Error: ' + (e as Error).message, 'e');
+        sesionEscaneoRem?.pausar(false);
+      } finally {
+        hideLoader();
+      }
+    });
   })
     .then((sesion) => {
       sesionEscaneoRem = sesion;
@@ -677,4 +704,33 @@ function openEscaneoRegresoModal(folio: string, db: Database, onChanged: () => v
     }
   });
   observer.observe(document.body, { childList: true });
+}
+
+// ── HOJA DE ETIQUETAS SOLO DE ESTA REMISIÓN (para imprimir y escanear al empacar/regresar, sin etiquetar todo el almacén) ──
+async function renderEtiquetasDeRemision(container: HTMLElement, db: Database, rem: Remision, onChanged: () => void) {
+  container.innerHTML = `
+    <div class="no-print" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
+      <button class="btn btn-ghost btn-sm" id="etq-volver">← Volver a la remisión</button>
+      <button class="btn btn-orange" id="etq-imprimir">🖨️ Imprimir</button>
+    </div>
+    <div style="margin-bottom:16px"><h1 style="font-size:20px;font-weight:800">Etiquetas — ${esc(rem.folio)}</h1><p style="color:var(--gris-med);font-size:13px">Solo los ${rem.items.length} materiales de esta remisión — imprime, recorta y pega temporalmente para escanear salida/regreso, aunque el material no tenga etiqueta permanente en su rack</p></div>
+    <div id="etq-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px">
+      <div class="no-print" style="grid-column:1/-1;text-align:center;color:var(--gris-med);padding:20px">Generando códigos…</div>
+    </div>`;
+
+  container.querySelector('#etq-volver')?.addEventListener('click', () => renderRemisionDetalle(container, db, rem.folio, onChanged));
+  container.querySelector('#etq-imprimir')?.addEventListener('click', () => window.print());
+
+  const grid = container.querySelector('#etq-grid')!;
+  const htmls: string[] = [];
+  for (const it of rem.items) {
+    const dataUrl = await generarQrDataUrl(it.materialId, 200);
+    htmls.push(`
+      <div class="qr-label" style="border:1.5px solid var(--gris);border-radius:8px;padding:10px;background:#fff">
+        <img src="${dataUrl}" style="width:100%;aspect-ratio:1/1;object-fit:contain"/>
+        <div style="text-align:center;font-weight:700;font-size:12px;margin-top:4px;line-height:1.2">${esc(it.materialNombre)}</div>
+        <div style="text-align:center;font-size:10px;color:var(--gris-med)">${esc(it.materialId)} · cant: ${it.cantidadEnviar ?? it.totalUnidades}</div>
+      </div>`);
+  }
+  grid.innerHTML = htmls.join('');
 }
