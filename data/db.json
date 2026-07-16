@@ -25155,26 +25155,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0068",
-      "materialNombre": "Pelota de paracaídas",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 5,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001494",
-      "totalUnidades": 5,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0103",
       "materialNombre": "Tarjetas Figura Espejo",
       "tipo": "Salida",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001558",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:53:16.057Z",
+      "materialId": "MAT-0068",
+      "materialNombre": "Pelota de paracaídas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 5,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001559",
+      "totalUnidades": 5,
       "regreso": false
     }
   ],
@@ -33581,7 +33581,8 @@
           "costoTotalItem": 750,
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5
+          "cantPaquetesEnviar": 5,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0227",
