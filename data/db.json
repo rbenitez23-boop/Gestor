@@ -25255,6 +25255,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001479",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0008",
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
@@ -25855,6 +25875,26 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001514",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0023",
       "materialNombre": "Pintura",
       "tipo": "Salida",
@@ -26030,26 +26070,6 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-16T19:37:07.035Z",
-      "materialId": "MAT-0327",
-      "materialNombre": "Costal Pelotas de colores",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001525",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -33241,7 +33261,8 @@
           "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0219",
@@ -33311,8 +33332,7 @@
           "costoTotalItem": 250,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0008",
