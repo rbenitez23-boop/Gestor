@@ -123,6 +123,83 @@ export function crearRemision(db: Database, input: NuevaRemisionInput): { db: Da
   return { db: next, folio };
 }
 
+/**
+ * Puerto adaptado — edita una remisión ACTIVA (no cerrada): revierte los
+ * movimientos de Salida que había generado y crea los nuevos con las
+ * cantidades/materiales actualizados, conservando el mismo folio, fecha
+ * de creación y fotos. El checklist de salida/regreso se reinicia porque
+ * el contenido cambió — hay que volver a verificar qué se empacó.
+ */
+export interface EditarRemisionInput {
+  cliente: string;
+  evento: string;
+  fechaSalida: string;
+  almacen: string;
+  almacenSede: string;
+  responsable: string;
+  notas: string;
+  tipoEvento: string;
+  numEquipos: number | '';
+  numCampistas: number | '';
+  numStaff: number | '';
+  numMaestros: number | '';
+  items: NuevaRemisionInput['items'];
+}
+
+export function editarRemision(db: Database, folio: string, input: EditarRemisionInput): Database {
+  const existente = db.remisiones.find((r) => r.folio === folio);
+  if (!existente) throw new Error(`No se encontró la remisión ${folio}`);
+  if (existente.cerrada) throw new Error('No se puede editar una remisión ya cerrada — reábrela primero si de verdad necesitas cambiarla');
+
+  const sinMovsViejos: Database = { ...db, movimientos: db.movimientos.filter((m) => !m.notas.includes(`Remisión ${folio}`)) };
+
+  const almacenOrigen = input.almacen || existente.almacen || 'Matriz';
+  const almacenSede = input.almacenSede || '';
+  let items = enriquecerItemsConCosto(sinMovsViejos, input.items);
+  items = enriquecerItemsConStockDestino(sinMovsViejos, items, almacenOrigen, almacenSede);
+
+  let next: Database = {
+    ...sinMovsViejos,
+    remisiones: sinMovsViejos.remisiones.map((r) =>
+      r.folio === folio
+        ? {
+            ...r,
+            cliente: input.cliente, evento: input.evento, fechaSalida: input.fechaSalida,
+            almacen: almacenOrigen, almacenSede, responsable: input.responsable, notas: input.notas,
+            tipoEvento: input.tipoEvento, numEquipos: input.numEquipos, numCampistas: input.numCampistas,
+            numStaff: input.numStaff, numMaestros: input.numMaestros,
+            items,
+          }
+        : r
+    ),
+  };
+
+  const fechaSalidaIso = input.fechaSalida ? new Date(input.fechaSalida).toISOString() : new Date().toISOString();
+  items.forEach((item) => {
+    if (!item.cantidadEnviar || item.cantidadEnviar <= 0) return;
+    const r = crearMovimientoInterno(next, {
+      fecha: fechaSalidaIso,
+      materialId: item.materialId,
+      materialNombre: item.materialNombre,
+      tipo: 'Salida',
+      tipoPaquete: item.tipoPaquete,
+      cantPaquetes: item.cantPaquetesEnviar || 0,
+      unidadesPaq: item.unidadesPaq,
+      origen: almacenOrigen,
+      destino: '',
+      cliente: input.cliente,
+      estado: 'Ocupado',
+      responsable: input.responsable,
+      notas: `Remisión ${folio}${input.evento ? ' — ' + input.evento : ''}`,
+      fechaRegreso: '',
+      numSeries: item.numSeries || '',
+    });
+    next = r.db;
+  });
+
+  return next;
+}
+
 /** Puerto de deleteRemision(): borra la remisión Y los movimientos de Salida que generó (identificados por la nota "Remisión <folio>"). */
 export function eliminarRemision(db: Database, folio: string): Database {
   return {
