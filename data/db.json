@@ -25155,26 +25155,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0016",
-      "materialNombre": "Cofres",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001474",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0219",
       "materialNombre": "Computadora",
       "tipo": "Salida",
@@ -25211,6 +25191,26 @@
       "numSeries": "",
       "idMov": "MOV-001476",
       "totalUnidades": 15,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T00:00:00.000Z",
+      "materialId": "MAT-0007",
+      "materialNombre": "Cono plato",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "Regina Adán",
+      "notas": "Remisión REM-0008 — Tecam",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001477",
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:07:52.495Z",
-      "materialId": "MAT-0007",
-      "materialNombre": "Cono plato",
+      "fecha": "2026-07-16T19:08:36.534Z",
+      "materialId": "MAT-0016",
+      "materialNombre": "Cofres",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001520",
-      "totalUnidades": 10,
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -33261,7 +33261,8 @@
           "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0219",
@@ -33303,8 +33304,7 @@
           "costoTotalItem": 250,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10,
-          "checkSalida": true
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0295",
