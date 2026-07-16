@@ -25115,26 +25115,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0006",
-      "materialNombre": "Cono alto",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 15,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001476",
-      "totalUnidades": 15,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0007",
       "materialNombre": "Cono plato",
       "tipo": "Salida",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001526",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:47:06.236Z",
+      "materialId": "MAT-0006",
+      "materialNombre": "Cono alto",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 15,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001527",
+      "totalUnidades": 15,
       "regreso": false
     }
   ],
@@ -33313,7 +33313,8 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 15,
-          "cantPaquetesEnviar": 15
+          "cantPaquetesEnviar": 15,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0007",
