@@ -25,21 +25,21 @@ export function renderCompras(container: HTMLElement, db: Database) {
       <span class="semaforo sem-media" style="margin:0 8px">🟡 Media</span>Disponible &lt; máximo
     </div>
     <div class="card"><div class="tbl-wrap"><table>
-      <thead><tr><th>#</th><th>Material</th><th>Rack/Zona</th><th>Disponible</th><th>Mín</th><th>Máx</th><th>Demanda activa</th><th>A comprar</th><th>Prioridad</th></tr></thead>
+      <thead><tr><th class="no-print">#</th><th>Material</th><th>Rack/Zona</th><th>Disponible</th><th class="no-print">Mín</th><th class="no-print">Máx</th><th class="no-print">Demanda activa</th><th>A comprar</th><th class="no-print">Prioridad</th></tr></thead>
       <tbody>${
         lista.length
           ? lista
               .map(
                 (m, i) => `<tr>
-              <td>${i + 1}</td>
+              <td class="no-print">${i + 1}</td>
               <td style="font-weight:700">${esc(m.nombre)}</td>
               <td>${esc(m.rack || '—')}${m.zona ? ' · ' + esc(m.zona) : ''}</td>
               <td style="font-weight:700;color:${m.stockDisponible <= 0 ? 'var(--rojo)' : 'inherit'}">${m.stockDisponible}</td>
-              <td>${m.stockMin ?? (m.sugeridoMin !== null ? `<span style="color:var(--gris-med)">(sug: ${m.sugeridoMin})</span>` : '—')}</td>
-              <td>${m.stockMax ?? (m.sugeridoMax !== null ? `<span style="color:var(--gris-med)">(sug: ${m.sugeridoMax})</span>` : '—')}</td>
-              <td>${m.demandaActiva || 0}</td>
+              <td class="no-print">${m.stockMin ?? (m.sugeridoMin !== null ? `<span style="color:var(--gris-med)">(sug: ${m.sugeridoMin})</span>` : '—')}</td>
+              <td class="no-print">${m.stockMax ?? (m.sugeridoMax !== null ? `<span style="color:var(--gris-med)">(sug: ${m.sugeridoMax})</span>` : '—')}</td>
+              <td class="no-print">${m.demandaActiva || 0}</td>
               <td style="font-weight:700;color:var(--rojo)">${m.cantidadComprar || '—'}</td>
-              <td>${BADGE[m.prioridad] || ''}</td>
+              <td class="no-print">${BADGE[m.prioridad] || ''}</td>
             </tr>`
               )
               .join('')
