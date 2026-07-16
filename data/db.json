@@ -25559,7 +25559,7 @@
       "materialNombre": "Palomitas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 28,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25570,7 +25570,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001492",
-      "totalUnidades": 28,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -26039,7 +26039,7 @@
       "materialNombre": "Veggies",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26050,7 +26050,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001516",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -33523,15 +33523,15 @@
           "materialId": "MAT-0220",
           "materialNombre": "Palomitas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 28,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 28,
+          "totalUnidades": 1,
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 840,
+          "costoTotalItem": 30,
           "stockEnDestino": 0,
-          "cantidadEnviar": 28,
-          "cantPaquetesEnviar": 28
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0030",
@@ -33859,15 +33859,15 @@
           "materialId": "MAT-0321",
           "materialNombre": "Veggies",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 60,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0062",
