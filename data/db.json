@@ -25235,11 +25235,11 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0327",
-      "materialNombre": "Costal Pelotas de colores",
+      "materialId": "MAT-0295",
+      "materialNombre": "Contenedor con cinturon (Shaky Shaky)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25249,8 +25249,8 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001479",
-      "totalUnidades": 1,
+      "idMov": "MOV-001478",
+      "totalUnidades": 3,
       "regreso": false
     },
     {
@@ -25875,26 +25875,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0327",
-      "materialNombre": "Costal Pelotas de colores",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001514",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0023",
       "materialNombre": "Pintura",
       "tipo": "Salida",
@@ -26054,12 +26034,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:32:30.697Z",
-      "materialId": "MAT-0295",
-      "materialNombre": "Contenedor con cinturon (Shaky Shaky)",
+      "fecha": "2026-07-16T19:32:46.027Z",
+      "materialId": "MAT-0327",
+      "materialNombre": "Costal Pelotas de colores",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26050,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 3,
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -33317,8 +33297,7 @@
           "costoTotalItem": 450,
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3,
-          "checkSalida": true
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0327",
@@ -33326,13 +33305,14 @@
           "tipoPaquete": "Pieza Única",
           "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0008",
