@@ -25095,26 +25095,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0005",
-      "materialNombre": "Aros",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001469",
-      "totalUnidades": 10,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0037",
       "materialNombre": "Balón de basket mini",
       "tipo": "Salida",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001520",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:46:06.390Z",
+      "materialId": "MAT-0005",
+      "materialNombre": "Aros",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001521",
+      "totalUnidades": 10,
       "regreso": false
     }
   ],
@@ -33209,7 +33209,8 @@
           "costoTotalItem": 450,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0037",
