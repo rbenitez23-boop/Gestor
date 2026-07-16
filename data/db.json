@@ -25194,26 +25194,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0023",
-      "materialNombre": "Pintura",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001515",
-      "totalUnidades": 10,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-16T20:50:58.100Z",
       "materialId": "MAT-0005",
       "materialNombre": "Aros",
@@ -26091,6 +26071,26 @@
       "numSeries": "",
       "idMov": "MOV-001576",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T20:55:02.162Z",
+      "materialId": "MAT-0023",
+      "materialNombre": "Pintura",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001577",
+      "totalUnidades": 10,
       "regreso": false
     }
   ],
@@ -33894,7 +33894,8 @@
           "costoTotalItem": 350,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0321",
