@@ -25155,26 +25155,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0016",
-      "materialNombre": "Cofres",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001474",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0219",
       "materialNombre": "Computadora",
       "tipo": "Salida",
@@ -26071,6 +26051,26 @@
       "numSeries": "",
       "idMov": "MOV-001523",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T19:30:05.104Z",
+      "materialId": "MAT-0016",
+      "materialNombre": "Cofres",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001524",
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -33261,7 +33261,8 @@
           "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0219",
