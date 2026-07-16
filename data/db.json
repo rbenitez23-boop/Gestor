@@ -25215,26 +25215,6 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0007",
-      "materialNombre": "Cono plato",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Villa Alegre 3°",
-      "estado": "Ocupado",
-      "responsable": "Regina Adán",
-      "notas": "Remisión REM-0008 — Tecam",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001477",
-      "totalUnidades": 10,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-17T00:00:00.000Z",
       "materialId": "MAT-0295",
       "materialNombre": "Contenedor con cinturon (Shaky Shaky)",
       "tipo": "Salida",
@@ -26071,6 +26051,26 @@
       "numSeries": "",
       "idMov": "MOV-001519",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-16T19:07:52.495Z",
+      "materialId": "MAT-0007",
+      "materialNombre": "Cono plato",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Villa Alegre 3°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0008 — Tecam (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001520",
+      "totalUnidades": 10,
       "regreso": false
     }
   ],
@@ -33303,7 +33303,8 @@
           "costoTotalItem": 250,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0295",
