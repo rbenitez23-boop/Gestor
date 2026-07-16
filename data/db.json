@@ -25535,11 +25535,11 @@
     },
     {
       "fecha": "2026-07-17T00:00:00.000Z",
-      "materialId": "MAT-0301",
-      "materialNombre": "Pelota Inflable pequeña",
+      "materialId": "MAT-0227",
+      "materialNombre": "Pelota mini (Bote o morral)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -25549,8 +25549,8 @@
       "notas": "Remisión REM-0008 — Tecam",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001496",
-      "totalUnidades": 3,
+      "idMov": "MOV-001495",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -26054,12 +26054,12 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-16T19:34:26.478Z",
-      "materialId": "MAT-0227",
-      "materialNombre": "Pelota mini (Bote o morral)",
+      "fecha": "2026-07-16T19:34:36.425Z",
+      "materialId": "MAT-0301",
+      "materialNombre": "Pelota Inflable pequeña",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -26070,7 +26070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001524",
-      "totalUnidades": 1,
+      "totalUnidades": 3,
       "regreso": false
     }
   ],
@@ -33557,8 +33557,7 @@
           "costoTotalItem": 150,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
-          "checkSalida": true
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0301",
@@ -33572,7 +33571,8 @@
           "costoTotalItem": 180,
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantPaquetesEnviar": 3,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0081",
