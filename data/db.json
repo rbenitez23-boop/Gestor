@@ -28375,26 +28375,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0171",
-      "materialNombre": "Cuchillo de plástico",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 7,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001755",
-      "totalUnidades": 7,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0008",
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001954",
       "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T19:45:25.841Z",
+      "materialId": "MAT-0171",
+      "materialNombre": "Cuchillo de plástico",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 7,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001955",
+      "totalUnidades": 7,
       "regreso": false
     }
   ],
@@ -40632,7 +40632,8 @@
           "costoTotalItem": 175,
           "stockEnDestino": 0,
           "cantidadEnviar": 7,
-          "cantPaquetesEnviar": 7
+          "cantPaquetesEnviar": 7,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0008",
