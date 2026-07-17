@@ -40240,7 +40240,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
           "cantPaquetesEnviar": 70,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0311",
