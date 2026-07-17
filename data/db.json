@@ -31375,26 +31375,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0332",
-      "materialNombre": "Paquete para Toad Bag",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 3° de secundaría",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0010",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001889",
-      "totalUnidades": 6,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0030",
       "materialNombre": "Paracaídas",
       "tipo": "Salida",
@@ -31409,7 +31389,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001890",
+      "idMov": "MOV-001889",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31429,7 +31409,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001891",
+      "idMov": "MOV-001890",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31449,7 +31429,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001892",
+      "idMov": "MOV-001891",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31469,7 +31449,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001893",
+      "idMov": "MOV-001892",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31489,7 +31469,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001894",
+      "idMov": "MOV-001893",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31509,7 +31489,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001895",
+      "idMov": "MOV-001894",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31529,7 +31509,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001896",
+      "idMov": "MOV-001895",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31549,7 +31529,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001897",
+      "idMov": "MOV-001896",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -31569,7 +31549,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001898",
+      "idMov": "MOV-001897",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31589,7 +31569,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001899",
+      "idMov": "MOV-001898",
       "totalUnidades": 85,
       "regreso": false
     },
@@ -31609,7 +31589,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001900",
+      "idMov": "MOV-001899",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31629,7 +31609,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001901",
+      "idMov": "MOV-001900",
       "totalUnidades": 55,
       "regreso": false
     },
@@ -31649,7 +31629,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001902",
+      "idMov": "MOV-001901",
       "totalUnidades": 18,
       "regreso": false
     },
@@ -31669,7 +31649,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001903",
+      "idMov": "MOV-001902",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31689,7 +31669,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001904",
+      "idMov": "MOV-001903",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31709,7 +31689,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001905",
+      "idMov": "MOV-001904",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31729,7 +31709,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001906",
+      "idMov": "MOV-001905",
       "totalUnidades": 140,
       "regreso": false
     },
@@ -31749,7 +31729,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001907",
+      "idMov": "MOV-001906",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31769,7 +31749,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001908",
+      "idMov": "MOV-001907",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31789,7 +31769,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001909",
+      "idMov": "MOV-001908",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31809,7 +31789,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001910",
+      "idMov": "MOV-001909",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31829,7 +31809,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001911",
+      "idMov": "MOV-001910",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31849,7 +31829,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001912",
+      "idMov": "MOV-001911",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31869,7 +31849,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001913",
+      "idMov": "MOV-001912",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31889,7 +31869,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001914",
+      "idMov": "MOV-001913",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31909,7 +31889,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001915",
+      "idMov": "MOV-001914",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31929,7 +31909,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001916",
+      "idMov": "MOV-001915",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31949,7 +31929,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001917",
+      "idMov": "MOV-001916",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31969,7 +31949,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001918",
+      "idMov": "MOV-001917",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31989,7 +31969,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001919",
+      "idMov": "MOV-001918",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32009,7 +31989,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001920",
+      "idMov": "MOV-001919",
       "totalUnidades": 96,
       "regreso": false
     },
@@ -32029,7 +32009,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001921",
+      "idMov": "MOV-001920",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32049,7 +32029,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001922",
+      "idMov": "MOV-001921",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -32069,28 +32049,8 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001923",
+      "idMov": "MOV-001922",
       "totalUnidades": 6,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0309",
-      "materialNombre": "Tinaja",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 3° de secundaría",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0010",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001924",
-      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -32109,7 +32069,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001925",
+      "idMov": "MOV-001923",
       "totalUnidades": 18,
       "regreso": false
     },
@@ -32129,7 +32089,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001926",
+      "idMov": "MOV-001924",
       "totalUnidades": 55,
       "regreso": false
     },
@@ -32149,7 +32109,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001927",
+      "idMov": "MOV-001925",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32169,7 +32129,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001928",
+      "idMov": "MOV-001926",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -32189,7 +32149,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001929",
+      "idMov": "MOV-001927",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -32209,7 +32169,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001930",
+      "idMov": "MOV-001928",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32229,7 +32189,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001931",
+      "idMov": "MOV-001929",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32249,7 +32209,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001932",
+      "idMov": "MOV-001930",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32269,7 +32229,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001933",
+      "idMov": "MOV-001931",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32289,7 +32249,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001934",
+      "idMov": "MOV-001932",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32309,27 +32269,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001935",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0033",
-      "materialNombre": "Cinta diurex",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 3° de secundaría",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0010",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001936",
+      "idMov": "MOV-001933",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32349,27 +32289,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001937",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0011",
-      "materialNombre": "Plumón",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 3° de secundaría",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0010",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001938",
+      "idMov": "MOV-001934",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32389,7 +32309,7 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001939",
+      "idMov": "MOV-001935",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32409,7 +32329,47 @@
       "notas": "Remisión REM-0010",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001940",
+      "idMov": "MOV-001936",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-18T00:00:00.000Z",
+      "materialId": "MAT-0253",
+      "materialNombre": "Charola de metal",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 3° de secundaría",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0010",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001937",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-18T00:00:00.000Z",
+      "materialId": "MAT-0015",
+      "materialNombre": "Tangrams de espuma (Gigante)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 3° de secundaría",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0010",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001938",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -42542,20 +42502,6 @@
           "cantPaquetesEnviar": 6
         },
         {
-          "materialId": "MAT-0332",
-          "materialNombre": "Paquete para Toad Bag",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
-          "unidadesPaq": 1,
-          "totalUnidades": 6,
-          "costoUnitario": 80,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 480,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
-        },
-        {
           "materialId": "MAT-0030",
           "materialNombre": "Paracaídas",
           "tipoPaquete": "Pieza Única",
@@ -43035,20 +42981,6 @@
           "materialId": "MAT-0309",
           "materialNombre": "Tinaja",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
-          "unidadesPaq": 1,
-          "totalUnidades": 2,
-          "costoUnitario": 300,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 600,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
-        },
-        {
-          "materialId": "MAT-0309",
-          "materialNombre": "Tinaja",
-          "tipoPaquete": "Pieza Única",
           "cantPaquetes": 18,
           "unidadesPaq": 1,
           "totalUnidades": 18,
@@ -43200,20 +43132,6 @@
           "cantPaquetesEnviar": 1
         },
         {
-          "materialId": "MAT-0033",
-          "materialNombre": "Cinta diurex",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 15,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 15,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0198",
           "materialNombre": "Esponjas",
           "tipoPaquete": "Pieza Única",
@@ -43223,20 +43141,6 @@
           "costoUnitario": 30,
           "clasificacion": "Consumible",
           "costoTotalItem": 30,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
-          "materialId": "MAT-0011",
-          "materialNombre": "Plumón",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 15,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 15,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
@@ -43265,6 +43169,34 @@
           "costoUnitario": 30,
           "clasificacion": "Consumible",
           "costoTotalItem": 30,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0253",
+          "materialNombre": "Charola de metal",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 80,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0015",
+          "materialNombre": "Tangrams de espuma (Gigante)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "costoUnitario": 350,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 350,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
