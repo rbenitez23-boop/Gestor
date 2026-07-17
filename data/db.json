@@ -42205,7 +42205,8 @@
           "costoTotalItem": 3600,
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantPaquetesEnviar": 6,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0211",
