@@ -42088,7 +42088,8 @@
           "costoTotalItem": 720,
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantPaquetesEnviar": 6,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0219",
