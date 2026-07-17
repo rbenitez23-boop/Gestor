@@ -41024,7 +41024,8 @@
           "costoTotalItem": 1050,
           "stockEnDestino": 0,
           "cantidadEnviar": 42,
-          "cantPaquetesEnviar": 42
+          "cantPaquetesEnviar": 42,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0135",
