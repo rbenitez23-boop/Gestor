@@ -42132,7 +42132,8 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 36,
-          "cantPaquetesEnviar": 36
+          "cantPaquetesEnviar": 36,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0327",
