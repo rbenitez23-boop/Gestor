@@ -31854,26 +31854,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-17T20:09:57.892Z",
-      "materialId": "MAT-0198",
-      "materialNombre": "Esponjas",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001991",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-17T20:10:58.147Z",
       "materialId": "MAT-0142",
       "materialNombre": "Arco",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-002016",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:54:30.617Z",
+      "materialId": "MAT-0198",
+      "materialNombre": "Esponjas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002017",
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
