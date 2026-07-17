@@ -28275,26 +28275,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0165",
-      "materialNombre": "Galletas María",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001765",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0034",
       "materialNombre": "Hojas de colores",
       "tipo": "Salida",
@@ -32370,6 +32350,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001999",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:15:40.619Z",
+      "materialId": "MAT-0165",
+      "materialNombre": "Galletas María",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002000",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -40787,7 +40787,8 @@
           "costoTotalItem": 50,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0048",
