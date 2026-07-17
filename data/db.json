@@ -28315,26 +28315,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0016",
-      "materialNombre": "Cofres",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 7,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001749",
-      "totalUnidades": 7,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0166",
       "materialNombre": "Colorante",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001951",
       "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T19:43:57.485Z",
+      "materialId": "MAT-0016",
+      "materialNombre": "Cofres",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 7,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001952",
+      "totalUnidades": 7,
       "regreso": false
     }
   ],
@@ -40545,7 +40545,8 @@
           "costoTotalItem": 840,
           "stockEnDestino": 0,
           "cantidadEnviar": 7,
-          "cantPaquetesEnviar": 7
+          "cantPaquetesEnviar": 7,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0166",
