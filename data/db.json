@@ -28135,26 +28135,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0162",
-      "materialNombre": "Base de pay",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 7,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001733",
-      "totalUnidades": 7,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0038",
       "materialNombre": "Baúl vacío",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001993",
       "totalUnidades": 20,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:12:06.774Z",
+      "materialId": "MAT-0162",
+      "materialNombre": "Base de pay",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 7,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001994",
+      "totalUnidades": 7,
       "regreso": false
     }
   ],
@@ -40314,7 +40314,8 @@
           "costoTotalItem": 175,
           "stockEnDestino": 0,
           "cantidadEnviar": 7,
-          "cantPaquetesEnviar": 7
+          "cantPaquetesEnviar": 7,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0038",
