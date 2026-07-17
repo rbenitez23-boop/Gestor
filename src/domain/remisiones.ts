@@ -158,6 +158,18 @@ export function editarRemision(db: Database, folio: string, input: EditarRemisio
   let items = enriquecerItemsConCosto(sinMovsViejos, input.items);
   items = enriquecerItemsConStockDestino(sinMovsViejos, items, almacenOrigen, almacenSede);
 
+  // Preserva el progreso de escaneo (checkSalida/checkRegreso/cantidad
+  // regresada/estado) de cualquier material que YA estaba en la remisión
+  // — editar (agregar otro material, ajustar una cantidad) no debería
+  // obligar a re-verificar todo lo que ya se había escaneado. Solo un
+  // material genuinamente nuevo en la lista empieza sin marcar.
+  items = items.map((it) => {
+    const anterior = existente.items.find((old) => old.materialId === it.materialId);
+    return anterior
+      ? { ...it, checkSalida: anterior.checkSalida, checkRegreso: anterior.checkRegreso, cantidadRegresada: anterior.cantidadRegresada, estadoRegreso: anterior.estadoRegreso }
+      : it;
+  });
+
   let next: Database = {
     ...sinMovsViejos,
     remisiones: sinMovsViejos.remisiones.map((r) =>
