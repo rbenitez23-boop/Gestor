@@ -28575,26 +28575,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0334",
-      "materialNombre": "Jabón de trastes",
-      "tipo": "Salida",
-      "tipoPaquete": "Bolsa",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001825",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0307",
       "materialNombre": "Tajín",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-002017",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:54:42.796Z",
+      "materialId": "MAT-0334",
+      "materialNombre": "Jabón de trastes",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002018",
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -41672,7 +41672,8 @@
           "costoTotalItem": 25,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0307",
