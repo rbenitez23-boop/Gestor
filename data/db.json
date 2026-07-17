@@ -28355,26 +28355,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0006",
-      "materialNombre": "Cono alto",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 20,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001752",
-      "totalUnidades": 20,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0007",
       "materialNombre": "Cono plato",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001952",
       "totalUnidades": 7,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T19:44:35.077Z",
+      "materialId": "MAT-0006",
+      "materialNombre": "Cono alto",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 20,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001953",
+      "totalUnidades": 20,
       "regreso": false
     }
   ],
@@ -40588,7 +40588,8 @@
           "costoTotalItem": 1200,
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
-          "cantPaquetesEnviar": 20
+          "cantPaquetesEnviar": 20,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0007",
