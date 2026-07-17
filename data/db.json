@@ -28635,26 +28635,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0091",
-      "materialNombre": "Palitos de colores",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 62,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001785",
-      "totalUnidades": 62,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0220",
       "materialNombre": "Palomitas",
       "tipo": "Salida",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001971",
       "totalUnidades": 100,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T19:53:55.266Z",
+      "materialId": "MAT-0091",
+      "materialNombre": "Palitos de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 62,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001972",
+      "totalUnidades": 62,
       "regreso": false
     }
   ],
@@ -41069,7 +41069,8 @@
           "costoTotalItem": 2480,
           "stockEnDestino": 0,
           "cantidadEnviar": 62,
-          "cantPaquetesEnviar": 62
+          "cantPaquetesEnviar": 62,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0220",
