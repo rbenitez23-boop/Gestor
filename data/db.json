@@ -31314,26 +31314,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-17T16:43:56.981Z",
-      "materialId": "MAT-0142",
-      "materialNombre": "Arco",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001939",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-17T16:46:17.231Z",
       "materialId": "MAT-0005",
       "materialNombre": "Aros",
@@ -32370,6 +32350,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001991",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:10:58.147Z",
+      "materialId": "MAT-0142",
+      "materialNombre": "Arco",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001992",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -40225,7 +40225,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 1,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0005",
