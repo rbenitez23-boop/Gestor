@@ -28235,26 +28235,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0080",
-      "materialNombre": "Bomba de balones",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001740",
-      "totalUnidades": 2,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0203",
       "materialNombre": "Bomba de globos",
       "tipo": "Salida",
@@ -32370,6 +32350,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001946",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T17:48:13.380Z",
+      "materialId": "MAT-0080",
+      "materialNombre": "Bomba de balones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001947",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -40414,7 +40414,8 @@
           "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantPaquetesEnviar": 2,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0203",
