@@ -28175,26 +28175,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0107",
-      "materialNombre": "Bolsa de harina",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001739",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0214",
       "materialNombre": "Bombones",
       "tipo": "Salida",
@@ -32370,6 +32350,26 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001995",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:13:10.485Z",
+      "materialId": "MAT-0107",
+      "materialNombre": "Bolsa de harina",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001996",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -40402,7 +40402,8 @@
           "costoTotalItem": 25,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantPaquetesEnviar": 1,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0080",
