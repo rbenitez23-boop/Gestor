@@ -31314,26 +31314,6 @@
       "regreso": false
     },
     {
-      "fecha": "2026-07-17T16:46:17.231Z",
-      "materialId": "MAT-0005",
-      "materialNombre": "Aros",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 20,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001940",
-      "totalUnidades": 20,
-      "regreso": false
-    },
-    {
       "fecha": "2026-07-17T16:46:39.436Z",
       "materialId": "MAT-0311",
       "materialNombre": "Balón de Basket",
@@ -32371,6 +32351,26 @@
       "numSeries": "",
       "idMov": "MOV-001992",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-17T20:11:18.122Z",
+      "materialId": "MAT-0005",
+      "materialNombre": "Aros",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 20,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Buckingham 6°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0009 — La Galera (ajustado al escanear salida)",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-001993",
+      "totalUnidades": 20,
       "regreso": false
     }
   ],
@@ -40240,7 +40240,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
           "cantPaquetesEnviar": 70,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0311",
