@@ -41025,7 +41025,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 42,
           "cantPaquetesEnviar": 42,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0135",
