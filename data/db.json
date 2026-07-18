@@ -30484,7 +30484,7 @@
       "materialNombre": "Chaleco Salvavidas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30495,7 +30495,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002056",
-      "totalUnidades": 4,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -41860,15 +41860,15 @@
           "materialId": "MAT-0208",
           "materialNombre": "Chaleco Salvavidas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 1,
           "costoUnitario": 350,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1400,
+          "costoTotalItem": 350,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1,
           "checkSalida": false
         },
         {
