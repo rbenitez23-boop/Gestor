@@ -41794,7 +41794,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
           "cantPaquetesEnviar": 3,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0225",
