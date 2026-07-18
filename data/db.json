@@ -42403,7 +42403,8 @@
           "costoTotalItem": 960,
           "stockEnDestino": 0,
           "cantidadEnviar": 24,
-          "cantPaquetesEnviar": 24
+          "cantPaquetesEnviar": 24,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0220",
