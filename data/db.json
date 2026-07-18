@@ -34882,6 +34882,26 @@
       "idMov": "MOV-002892",
       "totalUnidades": 1,
       "regreso": false
+    },
+    {
+      "fecha": "2026-07-19T00:00:00.000Z",
+      "materialId": "MAT-0337",
+      "materialNombre": "Cono de Agua",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio John Dewey 3° y 6° secundaria",
+      "estado": "Ocupado",
+      "responsable": "Cristel Gutiérrez",
+      "notas": "Remisión REM-0011 — El Trébol",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002893",
+      "totalUnidades": 1,
+      "regreso": false
     }
   ],
   "almacenes": [
@@ -47653,6 +47673,20 @@
           "costoUnitario": 30,
           "clasificacion": "Consumible",
           "costoTotalItem": 30,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0337",
+          "materialNombre": "Cono de Agua",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
