@@ -42210,7 +42210,8 @@
           "costoTotalItem": 560,
           "stockEnDestino": 0,
           "cantidadEnviar": 14,
-          "cantPaquetesEnviar": 14
+          "cantPaquetesEnviar": 14,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0181",
