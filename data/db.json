@@ -41861,7 +41861,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0033",
