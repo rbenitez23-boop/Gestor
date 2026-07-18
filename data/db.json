@@ -30464,7 +30464,7 @@
       "materialNombre": "Cerillos",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30475,7 +30475,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002055",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -41845,15 +41845,15 @@
           "materialId": "MAT-0216",
           "materialNombre": "Cerillos",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 30,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2,
           "checkSalida": false
         },
         {
