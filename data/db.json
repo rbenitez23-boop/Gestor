@@ -41854,7 +41854,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0208",
