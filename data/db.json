@@ -30840,26 +30840,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0219",
-      "materialNombre": "Computadora",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-001962",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0006",
       "materialNombre": "Cono alto",
       "tipo": "Salida",
@@ -30874,7 +30854,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001963",
+      "idMov": "MOV-001962",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -30894,7 +30874,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001964",
+      "idMov": "MOV-001963",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -30914,7 +30894,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001965",
+      "idMov": "MOV-001964",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -30934,7 +30914,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001966",
+      "idMov": "MOV-001965",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -30954,7 +30934,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001967",
+      "idMov": "MOV-001966",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -30974,7 +30954,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001968",
+      "idMov": "MOV-001967",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -30994,7 +30974,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001969",
+      "idMov": "MOV-001968",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31014,7 +30994,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001970",
+      "idMov": "MOV-001969",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31034,7 +31014,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001971",
+      "idMov": "MOV-001970",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31054,7 +31034,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001972",
+      "idMov": "MOV-001971",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31074,7 +31054,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001973",
+      "idMov": "MOV-001972",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31094,7 +31074,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001974",
+      "idMov": "MOV-001973",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31114,7 +31094,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001975",
+      "idMov": "MOV-001974",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31134,7 +31114,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001976",
+      "idMov": "MOV-001975",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31154,7 +31134,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001977",
+      "idMov": "MOV-001976",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31174,7 +31154,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001978",
+      "idMov": "MOV-001977",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31194,7 +31174,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001979",
+      "idMov": "MOV-001978",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31214,7 +31194,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001980",
+      "idMov": "MOV-001979",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31234,7 +31214,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001981",
+      "idMov": "MOV-001980",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -31254,7 +31234,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001982",
+      "idMov": "MOV-001981",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31274,7 +31254,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001983",
+      "idMov": "MOV-001982",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31294,7 +31274,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001984",
+      "idMov": "MOV-001983",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31314,7 +31294,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001985",
+      "idMov": "MOV-001984",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31334,7 +31314,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001986",
+      "idMov": "MOV-001985",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31354,7 +31334,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001987",
+      "idMov": "MOV-001986",
       "totalUnidades": 56,
       "regreso": false
     },
@@ -31374,7 +31354,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001988",
+      "idMov": "MOV-001987",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31394,7 +31374,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001989",
+      "idMov": "MOV-001988",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -31414,7 +31394,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001990",
+      "idMov": "MOV-001989",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31434,7 +31414,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001991",
+      "idMov": "MOV-001990",
       "totalUnidades": 70,
       "regreso": false
     },
@@ -31454,7 +31434,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001992",
+      "idMov": "MOV-001991",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31474,7 +31454,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001993",
+      "idMov": "MOV-001992",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31494,7 +31474,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001994",
+      "idMov": "MOV-001993",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -31514,7 +31494,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001995",
+      "idMov": "MOV-001994",
       "totalUnidades": 62,
       "regreso": false
     },
@@ -31534,7 +31514,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001996",
+      "idMov": "MOV-001995",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31554,7 +31534,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001997",
+      "idMov": "MOV-001996",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31574,7 +31554,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001998",
+      "idMov": "MOV-001997",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31594,7 +31574,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-001999",
+      "idMov": "MOV-001998",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -31614,7 +31594,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002000",
+      "idMov": "MOV-001999",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31634,7 +31614,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002001",
+      "idMov": "MOV-002000",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31654,7 +31634,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002002",
+      "idMov": "MOV-002001",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31674,7 +31654,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002003",
+      "idMov": "MOV-002002",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31694,7 +31674,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002004",
+      "idMov": "MOV-002003",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31714,7 +31694,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002005",
+      "idMov": "MOV-002004",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -31734,7 +31714,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002006",
+      "idMov": "MOV-002005",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31754,7 +31734,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002007",
+      "idMov": "MOV-002006",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31774,7 +31754,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002008",
+      "idMov": "MOV-002007",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31794,7 +31774,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002009",
+      "idMov": "MOV-002008",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31814,7 +31794,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002010",
+      "idMov": "MOV-002009",
       "totalUnidades": 65,
       "regreso": false
     },
@@ -31834,7 +31814,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002011",
+      "idMov": "MOV-002010",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31854,7 +31834,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002012",
+      "idMov": "MOV-002011",
       "totalUnidades": 32,
       "regreso": false
     },
@@ -31874,7 +31854,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002013",
+      "idMov": "MOV-002012",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31894,7 +31874,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002014",
+      "idMov": "MOV-002013",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31914,7 +31894,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002015",
+      "idMov": "MOV-002014",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31934,7 +31914,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002016",
+      "idMov": "MOV-002015",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31954,7 +31934,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002017",
+      "idMov": "MOV-002016",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31974,7 +31954,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002018",
+      "idMov": "MOV-002017",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31994,7 +31974,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002019",
+      "idMov": "MOV-002018",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -32014,7 +31994,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002020",
+      "idMov": "MOV-002019",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32034,7 +32014,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002021",
+      "idMov": "MOV-002020",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -32054,7 +32034,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002022",
+      "idMov": "MOV-002021",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32074,7 +32054,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002023",
+      "idMov": "MOV-002022",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32094,7 +32074,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002024",
+      "idMov": "MOV-002023",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32114,7 +32094,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002025",
+      "idMov": "MOV-002024",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -32134,7 +32114,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002026",
+      "idMov": "MOV-002025",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -32154,7 +32134,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002027",
+      "idMov": "MOV-002026",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32174,7 +32154,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002028",
+      "idMov": "MOV-002027",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32194,7 +32174,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002029",
+      "idMov": "MOV-002028",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32214,7 +32194,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002030",
+      "idMov": "MOV-002029",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32234,7 +32214,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002031",
+      "idMov": "MOV-002030",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32254,7 +32234,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002032",
+      "idMov": "MOV-002031",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32274,7 +32254,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002033",
+      "idMov": "MOV-002032",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32294,7 +32274,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002034",
+      "idMov": "MOV-002033",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32314,7 +32294,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002035",
+      "idMov": "MOV-002034",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32334,7 +32314,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002036",
+      "idMov": "MOV-002035",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -40507,20 +40487,6 @@
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0219",
-          "materialNombre": "Computadora",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 8500,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 8500,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0006",
