@@ -31544,7 +31544,7 @@
       "materialNombre": "Papel kraft",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -31555,7 +31555,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-001997",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -31780,26 +31780,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0090",
-      "materialNombre": "Pizarrón",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 7,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-002009",
-      "totalUnidades": 7,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0117",
       "materialNombre": "Playerotas",
       "tipo": "Salida",
@@ -31814,7 +31794,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002010",
+      "idMov": "MOV-002009",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -31834,7 +31814,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002011",
+      "idMov": "MOV-002010",
       "totalUnidades": 65,
       "regreso": false
     },
@@ -31854,7 +31834,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002012",
+      "idMov": "MOV-002011",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -31874,7 +31854,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002013",
+      "idMov": "MOV-002012",
       "totalUnidades": 32,
       "regreso": false
     },
@@ -31894,7 +31874,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002014",
+      "idMov": "MOV-002013",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31914,7 +31894,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002015",
+      "idMov": "MOV-002014",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31934,7 +31914,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002016",
+      "idMov": "MOV-002015",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -31954,7 +31934,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002017",
+      "idMov": "MOV-002016",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -31974,7 +31954,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002018",
+      "idMov": "MOV-002017",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -31994,7 +31974,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002019",
+      "idMov": "MOV-002018",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32014,7 +31994,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002020",
+      "idMov": "MOV-002019",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -32034,7 +32014,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002021",
+      "idMov": "MOV-002020",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32054,7 +32034,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002022",
+      "idMov": "MOV-002021",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -32074,7 +32054,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002023",
+      "idMov": "MOV-002022",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32094,7 +32074,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002024",
+      "idMov": "MOV-002023",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32114,7 +32094,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002025",
+      "idMov": "MOV-002024",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32134,7 +32114,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002026",
+      "idMov": "MOV-002025",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -32154,7 +32134,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002027",
+      "idMov": "MOV-002026",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -32174,7 +32154,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002028",
+      "idMov": "MOV-002027",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32194,7 +32174,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002029",
+      "idMov": "MOV-002028",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32214,7 +32194,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002030",
+      "idMov": "MOV-002029",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32234,7 +32214,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002031",
+      "idMov": "MOV-002030",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32254,7 +32234,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002032",
+      "idMov": "MOV-002031",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32274,7 +32254,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002033",
+      "idMov": "MOV-002032",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32294,7 +32274,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002034",
+      "idMov": "MOV-002033",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32314,7 +32294,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002035",
+      "idMov": "MOV-002034",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32334,7 +32314,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002036",
+      "idMov": "MOV-002035",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32354,7 +32334,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002037",
+      "idMov": "MOV-002036",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -41055,15 +41035,15 @@
           "materialId": "MAT-0118",
           "materialNombre": "Papel kraft",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 60,
+          "costoTotalItem": 120,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2,
           "checkSalida": true
         },
         {
@@ -41226,20 +41206,6 @@
           "costoUnitario": 150,
           "clasificacion": "Consumible",
           "costoTotalItem": 1050,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 7,
-          "cantPaquetesEnviar": 7
-        },
-        {
-          "materialId": "MAT-0090",
-          "materialNombre": "Pizarrón",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 7,
-          "unidadesPaq": 1,
-          "totalUnidades": 7,
-          "costoUnitario": 500,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 3500,
           "stockEnDestino": 0,
           "cantidadEnviar": 7,
           "cantPaquetesEnviar": 7
