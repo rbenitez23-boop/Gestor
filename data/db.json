@@ -30424,7 +30424,7 @@
       "materialNombre": "Cartas Choque Eléctrico",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 5,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30435,7 +30435,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002053",
-      "totalUnidades": 5,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -41815,15 +41815,15 @@
           "materialId": "MAT-0094",
           "materialNombre": "Cartas Choque Eléctrico",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 5,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 5,
+          "totalUnidades": 4,
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 400,
+          "costoTotalItem": 320,
           "stockEnDestino": 0,
-          "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4,
           "checkSalida": true
         },
         {
