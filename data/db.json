@@ -30944,7 +30944,7 @@
       "materialNombre": "Hojas de Foamy",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 12,
+      "cantPaquetes": 14,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30955,7 +30955,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002285",
-      "totalUnidades": 12,
+      "totalUnidades": 14,
       "regreso": false
     },
     {
@@ -42202,15 +42202,15 @@
           "materialId": "MAT-0244",
           "materialNombre": "Hojas de Foamy",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 12,
+          "cantPaquetes": 14,
           "unidadesPaq": 1,
-          "totalUnidades": 12,
+          "totalUnidades": 14,
           "costoUnitario": 40,
           "clasificacion": "Consumible",
-          "costoTotalItem": 480,
+          "costoTotalItem": 560,
           "stockEnDestino": 0,
-          "cantidadEnviar": 12,
-          "cantPaquetesEnviar": 12
+          "cantidadEnviar": 14,
+          "cantPaquetesEnviar": 14
         },
         {
           "materialId": "MAT-0181",
