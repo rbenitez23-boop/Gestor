@@ -31084,7 +31084,7 @@
       "materialNombre": "Monedas de chocolate",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 55,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -31095,7 +31095,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002292",
-      "totalUnidades": 55,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -42304,15 +42304,15 @@
           "materialId": "MAT-0060",
           "materialNombre": "Monedas de chocolate",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 55,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 55,
+          "totalUnidades": 60,
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4400,
+          "costoTotalItem": 4800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 55,
-          "cantPaquetesEnviar": 55,
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60,
           "checkSalida": true
         },
         {
