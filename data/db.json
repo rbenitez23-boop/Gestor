@@ -42493,7 +42493,8 @@
           "costoTotalItem": 900,
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantPaquetesEnviar": 6,
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0049",
