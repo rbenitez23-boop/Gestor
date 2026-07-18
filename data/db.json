@@ -42627,7 +42627,8 @@
           "costoTotalItem": 630,
           "stockEnDestino": 0,
           "cantidadEnviar": 18,
-          "cantPaquetesEnviar": 18
+          "cantPaquetesEnviar": 18,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0326",
