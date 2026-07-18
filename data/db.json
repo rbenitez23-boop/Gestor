@@ -41935,7 +41935,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 36,
           "cantPaquetesEnviar": 36,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0327",
