@@ -30704,7 +30704,7 @@
       "materialNombre": "Cyalumes",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 55,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30715,7 +30715,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002067",
-      "totalUnidades": 55,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -42024,15 +42024,15 @@
           "materialId": "MAT-0211",
           "materialNombre": "Cyalumes",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 55,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 55,
+          "totalUnidades": 1,
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4400,
+          "costoTotalItem": 80,
           "stockEnDestino": 0,
-          "cantidadEnviar": 55,
-          "cantPaquetesEnviar": 55,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1,
           "checkSalida": true
         },
         {
