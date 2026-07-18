@@ -42582,7 +42582,8 @@
           "costoTotalItem": 12750,
           "stockEnDestino": 0,
           "cantidadEnviar": 85,
-          "cantPaquetesEnviar": 85
+          "cantPaquetesEnviar": 85,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0184",
