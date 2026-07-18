@@ -42612,7 +42612,8 @@
           "costoTotalItem": 1100,
           "stockEnDestino": 0,
           "cantidadEnviar": 55,
-          "cantPaquetesEnviar": 55
+          "cantPaquetesEnviar": 55,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0023",
