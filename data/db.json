@@ -42418,7 +42418,8 @@
           "costoTotalItem": 2070,
           "stockEnDestino": 0,
           "cantidadEnviar": 69,
-          "cantPaquetesEnviar": 69
+          "cantPaquetesEnviar": 69,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0082",
