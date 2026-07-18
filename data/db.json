@@ -30304,7 +30304,7 @@
       "materialNombre": "Bolsa de Holly",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 69,
+      "cantPaquetes": 80,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30315,7 +30315,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002047",
-      "totalUnidades": 69,
+      "totalUnidades": 80,
       "regreso": false
     },
     {
@@ -41725,15 +41725,15 @@
           "materialId": "MAT-0196",
           "materialNombre": "Bolsa de Holly",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 69,
+          "cantPaquetes": 80,
           "unidadesPaq": 1,
-          "totalUnidades": 69,
+          "totalUnidades": 80,
           "costoUnitario": 40,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2760,
+          "costoTotalItem": 3200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 69,
-          "cantPaquetesEnviar": 69
+          "cantidadEnviar": 80,
+          "cantPaquetesEnviar": 80
         },
         {
           "materialId": "MAT-0276",
