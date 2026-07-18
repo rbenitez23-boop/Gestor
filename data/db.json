@@ -41973,7 +41973,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0190",
