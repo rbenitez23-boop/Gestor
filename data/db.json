@@ -42196,7 +42196,8 @@
           "costoTotalItem": 6800,
           "stockEnDestino": 0,
           "cantidadEnviar": 85,
-          "cantPaquetesEnviar": 85
+          "cantPaquetesEnviar": 85,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0244",
