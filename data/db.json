@@ -30364,7 +30364,7 @@
       "materialNombre": "Bombones",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 69,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30375,7 +30375,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002050",
-      "totalUnidades": 69,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -41770,15 +41770,15 @@
           "materialId": "MAT-0214",
           "materialNombre": "Bombones",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 69,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 69,
+          "totalUnidades": 2,
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4140,
+          "costoTotalItem": 120,
           "stockEnDestino": 0,
-          "cantidadEnviar": 69,
-          "cantPaquetesEnviar": 69,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2,
           "checkSalida": true
         },
         {
