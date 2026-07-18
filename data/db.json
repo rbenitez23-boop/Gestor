@@ -32000,26 +32000,6 @@
     },
     {
       "fecha": "2026-07-18T00:00:00.000Z",
-      "materialId": "MAT-0109",
-      "materialNombre": "Tarjetas La Bomba",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Buckingham 6°",
-      "estado": "Ocupado",
-      "responsable": "Sebas Castro",
-      "notas": "Remisión REM-0009 — La Galera",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-002020",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-18T00:00:00.000Z",
       "materialId": "MAT-0003",
       "materialNombre": "Tela negra",
       "tipo": "Salida",
@@ -32034,7 +32014,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002021",
+      "idMov": "MOV-002020",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32054,7 +32034,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002022",
+      "idMov": "MOV-002021",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32074,7 +32054,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002023",
+      "idMov": "MOV-002022",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -32094,7 +32074,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002024",
+      "idMov": "MOV-002023",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -32114,7 +32094,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002025",
+      "idMov": "MOV-002024",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32134,7 +32114,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002026",
+      "idMov": "MOV-002025",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32154,7 +32134,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002027",
+      "idMov": "MOV-002026",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32174,7 +32154,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002028",
+      "idMov": "MOV-002027",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32194,7 +32174,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002029",
+      "idMov": "MOV-002028",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32214,7 +32194,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002030",
+      "idMov": "MOV-002029",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -32234,7 +32214,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002031",
+      "idMov": "MOV-002030",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32254,7 +32234,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002032",
+      "idMov": "MOV-002031",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -32274,7 +32254,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002033",
+      "idMov": "MOV-002032",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -32294,7 +32274,7 @@
       "notas": "Remisión REM-0009 — La Galera",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002034",
+      "idMov": "MOV-002033",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -41336,20 +41316,6 @@
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0109",
-          "materialNombre": "Tarjetas La Bomba",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 100,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 100,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0003",
