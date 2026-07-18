@@ -30524,7 +30524,7 @@
       "materialNombre": "Cofres",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30535,7 +30535,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002058",
-      "totalUnidades": 6,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -41890,15 +41890,15 @@
           "materialId": "MAT-0016",
           "materialNombre": "Cofres",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 4,
           "costoUnitario": 120,
           "clasificacion": "Consumible",
-          "costoTotalItem": 720,
+          "costoTotalItem": 480,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4,
           "checkSalida": false
         },
         {
