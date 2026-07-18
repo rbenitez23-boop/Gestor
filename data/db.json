@@ -30124,7 +30124,7 @@
       "materialNombre": "Arroz",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30135,7 +30135,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002038",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -41591,15 +41591,15 @@
           "materialId": "MAT-0187",
           "materialNombre": "Arroz",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 50,
+          "costoTotalItem": 25,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1,
           "checkSalida": true
         },
         {
