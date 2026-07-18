@@ -41779,7 +41779,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 69,
           "cantPaquetesEnviar": 69,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0148",
