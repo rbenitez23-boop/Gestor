@@ -41660,7 +41660,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0331",
