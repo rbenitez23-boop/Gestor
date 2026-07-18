@@ -41876,7 +41876,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
           "cantPaquetesEnviar": 5,
-          "checkSalida": true
+          "checkSalida": false
         },
         {
           "materialId": "MAT-0016",
