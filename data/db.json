@@ -30744,7 +30744,7 @@
       "materialNombre": "Espagueti",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -30755,7 +30755,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002069",
-      "totalUnidades": 6,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -42054,15 +42054,15 @@
           "materialId": "MAT-0066",
           "materialNombre": "Espagueti",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 2,
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 480,
+          "costoTotalItem": 160,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0001",
