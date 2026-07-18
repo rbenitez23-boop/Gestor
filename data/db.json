@@ -31104,7 +31104,7 @@
       "materialNombre": "Ocote",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -31115,7 +31115,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002293",
-      "totalUnidades": 6,
+      "totalUnidades": 3,
       "regreso": false
     },
     {
@@ -42319,15 +42319,15 @@
           "materialId": "MAT-0217",
           "materialNombre": "Ocote",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 3,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 3,
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 180,
+          "costoTotalItem": 90,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantidadEnviar": 3,
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0206",
