@@ -31124,7 +31124,7 @@
       "materialNombre": "Paddle board",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -31135,7 +31135,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002294",
-      "totalUnidades": 2,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -42333,15 +42333,15 @@
           "materialId": "MAT-0206",
           "materialNombre": "Paddle board",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 4,
           "costoUnitario": 3500,
           "clasificacion": "Consumible",
-          "costoTotalItem": 7000,
+          "costoTotalItem": 14000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4,
           "checkSalida": true
         },
         {
