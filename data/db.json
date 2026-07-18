@@ -41733,7 +41733,8 @@
           "costoTotalItem": 3200,
           "stockEnDestino": 0,
           "cantidadEnviar": 80,
-          "cantPaquetesEnviar": 80
+          "cantPaquetesEnviar": 80,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0276",
