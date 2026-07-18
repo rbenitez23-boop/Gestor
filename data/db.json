@@ -42969,7 +42969,8 @@
           "costoTotalItem": 4400,
           "stockEnDestino": 0,
           "cantidadEnviar": 55,
-          "cantPaquetesEnviar": 55
+          "cantPaquetesEnviar": 55,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0124",
