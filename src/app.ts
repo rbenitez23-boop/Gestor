@@ -100,7 +100,7 @@ function paintView(view: ViewId, contentEl: HTMLElement) {
       renderRecetario(contentEl, db, refresh);
       break;
     case 'compras':
-      renderCompras(contentEl, db);
+      renderCompras(contentEl, db, refresh);
       break;
     case 'contable':
       renderContable(contentEl, db);
