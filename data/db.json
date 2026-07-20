@@ -33785,26 +33785,6 @@
     },
     {
       "fecha": "2026-07-19T00:00:00.000Z",
-      "materialId": "MAT-0206",
-      "materialNombre": "Paddle board",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio John Dewey 3° y 6° secundaria",
-      "estado": "Ocupado",
-      "responsable": "Cristel Gutiérrez",
-      "notas": "Remisión REM-0011 — El Trébol",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-002838",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-07-19T00:00:00.000Z",
       "materialId": "MAT-0004",
       "materialNombre": "Paliacates",
       "tipo": "Salida",
@@ -33819,7 +33799,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002839",
+      "idMov": "MOV-002838",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -33839,7 +33819,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002840",
+      "idMov": "MOV-002839",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -33859,7 +33839,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002841",
+      "idMov": "MOV-002840",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -33879,7 +33859,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002842",
+      "idMov": "MOV-002841",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -33899,7 +33879,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002843",
+      "idMov": "MOV-002842",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -33919,7 +33899,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002844",
+      "idMov": "MOV-002843",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -33939,7 +33919,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002845",
+      "idMov": "MOV-002844",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -33959,7 +33939,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002846",
+      "idMov": "MOV-002845",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -33979,7 +33959,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002847",
+      "idMov": "MOV-002846",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -33999,7 +33979,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002848",
+      "idMov": "MOV-002847",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34019,7 +33999,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002849",
+      "idMov": "MOV-002848",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34039,7 +34019,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002850",
+      "idMov": "MOV-002849",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34059,7 +34039,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002851",
+      "idMov": "MOV-002850",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34079,7 +34059,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002852",
+      "idMov": "MOV-002851",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34099,7 +34079,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002853",
+      "idMov": "MOV-002852",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34119,7 +34099,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002854",
+      "idMov": "MOV-002853",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -34139,7 +34119,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002855",
+      "idMov": "MOV-002854",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34159,7 +34139,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002856",
+      "idMov": "MOV-002855",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34179,7 +34159,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002857",
+      "idMov": "MOV-002856",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34199,7 +34179,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002858",
+      "idMov": "MOV-002857",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -34219,7 +34199,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002859",
+      "idMov": "MOV-002858",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -34239,7 +34219,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002860",
+      "idMov": "MOV-002859",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -34259,7 +34239,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002861",
+      "idMov": "MOV-002860",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34279,7 +34259,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002862",
+      "idMov": "MOV-002861",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -34299,7 +34279,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002863",
+      "idMov": "MOV-002862",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34319,7 +34299,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002864",
+      "idMov": "MOV-002863",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34339,7 +34319,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002865",
+      "idMov": "MOV-002864",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34359,7 +34339,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002866",
+      "idMov": "MOV-002865",
       "totalUnidades": 137,
       "regreso": false
     },
@@ -34379,7 +34359,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002867",
+      "idMov": "MOV-002866",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -34399,7 +34379,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002868",
+      "idMov": "MOV-002867",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34419,7 +34399,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002869",
+      "idMov": "MOV-002868",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34439,7 +34419,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002870",
+      "idMov": "MOV-002869",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34459,7 +34439,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002871",
+      "idMov": "MOV-002870",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34479,7 +34459,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002872",
+      "idMov": "MOV-002871",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34499,7 +34479,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002873",
+      "idMov": "MOV-002872",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34519,7 +34499,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002874",
+      "idMov": "MOV-002873",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34539,7 +34519,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002875",
+      "idMov": "MOV-002874",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -34559,7 +34539,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002876",
+      "idMov": "MOV-002875",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34579,7 +34559,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002877",
+      "idMov": "MOV-002876",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34599,7 +34579,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002878",
+      "idMov": "MOV-002877",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34619,7 +34599,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002879",
+      "idMov": "MOV-002878",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34639,7 +34619,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002880",
+      "idMov": "MOV-002879",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34659,7 +34639,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002881",
+      "idMov": "MOV-002880",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34679,7 +34659,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002882",
+      "idMov": "MOV-002881",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34699,7 +34679,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002883",
+      "idMov": "MOV-002882",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34719,7 +34699,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002884",
+      "idMov": "MOV-002883",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -34739,7 +34719,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002885",
+      "idMov": "MOV-002884",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34759,7 +34739,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002886",
+      "idMov": "MOV-002885",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34779,7 +34759,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002887",
+      "idMov": "MOV-002886",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34799,7 +34779,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002888",
+      "idMov": "MOV-002887",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -34819,7 +34799,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002889",
+      "idMov": "MOV-002888",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34839,7 +34819,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002890",
+      "idMov": "MOV-002889",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -34859,7 +34839,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002891",
+      "idMov": "MOV-002890",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -34879,7 +34859,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002892",
+      "idMov": "MOV-002891",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -34899,7 +34879,7 @@
       "notas": "Remisión REM-0011 — El Trébol",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002893",
+      "idMov": "MOV-002892",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -46906,20 +46886,6 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
-        },
-        {
-          "materialId": "MAT-0206",
-          "materialNombre": "Paddle board",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "costoUnitario": 3500,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 3500,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0004",
