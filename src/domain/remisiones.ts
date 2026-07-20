@@ -134,6 +134,7 @@ export interface EditarRemisionInput {
   cliente: string;
   evento: string;
   fechaSalida: string;
+  fechaRegreso: string;
   almacen: string;
   almacenSede: string;
   responsable: string;
@@ -176,7 +177,7 @@ export function editarRemision(db: Database, folio: string, input: EditarRemisio
       r.folio === folio
         ? {
             ...r,
-            cliente: input.cliente, evento: input.evento, fechaSalida: input.fechaSalida,
+            cliente: input.cliente, evento: input.evento, fechaSalida: input.fechaSalida, fechaRegreso: input.fechaRegreso,
             almacen: almacenOrigen, almacenSede, responsable: input.responsable, notas: input.notas,
             tipoEvento: input.tipoEvento, numEquipos: input.numEquipos, numCampistas: input.numCampistas,
             numStaff: input.numStaff, numMaestros: input.numMaestros,
