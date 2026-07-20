@@ -97,7 +97,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
     </div>
     <div class="frow">
       <div class="fg"><label class="fl">Fecha de salida <span>*</span></label><input type="date" class="fc" id="rm-salida" value="${new Date().toISOString().slice(0, 10)}"/></div>
-      <div class="fg"><label class="fl">Fecha de regreso esperada</label><input type="date" class="fc" id="rm-regreso"/></div>
+      <div class="fg"><label class="fl">Fecha de regreso (aproximada)</label><input type="date" class="fc" id="rm-regreso"/></div>
     </div>
     <div class="frow">
       <div class="fg"><label class="fl">Almacén de origen</label><select class="fc" id="rm-almacen">${almacenOptions}</select></div>
@@ -151,7 +151,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       <div><label class="fl">Material</label><select class="fc" data-rm-mat><option value="">— Selecciona un material —</option>${matOptions}</select></div>
       <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="1" min="1"/></div>
       <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
-    modal.querySelector('#rm-items-list')!.appendChild(row);
+    modal.querySelector('#rm-items-list')!.prepend(row);
     row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
       row.remove();
       marcarDuplicados();
@@ -198,6 +198,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       toast('Agrega al menos un material', 'e');
       return;
     }
+    items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
 
     showLoader('Guardando en GitHub…');
     try {
@@ -273,6 +274,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
         <div><div class="print-label">Cliente</div><div class="print-val">${esc(rem.cliente)}</div></div>
         <div><div class="print-label">Evento</div><div class="print-val">${esc(rem.evento || '—')}</div></div>
         <div><div class="print-label">Fecha Salida</div><div class="print-val">${esc(rem.fechaSalida)}</div></div>
+        <div><div class="print-label">Fecha Regreso (aprox.)</div><div class="print-val">${esc(rem.fechaRegreso || '—')}</div></div>
         <div><div class="print-label">Almacén Origen</div><div class="print-val">${esc(rem.almacen)}</div></div>
         <div><div class="print-label">Sede / Rancho</div><div class="print-val">${esc(rem.almacenSede || '—')}</div></div>
         <div><div class="print-label">Responsable</div><div class="print-val">${esc(rem.responsable || '—')}</div></div>
@@ -437,11 +439,14 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
     </div>
     <div class="frow">
       <div class="fg"><label class="fl">Fecha de salida <span>*</span></label><input type="date" class="fc" id="rm-salida" value="${esc(rem.fechaSalida)}"/></div>
+      <div class="fg"><label class="fl">Fecha de regreso (aproximada)</label><input type="date" class="fc" id="rm-regreso" value="${esc(rem.fechaRegreso)}"/></div>
+    </div>
+    <div class="frow">
       <div class="fg"><label class="fl">Almacén de origen</label><select class="fc" id="rm-almacen">${almacenOptions}</select></div>
+      <div class="fg"><label class="fl">Responsable</label><input class="fc" id="rm-resp" value="${esc(rem.responsable)}"/></div>
     </div>
     <div class="frow">
       <div class="fg"><label class="fl">Almacén sede (opcional)</label><select class="fc" id="rm-almacen-sede"><option value="">Sin sede fija</option>${almacenOptions}</select></div>
-      <div class="fg"><label class="fl">Responsable</label><input class="fc" id="rm-resp" value="${esc(rem.responsable)}"/></div>
     </div>
     <div class="fg"><label class="fl">Notas</label><textarea class="fc" id="rm-notas" rows="2">${esc(rem.notas)}</textarea></div>
 
@@ -498,7 +503,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       <div><label class="fl">Material</label><select class="fc" data-rm-mat>${placeholder}${matOptions}</select></div>
       <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
       <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
-    modal.querySelector('#rm-items-list')!.appendChild(row);
+    modal.querySelector('#rm-items-list')!.prepend(row);
     row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
       row.remove();
       marcarDuplicados();
@@ -514,7 +519,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       row.style.display = !q || nombre.includes(q) ? '' : 'none';
     });
   });
-  if (rem.items.length) rem.items.forEach((it) => addItemRow(it.materialId, it.totalUnidades));
+  if (rem.items.length) [...rem.items].reverse().forEach((it) => addItemRow(it.materialId, it.totalUnidades));
   else addItemRow();
   marcarDuplicados();
 
@@ -543,6 +548,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
         totalUnidades,
       });
     });
+    items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
 
     showLoader('Guardando en GitHub…');
     try {
@@ -552,6 +558,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
             cliente,
             evento: (document.getElementById('rm-evento') as HTMLInputElement).value,
             fechaSalida,
+            fechaRegreso: (document.getElementById('rm-regreso') as HTMLInputElement).value,
             almacen: (document.getElementById('rm-almacen') as HTMLSelectElement).value,
             almacenSede: (document.getElementById('rm-almacen-sede') as HTMLSelectElement).value,
             responsable: (document.getElementById('rm-resp') as HTMLInputElement).value,
@@ -584,7 +591,7 @@ function openEscaneoSalidaModal(folio: string, db: Database, onChanged: () => vo
       <video id="es-video" playsinline muted style="width:100%;height:100%;object-fit:cover;display:block"></video>
       <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 30px rgba(0,0,0,.25)"></div>
     </div>
-    <div id="es-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Empacados: 0 / ${rem.items.length}</div>
+    <div id="es-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Empacados: ${rem.items.filter((it) => it.checkSalida).length} / ${rem.items.length}</div>
     <div id="es-form"></div>
     <div id="es-lista" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>`;
   const footer = `<button class="btn btn-primary" data-close-modal>Listo</button>`;
@@ -662,7 +669,7 @@ function openEscaneoRegresoModal(folio: string, db: Database, onChanged: () => v
       <video id="er-video" playsinline muted style="width:100%;height:100%;object-fit:cover;display:block"></video>
       <div style="position:absolute;inset:0;border:3px solid rgba(255,255,255,.5);border-radius:var(--radius-sm);pointer-events:none;box-shadow:inset 0 0 0 30px rgba(0,0,0,.25)"></div>
     </div>
-    <div id="er-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Regresados: 0 / ${rem.items.length}</div>
+    <div id="er-status" style="text-align:center;font-size:13px;font-weight:700;margin-top:10px">Regresados: ${rem.items.filter((it) => it.checkRegreso).length} / ${rem.items.length}</div>
     <div id="er-form"></div>
     <div id="er-lista" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>`;
   const footer = `<button class="btn btn-primary" data-close-modal>Listo</button>`;
