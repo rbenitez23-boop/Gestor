@@ -47740,6 +47740,18 @@
       "notas": "",
       "activo": true,
       "fechaAlta": ""
+    },
+    {
+      "id": "PROV-008",
+      "nombre": "3B",
+      "contacto": "",
+      "queVende": "",
+      "dondeLink": "",
+      "costoReferencia": "",
+      "tiempoEntrega": "",
+      "notas": "",
+      "activo": true,
+      "fechaAlta": "2026-07-20T17:50:06.506Z"
     }
   ],
   "recetario": {
