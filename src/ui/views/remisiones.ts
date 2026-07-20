@@ -143,26 +143,38 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
 
   const addItemRow = () => {
     const i = itemCount++;
-    const matOptions = db.materiales.filter((m) => m.activo !== false).map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}">${esc(m.nombre)}</option>`).join('');
+    const matOptions = db.materiales.filter((m) => m.activo !== false).map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" data-serie="${m.tieneNumSerie ? '1' : '0'}">${esc(m.nombre)}</option>`).join('');
     const row = document.createElement('div');
     row.id = `rm-item-${i}`;
-    row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end';
+    row.style.cssText = 'margin-bottom:8px;';
     row.innerHTML = `
-      <div><label class="fl">Material</label><select class="fc" data-rm-mat><option value="">— Selecciona un material —</option>${matOptions}</select></div>
-      <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="1" min="1"/></div>
-      <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
+      <div style="display:grid;grid-template-columns:2fr 1fr auto;gap:8px;align-items:end">
+        <div><label class="fl">Material</label><select class="fc" data-rm-mat><option value="">— Selecciona un material —</option>${matOptions}</select></div>
+        <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="1" min="1"/></div>
+        <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>
+      </div>
+      <div data-rm-serie-wrap style="display:none;margin-top:6px">
+        <label class="fl">Número(s) de serie / distintivo que se manda (ej. "Botiquín #3", o varios separados por coma)</label>
+        <input class="fc" data-rm-serie placeholder="Ej. #3, #4"/>
+      </div>`;
     modal.querySelector('#rm-items-list')!.prepend(row);
     row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
       row.remove();
       marcarDuplicados();
     });
-    row.querySelector('[data-rm-mat]')?.addEventListener('change', marcarDuplicados);
+    const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+    const serieWrap = row.querySelector('[data-rm-serie-wrap]') as HTMLElement;
+    sel.addEventListener('change', () => {
+      marcarDuplicados();
+      serieWrap.style.display = sel.selectedOptions[0]?.dataset.serie === '1' ? '' : 'none';
+    });
   };
   modal.querySelector('#rm-add-item')?.addEventListener('click', addItemRow);
   modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
     const q = (e.target as HTMLInputElement).value.toLowerCase();
     modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
       const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+
       const nombre = (sel.selectedOptions[0]?.textContent || '').toLowerCase();
       row.style.display = !q || nombre.includes(q) ? '' : 'none';
     });
@@ -180,6 +192,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
     modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
       const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
       const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
+      const serieInput = row.querySelector('[data-rm-serie]') as HTMLInputElement | null;
       const opt = sel.selectedOptions[0];
       if (!opt || !opt.value) return;
       const uds = Number(opt.dataset.uds) || 1;
@@ -192,6 +205,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
         cantPaquetes: Math.ceil(totalUnidades / uds),
         unidadesPaq: uds,
         totalUnidades,
+        numSeries: serieInput?.value.trim() || '',
       });
     });
     if (!items.length) {
@@ -495,26 +509,39 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
     });
   };
 
-  const addItemRow = (materialId = '', cantidad = 1) => {
+  const addItemRow = (materialId = '', cantidad = 1, numSerieExistente = '') => {
     const i = itemCount++;
     const placeholder = materialId ? '' : '<option value="">— Selecciona un material —</option>';
     const matOptions = db.materiales
       .filter((m) => m.activo !== false)
-      .map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" ${m.id === materialId ? 'selected' : ''}>${esc(m.nombre)}</option>`)
+      .map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" data-serie="${m.tieneNumSerie ? '1' : '0'}" ${m.id === materialId ? 'selected' : ''}>${esc(m.nombre)}</option>`)
       .join('');
+    const materialSeleccionado = db.materiales.find((m) => m.id === materialId);
+    const mostrarSerie = materialSeleccionado?.tieneNumSerie ? '' : 'display:none';
     const row = document.createElement('div');
     row.id = `rm-item-${i}`;
-    row.style.cssText = 'display:grid;grid-template-columns:2fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end';
+    row.style.cssText = 'margin-bottom:8px;';
     row.innerHTML = `
-      <div><label class="fl">Material</label><select class="fc" data-rm-mat>${placeholder}${matOptions}</select></div>
-      <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
-      <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>`;
+      <div style="display:grid;grid-template-columns:2fr 1fr auto;gap:8px;align-items:end">
+        <div><label class="fl">Material</label><select class="fc" data-rm-mat>${placeholder}${matOptions}</select></div>
+        <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
+        <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>
+      </div>
+      <div data-rm-serie-wrap style="margin-top:6px;${mostrarSerie}">
+        <label class="fl">Número(s) de serie / distintivo que se manda</label>
+        <input class="fc" data-rm-serie placeholder="Ej. #3, #4" value="${esc(numSerieExistente)}"/>
+      </div>`;
     modal.querySelector('#rm-items-list')!.prepend(row);
     row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
       row.remove();
       marcarDuplicados();
     });
-    row.querySelector('[data-rm-mat]')?.addEventListener('change', marcarDuplicados);
+    const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
+    const serieWrap = row.querySelector('[data-rm-serie-wrap]') as HTMLElement;
+    sel.addEventListener('change', () => {
+      marcarDuplicados();
+      serieWrap.style.display = sel.selectedOptions[0]?.dataset.serie === '1' ? '' : 'none';
+    });
   };
   modal.querySelector('#rm-add-item')?.addEventListener('click', () => addItemRow());
   modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
@@ -525,7 +552,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       row.style.display = !q || nombre.includes(q) ? '' : 'none';
     });
   });
-  if (rem.items.length) [...rem.items].reverse().forEach((it) => addItemRow(it.materialId, it.totalUnidades));
+  if (rem.items.length) [...rem.items].reverse().forEach((it) => addItemRow(it.materialId, it.totalUnidades, it.numSeries || ''));
   else addItemRow();
   marcarDuplicados();
 
@@ -540,6 +567,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
     modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
       const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
       const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
+      const serieInput = row.querySelector('[data-rm-serie]') as HTMLInputElement | null;
       const opt = sel.selectedOptions[0];
       if (!opt || !opt.value) return;
       const uds = Number(opt.dataset.uds) || 1;
@@ -552,6 +580,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
         cantPaquetes: Math.ceil(totalUnidades / uds),
         unidadesPaq: uds,
         totalUnidades,
+        numSeries: serieInput?.value.trim() || '',
       });
     });
     items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
