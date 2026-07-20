@@ -239,6 +239,12 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
   const rem = db.remisiones.find((r) => r.folio === folio);
   if (!rem) return;
 
+  // Refresca quedándose en ESTA misma remisión (en vez de onChanged(), que
+  // regresa a la lista de todas) — usado por las acciones que se hacen
+  // desde dentro del detalle (editar, cerrar, escanear, registrar
+  // regreso), para no perder el lugar donde estabas trabajando.
+  const refrescarDetalle = () => renderRemisionDetalle(container, store.current!, folio, onChanged);
+
   const totalOcupa = rem.items.reduce((s, it) => s + it.totalUnidades, 0);
   const totalEnvia = rem.items.reduce((s, it) => s + (it.cantidadEnviar ?? it.totalUnidades), 0);
   const logo = db.uiConfig?.logoDataUrl || '';
@@ -362,7 +368,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
     try {
       await store.mutate((current) => toggleRemisionCerrada(current, folio, !rem.cerrada), `${rem.cerrada ? 'Reabrir' : 'Cerrar'} remisión ${folio}`);
       toast('Actualizado ✓', 's');
-      onChanged();
+      refrescarDetalle();
     } catch (e) {
       toast('Error: ' + (e as Error).message, 'e');
     } finally {
@@ -370,11 +376,11 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
     }
   });
 
-  container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, onChanged));
-  container.querySelector('#rd-editar')?.addEventListener('click', () => openEditarRemisionModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, refrescarDetalle));
+  container.querySelector('#rd-editar')?.addEventListener('click', () => openEditarRemisionModal(rem.folio, db, refrescarDetalle));
   container.querySelector('#rd-etiquetas')?.addEventListener('click', () => renderEtiquetasDeRemision(container, db, rem, onChanged));
-  container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, onChanged));
-  container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, onChanged));
+  container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, refrescarDetalle));
+  container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, refrescarDetalle));
 }
 
 // ── MODAL: REGISTRAR REGRESO ─────────────────────────────────────────
