@@ -158,27 +158,36 @@ export async function saveDatabase(data: Database, sha: string, message: string)
 }
 
 /**
- * Guarda con reintento automático UNA vez si hubo conflicto: vuelve a leer
- * los datos frescos, aplica la misma transformación sobre ellos, y
- * reintenta. Si vuelve a chocar, se lo pasa al usuario en vez de
- * reintentar indefinidamente (evita loops silenciosos).
+ * Guarda con reintento automático si hubo conflicto: vuelve a leer los
+ * datos frescos, aplica la misma transformación sobre ellos, y
+ * reintenta — hasta 5 veces, con una pequeña espera aleatoria entre cada
+ * intento (evita que dos guardados que chocaron una vez vuelvan a chocar
+ * exactamente igual la siguiente). Esto ya es una defensa extra; el
+ * motivo más común de conflicto —guardados del mismo usuario cruzándose—
+ * ya se evita en la cola de Store.mutate.
  */
 export async function saveWithRetry(
   mutate: (current: Database) => Database,
   message: string
 ): Promise<Database> {
-  const first = await loadDatabase();
-  const next = mutate(first.data);
-  try {
-    await saveDatabase(next, first.sha, message);
-    return next;
-  } catch (e) {
-    if (e instanceof ConflictError) {
-      const fresh = await loadDatabase();
-      const retried = mutate(fresh.data);
-      await saveDatabase(retried, fresh.sha, message);
-      return retried;
+  let intentos = 0;
+  let ultimoError: unknown;
+  while (intentos < 5) {
+    intentos++;
+    try {
+      const { data, sha } = await loadDatabase();
+      const next = mutate(data);
+      await saveDatabase(next, sha, message);
+      return next;
+    } catch (e) {
+      ultimoError = e;
+      if (!(e instanceof ConflictError)) throw e;
+      // Conflicto real: alguien más guardó justo antes — espera un
+      // momento aleatorio (evita que varios dispositivos reintenten
+      // exactamente al mismo tiempo otra vez) y reintenta con datos frescos.
+      const esperaMs = 150 + Math.random() * 350;
+      await new Promise((r) => setTimeout(r, esperaMs));
     }
-    throw e;
   }
+  throw ultimoError;
 }
