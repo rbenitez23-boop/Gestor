@@ -50598,7 +50598,8 @@
           "costoTotalItem": 2500,
           "stockEnDestino": 0,
           "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5
+          "cantPaquetesEnviar": 5,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0096",
