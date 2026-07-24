@@ -35630,6 +35630,26 @@
     },
     {
       "fecha": "2026-07-25T00:00:00.000Z",
+      "materialId": "MAT-0319",
+      "materialNombre": "Garrafon",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Encuentro de Novios",
+      "estado": "Ocupado",
+      "responsable": "Mafer Ortiz y Majo Doniz",
+      "notas": "Remisión REM-0012 — Marista",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002929",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-25T00:00:00.000Z",
       "materialId": "MAT-0048",
       "materialNombre": "Gato gigante",
       "tipo": "Salida",
@@ -35644,7 +35664,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002929",
+      "idMov": "MOV-002930",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -35664,7 +35684,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002930",
+      "idMov": "MOV-002931",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -35684,7 +35704,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002931",
+      "idMov": "MOV-002932",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -35704,7 +35724,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002932",
+      "idMov": "MOV-002933",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -35724,7 +35744,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002933",
+      "idMov": "MOV-002934",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -35744,7 +35764,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002934",
+      "idMov": "MOV-002935",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -35764,7 +35784,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002935",
+      "idMov": "MOV-002936",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -35784,7 +35804,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002936",
+      "idMov": "MOV-002937",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -35804,7 +35824,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002937",
+      "idMov": "MOV-002938",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -35824,7 +35844,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002938",
+      "idMov": "MOV-002939",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -35844,7 +35864,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002939",
+      "idMov": "MOV-002940",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -35864,7 +35884,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002940",
+      "idMov": "MOV-002941",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -35884,7 +35904,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002941",
+      "idMov": "MOV-002942",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -35904,7 +35924,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002942",
+      "idMov": "MOV-002943",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -35924,7 +35944,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002943",
+      "idMov": "MOV-002944",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -35944,7 +35964,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002944",
+      "idMov": "MOV-002945",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -35964,7 +35984,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002945",
+      "idMov": "MOV-002946",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -35984,7 +36004,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002946",
+      "idMov": "MOV-002947",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -36004,7 +36024,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002947",
+      "idMov": "MOV-002948",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -36024,7 +36044,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002948",
+      "idMov": "MOV-002949",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -36044,7 +36064,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002949",
+      "idMov": "MOV-002950",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36064,7 +36084,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002950",
+      "idMov": "MOV-002951",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -36084,7 +36104,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002951",
+      "idMov": "MOV-002952",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36104,7 +36124,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002952",
+      "idMov": "MOV-002953",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36124,7 +36144,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002953",
+      "idMov": "MOV-002954",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -36144,7 +36164,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002954",
+      "idMov": "MOV-002955",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -36164,7 +36184,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002955",
+      "idMov": "MOV-002956",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -36184,7 +36204,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002956",
+      "idMov": "MOV-002957",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -36204,7 +36224,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002957",
+      "idMov": "MOV-002958",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -36224,7 +36244,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002958",
+      "idMov": "MOV-002959",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -36244,7 +36264,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002959",
+      "idMov": "MOV-002960",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -36264,7 +36284,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002960",
+      "idMov": "MOV-002961",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -36284,7 +36304,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002961",
+      "idMov": "MOV-002962",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -36304,7 +36324,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002962",
+      "idMov": "MOV-002963",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36324,7 +36344,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002963",
+      "idMov": "MOV-002964",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36344,7 +36364,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002964",
+      "idMov": "MOV-002965",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36364,7 +36384,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002965",
+      "idMov": "MOV-002966",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36384,7 +36404,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002966",
+      "idMov": "MOV-002967",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36404,7 +36424,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002967",
+      "idMov": "MOV-002968",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -36424,7 +36444,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002968",
+      "idMov": "MOV-002969",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36444,7 +36464,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002969",
+      "idMov": "MOV-002970",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -36464,7 +36484,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002970",
+      "idMov": "MOV-002971",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36484,7 +36504,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002971",
+      "idMov": "MOV-002972",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -36504,7 +36524,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002972",
+      "idMov": "MOV-002973",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -36524,7 +36544,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002973",
+      "idMov": "MOV-002974",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -36544,7 +36564,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002974",
+      "idMov": "MOV-002975",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36564,7 +36584,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002975",
+      "idMov": "MOV-002976",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -36584,7 +36604,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002976",
+      "idMov": "MOV-002977",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -49922,6 +49942,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0319",
+          "materialNombre": "Garrafon",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 70,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 140,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0048",
