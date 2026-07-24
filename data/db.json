@@ -50343,7 +50343,8 @@
           "costoTotalItem": 3000,
           "stockEnDestino": 0,
           "cantidadEnviar": 100,
-          "cantPaquetesEnviar": 100
+          "cantPaquetesEnviar": 100,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0091",
