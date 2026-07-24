@@ -8425,6 +8425,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0339",
+      "nombre": "Bomba de Agua",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "fechaAlta": "2026-07-24T20:52:25.413Z",
+      "activo": true,
+      "seccion": "",
+      "tieneNumSerie": false,
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
