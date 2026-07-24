@@ -36495,6 +36495,26 @@
     },
     {
       "fecha": "2026-07-25T00:00:00.000Z",
+      "materialId": "MAT-0074",
+      "materialNombre": "Tarjeta de árbitro",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Encuentro de Novios",
+      "estado": "Ocupado",
+      "responsable": "Mafer Ortiz y Majo Doniz",
+      "notas": "Remisión REM-0012 — Marista",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002971",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-25T00:00:00.000Z",
       "materialId": "MAT-0103",
       "materialNombre": "Tarjetas Figura Espejo",
       "tipo": "Salida",
@@ -36509,7 +36529,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002971",
+      "idMov": "MOV-002972",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -36529,7 +36549,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002972",
+      "idMov": "MOV-002973",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36549,7 +36569,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002973",
+      "idMov": "MOV-002974",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -36569,7 +36589,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002974",
+      "idMov": "MOV-002975",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -36589,7 +36609,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002975",
+      "idMov": "MOV-002976",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -36609,7 +36629,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002976",
+      "idMov": "MOV-002977",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36629,7 +36649,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002977",
+      "idMov": "MOV-002978",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -36649,7 +36669,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002978",
+      "idMov": "MOV-002979",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -36669,7 +36689,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002979",
+      "idMov": "MOV-002980",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -50655,6 +50675,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0074",
+          "materialNombre": "Tarjeta de árbitro",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 40,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 80,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0103",
