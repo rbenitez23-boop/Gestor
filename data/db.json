@@ -36615,6 +36615,26 @@
     },
     {
       "fecha": "2026-07-25T00:00:00.000Z",
+      "materialId": "MAT-0318",
+      "materialNombre": "Válvula",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Encuentro de Novios",
+      "estado": "Ocupado",
+      "responsable": "Mafer Ortiz y Majo Doniz",
+      "notas": "Remisión REM-0012 — Marista",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002977",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-07-25T00:00:00.000Z",
       "materialId": "MAT-0233",
       "materialNombre": "Vasos de plastico",
       "tipo": "Salida",
@@ -36629,7 +36649,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002977",
+      "idMov": "MOV-002978",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -36649,7 +36669,7 @@
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002978",
+      "idMov": "MOV-002979",
       "totalUnidades": 3,
       "regreso": false
     }
@@ -50717,6 +50737,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0318",
+          "materialNombre": "Válvula",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0233",
