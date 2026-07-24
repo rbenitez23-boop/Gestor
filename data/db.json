@@ -35819,7 +35819,7 @@
       "materialNombre": "Leña",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -35830,7 +35830,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002937",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -50139,16 +50139,16 @@
           "materialId": "MAT-0218",
           "materialNombre": "Leña",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 160,
+          "costoTotalItem": 80,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0113",
