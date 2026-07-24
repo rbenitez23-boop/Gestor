@@ -35088,7 +35088,7 @@
       "responsable": "Mafer Ortiz y Majo Doniz",
       "notas": "Remisión REM-0012 — Marista",
       "fechaRegreso": "",
-      "numSeries": "",
+      "numSeries": "2",
       "idMov": "MOV-002900",
       "totalUnidades": 1,
       "regreso": false
@@ -49627,7 +49627,7 @@
           "cantPaquetes": 1,
           "unidadesPaq": 1,
           "totalUnidades": 1,
-          "numSeries": "",
+          "numSeries": "2",
           "costoUnitario": 350,
           "clasificacion": "Consumible",
           "costoTotalItem": 350,
