@@ -35279,7 +35279,7 @@
       "materialNombre": "Casacas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 44,
+      "cantPaquetes": 20,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -35290,7 +35290,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002910",
-      "totalUnidades": 44,
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -49733,16 +49733,16 @@
           "materialId": "MAT-0057",
           "materialNombre": "Casacas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 44,
+          "cantPaquetes": 20,
           "unidadesPaq": 1,
-          "totalUnidades": 44,
+          "totalUnidades": 20,
           "numSeries": "",
           "costoUnitario": 100,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4400,
+          "costoTotalItem": 2000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 44,
-          "cantPaquetesEnviar": 44
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
         },
         {
           "materialId": "MAT-0216",
