@@ -37179,7 +37179,7 @@
       "materialNombre": "Pluma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 15,
+      "cantPaquetes": 9,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37190,7 +37190,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003005",
-      "totalUnidades": 15,
+      "totalUnidades": 9,
       "regreso": false
     },
     {
@@ -37199,7 +37199,7 @@
       "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 5,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37210,7 +37210,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003006",
-      "totalUnidades": 1,
+      "totalUnidades": 5,
       "regreso": false
     },
     {
@@ -51943,31 +51943,31 @@
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 15,
+          "cantPaquetes": 9,
           "unidadesPaq": 1,
-          "totalUnidades": 15,
+          "totalUnidades": 9,
           "numSeries": "",
           "costoUnitario": 10,
           "clasificacion": "Consumible",
-          "costoTotalItem": 150,
+          "costoTotalItem": 90,
           "stockEnDestino": 0,
-          "cantidadEnviar": 15,
-          "cantPaquetesEnviar": 15
+          "cantidadEnviar": 9,
+          "cantPaquetesEnviar": 9
         },
         {
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 5,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 5,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 75,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 5,
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0085",
