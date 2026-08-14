@@ -37200,6 +37200,26 @@
     },
     {
       "fecha": "2026-08-15T00:00:00.000Z",
+      "materialId": "MAT-0340",
+      "materialNombre": "Naranja",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 15,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Capacitación de Staff (Fotografia)",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0013",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003005",
+      "totalUnidades": 15,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-15T00:00:00.000Z",
       "materialId": "MAT-0068",
       "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
@@ -37214,7 +37234,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003005",
+      "idMov": "MOV-003006",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -37234,7 +37254,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003006",
+      "idMov": "MOV-003007",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -37254,7 +37274,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003007",
+      "idMov": "MOV-003008",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -37274,7 +37294,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "3",
-      "idMov": "MOV-003008",
+      "idMov": "MOV-003009",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37294,7 +37314,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003009",
+      "idMov": "MOV-003010",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37314,7 +37334,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003010",
+      "idMov": "MOV-003011",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -37334,7 +37354,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003011",
+      "idMov": "MOV-003012",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37354,7 +37374,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003012",
+      "idMov": "MOV-003013",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37374,7 +37394,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003013",
+      "idMov": "MOV-003014",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -37394,7 +37414,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003014",
+      "idMov": "MOV-003015",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -52002,6 +52022,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0340",
+          "materialNombre": "Naranja",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 15,
+          "unidadesPaq": 1,
+          "totalUnidades": 15,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 15,
+          "cantPaquetesEnviar": 15
         },
         {
           "materialId": "MAT-0068",
