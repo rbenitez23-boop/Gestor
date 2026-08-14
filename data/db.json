@@ -37059,7 +37059,7 @@
       "materialNombre": "Extensión",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37070,7 +37070,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-002999",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -51847,16 +51847,16 @@
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Depreciable",
-          "costoTotalItem": 150,
+          "costoTotalItem": 300,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0319",
