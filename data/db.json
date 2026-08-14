@@ -37115,6 +37115,26 @@
     },
     {
       "fecha": "2026-08-15T00:00:00.000Z",
+      "materialId": "MAT-0193",
+      "materialNombre": "Manzana",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 15,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Capacitación de Staff (Fotografia)",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0013",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003002",
+      "totalUnidades": 15,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-15T00:00:00.000Z",
       "materialId": "MAT-0308",
       "materialNombre": "Megáfono",
       "tipo": "Salida",
@@ -37129,7 +37149,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003002",
+      "idMov": "MOV-003003",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37149,7 +37169,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003003",
+      "idMov": "MOV-003004",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37169,7 +37189,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003004",
+      "idMov": "MOV-003005",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -37189,7 +37209,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003005",
+      "idMov": "MOV-003006",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -37209,7 +37229,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003006",
+      "idMov": "MOV-003007",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -37229,7 +37249,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "3",
-      "idMov": "MOV-003007",
+      "idMov": "MOV-003008",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37249,7 +37269,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003008",
+      "idMov": "MOV-003009",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37269,7 +37289,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003009",
+      "idMov": "MOV-003010",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -37289,7 +37309,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003010",
+      "idMov": "MOV-003011",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37309,7 +37329,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003011",
+      "idMov": "MOV-003012",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37329,7 +37349,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003012",
+      "idMov": "MOV-003013",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -37349,7 +37369,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003013",
+      "idMov": "MOV-003014",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -51910,6 +51930,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0193",
+          "materialNombre": "Manzana",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 15,
+          "unidadesPaq": 1,
+          "totalUnidades": 15,
+          "numSeries": "",
+          "costoUnitario": 35,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 525,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 15,
+          "cantPaquetesEnviar": 15
         },
         {
           "materialId": "MAT-0308",
