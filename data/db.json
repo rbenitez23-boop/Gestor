@@ -36835,6 +36835,26 @@
     },
     {
       "fecha": "2026-08-15T00:00:00.000Z",
+      "materialId": "MAT-0253",
+      "materialNombre": "Charola de metal",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Capacitación de Staff (Fotografia)",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0013",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002988",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-15T00:00:00.000Z",
       "materialId": "MAT-0033",
       "materialNombre": "Cinta diurex",
       "tipo": "Salida",
@@ -36849,7 +36869,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002988",
+      "idMov": "MOV-002989",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36869,7 +36889,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002989",
+      "idMov": "MOV-002990",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36889,7 +36909,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002990",
+      "idMov": "MOV-002991",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36909,7 +36929,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002991",
+      "idMov": "MOV-002992",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -36929,7 +36949,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002992",
+      "idMov": "MOV-002993",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -36949,7 +36969,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002993",
+      "idMov": "MOV-002994",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -36969,7 +36989,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002994",
+      "idMov": "MOV-002995",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -36989,7 +37009,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002995",
+      "idMov": "MOV-002996",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37009,7 +37029,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002996",
+      "idMov": "MOV-002997",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37029,7 +37049,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002997",
+      "idMov": "MOV-002998",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -37049,7 +37069,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002998",
+      "idMov": "MOV-002999",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -37069,7 +37089,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002999",
+      "idMov": "MOV-003000",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37089,7 +37109,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003000",
+      "idMov": "MOV-003001",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37109,7 +37129,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003001",
+      "idMov": "MOV-003002",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37129,7 +37149,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003002",
+      "idMov": "MOV-003003",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37149,7 +37169,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003003",
+      "idMov": "MOV-003004",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -51486,6 +51506,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0253",
+          "materialNombre": "Charola de metal",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 80,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0033",
