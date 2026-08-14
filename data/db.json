@@ -37015,6 +37015,26 @@
     },
     {
       "fecha": "2026-08-15T00:00:00.000Z",
+      "materialId": "MAT-0319",
+      "materialNombre": "Garrafon",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Capacitación de Staff (Fotografia)",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0013",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-002997",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-15T00:00:00.000Z",
       "materialId": "MAT-0308",
       "materialNombre": "Megáfono",
       "tipo": "Salida",
@@ -37029,7 +37049,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002997",
+      "idMov": "MOV-002998",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37049,7 +37069,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002998",
+      "idMov": "MOV-002999",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -37069,7 +37089,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-002999",
+      "idMov": "MOV-003000",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -37089,7 +37109,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003000",
+      "idMov": "MOV-003001",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37109,7 +37129,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003001",
+      "idMov": "MOV-003002",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37129,7 +37149,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003002",
+      "idMov": "MOV-003003",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37149,7 +37169,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003003",
+      "idMov": "MOV-003004",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37169,7 +37189,7 @@
       "notas": "Remisión REM-0013",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003004",
+      "idMov": "MOV-003005",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -51645,6 +51665,21 @@
           "costoUnitario": 150,
           "clasificacion": "Depreciable",
           "costoTotalItem": 150,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0319",
+          "materialNombre": "Garrafon",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 70,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 70,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
