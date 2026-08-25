@@ -38014,7 +38014,7 @@
       "materialNombre": "Botella de agua (Vacia)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38025,7 +38025,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003047",
-      "totalUnidades": 1,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -53515,16 +53515,16 @@
           "materialId": "MAT-0346",
           "materialNombre": "Botella de agua (Vacia)",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0343",
