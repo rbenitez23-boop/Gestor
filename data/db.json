@@ -37940,6 +37940,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0343",
+      "materialNombre": "Casco",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003046",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0033",
       "materialNombre": "Cinta diurex",
       "tipo": "Salida",
@@ -37954,7 +37974,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003046",
+      "idMov": "MOV-003047",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -37974,7 +37994,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003047",
+      "idMov": "MOV-003048",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -37994,7 +38014,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003048",
+      "idMov": "MOV-003049",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38014,7 +38034,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003049",
+      "idMov": "MOV-003050",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38034,7 +38054,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003050",
+      "idMov": "MOV-003051",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -38054,7 +38074,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003051",
+      "idMov": "MOV-003052",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38074,7 +38094,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003052",
+      "idMov": "MOV-003053",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38094,7 +38114,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003053",
+      "idMov": "MOV-003054",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38114,7 +38134,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003054",
+      "idMov": "MOV-003055",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -38134,7 +38154,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003055",
+      "idMov": "MOV-003056",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38154,7 +38174,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003056",
+      "idMov": "MOV-003057",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38174,7 +38194,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003057",
+      "idMov": "MOV-003058",
       "totalUnidades": 26,
       "regreso": false
     },
@@ -38194,7 +38214,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003058",
+      "idMov": "MOV-003059",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38214,7 +38234,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003059",
+      "idMov": "MOV-003060",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38234,7 +38254,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003060",
+      "idMov": "MOV-003061",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -38254,7 +38274,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003061",
+      "idMov": "MOV-003062",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38274,7 +38294,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003062",
+      "idMov": "MOV-003063",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38294,7 +38314,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003063",
+      "idMov": "MOV-003064",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38314,7 +38334,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003064",
+      "idMov": "MOV-003065",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38334,7 +38354,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003065",
+      "idMov": "MOV-003066",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -38354,7 +38374,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38374,7 +38394,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -38394,7 +38414,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003068",
+      "idMov": "MOV-003069",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38414,7 +38434,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003069",
+      "idMov": "MOV-003070",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -53265,6 +53285,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0343",
+          "materialNombre": "Casco",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0033",
