@@ -38220,6 +38220,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0330",
+      "materialNombre": "Liston de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003060",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0215",
       "materialNombre": "Material reciclado",
       "tipo": "Salida",
@@ -38234,7 +38254,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003060",
+      "idMov": "MOV-003061",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38254,7 +38274,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003061",
+      "idMov": "MOV-003062",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38274,7 +38294,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003062",
+      "idMov": "MOV-003063",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -38294,7 +38314,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003063",
+      "idMov": "MOV-003064",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38314,7 +38334,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003064",
+      "idMov": "MOV-003065",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38334,7 +38354,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003065",
+      "idMov": "MOV-003066",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38354,7 +38374,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38374,7 +38394,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -38394,7 +38414,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003068",
+      "idMov": "MOV-003069",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38414,7 +38434,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003069",
+      "idMov": "MOV-003070",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -38434,7 +38454,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003070",
+      "idMov": "MOV-003071",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38454,7 +38474,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003071",
+      "idMov": "MOV-003072",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -53515,6 +53535,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 26,
           "cantPaquetesEnviar": 26
+        },
+        {
+          "materialId": "MAT-0330",
+          "materialNombre": "Liston de colores",
+          "tipoPaquete": "Bolsa",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 180,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0215",
