@@ -38215,6 +38215,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0118",
+      "materialNombre": "Papel kraft",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003061",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -38229,7 +38249,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003061",
+      "idMov": "MOV-003062",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38249,7 +38269,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003062",
+      "idMov": "MOV-003063",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38269,7 +38289,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003063",
+      "idMov": "MOV-003064",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38289,7 +38309,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003064",
+      "idMov": "MOV-003065",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -38309,7 +38329,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003065",
+      "idMov": "MOV-003066",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38329,7 +38349,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -38349,7 +38369,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38369,7 +38389,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003068",
+      "idMov": "MOV-003069",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -53445,6 +53465,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 36,
           "cantPaquetesEnviar": 36
+        },
+        {
+          "materialId": "MAT-0118",
+          "materialNombre": "Papel kraft",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0062",
