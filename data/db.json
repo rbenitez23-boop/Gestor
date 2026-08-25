@@ -37604,7 +37604,7 @@
       "materialNombre": "Balón rompehielos",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37615,7 +37615,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003025",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -52921,16 +52921,16 @@
           "materialId": "MAT-0088",
           "materialNombre": "Balón rompehielos",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0002",
