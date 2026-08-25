@@ -38290,6 +38290,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0342",
+      "materialNombre": "Reglas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 5,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003066",
+      "totalUnidades": 5,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0097",
       "materialNombre": "Tijeras",
       "tipo": "Salida",
@@ -38304,7 +38324,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38324,7 +38344,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -53475,6 +53495,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0342",
+          "materialNombre": "Reglas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 5,
+          "unidadesPaq": 1,
+          "totalUnidades": 5,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 5,
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0097",
