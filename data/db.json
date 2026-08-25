@@ -37640,8 +37640,8 @@
     },
     {
       "fecha": "2026-08-27T00:00:00.000Z",
-      "materialId": "MAT-0312",
-      "materialNombre": "Botiquín",
+      "materialId": "MAT-0339",
+      "materialNombre": "Bomba de Agua",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -37660,8 +37660,8 @@
     },
     {
       "fecha": "2026-08-27T00:00:00.000Z",
-      "materialId": "MAT-0313",
-      "materialNombre": "Caja de Medicamentos",
+      "materialId": "MAT-0312",
+      "materialNombre": "Botiquín",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -37780,6 +37780,26 @@
     },
     {
       "fecha": "2026-08-27T00:00:00.000Z",
+      "materialId": "MAT-0337",
+      "materialNombre": "Cono de Agua",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Marcelina",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0015 — Maestros",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003034",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-27T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -37794,8 +37814,28 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003034",
+      "idMov": "MOV-003035",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-27T00:00:00.000Z",
+      "materialId": "MAT-0319",
+      "materialNombre": "Garrafon",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Marcelina",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0015 — Maestros",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003036",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -37814,7 +37854,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003035",
+      "idMov": "MOV-003037",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37834,7 +37874,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003036",
+      "idMov": "MOV-003038",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -37854,7 +37894,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003037",
+      "idMov": "MOV-003039",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37874,7 +37914,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003038",
+      "idMov": "MOV-003040",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -37894,7 +37934,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003039",
+      "idMov": "MOV-003041",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -37914,7 +37954,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003040",
+      "idMov": "MOV-003042",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -52908,6 +52948,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0339",
+          "materialNombre": "Bomba de Agua",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0312",
           "materialNombre": "Botiquín",
           "tipoPaquete": "Pieza Única",
@@ -52918,21 +52973,6 @@
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
-          "materialId": "MAT-0313",
-          "materialNombre": "Caja de Medicamentos",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 100,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 100,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
@@ -53013,6 +53053,21 @@
           "cantPaquetesEnviar": 20
         },
         {
+          "materialId": "MAT-0337",
+          "materialNombre": "Cono de Agua",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
@@ -53026,6 +53081,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0319",
+          "materialNombre": "Garrafon",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 70,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 70,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0102",
