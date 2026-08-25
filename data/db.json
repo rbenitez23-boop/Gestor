@@ -37784,7 +37784,7 @@
       "materialNombre": "Aros",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 30,
+      "cantPaquetes": 25,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37795,7 +37795,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003043",
-      "totalUnidades": 30,
+      "totalUnidades": 25,
       "regreso": false
     },
     {
@@ -37824,7 +37824,7 @@
       "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 20,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -37835,7 +37835,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003045",
-      "totalUnidades": 10,
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -37940,6 +37940,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0053",
+      "materialNombre": "Palo de escoba",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 36,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003051",
+      "totalUnidades": 36,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -37954,7 +37974,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003051",
+      "idMov": "MOV-003052",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -37974,7 +37994,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003052",
+      "idMov": "MOV-003053",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -37994,7 +38014,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003053",
+      "idMov": "MOV-003054",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38014,7 +38034,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003054",
+      "idMov": "MOV-003055",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38034,7 +38054,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003055",
+      "idMov": "MOV-003056",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -52845,16 +52865,16 @@
           "materialId": "MAT-0005",
           "materialNombre": "Aros",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 30,
+          "cantPaquetes": 25,
           "unidadesPaq": 1,
-          "totalUnidades": 30,
+          "totalUnidades": 25,
           "numSeries": "",
           "costoUnitario": 45,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1350,
+          "costoTotalItem": 1125,
           "stockEnDestino": 0,
-          "cantidadEnviar": 30,
-          "cantPaquetesEnviar": 30
+          "cantidadEnviar": 25,
+          "cantPaquetesEnviar": 25
         },
         {
           "materialId": "MAT-0002",
@@ -52875,16 +52895,16 @@
           "materialId": "MAT-0006",
           "materialNombre": "Cono alto",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 10,
+          "cantPaquetes": 20,
           "unidadesPaq": 1,
-          "totalUnidades": 10,
+          "totalUnidades": 20,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 600,
+          "costoTotalItem": 1200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
         },
         {
           "materialId": "MAT-0327",
@@ -52960,6 +52980,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0053",
+          "materialNombre": "Palo de escoba",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 36,
+          "unidadesPaq": 1,
+          "totalUnidades": 36,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 2160,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 36,
+          "cantPaquetesEnviar": 36
         },
         {
           "materialId": "MAT-0062",
