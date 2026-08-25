@@ -8575,6 +8575,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0345",
+      "nombre": "Cono con palo naranja en medio",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "fechaAlta": "2026-08-25T23:41:21.027Z",
+      "activo": true,
+      "seccion": "",
+      "tieneNumSerie": false,
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
