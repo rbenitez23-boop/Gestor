@@ -38180,6 +38180,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0344",
+      "materialNombre": "Hojas blancas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 17,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003058",
+      "totalUnidades": 17,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0244",
       "materialNombre": "Hojas de Foamy",
       "tipo": "Salida",
@@ -38194,7 +38214,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003058",
+      "idMov": "MOV-003059",
       "totalUnidades": 26,
       "regreso": false
     },
@@ -38214,7 +38234,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003059",
+      "idMov": "MOV-003060",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38234,7 +38254,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003060",
+      "idMov": "MOV-003061",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38254,7 +38274,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003061",
+      "idMov": "MOV-003062",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -38274,7 +38294,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003062",
+      "idMov": "MOV-003063",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38294,7 +38314,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003063",
+      "idMov": "MOV-003064",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38314,7 +38334,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003064",
+      "idMov": "MOV-003065",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38334,7 +38354,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003065",
+      "idMov": "MOV-003066",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38354,7 +38374,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -38374,7 +38394,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38394,7 +38414,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003068",
+      "idMov": "MOV-003069",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -38414,7 +38434,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003069",
+      "idMov": "MOV-003070",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38434,7 +38454,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003070",
+      "idMov": "MOV-003071",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -53465,6 +53485,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0344",
+          "materialNombre": "Hojas blancas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 17,
+          "unidadesPaq": 1,
+          "totalUnidades": 17,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 17,
+          "cantPaquetesEnviar": 17
         },
         {
           "materialId": "MAT-0244",
