@@ -38094,7 +38094,7 @@
       "materialNombre": "Corchos",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38105,7 +38105,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003051",
-      "totalUnidades": 1,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -53495,16 +53495,16 @@
           "materialId": "MAT-0145",
           "materialNombre": "Corchos",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 20,
           "clasificacion": "Consumible",
-          "costoTotalItem": 20,
+          "costoTotalItem": 120,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0327",
