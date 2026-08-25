@@ -38510,11 +38510,11 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
-      "materialId": "MAT-0020",
-      "materialNombre": "Pluma (PG)",
+      "materialId": "MAT-0011",
+      "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38525,27 +38525,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003072",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-08-28T00:00:00.000Z",
-      "materialId": "MAT-0011",
-      "materialNombre": "Plumón",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 30,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "GTA ambiental",
-      "estado": "Ocupado",
-      "responsable": "Bruno",
-      "notas": "Remisión REM-0014 — EVENTO",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003073",
-      "totalUnidades": 30,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -38564,7 +38544,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003074",
+      "idMov": "MOV-003073",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38584,7 +38564,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003075",
+      "idMov": "MOV-003074",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38604,7 +38584,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003076",
+      "idMov": "MOV-003075",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38624,7 +38604,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003077",
+      "idMov": "MOV-003076",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38644,7 +38624,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003078",
+      "idMov": "MOV-003077",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38664,7 +38644,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003079",
+      "idMov": "MOV-003078",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -53907,34 +53887,19 @@
           "cantPaquetesEnviar": 120
         },
         {
-          "materialId": "MAT-0020",
-          "materialNombre": "Pluma (PG)",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 10,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 10,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 30,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 30,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 450,
+          "costoTotalItem": 60,
           "stockEnDestino": 0,
-          "cantidadEnviar": 30,
-          "cantPaquetesEnviar": 30
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0130",
