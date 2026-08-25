@@ -38315,6 +38315,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0347",
+      "materialNombre": "Grapas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003061",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0344",
       "materialNombre": "Hojas blancas",
       "tipo": "Salida",
@@ -38329,7 +38349,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003061",
+      "idMov": "MOV-003062",
       "totalUnidades": 17,
       "regreso": false
     },
@@ -38349,7 +38369,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003062",
+      "idMov": "MOV-003063",
       "totalUnidades": 26,
       "regreso": false
     },
@@ -38369,7 +38389,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003063",
+      "idMov": "MOV-003064",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38389,7 +38409,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003064",
+      "idMov": "MOV-003065",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -38409,7 +38429,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003065",
+      "idMov": "MOV-003066",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38429,7 +38449,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003066",
+      "idMov": "MOV-003067",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38449,7 +38469,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003067",
+      "idMov": "MOV-003068",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -38469,7 +38489,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003068",
+      "idMov": "MOV-003069",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38489,7 +38509,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003069",
+      "idMov": "MOV-003070",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38509,7 +38529,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003070",
+      "idMov": "MOV-003071",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38529,7 +38549,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003071",
+      "idMov": "MOV-003072",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38549,7 +38569,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003072",
+      "idMov": "MOV-003073",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38569,7 +38589,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003073",
+      "idMov": "MOV-003074",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38589,7 +38609,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003074",
+      "idMov": "MOV-003075",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38609,7 +38629,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003075",
+      "idMov": "MOV-003076",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38629,7 +38649,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003076",
+      "idMov": "MOV-003077",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38649,7 +38669,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003077",
+      "idMov": "MOV-003078",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38669,7 +38689,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003078",
+      "idMov": "MOV-003079",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -53742,6 +53762,21 @@
           "costoUnitario": 70,
           "clasificacion": "Consumible",
           "costoTotalItem": 70,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0347",
+          "materialNombre": "Grapas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
