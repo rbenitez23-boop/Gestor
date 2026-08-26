@@ -38214,7 +38214,7 @@
       "materialNombre": "Bomba de Agua",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38225,7 +38225,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003104",
-      "totalUnidades": 1,
+      "totalUnidades": 3,
       "regreso": false
     },
     {
@@ -54005,16 +54005,16 @@
           "materialId": "MAT-0339",
           "materialNombre": "Bomba de Agua",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 3,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 3,
           "numSeries": "",
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 3,
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0228",
