@@ -9025,6 +9025,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0363",
+      "nombre": "Bocinas Alien",
+      "tipoPaquete": "Paquete Armado",
+      "unidadesPaq": 6,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "fechaAlta": "2026-08-26T20:55:46.842Z",
+      "activo": true,
+      "seccion": "",
+      "tieneNumSerie": false,
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
