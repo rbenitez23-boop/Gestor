@@ -39354,7 +39354,7 @@
       "materialNombre": "Válvula",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39365,7 +39365,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003156",
-      "totalUnidades": 10,
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -55045,16 +55045,16 @@
           "materialId": "MAT-0318",
           "materialNombre": "Válvula",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 10,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 10,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 300,
+          "costoTotalItem": 60,
           "stockEnDestino": 0,
-          "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
