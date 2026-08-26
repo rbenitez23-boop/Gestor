@@ -38905,6 +38905,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0353",
+      "materialNombre": "Saborizante",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003140",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0350",
       "materialNombre": "Servilleta",
       "tipo": "Salida",
@@ -38919,7 +38939,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003140",
+      "idMov": "MOV-003141",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38939,7 +38959,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003141",
+      "idMov": "MOV-003142",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38959,7 +38979,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003142",
+      "idMov": "MOV-003143",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38979,7 +38999,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003143",
+      "idMov": "MOV-003144",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38999,7 +39019,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003144",
+      "idMov": "MOV-003145",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -54435,6 +54455,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0353",
+          "materialNombre": "Saborizante",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0350",
