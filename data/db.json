@@ -38414,7 +38414,7 @@
       "materialNombre": "Extensión",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38425,7 +38425,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003119",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -38434,7 +38434,7 @@
       "materialNombre": "Garrafon",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38445,7 +38445,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003120",
-      "totalUnidades": 1,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -38790,6 +38790,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0350",
+      "materialNombre": "Servilleta",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003138",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0003",
       "materialNombre": "Tela negra",
       "tipo": "Salida",
@@ -38804,7 +38824,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003138",
+      "idMov": "MOV-003139",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38824,7 +38844,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003139",
+      "idMov": "MOV-003140",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38844,7 +38864,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003140",
+      "idMov": "MOV-003141",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38864,7 +38884,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003141",
+      "idMov": "MOV-003142",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -53990,31 +54010,31 @@
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Depreciable",
-          "costoTotalItem": 150,
+          "costoTotalItem": 300,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0319",
           "materialNombre": "Garrafon",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 70,
           "clasificacion": "Consumible",
-          "costoTotalItem": 70,
+          "costoTotalItem": 280,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0347",
@@ -54270,6 +54290,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0350",
+          "materialNombre": "Servilleta",
+          "tipoPaquete": "Bolsa",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0003",
