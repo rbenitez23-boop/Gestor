@@ -38715,6 +38715,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0351",
+      "materialNombre": "Pinzas para alimentos",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003133",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -38729,7 +38749,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003133",
+      "idMov": "MOV-003134",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38749,7 +38769,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003134",
+      "idMov": "MOV-003135",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38769,7 +38789,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003135",
+      "idMov": "MOV-003136",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38789,7 +38809,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003136",
+      "idMov": "MOV-003137",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38809,7 +38829,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003137",
+      "idMov": "MOV-003138",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38829,7 +38849,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003138",
+      "idMov": "MOV-003139",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38849,7 +38869,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003139",
+      "idMov": "MOV-003140",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38869,7 +38889,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003140",
+      "idMov": "MOV-003141",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38889,7 +38909,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003141",
+      "idMov": "MOV-003142",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38909,7 +38929,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003142",
+      "idMov": "MOV-003143",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -54240,6 +54260,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0351",
+          "materialNombre": "Pinzas para alimentos",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0062",
