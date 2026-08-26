@@ -39025,6 +39025,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0357",
+      "materialNombre": "Plato desechable",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 50,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003141",
+      "totalUnidades": 50,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -39039,7 +39059,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003141",
+      "idMov": "MOV-003142",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -39059,7 +39079,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003142",
+      "idMov": "MOV-003143",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39079,7 +39099,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003143",
+      "idMov": "MOV-003144",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39099,7 +39119,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003144",
+      "idMov": "MOV-003145",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39119,7 +39139,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003145",
+      "idMov": "MOV-003146",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39139,7 +39159,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003146",
+      "idMov": "MOV-003147",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39159,7 +39179,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003147",
+      "idMov": "MOV-003148",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39179,7 +39199,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003148",
+      "idMov": "MOV-003149",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -39199,7 +39219,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003149",
+      "idMov": "MOV-003150",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39219,7 +39239,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003150",
+      "idMov": "MOV-003151",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39239,7 +39259,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003151",
+      "idMov": "MOV-003152",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39259,7 +39279,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003152",
+      "idMov": "MOV-003153",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39279,7 +39299,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003153",
+      "idMov": "MOV-003154",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39299,7 +39319,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003154",
+      "idMov": "MOV-003155",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -54750,6 +54770,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0357",
+          "materialNombre": "Plato desechable",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 50,
+          "unidadesPaq": 1,
+          "totalUnidades": 50,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0062",
