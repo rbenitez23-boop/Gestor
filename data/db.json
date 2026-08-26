@@ -38580,6 +38580,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0352",
+      "materialNombre": "Jarra de vidrio",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003125",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0019",
       "materialNombre": "Lápices",
       "tipo": "Salida",
@@ -38594,7 +38614,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003125",
+      "idMov": "MOV-003126",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38614,7 +38634,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003126",
+      "idMov": "MOV-003127",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -38634,7 +38654,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003127",
+      "idMov": "MOV-003128",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38654,7 +38674,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003128",
+      "idMov": "MOV-003129",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38674,7 +38694,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003129",
+      "idMov": "MOV-003130",
       "totalUnidades": 36,
       "regreso": false
     },
@@ -38694,7 +38714,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003130",
+      "idMov": "MOV-003131",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38714,7 +38734,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003131",
+      "idMov": "MOV-003132",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38734,7 +38754,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003132",
+      "idMov": "MOV-003133",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38754,7 +38774,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003133",
+      "idMov": "MOV-003134",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38774,7 +38794,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003134",
+      "idMov": "MOV-003135",
       "totalUnidades": 120,
       "regreso": false
     },
@@ -38794,7 +38814,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003135",
+      "idMov": "MOV-003136",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38814,7 +38834,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003136",
+      "idMov": "MOV-003137",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38834,7 +38854,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003137",
+      "idMov": "MOV-003138",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38854,7 +38874,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003138",
+      "idMov": "MOV-003139",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38874,7 +38894,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003139",
+      "idMov": "MOV-003140",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38894,7 +38914,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003140",
+      "idMov": "MOV-003141",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38914,7 +38934,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003141",
+      "idMov": "MOV-003142",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38934,7 +38954,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003142",
+      "idMov": "MOV-003143",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38954,7 +38974,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003143",
+      "idMov": "MOV-003144",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -54165,6 +54185,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 26,
           "cantPaquetesEnviar": 26
+        },
+        {
+          "materialId": "MAT-0352",
+          "materialNombre": "Jarra de vidrio",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0019",
