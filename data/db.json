@@ -38339,7 +38339,7 @@
       "materialNombre": "Balón de futbol",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38350,7 +38350,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003099",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -38359,7 +38359,7 @@
       "materialNombre": "Balón de volleyball",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38370,7 +38370,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003100",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -38899,7 +38899,7 @@
       "materialNombre": "Extensión",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38910,7 +38910,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003127",
-      "totalUnidades": 2,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -54415,31 +54415,31 @@
           "materialId": "MAT-0047",
           "materialNombre": "Balón de futbol",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0070",
           "materialNombre": "Balón de volleyball",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0073",
@@ -54835,16 +54835,16 @@
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Depreciable",
-          "costoTotalItem": 300,
+          "costoTotalItem": 600,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0359",
