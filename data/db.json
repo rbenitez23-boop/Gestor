@@ -38589,7 +38589,7 @@
       "materialNombre": "Etiqueta blanca (para nombres)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 34,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -38600,7 +38600,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003090",
-      "totalUnidades": 1,
+      "totalUnidades": 34,
       "regreso": false
     },
     {
@@ -54276,16 +54276,16 @@
           "materialId": "MAT-0349",
           "materialNombre": "Etiqueta blanca (para nombres)",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 34,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 34,
           "numSeries": "",
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 34,
+          "cantPaquetesEnviar": 34
         },
         {
           "materialId": "MAT-0001",
