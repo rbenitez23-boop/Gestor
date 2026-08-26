@@ -38585,6 +38585,26 @@
     },
     {
       "fecha": "2026-08-27T00:00:00.000Z",
+      "materialId": "MAT-0349",
+      "materialNombre": "Etiqueta blanca (para nombres)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Marcelina",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0015 — Maestros",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003090",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-27T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -38599,7 +38619,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003090",
+      "idMov": "MOV-003091",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -38619,7 +38639,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003091",
+      "idMov": "MOV-003092",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38639,7 +38659,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003092",
+      "idMov": "MOV-003093",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -38659,7 +38679,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003093",
+      "idMov": "MOV-003094",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -38679,7 +38699,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003094",
+      "idMov": "MOV-003095",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38699,7 +38719,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003095",
+      "idMov": "MOV-003096",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -38719,7 +38739,7 @@
       "notas": "Remisión REM-0015 — Maestros",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003096",
+      "idMov": "MOV-003097",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -54251,6 +54271,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
           "cantPaquetesEnviar": 20
+        },
+        {
+          "materialId": "MAT-0349",
+          "materialNombre": "Etiqueta blanca (para nombres)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0001",
