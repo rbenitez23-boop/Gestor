@@ -8700,6 +8700,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0350",
+      "nombre": "Servilleta",
+      "tipoPaquete": "Bolsa",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "fechaAlta": "2026-08-26T19:29:34.238Z",
+      "activo": true,
+      "seccion": "",
+      "tieneNumSerie": false,
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
