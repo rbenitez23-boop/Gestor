@@ -38680,6 +38680,26 @@
     },
     {
       "fecha": "2026-08-28T00:00:00.000Z",
+      "materialId": "MAT-0003",
+      "materialNombre": "Tela negra",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "GTA ambiental",
+      "estado": "Ocupado",
+      "responsable": "Bruno",
+      "notas": "Remisión REM-0014 — EVENTO",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003078",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-08-28T00:00:00.000Z",
       "materialId": "MAT-0097",
       "materialNombre": "Tijeras",
       "tipo": "Salida",
@@ -38694,7 +38714,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003078",
+      "idMov": "MOV-003079",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38714,7 +38734,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003079",
+      "idMov": "MOV-003080",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -38734,7 +38754,7 @@
       "notas": "Remisión REM-0014 — EVENTO",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003080",
+      "idMov": "MOV-003081",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -54062,6 +54082,21 @@
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0003",
+          "materialNombre": "Tela negra",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 240,
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
