@@ -60400,15 +60400,8 @@
           "material": "Gato gigante",
           "cantidad": 1,
           "escala": "Campamento",
-          "notas": "En caso de no estar, usar conos de platos y aros",
-          "tipoUso": "Reutilizable"
-        },
-        {
-          "material": "Gato gigante",
-          "cantidad": 1,
-          "escala": "Campamento",
           "notas": "",
-          "tipoUso": "Reutilizable"
+          "tipoUso": "Consumible"
         }
       ]
     },
