@@ -39739,7 +39739,7 @@
       "materialNombre": "Cono plato",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 20,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39750,7 +39750,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003169",
-      "totalUnidades": 10,
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -56247,16 +56247,16 @@
           "materialId": "MAT-0007",
           "materialNombre": "Cono plato",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 10,
+          "cantPaquetes": 20,
           "unidadesPaq": 1,
-          "totalUnidades": 10,
+          "totalUnidades": 20,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
         },
         {
           "materialId": "MAT-0171",
