@@ -39759,7 +39759,7 @@
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39770,7 +39770,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003170",
-      "totalUnidades": 2,
+      "totalUnidades": 3,
       "regreso": false
     },
     {
@@ -56242,16 +56242,16 @@
           "materialId": "MAT-0008",
           "materialNombre": "Cuerda de algodón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 3,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 3,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 160,
+          "costoTotalItem": 240,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 3,
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0198",
