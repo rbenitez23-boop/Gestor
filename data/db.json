@@ -39719,7 +39719,7 @@
       "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 20,
+      "cantPaquetes": 25,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39730,7 +39730,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003168",
-      "totalUnidades": 20,
+      "totalUnidades": 25,
       "regreso": false
     },
     {
@@ -39739,7 +39739,7 @@
       "materialNombre": "Cono plato",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 20,
+      "cantPaquetes": 25,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39750,27 +39750,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003169",
-      "totalUnidades": 20,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-09-17T00:00:00.000Z",
-      "materialId": "MAT-0171",
-      "materialNombre": "Cuchillo de plástico",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Washington 4°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0016",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003170",
-      "totalUnidades": 1,
+      "totalUnidades": 25,
       "regreso": false
     },
     {
@@ -39789,7 +39769,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003171",
+      "idMov": "MOV-003170",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39809,7 +39789,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003172",
+      "idMov": "MOV-003171",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39829,7 +39809,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003173",
+      "idMov": "MOV-003172",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39849,7 +39829,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003174",
+      "idMov": "MOV-003173",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39869,7 +39849,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003175",
+      "idMov": "MOV-003174",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39889,7 +39869,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003176",
+      "idMov": "MOV-003175",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39909,7 +39889,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003177",
+      "idMov": "MOV-003176",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39929,7 +39909,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003178",
+      "idMov": "MOV-003177",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39949,7 +39929,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003179",
+      "idMov": "MOV-003178",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -39969,7 +39949,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003180",
+      "idMov": "MOV-003179",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39989,7 +39969,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003181",
+      "idMov": "MOV-003180",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -40009,7 +39989,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003182",
+      "idMov": "MOV-003181",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -40029,7 +40009,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003183",
+      "idMov": "MOV-003182",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -40049,7 +40029,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003184",
+      "idMov": "MOV-003183",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40069,7 +40049,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003185",
+      "idMov": "MOV-003184",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -40089,7 +40069,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003186",
+      "idMov": "MOV-003185",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -56232,46 +56212,31 @@
           "materialId": "MAT-0006",
           "materialNombre": "Cono alto",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 20,
+          "cantPaquetes": 25,
           "unidadesPaq": 1,
-          "totalUnidades": 20,
+          "totalUnidades": 25,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1200,
+          "costoTotalItem": 1500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 20,
-          "cantPaquetesEnviar": 20
+          "cantidadEnviar": 25,
+          "cantPaquetesEnviar": 25
         },
         {
           "materialId": "MAT-0007",
           "materialNombre": "Cono plato",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 20,
+          "cantPaquetes": 25,
           "unidadesPaq": 1,
-          "totalUnidades": 20,
+          "totalUnidades": 25,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 500,
+          "costoTotalItem": 625,
           "stockEnDestino": 0,
-          "cantidadEnviar": 20,
-          "cantPaquetesEnviar": 20
-        },
-        {
-          "materialId": "MAT-0171",
-          "materialNombre": "Cuchillo de plástico",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 25,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 25,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 25,
+          "cantPaquetesEnviar": 25
         },
         {
           "materialId": "MAT-0008",
