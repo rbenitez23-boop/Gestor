@@ -39859,7 +39859,7 @@
       "materialNombre": "Gato gigante",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39870,7 +39870,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003175",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -56357,16 +56357,16 @@
           "materialId": "MAT-0048",
           "materialNombre": "Gato gigante",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "numSeries": "",
           "costoUnitario": 400,
           "clasificacion": "Consumible",
-          "costoTotalItem": 800,
+          "costoTotalItem": 400,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0034",
