@@ -39615,6 +39615,26 @@
     },
     {
       "fecha": "2026-09-17T00:00:00.000Z",
+      "materialId": "MAT-0203",
+      "materialNombre": "Bomba de globos",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Washington 4°",
+      "estado": "Ocupado",
+      "responsable": "D. Gera, GC Amanda y Diego ",
+      "notas": "Remisión REM-0016",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003163",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-17T00:00:00.000Z",
       "materialId": "MAT-0312",
       "materialNombre": "Botiquín",
       "tipo": "Salida",
@@ -39629,7 +39649,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003163",
+      "idMov": "MOV-003164",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39649,7 +39669,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003164",
+      "idMov": "MOV-003165",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39669,7 +39689,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003165",
+      "idMov": "MOV-003166",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39689,7 +39709,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003166",
+      "idMov": "MOV-003167",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39709,7 +39729,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003167",
+      "idMov": "MOV-003168",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39729,7 +39749,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003168",
+      "idMov": "MOV-003169",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39749,7 +39769,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003169",
+      "idMov": "MOV-003170",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -39769,7 +39789,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003170",
+      "idMov": "MOV-003171",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -39789,7 +39809,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003171",
+      "idMov": "MOV-003172",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -39809,7 +39829,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003172",
+      "idMov": "MOV-003173",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39829,7 +39849,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003173",
+      "idMov": "MOV-003174",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39849,7 +39869,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003174",
+      "idMov": "MOV-003175",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -39869,7 +39889,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003175",
+      "idMov": "MOV-003176",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39889,7 +39909,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003176",
+      "idMov": "MOV-003177",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -39909,7 +39929,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003177",
+      "idMov": "MOV-003178",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -39929,7 +39949,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003178",
+      "idMov": "MOV-003179",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39949,7 +39969,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003179",
+      "idMov": "MOV-003180",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -39969,7 +39989,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003180",
+      "idMov": "MOV-003181",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -39989,7 +40009,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003181",
+      "idMov": "MOV-003182",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -40009,7 +40029,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003182",
+      "idMov": "MOV-003183",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -40029,7 +40049,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003183",
+      "idMov": "MOV-003184",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -40049,7 +40069,7 @@
       "notas": "Remisión REM-0016",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003184",
+      "idMov": "MOV-003185",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -56109,6 +56129,21 @@
           "costoUnitario": 120,
           "clasificacion": "Consumible",
           "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0203",
+          "materialNombre": "Bomba de globos",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 50,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 50,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
