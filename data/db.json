@@ -39979,7 +39979,7 @@
       "materialNombre": "Pluma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -39990,7 +39990,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003181",
-      "totalUnidades": 2,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -56407,16 +56407,16 @@
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 10,
           "clasificacion": "Consumible",
-          "costoTotalItem": 20,
+          "costoTotalItem": 40,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0011",
