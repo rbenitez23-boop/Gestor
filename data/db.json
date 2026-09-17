@@ -40817,6 +40817,26 @@
       "idMov": "MOV-003221",
       "totalUnidades": 2,
       "regreso": false
+    },
+    {
+      "fecha": "2026-09-19T00:00:00.000Z",
+      "materialId": "MAT-0318",
+      "materialNombre": "Válvula",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Solistica Familiar",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0017",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003222",
+      "totalUnidades": 2,
+      "regreso": false
     }
   ],
   "almacenes": [
@@ -57814,6 +57834,21 @@
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0318",
+          "materialNombre": "Válvula",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
