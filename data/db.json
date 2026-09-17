@@ -40744,7 +40744,7 @@
       "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 55,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -40755,7 +40755,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003218",
-      "totalUnidades": 1,
+      "totalUnidades": 55,
       "regreso": false
     },
     {
@@ -57836,16 +57836,16 @@
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 55,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 55,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 825,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 55,
+          "cantPaquetesEnviar": 55
         },
         {
           "materialId": "MAT-0168",
