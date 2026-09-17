@@ -40480,6 +40480,26 @@
     },
     {
       "fecha": "2026-09-19T00:00:00.000Z",
+      "materialId": "MAT-0364",
+      "materialNombre": "Juegos de Mesa",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Solistica Familiar",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0017",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003205",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-19T00:00:00.000Z",
       "materialId": "MAT-0308",
       "materialNombre": "Megáfono",
       "tipo": "Salida",
@@ -40494,7 +40514,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003205",
+      "idMov": "MOV-003206",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40514,7 +40534,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003206",
+      "idMov": "MOV-003207",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40534,7 +40554,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003207",
+      "idMov": "MOV-003208",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -40554,7 +40574,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003208",
+      "idMov": "MOV-003209",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40574,7 +40594,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003209",
+      "idMov": "MOV-003210",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40594,7 +40614,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003210",
+      "idMov": "MOV-003211",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -57308,6 +57328,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0364",
+          "materialNombre": "Juegos de Mesa",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 0,
+          "clasificacion": "Depreciable",
+          "costoTotalItem": 0,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0308",
