@@ -40780,6 +40780,26 @@
     },
     {
       "fecha": "2026-09-19T00:00:00.000Z",
+      "materialId": "MAT-0085",
+      "materialNombre": "Proyector",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Solistica Familiar",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0017",
+      "fechaRegreso": "",
+      "numSeries": "Grande y #2",
+      "idMov": "MOV-003220",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-19T00:00:00.000Z",
       "materialId": "MAT-0140",
       "materialNombre": "Resortera",
       "tipo": "Salida",
@@ -40794,7 +40814,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003220",
+      "idMov": "MOV-003221",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -40814,7 +40834,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003221",
+      "idMov": "MOV-003222",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -40834,7 +40854,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003222",
+      "idMov": "MOV-003223",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40854,7 +40874,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003223",
+      "idMov": "MOV-003224",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -40874,7 +40894,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003224",
+      "idMov": "MOV-003225",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -57842,6 +57862,21 @@
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0085",
+          "materialNombre": "Proyector",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "Grande y #2",
+          "costoUnitario": 1500,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 3000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0140",
