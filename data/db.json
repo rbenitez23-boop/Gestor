@@ -40660,6 +40660,26 @@
     },
     {
       "fecha": "2026-09-19T00:00:00.000Z",
+      "materialId": "MAT-0282",
+      "materialNombre": "Palos con listones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Solistica Familiar",
+      "estado": "Ocupado",
+      "responsable": "Clau",
+      "notas": "Remisión REM-0017",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003214",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-19T00:00:00.000Z",
       "materialId": "MAT-0030",
       "materialNombre": "Paracaídas",
       "tipo": "Salida",
@@ -40674,7 +40694,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003214",
+      "idMov": "MOV-003215",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40694,7 +40714,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003215",
+      "idMov": "MOV-003216",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -40714,7 +40734,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003216",
+      "idMov": "MOV-003217",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -40734,7 +40754,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003217",
+      "idMov": "MOV-003218",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40754,7 +40774,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003218",
+      "idMov": "MOV-003219",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -40774,7 +40794,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003219",
+      "idMov": "MOV-003220",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -40794,7 +40814,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003220",
+      "idMov": "MOV-003221",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -40814,7 +40834,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003221",
+      "idMov": "MOV-003222",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -40834,7 +40854,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003222",
+      "idMov": "MOV-003223",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -40854,7 +40874,7 @@
       "notas": "Remisión REM-0017",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003223",
+      "idMov": "MOV-003224",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -57728,6 +57748,21 @@
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0282",
+          "materialNombre": "Palos con listones",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 50,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 300,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0030",
