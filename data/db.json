@@ -9050,6 +9050,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0364",
+      "nombre": "Juegos de Mesa",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Depreciable",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "fechaAlta": "2026-09-17T18:17:11.691Z",
+      "activo": true,
+      "seccion": "",
+      "tieneNumSerie": false,
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
