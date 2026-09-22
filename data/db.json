@@ -41360,6 +41360,26 @@
     },
     {
       "fecha": "2026-09-23T00:00:00.000Z",
+      "materialId": "MAT-0062",
+      "materialNombre": "Pluma",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Ev. Universidad Mondragon",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0018",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003249",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-23T00:00:00.000Z",
       "materialId": "MAT-0011",
       "materialNombre": "Plumón",
       "tipo": "Salida",
@@ -41374,7 +41394,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003249",
+      "idMov": "MOV-003250",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -41394,7 +41414,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003250",
+      "idMov": "MOV-003251",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41414,7 +41434,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003251",
+      "idMov": "MOV-003252",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41434,7 +41454,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003252",
+      "idMov": "MOV-003253",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -41454,7 +41474,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003253",
+      "idMov": "MOV-003254",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41474,7 +41494,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003254",
+      "idMov": "MOV-003255",
       "totalUnidades": 5,
       "regreso": false
     }
@@ -58909,6 +58929,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0062",
+          "materialNombre": "Pluma",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 10,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0011",
