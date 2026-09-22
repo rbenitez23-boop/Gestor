@@ -41364,7 +41364,7 @@
       "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -41375,7 +41375,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003249",
-      "totalUnidades": 1,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -41440,6 +41440,26 @@
     },
     {
       "fecha": "2026-09-23T00:00:00.000Z",
+      "materialId": "MAT-0097",
+      "materialNombre": "Tijeras",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Ev. Universidad Mondragon",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0018",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003253",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-23T00:00:00.000Z",
       "materialId": "MAT-0309",
       "materialNombre": "Tinaja",
       "tipo": "Salida",
@@ -41454,7 +41474,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003253",
+      "idMov": "MOV-003254",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41474,7 +41494,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003254",
+      "idMov": "MOV-003255",
       "totalUnidades": 5,
       "regreso": false
     }
@@ -58914,16 +58934,16 @@
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 90,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0050",
@@ -58969,6 +58989,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0097",
+          "materialNombre": "Tijeras",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 25,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0309",
