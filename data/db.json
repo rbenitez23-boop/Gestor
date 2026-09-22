@@ -41400,26 +41400,6 @@
     },
     {
       "fecha": "2026-09-23T00:00:00.000Z",
-      "materialId": "MAT-0307",
-      "materialNombre": "Tajín",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Ev. Universidad Mondragon",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0018",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003251",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-09-23T00:00:00.000Z",
       "materialId": "MAT-0003",
       "materialNombre": "Tela negra",
       "tipo": "Salida",
@@ -41434,7 +41414,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003252",
+      "idMov": "MOV-003251",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41454,7 +41434,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003253",
+      "idMov": "MOV-003252",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -41474,7 +41454,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003254",
+      "idMov": "MOV-003253",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -41494,7 +41474,7 @@
       "notas": "Remisión REM-0018",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003255",
+      "idMov": "MOV-003254",
       "totalUnidades": 5,
       "regreso": false
     }
@@ -58959,21 +58939,6 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
-        },
-        {
-          "materialId": "MAT-0307",
-          "materialNombre": "Tajín",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 30,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 30,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0003",
