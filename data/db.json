@@ -61982,7 +61982,8 @@
           "costoTotalItem": 300,
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
-          "cantPaquetesEnviar": 20
+          "cantPaquetesEnviar": 20,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0200",
