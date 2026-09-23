@@ -42904,7 +42904,7 @@
       "materialNombre": "Pelota Waterpolo",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -42915,7 +42915,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003326",
-      "totalUnidades": 2,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -61974,16 +61974,16 @@
           "materialId": "MAT-0201",
           "materialNombre": "Pelota Waterpolo",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 500,
+          "costoTotalItem": 1000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0022",
