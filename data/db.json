@@ -42720,6 +42720,26 @@
     },
     {
       "fecha": "2026-09-24T00:00:00.000Z",
+      "materialId": "MAT-0082",
+      "materialNombre": "Pantalones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Alexander Bain",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0020",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003317",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-24T00:00:00.000Z",
       "materialId": "MAT-0118",
       "materialNombre": "Papel kraft",
       "tipo": "Salida",
@@ -42734,7 +42754,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003317",
+      "idMov": "MOV-003318",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -42754,7 +42774,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003318",
+      "idMov": "MOV-003319",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -42774,7 +42794,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003319",
+      "idMov": "MOV-003320",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -42794,7 +42814,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003320",
+      "idMov": "MOV-003321",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -42814,7 +42834,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003321",
+      "idMov": "MOV-003322",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -42834,7 +42854,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003322",
+      "idMov": "MOV-003323",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -42854,7 +42874,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003323",
+      "idMov": "MOV-003324",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -42874,7 +42894,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003324",
+      "idMov": "MOV-003325",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -42894,7 +42914,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003325",
+      "idMov": "MOV-003326",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -42914,7 +42934,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003326",
+      "idMov": "MOV-003327",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -42934,7 +42954,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003327",
+      "idMov": "MOV-003328",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -42954,7 +42974,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003328",
+      "idMov": "MOV-003329",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -42974,7 +42994,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003329",
+      "idMov": "MOV-003330",
       "totalUnidades": 66,
       "regreso": false
     },
@@ -42994,7 +43014,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003330",
+      "idMov": "MOV-003331",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -43014,7 +43034,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003331",
+      "idMov": "MOV-003332",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -43034,7 +43054,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003332",
+      "idMov": "MOV-003333",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -43054,7 +43074,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003333",
+      "idMov": "MOV-003334",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -43074,7 +43094,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003334",
+      "idMov": "MOV-003335",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -43094,7 +43114,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003335",
+      "idMov": "MOV-003336",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -43114,7 +43134,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003336",
+      "idMov": "MOV-003337",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -43134,7 +43154,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003337",
+      "idMov": "MOV-003338",
       "totalUnidades": 70,
       "regreso": false
     },
@@ -43154,7 +43174,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003338",
+      "idMov": "MOV-003339",
       "totalUnidades": 24,
       "regreso": false
     },
@@ -43174,7 +43194,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003339",
+      "idMov": "MOV-003340",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -43194,7 +43214,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003340",
+      "idMov": "MOV-003341",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -43214,7 +43234,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003341",
+      "idMov": "MOV-003342",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -43234,7 +43254,7 @@
       "notas": "Remisión REM-0020",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003342",
+      "idMov": "MOV-003343",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -61763,6 +61783,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 82,
           "cantPaquetesEnviar": 82
+        },
+        {
+          "materialId": "MAT-0082",
+          "materialNombre": "Pantalones",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 150,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 600,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0118",
