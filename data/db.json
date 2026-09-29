@@ -43600,6 +43600,26 @@
     },
     {
       "fecha": "2026-09-30T00:00:00.000Z",
+      "materialId": "MAT-0227",
+      "materialNombre": "Pelota mini (Bote o morral)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 3,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 2°",
+      "estado": "Ocupado",
+      "responsable": "Dire: Gera, GC: Mon y Pau",
+      "notas": "Remisión REM-0021",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003401",
+      "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-09-30T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -43614,7 +43634,7 @@
       "notas": "Remisión REM-0021",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003401",
+      "idMov": "MOV-003402",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -43634,7 +43654,7 @@
       "notas": "Remisión REM-0021",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003402",
+      "idMov": "MOV-003403",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -43654,7 +43674,7 @@
       "notas": "Remisión REM-0021",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003403",
+      "idMov": "MOV-003404",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -43674,7 +43694,7 @@
       "notas": "Remisión REM-0021",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003404",
+      "idMov": "MOV-003405",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -62925,6 +62945,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0227",
+          "materialNombre": "Pelota mini (Bote o morral)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 3,
+          "unidadesPaq": 1,
+          "totalUnidades": 3,
+          "numSeries": "",
+          "costoUnitario": 150,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 450,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 3,
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0062",
