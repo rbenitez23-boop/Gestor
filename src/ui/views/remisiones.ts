@@ -1,6 +1,7 @@
-import type { Database, TipoPaquete, Remision } from '../../types';
+import type { Database, TipoPaquete, Remision, Material } from '../../types';
 import { crearRemision, eliminarRemision, toggleRemisionCerrada, registrarRegreso, actualizarChecklistItem, registrarSalidaEscaneada, registrarRegresoEscaneado, editarRemision, type NuevaRemisionInput, type ItemRegreso } from '../../domain/remisiones';
 import { resolverCodigoEscaneado } from '../../domain/scanner';
+import { listarActividades } from '../../domain/recetario';
 import { store } from '../../services/store';
 import { iniciarCamaraQr, type SesionCamara } from '../../services/qrCamera';
 import { generarQrDataUrl } from '../../services/qr';
@@ -83,6 +84,181 @@ function drawLista(container: HTMLElement, db: Database, onChanged: () => void) 
   });
 }
 
+// ── LISTA DE MATERIALES CON AUTOCOMPLETADO (compartida por Nueva y Editar remisión) ──
+// Antes cada fila era un <select> con todo el catálogo (360+ materiales) y
+// no se podía escribir. Ahora es un campo de texto con sugerencias
+// (<datalist>, igual que en Recetario): escribes parte del nombre y eliges.
+// Internamente se sigue guardando el ID del material, igual que antes.
+
+interface CatalogoRemision {
+  /** HTML del <datalist> con las sugerencias. */
+  datalistHtml: string;
+  /** Texto que se muestra para un material (nombre, o nombre + ID si el nombre está repetido). */
+  etiqueta: (materialId: string) => string;
+  /** Resuelve lo escrito a un material del catálogo (sin distinguir mayúsculas/acentos de más). */
+  resolver: (texto: string) => Material | undefined;
+}
+
+const DATALIST_MATERIALES_ID = 'rm-mat-catalogo';
+
+function normalizar(s: string): string {
+  return s.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+/**
+ * Catálogo de sugerencias: materiales activos + los que ya trae la remisión
+ * (aunque se hayan dado de baja después, para no perderlos al editar).
+ * Si dos materiales activos se llaman igual, se distinguen con su ID.
+ */
+function crearCatalogoRemision(db: Database, idsExistentes: string[] = []): CatalogoRemision {
+  const incluidos = db.materiales.filter((m) => m.activo !== false || idsExistentes.includes(m.id));
+  const conteoNombres = new Map<string, number>();
+  incluidos.forEach((m) => conteoNombres.set(normalizar(m.nombre), (conteoNombres.get(normalizar(m.nombre)) || 0) + 1));
+
+  const etiquetaDe = (m: Material) => ((conteoNombres.get(normalizar(m.nombre)) || 0) > 1 ? `${m.nombre} (${m.id})` : m.nombre);
+  const porEtiqueta = new Map<string, Material>();
+  const porId = new Map<string, Material>();
+  incluidos.forEach((m) => {
+    porEtiqueta.set(normalizar(etiquetaDe(m)), m);
+    porId.set(m.id, m);
+  });
+
+  const ordenados = [...incluidos].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+  return {
+    datalistHtml: `<datalist id="${DATALIST_MATERIALES_ID}">${ordenados.map((m) => `<option value="${esc(etiquetaDe(m))}"></option>`).join('')}</datalist>`,
+    etiqueta: (id) => {
+      const m = porId.get(id);
+      return m ? etiquetaDe(m) : '';
+    },
+    resolver: (texto) => (texto.trim() ? porEtiqueta.get(normalizar(texto)) : undefined),
+  };
+}
+
+interface ListaMateriales {
+  addItemRow: (materialId?: string, cantidad?: number, numSerie?: string, nombreRespaldo?: string) => HTMLInputElement;
+  /** Items listos para guardar, o null si hay filas con un material que no existe en el catálogo. */
+  leerItems: () => NuevaRemisionInput['items'] | null;
+  marcarDuplicados: () => void;
+}
+
+function montarListaMateriales(modal: HTMLElement, db: Database, idsExistentes: string[] = []): ListaMateriales {
+  const catalogo = crearCatalogoRemision(db, idsExistentes);
+  const lista = modal.querySelector('#rm-items-list') as HTMLElement;
+  lista.insertAdjacentHTML('beforebegin', catalogo.datalistHtml);
+
+  const inputs = () => Array.from(modal.querySelectorAll<HTMLInputElement>('[data-rm-mat]'));
+
+  const marcarDuplicados = () => {
+    const conteo = new Map<string, number>();
+    inputs().forEach((inp) => {
+      const id = catalogo.resolver(inp.value)?.id;
+      if (id) conteo.set(id, (conteo.get(id) || 0) + 1);
+    });
+    inputs().forEach((inp) => {
+      const texto = inp.value.trim();
+      const mat = catalogo.resolver(texto);
+      if (texto && !mat) {
+        inp.style.borderColor = 'var(--naranja)';
+        inp.title = 'No coincide con ningún material del catálogo — elige una de las sugerencias';
+      } else if (mat && (conteo.get(mat.id) || 0) > 1) {
+        inp.style.borderColor = 'var(--rojo)';
+        inp.title = 'Este material ya está agregado en otra fila';
+      } else {
+        inp.style.borderColor = '';
+        inp.title = '';
+      }
+    });
+  };
+
+  const addItemRow = (materialId = '', cantidad = 1, numSerie = '', nombreRespaldo = '') => {
+    const valorInicial = materialId ? catalogo.etiqueta(materialId) || nombreRespaldo : '';
+    const mostrarSerie = catalogo.resolver(valorInicial)?.tieneNumSerie ? '' : 'display:none';
+    const row = document.createElement('div');
+    row.id = `rm-item-${itemCount++}`;
+    row.style.cssText = 'margin-bottom:8px;';
+    row.innerHTML = `
+      <div style="display:grid;grid-template-columns:2fr 1fr auto;gap:8px;align-items:end">
+        <div><label class="fl">Material</label><input class="fc" data-rm-mat list="${DATALIST_MATERIALES_ID}" autocomplete="off" placeholder="Escribe para buscar…" value="${esc(valorInicial)}"/></div>
+        <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
+        <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>
+      </div>
+      <div data-rm-serie-wrap style="margin-top:6px;${mostrarSerie}">
+        <label class="fl">Número(s) de serie / distintivo que se manda (ej. "Botiquín #3", o varios separados por coma)</label>
+        <input class="fc" data-rm-serie placeholder="Ej. #3, #4" value="${esc(numSerie)}"/>
+      </div>`;
+    lista.prepend(row);
+
+    const inp = row.querySelector('[data-rm-mat]') as HTMLInputElement;
+    const cant = row.querySelector('[data-rm-cant]') as HTMLInputElement;
+    const serieWrap = row.querySelector('[data-rm-serie-wrap]') as HTMLElement;
+    const actualizar = () => {
+      serieWrap.style.display = catalogo.resolver(inp.value)?.tieneNumSerie ? '' : 'none';
+      marcarDuplicados();
+    };
+    inp.addEventListener('input', actualizar);
+    // Al elegir una sugerencia, salta a la cantidad para capturar más rápido.
+    inp.addEventListener('change', () => {
+      actualizar();
+      if (catalogo.resolver(inp.value)) {
+        cant.focus();
+        cant.select();
+      }
+    });
+    row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
+      row.remove();
+      marcarDuplicados();
+    });
+    return inp;
+  };
+
+  const leerItems = (): NuevaRemisionInput['items'] | null => {
+    const items: NuevaRemisionInput['items'] = [];
+    const noEncontrados: string[] = [];
+    modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
+      const inp = row.querySelector('[data-rm-mat]') as HTMLInputElement;
+      const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
+      const serieInput = row.querySelector('[data-rm-serie]') as HTMLInputElement | null;
+      const texto = inp.value.trim();
+      if (!texto) return;
+      const mat = catalogo.resolver(texto);
+      if (!mat) {
+        noEncontrados.push(texto);
+        return;
+      }
+      const uds = mat.unidadesPaq || 1;
+      const totalUnidades = Number(cantInput.value) || 0;
+      if (totalUnidades <= 0) return;
+      items.push({
+        materialId: mat.id,
+        materialNombre: mat.nombre,
+        tipoPaquete: mat.tipoPaquete as TipoPaquete,
+        cantPaquetes: Math.ceil(totalUnidades / uds),
+        unidadesPaq: uds,
+        totalUnidades,
+        numSeries: mat.tieneNumSerie ? serieInput?.value.trim() || '' : '',
+      });
+    });
+    if (noEncontrados.length) {
+      marcarDuplicados();
+      toast(`No existe en el catálogo: ${noEncontrados.join(', ')} — elige una sugerencia de la lista`, 'e');
+      return null;
+    }
+    items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
+    return items;
+  };
+
+  modal.querySelector('#rm-add-item')?.addEventListener('click', () => addItemRow().focus());
+  modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
+    const q = normalizar((e.target as HTMLInputElement).value);
+    modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
+      const nombre = normalizar((row.querySelector('[data-rm-mat]') as HTMLInputElement).value);
+      row.style.display = !q || nombre.includes(q) ? '' : 'none';
+    });
+  });
+
+  return { addItemRow, leerItems, marcarDuplicados };
+}
+
 // ── MODAL: NUEVA REMISIÓN ────────────────────────────────────────────
 let itemCount = 0;
 
@@ -131,55 +307,8 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
   const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Crear remisión</button>`;
   const modal = openModal('Nueva remisión', body, footer);
 
-  const marcarDuplicados = () => {
-    const selects = Array.from(modal.querySelectorAll('[data-rm-mat]')) as HTMLSelectElement[];
-    const conteo = new Map<string, number>();
-    selects.forEach((s) => conteo.set(s.value, (conteo.get(s.value) || 0) + 1));
-    selects.forEach((s) => {
-      s.style.borderColor = s.value && (conteo.get(s.value) || 0) > 1 ? 'var(--rojo)' : '';
-      s.title = s.value && (conteo.get(s.value) || 0) > 1 ? 'Este material ya está agregado en otra fila' : '';
-    });
-  };
-
-  const addItemRow = () => {
-    const i = itemCount++;
-    const matOptions = db.materiales.filter((m) => m.activo !== false).map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" data-serie="${m.tieneNumSerie ? '1' : '0'}">${esc(m.nombre)}</option>`).join('');
-    const row = document.createElement('div');
-    row.id = `rm-item-${i}`;
-    row.style.cssText = 'margin-bottom:8px;';
-    row.innerHTML = `
-      <div style="display:grid;grid-template-columns:2fr 1fr auto;gap:8px;align-items:end">
-        <div><label class="fl">Material</label><select class="fc" data-rm-mat><option value="">— Selecciona un material —</option>${matOptions}</select></div>
-        <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="1" min="1"/></div>
-        <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>
-      </div>
-      <div data-rm-serie-wrap style="display:none;margin-top:6px">
-        <label class="fl">Número(s) de serie / distintivo que se manda (ej. "Botiquín #3", o varios separados por coma)</label>
-        <input class="fc" data-rm-serie placeholder="Ej. #3, #4"/>
-      </div>`;
-    modal.querySelector('#rm-items-list')!.prepend(row);
-    row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
-      row.remove();
-      marcarDuplicados();
-    });
-    const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-    const serieWrap = row.querySelector('[data-rm-serie-wrap]') as HTMLElement;
-    sel.addEventListener('change', () => {
-      marcarDuplicados();
-      serieWrap.style.display = sel.selectedOptions[0]?.dataset.serie === '1' ? '' : 'none';
-    });
-  };
-  modal.querySelector('#rm-add-item')?.addEventListener('click', addItemRow);
-  modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
-    const q = (e.target as HTMLInputElement).value.toLowerCase();
-    modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
-      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-
-      const nombre = (sel.selectedOptions[0]?.textContent || '').toLowerCase();
-      row.style.display = !q || nombre.includes(q) ? '' : 'none';
-    });
-  });
-  addItemRow();
+  const lista = montarListaMateriales(modal, db);
+  lista.addItemRow();
 
   modal.querySelector('#rm-save')?.addEventListener('click', async () => {
     const cliente = (document.getElementById('rm-cliente') as HTMLInputElement).value.trim();
@@ -188,31 +317,12 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       toast('Cliente y fecha de salida son requeridos', 'e');
       return;
     }
-    const items: NuevaRemisionInput['items'] = [];
-    modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
-      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-      const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
-      const serieInput = row.querySelector('[data-rm-serie]') as HTMLInputElement | null;
-      const opt = sel.selectedOptions[0];
-      if (!opt || !opt.value) return;
-      const uds = Number(opt.dataset.uds) || 1;
-      const totalUnidades = Number(cantInput.value) || 0;
-      if (totalUnidades <= 0) return;
-      items.push({
-        materialId: opt.value,
-        materialNombre: opt.textContent || '',
-        tipoPaquete: (opt.dataset.tipo || 'Pieza Única') as TipoPaquete,
-        cantPaquetes: Math.ceil(totalUnidades / uds),
-        unidadesPaq: uds,
-        totalUnidades,
-        numSeries: serieInput?.value.trim() || '',
-      });
-    });
+    const items = lista.leerItems();
+    if (!items) return;
     if (!items.length) {
       toast('Agrega al menos un material', 'e');
       return;
     }
-    items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
 
     showLoader('Guardando en GitHub…');
     try {
@@ -263,6 +373,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
   const totalEnvia = rem.items.reduce((s, it) => s + (it.cantidadEnviar ?? it.totalUnidades), 0);
   const logo = db.uiConfig?.logoDataUrl || '';
   const disabled = rem.cerrada ? 'disabled' : '';
+  const actividadesRecetario = listarActividades(db);
 
   container.innerHTML = `
     <div class="no-print" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px">
@@ -275,8 +386,11 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
         <button class="btn btn-ghost" id="rd-etiquetas">🏷️ Etiquetas de esta remisión</button>
         <button class="btn btn-ghost" id="rd-toggle">${rem.cerrada ? '🔓 Reabrir' : '🔒 Cerrar'}</button>
         <button class="btn btn-orange" id="rd-print">🖨️ Imprimir / Descargar PDF</button>
+        <input class="fc" id="rd-rec-buscar" list="rd-rec-actividades" autocomplete="off" placeholder="🔍 Ver actividad del recetario…" style="width:240px;max-width:100%"/>
+        <datalist id="rd-rec-actividades">${actividadesRecetario.map((a) => `<option value="${esc(a.nombre)}"></option>`).join('')}</datalist>
       </div>
     </div>
+    <div class="no-print" id="rd-rec-panel"></div>
 
     <div class="print-doc" id="rd-doc">
       <div class="print-header">
@@ -363,6 +477,53 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
 
   container.querySelector('#rd-volver')?.addEventListener('click', () => drawLista(container, db, onChanged));
   container.querySelector('#rd-print')?.addEventListener('click', () => window.print());
+
+  // ── Consulta rápida del Recetario (solo lectura, no se imprime) ──
+  const recInput = container.querySelector('#rd-rec-buscar') as HTMLInputElement;
+  const recPanel = container.querySelector('#rd-rec-panel') as HTMLElement;
+  const mostrarActividad = () => {
+    const q = recInput.value.trim().toLowerCase();
+    const encontrada = q ? actividadesRecetario.find((a) => a.nombre.toLowerCase() === q) : undefined;
+    if (!encontrada) {
+      recPanel.innerHTML = '';
+      return;
+    }
+    const { nombre, actividad } = encontrada;
+    recPanel.innerHTML = `
+      <div class="card" style="padding:14px 16px;margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <span style="font-weight:800;font-size:15px">${esc(nombre)}</span>
+            <span class="badge badge-cons">${esc(actividad.categoria)}</span>
+          </div>
+          <button class="btn btn-ghost btn-sm" id="rd-rec-cerrar" title="Cerrar">✕</button>
+        </div>
+        ${
+          actividad.materiales.length
+            ? `<div class="tbl-wrap"><table>
+                <thead><tr><th>Material</th><th>Cantidad</th><th>Escala</th><th>Notas</th></tr></thead>
+                <tbody>${actividad.materiales
+                  .map(
+                    (m) => `<tr>
+                      <td style="font-weight:700">${esc(m.material)}</td>
+                      <td>${esc(m.cantidad)}</td>
+                      <td>por ${esc(m.escala)}</td>
+                      <td style="font-size:12px;color:var(--gris-med)">${esc(m.notas || '—')}</td>
+                    </tr>`
+                  )
+                  .join('')}</tbody>
+              </table></div>`
+            : '<div style="font-size:13px;color:var(--gris-med)">Esta actividad no ocupa material del almacén.</div>'
+        }
+      </div>`;
+    recPanel.querySelector('#rd-rec-cerrar')?.addEventListener('click', () => {
+      recInput.value = '';
+      recPanel.innerHTML = '';
+      recInput.focus();
+    });
+  };
+  recInput.addEventListener('input', mostrarActividad);
+  recInput.addEventListener('change', mostrarActividad);
 
   container.querySelectorAll<HTMLInputElement>('[data-check]').forEach((chk) => {
     chk.addEventListener('change', async () => {
@@ -499,62 +660,10 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
   (modal.querySelector('#rm-almacen') as HTMLSelectElement).value = rem.almacen || '';
   (modal.querySelector('#rm-almacen-sede') as HTMLSelectElement).value = rem.almacenSede || '';
 
-  const marcarDuplicados = () => {
-    const selects = Array.from(modal.querySelectorAll('[data-rm-mat]')) as HTMLSelectElement[];
-    const conteo = new Map<string, number>();
-    selects.forEach((s) => conteo.set(s.value, (conteo.get(s.value) || 0) + 1));
-    selects.forEach((s) => {
-      s.style.borderColor = s.value && (conteo.get(s.value) || 0) > 1 ? 'var(--rojo)' : '';
-      s.title = s.value && (conteo.get(s.value) || 0) > 1 ? 'Este material ya está agregado en otra fila' : '';
-    });
-  };
-
-  const addItemRow = (materialId = '', cantidad = 1, numSerieExistente = '') => {
-    const i = itemCount++;
-    const placeholder = materialId ? '' : '<option value="">— Selecciona un material —</option>';
-    const matOptions = db.materiales
-      .filter((m) => m.activo !== false)
-      .map((m) => `<option value="${m.id}" data-tipo="${m.tipoPaquete}" data-uds="${m.unidadesPaq}" data-serie="${m.tieneNumSerie ? '1' : '0'}" ${m.id === materialId ? 'selected' : ''}>${esc(m.nombre)}</option>`)
-      .join('');
-    const materialSeleccionado = db.materiales.find((m) => m.id === materialId);
-    const mostrarSerie = materialSeleccionado?.tieneNumSerie ? '' : 'display:none';
-    const row = document.createElement('div');
-    row.id = `rm-item-${i}`;
-    row.style.cssText = 'margin-bottom:8px;';
-    row.innerHTML = `
-      <div style="display:grid;grid-template-columns:2fr 1fr auto;gap:8px;align-items:end">
-        <div><label class="fl">Material</label><select class="fc" data-rm-mat>${placeholder}${matOptions}</select></div>
-        <div><label class="fl">Cantidad (total que ocupa el evento)</label><input type="number" class="fc" data-rm-cant value="${cantidad}" min="1"/></div>
-        <button class="btn btn-ghost btn-sm" data-remove-item>✕</button>
-      </div>
-      <div data-rm-serie-wrap style="margin-top:6px;${mostrarSerie}">
-        <label class="fl">Número(s) de serie / distintivo que se manda</label>
-        <input class="fc" data-rm-serie placeholder="Ej. #3, #4" value="${esc(numSerieExistente)}"/>
-      </div>`;
-    modal.querySelector('#rm-items-list')!.prepend(row);
-    row.querySelector('[data-remove-item]')?.addEventListener('click', () => {
-      row.remove();
-      marcarDuplicados();
-    });
-    const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-    const serieWrap = row.querySelector('[data-rm-serie-wrap]') as HTMLElement;
-    sel.addEventListener('change', () => {
-      marcarDuplicados();
-      serieWrap.style.display = sel.selectedOptions[0]?.dataset.serie === '1' ? '' : 'none';
-    });
-  };
-  modal.querySelector('#rm-add-item')?.addEventListener('click', () => addItemRow());
-  modal.querySelector('#rm-buscar-item')?.addEventListener('input', (e) => {
-    const q = (e.target as HTMLInputElement).value.toLowerCase();
-    modal.querySelectorAll<HTMLElement>('[id^="rm-item-"]').forEach((row) => {
-      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-      const nombre = (sel.selectedOptions[0]?.textContent || '').toLowerCase();
-      row.style.display = !q || nombre.includes(q) ? '' : 'none';
-    });
-  });
-  if (rem.items.length) [...rem.items].reverse().forEach((it) => addItemRow(it.materialId, it.totalUnidades, it.numSeries || ''));
-  else addItemRow();
-  marcarDuplicados();
+  const lista = montarListaMateriales(modal, db, rem.items.map((it) => it.materialId));
+  if (rem.items.length) [...rem.items].reverse().forEach((it) => lista.addItemRow(it.materialId, it.totalUnidades, it.numSeries || '', it.materialNombre));
+  else lista.addItemRow();
+  lista.marcarDuplicados();
 
   modal.querySelector('#rm-save')?.addEventListener('click', async () => {
     const cliente = (document.getElementById('rm-cliente') as HTMLInputElement).value.trim();
@@ -563,27 +672,8 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
       toast('Cliente y fecha de salida son requeridos', 'e');
       return;
     }
-    const items: NuevaRemisionInput['items'] = [];
-    modal.querySelectorAll('[id^="rm-item-"]').forEach((row) => {
-      const sel = row.querySelector('[data-rm-mat]') as HTMLSelectElement;
-      const cantInput = row.querySelector('[data-rm-cant]') as HTMLInputElement;
-      const serieInput = row.querySelector('[data-rm-serie]') as HTMLInputElement | null;
-      const opt = sel.selectedOptions[0];
-      if (!opt || !opt.value) return;
-      const uds = Number(opt.dataset.uds) || 1;
-      const totalUnidades = Number(cantInput.value) || 0;
-      if (totalUnidades <= 0) return;
-      items.push({
-        materialId: opt.value,
-        materialNombre: opt.textContent || '',
-        tipoPaquete: (opt.dataset.tipo || 'Pieza Única') as TipoPaquete,
-        cantPaquetes: Math.ceil(totalUnidades / uds),
-        unidadesPaq: uds,
-        totalUnidades,
-        numSeries: serieInput?.value.trim() || '',
-      });
-    });
-    items.sort((a, b) => a.materialNombre.localeCompare(b.materialNombre, 'es'));
+    const items = lista.leerItems();
+    if (!items) return;
 
     showLoader('Guardando en GitHub…');
     try {

@@ -186,6 +186,12 @@ function openMaterialModal(material: Material | null, db: Database, onChanged: (
       </div>
       <div class="fg"><label class="fl">Unidades por paquete</label><input type="number" class="fc" id="mm-uds" value="${material?.unidadesPaq ?? 1}" min="1"/></div>
     </div>
+    <div class="fg">
+      <label style="display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer">
+        <input type="checkbox" id="mm-serie" ${material?.tieneNumSerie ? 'checked' : ''}/>
+        <span><b>Lleva número de serie</b> <span style="color:var(--gris-med);font-size:12px">— en las remisiones se pedirá el número o distintivo que se manda (ej. Botiquín #3)</span></span>
+      </label>
+    </div>
     <div class="frow">
       <div class="fg"><label class="fl">Rack</label><input class="fc" id="mm-rack" value="${esc(material?.rack || '')}"/></div>
       <div class="fg"><label class="fl">Zona</label><input class="fc" id="mm-zona" value="${esc(material?.zona || '')}"/></div>
@@ -297,6 +303,7 @@ function openMaterialModal(material: Material | null, db: Database, onChanged: (
       tdeUnidad: (document.getElementById('mm-tde-unidad') as HTMLSelectElement).value as UnidadTDE,
       provPrincipal: (document.getElementById('mm-prov-principal') as HTMLSelectElement).value,
       provAlt1: (document.getElementById('mm-prov-alt1') as HTMLSelectElement).value,
+      tieneNumSerie: (document.getElementById('mm-serie') as HTMLInputElement).checked,
     };
 
     showLoader('Guardando en GitHub…');
@@ -315,7 +322,6 @@ function openMaterialModal(material: Material | null, db: Database, onChanged: (
           fechaAlta: new Date().toISOString(),
           activo: true,
           seccion: '',
-          tieneNumSerie: false,
           provAlt2: '',
           provAlt3: '',
         };
