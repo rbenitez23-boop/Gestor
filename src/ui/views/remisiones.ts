@@ -84,6 +84,93 @@ function drawLista(container: HTMLElement, db: Database, onChanged: () => void) 
   });
 }
 
+// ── CONSULTA DEL RECETARIO (solo lectura) ─────────────────────────────
+// La usan el detalle de la remisión (junto a Imprimir) y la ventana lateral
+// que se abre junto a "Nueva remisión" / "Editar remisión".
+
+type ActividadListada = ReturnType<typeof listarActividades>[number];
+
+function montarConsultaRecetario(input: HTMLInputElement, panel: HTMLElement, actividades: ActividadListada[], opciones: { conTarjeta?: boolean } = {}) {
+  const conTarjeta = opciones.conTarjeta ?? true;
+  const limpiar = () => {
+    input.value = '';
+    panel.innerHTML = '';
+    input.focus();
+  };
+  const mostrar = () => {
+    const q = input.value.trim().toLowerCase();
+    const encontrada = q ? actividades.find((a) => a.nombre.toLowerCase() === q) : undefined;
+    if (!encontrada) {
+      panel.innerHTML = '';
+      return;
+    }
+    const { nombre, actividad } = encontrada;
+    const contenido = `
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span style="font-weight:800;font-size:15px">${esc(nombre)}</span>
+          <span class="badge badge-cons">${esc(actividad.categoria)}</span>
+        </div>
+        <button class="btn btn-ghost btn-sm" data-rec-limpiar title="Limpiar">✕</button>
+      </div>
+      ${
+        actividad.materiales.length
+          ? `<div class="tbl-wrap"><table>
+              <thead><tr><th>Material</th><th>Cantidad</th><th>Escala</th><th>Notas</th></tr></thead>
+              <tbody>${actividad.materiales
+                .map(
+                  (m) => `<tr>
+                    <td style="font-weight:700">${esc(m.material)}</td>
+                    <td>${esc(m.cantidad)}</td>
+                    <td>por ${esc(m.escala)}</td>
+                    <td style="font-size:12px;color:var(--gris-med)">${esc(m.notas || '—')}</td>
+                  </tr>`
+                )
+                .join('')}</tbody>
+            </table></div>`
+          : '<div style="font-size:13px;color:var(--gris-med)">Esta actividad no ocupa material del almacén.</div>'
+      }`;
+    panel.innerHTML = conTarjeta ? `<div class="card" style="padding:14px 16px;margin-bottom:16px">${contenido}</div>` : contenido;
+    panel.querySelector('[data-rec-limpiar]')?.addEventListener('click', limpiar);
+  };
+  input.addEventListener('input', mostrar);
+  input.addEventListener('change', mostrar);
+}
+
+const ESTILO_VENTANA_DOBLE = `
+  .rm-dual{gap:16px;padding:0 12px}
+  .rm-dual .modal{flex-shrink:0}
+  .rm-rec-ventana{width:min(460px,94vw);height:90vh;display:flex;flex-direction:column}
+  .rm-rec-ventana .modal-body{flex:1;overflow-y:auto}
+  @media (max-width:1060px){
+    .rm-dual{flex-direction:column;justify-content:flex-start;overflow-y:auto;padding:16px 0}
+    .rm-dual .modal{max-height:none;height:auto}
+  }`;
+
+/**
+ * Abre, junto a la ventana de Nueva/Editar remisión, una segunda ventana con
+ * el buscador del Recetario. Cada una tiene su propio scroll; al guardar o
+ * cancelar se cierran las dos (viven dentro del mismo overlay).
+ * En pantallas angostas la del recetario queda debajo.
+ */
+function agregarVentanaRecetario(overlay: HTMLElement, db: Database) {
+  const actividades = listarActividades(db);
+  overlay.classList.add('rm-dual');
+  const ventana = document.createElement('div');
+  ventana.className = 'modal rm-rec-ventana';
+  ventana.innerHTML = `
+    <style>${ESTILO_VENTANA_DOBLE}</style>
+    <div class="modal-header"><span class="card-title">📖 Recetario — consulta</span></div>
+    <div class="modal-body">
+      <input class="fc" id="rm-rec-buscar" list="rm-rec-actividades" autocomplete="off" placeholder="🔍 Escribe una actividad…"/>
+      <datalist id="rm-rec-actividades">${actividades.map((a) => `<option value="${esc(a.nombre)}"></option>`).join('')}</datalist>
+      <div style="font-size:11px;color:var(--gris-med);margin:6px 0 14px">Solo consulta — para cambiar cantidades o materiales de una actividad, hazlo en Recetario.</div>
+      <div id="rm-rec-panel"></div>
+    </div>`;
+  overlay.appendChild(ventana);
+  montarConsultaRecetario(ventana.querySelector('#rm-rec-buscar') as HTMLInputElement, ventana.querySelector('#rm-rec-panel') as HTMLElement, actividades, { conTarjeta: false });
+}
+
 // ── LISTA DE MATERIALES CON AUTOCOMPLETADO (compartida por Nueva y Editar remisión) ──
 // Antes cada fila era un <select> con todo el catálogo (360+ materiales) y
 // no se podía escribir. Ahora es un campo de texto con sugerencias
@@ -306,6 +393,7 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
     </div>`;
   const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Crear remisión</button>`;
   const modal = openModal('Nueva remisión', body, footer);
+  agregarVentanaRecetario(modal, db);
 
   const lista = montarListaMateriales(modal, db);
   lista.addItemRow();
@@ -479,51 +567,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
   container.querySelector('#rd-print')?.addEventListener('click', () => window.print());
 
   // ── Consulta rápida del Recetario (solo lectura, no se imprime) ──
-  const recInput = container.querySelector('#rd-rec-buscar') as HTMLInputElement;
-  const recPanel = container.querySelector('#rd-rec-panel') as HTMLElement;
-  const mostrarActividad = () => {
-    const q = recInput.value.trim().toLowerCase();
-    const encontrada = q ? actividadesRecetario.find((a) => a.nombre.toLowerCase() === q) : undefined;
-    if (!encontrada) {
-      recPanel.innerHTML = '';
-      return;
-    }
-    const { nombre, actividad } = encontrada;
-    recPanel.innerHTML = `
-      <div class="card" style="padding:14px 16px;margin-bottom:16px">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px">
-          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-            <span style="font-weight:800;font-size:15px">${esc(nombre)}</span>
-            <span class="badge badge-cons">${esc(actividad.categoria)}</span>
-          </div>
-          <button class="btn btn-ghost btn-sm" id="rd-rec-cerrar" title="Cerrar">✕</button>
-        </div>
-        ${
-          actividad.materiales.length
-            ? `<div class="tbl-wrap"><table>
-                <thead><tr><th>Material</th><th>Cantidad</th><th>Escala</th><th>Notas</th></tr></thead>
-                <tbody>${actividad.materiales
-                  .map(
-                    (m) => `<tr>
-                      <td style="font-weight:700">${esc(m.material)}</td>
-                      <td>${esc(m.cantidad)}</td>
-                      <td>por ${esc(m.escala)}</td>
-                      <td style="font-size:12px;color:var(--gris-med)">${esc(m.notas || '—')}</td>
-                    </tr>`
-                  )
-                  .join('')}</tbody>
-              </table></div>`
-            : '<div style="font-size:13px;color:var(--gris-med)">Esta actividad no ocupa material del almacén.</div>'
-        }
-      </div>`;
-    recPanel.querySelector('#rd-rec-cerrar')?.addEventListener('click', () => {
-      recInput.value = '';
-      recPanel.innerHTML = '';
-      recInput.focus();
-    });
-  };
-  recInput.addEventListener('input', mostrarActividad);
-  recInput.addEventListener('change', mostrarActividad);
+  montarConsultaRecetario(container.querySelector('#rd-rec-buscar') as HTMLInputElement, container.querySelector('#rd-rec-panel') as HTMLElement, actividadesRecetario);
 
   container.querySelectorAll<HTMLInputElement>('[data-check]').forEach((chk) => {
     chk.addEventListener('change', async () => {
@@ -655,6 +699,7 @@ function openEditarRemisionModal(folio: string, db: Database, onChanged: () => v
     </div>`;
   const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Guardar cambios</button>`;
   const modal = openModal(`Editar remisión ${folio}`, body, footer);
+  agregarVentanaRecetario(modal, db);
 
   (modal.querySelector('#rm-tipo-evento') as HTMLSelectElement).value = rem.tipoEvento || 'Campamento';
   (modal.querySelector('#rm-almacen') as HTMLSelectElement).value = rem.almacen || '';
