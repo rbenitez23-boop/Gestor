@@ -44640,6 +44640,26 @@
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0345",
+      "materialNombre": "Cono con palo naranja en medio",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003453",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
       "materialId": "MAT-0007",
       "materialNombre": "Cono plato",
       "tipo": "Salida",
@@ -44654,7 +44674,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003453",
+      "idMov": "MOV-003454",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44674,7 +44694,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003454",
+      "idMov": "MOV-003455",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44694,7 +44714,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003455",
+      "idMov": "MOV-003456",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44714,8 +44734,28 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003456",
+      "idMov": "MOV-003457",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0308",
+      "materialNombre": "Megáfono",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003458",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -44734,7 +44774,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003457",
+      "idMov": "MOV-003459",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -44754,7 +44794,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003458",
+      "idMov": "MOV-003460",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44774,7 +44814,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003459",
+      "idMov": "MOV-003461",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44794,8 +44834,28 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003460",
+      "idMov": "MOV-003462",
       "totalUnidades": 20,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0301",
+      "materialNombre": "Pelota Inflable pequeña",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003463",
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -44814,7 +44874,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003461",
+      "idMov": "MOV-003464",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44834,8 +44894,28 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003462",
+      "idMov": "MOV-003465",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0064",
+      "materialNombre": "Tabla de equilibrio",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003466",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -44854,7 +44934,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003463",
+      "idMov": "MOV-003467",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44874,7 +44954,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003464",
+      "idMov": "MOV-003468",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44894,7 +44974,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003465",
+      "idMov": "MOV-003469",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -64979,6 +65059,21 @@
           "cantPaquetesEnviar": 30
         },
         {
+          "materialId": "MAT-0345",
+          "materialNombre": "Cono con palo naranja en medio",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
+        },
+        {
           "materialId": "MAT-0007",
           "materialNombre": "Cono plato",
           "tipoPaquete": "Pieza Única",
@@ -65037,6 +65132,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0308",
+          "materialNombre": "Megáfono",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 400,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1600,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0004",
@@ -65099,6 +65209,21 @@
           "cantPaquetesEnviar": 20
         },
         {
+          "materialId": "MAT-0301",
+          "materialNombre": "Pelota Inflable pequeña",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 360,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
+        },
+        {
           "materialId": "MAT-0227",
           "materialNombre": "Pelota mini (Bote o morral)",
           "tipoPaquete": "Pieza Única",
@@ -65127,6 +65252,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0064",
+          "materialNombre": "Tabla de equilibrio",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 400,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 800,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0097",
