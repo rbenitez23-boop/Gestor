@@ -71569,6 +71569,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:13:29.308Z"
+    },
+    {
+      "id": "CAL-MUPSNCU0SQ0",
+      "nombre": "NWL 3° Juriquilla",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-16",
+      "fechaFin": "2026-10-17",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:14:16.008Z"
     }
   ]
 }
