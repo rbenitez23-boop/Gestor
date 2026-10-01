@@ -71547,6 +71547,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:09:26.929Z"
+    },
+    {
+      "id": "CAL-MUPSJQ78UIR",
+      "nombre": "Austriaco 4",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-15",
+      "fechaFin": "2026-10-16",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:11:26.735Z"
     }
   ]
 }
