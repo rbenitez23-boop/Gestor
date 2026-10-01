@@ -44785,6 +44785,26 @@
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0137",
+      "materialNombre": "Globos",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003459",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
       "materialId": "MAT-0308",
       "materialNombre": "Megáfono",
       "tipo": "Salida",
@@ -44799,7 +44819,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003459",
+      "idMov": "MOV-003460",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44819,7 +44839,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003460",
+      "idMov": "MOV-003461",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -44839,7 +44859,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003461",
+      "idMov": "MOV-003462",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44859,7 +44879,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003462",
+      "idMov": "MOV-003463",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44879,7 +44899,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003463",
+      "idMov": "MOV-003464",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -44899,7 +44919,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003464",
+      "idMov": "MOV-003465",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44919,7 +44939,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003465",
+      "idMov": "MOV-003466",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44939,7 +44959,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003466",
+      "idMov": "MOV-003467",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44959,7 +44979,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003467",
+      "idMov": "MOV-003468",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44979,7 +44999,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003468",
+      "idMov": "MOV-003469",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44999,7 +45019,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003469",
+      "idMov": "MOV-003470",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45019,7 +45039,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003470",
+      "idMov": "MOV-003471",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45039,7 +45059,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003471",
+      "idMov": "MOV-003472",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -65212,6 +65232,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0137",
+          "materialNombre": "Globos",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 50,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 50,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0308",
