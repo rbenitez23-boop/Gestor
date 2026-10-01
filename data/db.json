@@ -71668,6 +71668,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:20:28.384Z"
+    },
+    {
+      "id": "CAL-MUPSW34MMM3",
+      "nombre": "BRP: Aventura",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-30",
+      "fechaFin": "2026-10-30",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:21:03.058Z"
     }
   ]
 }
