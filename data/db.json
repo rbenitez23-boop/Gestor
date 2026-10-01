@@ -71580,6 +71580,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:14:16.008Z"
+    },
+    {
+      "id": "CAL-MUPSO3SROPS",
+      "nombre": "NWL 4° y 5° Juriquilla",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-16",
+      "fechaFin": "2026-10-18",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:14:51.069Z"
     }
   ]
 }
