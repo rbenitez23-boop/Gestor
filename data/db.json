@@ -71602,6 +71602,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:15:42.144Z"
+    },
+    {
+      "id": "CAL-MUPSQ4XCNDW",
+      "nombre": "Explora 3K y 1°",
+      "tipo": "Excursión",
+      "fechaInicio": "2026-10-22",
+      "fechaFin": "2026-10-22",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:16:25.889Z"
     }
   ]
 }
