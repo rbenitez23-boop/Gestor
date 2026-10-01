@@ -71500,7 +71500,7 @@
       "fechaInicio": "2026-10-06",
       "fechaFin": "2026-10-06",
       "notas": "",
-      "programaRecibido": false,
+      "programaRecibido": true,
       "listaHecha": false,
       "creado": "2026-10-01T17:07:20.379Z"
     },
