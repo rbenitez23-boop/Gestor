@@ -71591,6 +71591,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:14:51.069Z"
+    },
+    {
+      "id": "CAL-MUPSP7F8G4G",
+      "nombre": "Washington 6°",
+      "tipo": "Evento",
+      "fechaInicio": "2026-10-21",
+      "fechaFin": "2026-10-21",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:15:42.144Z"
     }
   ]
 }
