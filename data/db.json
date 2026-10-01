@@ -44965,6 +44965,26 @@
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0015",
+      "materialNombre": "Tangrams de espuma (Gigante)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003468",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
       "materialId": "MAT-0097",
       "materialNombre": "Tijeras",
       "tipo": "Salida",
@@ -44979,7 +44999,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003468",
+      "idMov": "MOV-003469",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44999,7 +45019,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003469",
+      "idMov": "MOV-003470",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45019,7 +45039,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003470",
+      "idMov": "MOV-003471",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -65324,6 +65344,21 @@
           "costoUnitario": 400,
           "clasificacion": "Consumible",
           "costoTotalItem": 800,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0015",
+          "materialNombre": "Tangrams de espuma (Gigante)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 350,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 700,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
