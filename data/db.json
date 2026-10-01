@@ -44545,6 +44545,26 @@
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0365",
+      "materialNombre": "Caja de cuerda gruesa (Slakline, Naranja)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003447",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
       "materialId": "MAT-0313",
       "materialNombre": "Caja de Medicamentos",
       "tipo": "Salida",
@@ -44559,7 +44579,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003447",
+      "idMov": "MOV-003448",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44579,7 +44599,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003448",
+      "idMov": "MOV-003449",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44599,7 +44619,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003449",
+      "idMov": "MOV-003450",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44619,7 +44639,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003450",
+      "idMov": "MOV-003451",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44639,7 +44659,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003451",
+      "idMov": "MOV-003452",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44659,7 +44679,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003452",
+      "idMov": "MOV-003453",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -44679,7 +44699,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003453",
+      "idMov": "MOV-003454",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44699,7 +44719,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003454",
+      "idMov": "MOV-003455",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44719,7 +44739,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003455",
+      "idMov": "MOV-003456",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44739,7 +44759,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003456",
+      "idMov": "MOV-003457",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44759,7 +44779,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003457",
+      "idMov": "MOV-003458",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44779,7 +44799,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003458",
+      "idMov": "MOV-003459",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44799,7 +44819,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003459",
+      "idMov": "MOV-003460",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -44819,7 +44839,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003460",
+      "idMov": "MOV-003461",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44839,7 +44859,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003461",
+      "idMov": "MOV-003462",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44859,7 +44879,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003462",
+      "idMov": "MOV-003463",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -44879,7 +44899,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003463",
+      "idMov": "MOV-003464",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44899,7 +44919,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003464",
+      "idMov": "MOV-003465",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44919,7 +44939,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003465",
+      "idMov": "MOV-003466",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44939,7 +44959,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003466",
+      "idMov": "MOV-003467",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44959,7 +44979,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003467",
+      "idMov": "MOV-003468",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44979,7 +44999,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003468",
+      "idMov": "MOV-003469",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44999,7 +45019,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003469",
+      "idMov": "MOV-003470",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -64989,6 +65009,21 @@
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0365",
+          "materialNombre": "Caja de cuerda gruesa (Slakline, Naranja)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
