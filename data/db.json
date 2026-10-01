@@ -71514,6 +71514,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:07:49.781Z"
+    },
+    {
+      "id": "CAL-MUPSFRENQNE",
+      "nombre": "Plenus Primaria",
+      "tipo": "Evento",
+      "fechaInicio": "2026-10-08",
+      "fechaFin": "2026-10-08",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:08:21.280Z"
     }
   ]
 }
