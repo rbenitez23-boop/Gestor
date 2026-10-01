@@ -1,4 +1,4 @@
-import { isConfigured, clearConfig } from './services/auth';
+import { isConfigured, clearToken } from './services/auth';
 import { store } from './services/store';
 import { renderSetup } from './ui/views/setup';
 import { renderShell, type ViewId } from './ui/shell';
@@ -42,7 +42,7 @@ async function boot() {
       <button class="btn btn-ghost" id="btn-reconfig">Reconfigurar acceso a GitHub</button>
     </div></div>`;
     document.getElementById('btn-reconfig')?.addEventListener('click', () => {
-      clearConfig();
+      clearToken();
       boot();
     });
     return;
