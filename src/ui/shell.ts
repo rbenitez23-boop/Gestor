@@ -2,10 +2,11 @@ import type { Database } from '../types';
 import { store } from '../services/store';
 import { toast, showLoader, hideLoader } from './helpers';
 
-export type ViewId = 'dashboard' | 'materiales' | 'movimientos' | 'remisiones' | 'proveedores' | 'recetario' | 'compras' | 'contable' | 'autoremision' | 'layouts' | 'scanner' | 'etiquetasqr';
+export type ViewId = 'dashboard' | 'calendario' | 'materiales' | 'movimientos' | 'remisiones' | 'proveedores' | 'recetario' | 'compras' | 'contable' | 'autoremision' | 'layouts' | 'scanner' | 'etiquetasqr';
 
 const NAV: { id: ViewId; label: string; section?: string }[] = [
   { id: 'dashboard', label: 'Dashboard', section: 'Principal' },
+  { id: 'calendario', label: '📅 Calendario' },
   { id: 'materiales', label: 'Materiales' },
   { id: 'movimientos', label: 'Movimientos' },
   { id: 'remisiones', label: 'Remisiones' },
