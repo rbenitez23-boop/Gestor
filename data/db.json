@@ -71624,6 +71624,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:17:10.224Z"
+    },
+    {
+      "id": "CAL-MUPSRVEP76L",
+      "nombre": "NWL 5° y 6° SMA",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-23",
+      "fechaFin": "2026-10-25",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:17:46.602Z"
     }
   ]
 }
