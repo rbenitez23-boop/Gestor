@@ -52,6 +52,23 @@ export function clearConfig(): void {
   localStorage.removeItem(BRANCH_KEY);
 }
 
+/**
+ * Borra SOLO el token (usuario, repo y rama se conservan), para que al
+ * renovar un token caducado solo haya que pegar el nuevo.
+ */
+export function clearToken(): void {
+  localStorage.removeItem(TOKEN_KEY);
+}
+
+/** Usuario, repo y rama guardados (aunque falte el token) — para prellenar la pantalla de conexión. */
+export function getStoredRepoInfo(): { owner: string; repo: string; branch: string } {
+  return {
+    owner: localStorage.getItem(OWNER_KEY) || '',
+    repo: localStorage.getItem(REPO_KEY) || '',
+    branch: localStorage.getItem(BRANCH_KEY) || 'main',
+  };
+}
+
 export function isConfigured(): boolean {
   return getStoredConfig() !== null;
 }
