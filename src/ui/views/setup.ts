@@ -1,29 +1,31 @@
-import { saveConfig } from '../../services/auth';
-import { toast } from '../helpers';
+import { saveConfig, getStoredRepoInfo } from '../../services/auth';
+import { toast, esc } from '../helpers';
 
 export function renderSetup(container: HTMLElement, onDone: () => void) {
+  // Si ya se había conectado antes (token caducado), usuario/repo/rama vienen prellenados.
+  const previo = getStoredRepoInfo();
   container.innerHTML = `
   <div class="setup-wrap">
     <div class="setup-card">
       <h1 style="font-size:20px;font-weight:800;margin-bottom:4px">Conectar con GitHub</h1>
       <p style="font-size:13px;color:var(--gris-med);margin-bottom:20px">Tus credenciales se guardan únicamente en este navegador. Nunca se suben al repositorio ni pasan por ningún servidor externo.</p>
 
-      <div class="setup-step"><b>1.</b> Ve a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a> y crea un <b>Fine-grained personal access token</b>.</div>
-      <div class="setup-step"><b>2.</b> En "Repository access" elige <b>Only select repositories</b> → selecciona este repo.</div>
-      <div class="setup-step"><b>3.</b> En "Permissions" → "Repository permissions" → <b>Contents: Read and write</b>.</div>
-      <div class="setup-step"><b>4.</b> Copia el token generado (empieza con <code>github_pat_…</code>) y pégalo abajo.</div>
+      <div class="setup-step"><b>1.</b><span>Ve a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a> y crea un <b>Fine-grained personal access token</b>.</span></div>
+      <div class="setup-step"><b>2.</b><span>En "Repository access" elige <b>Only select repositories</b> → selecciona este repo.</span></div>
+      <div class="setup-step"><b>3.</b><span>En "Permissions" → "Repository permissions" → <b>Contents: Read and write</b>.</span></div>
+      <div class="setup-step"><b>4.</b><span>Copia el token generado (empieza con <code>github_pat_…</code>) y pégalo abajo.</span></div>
 
       <div class="fg" style="margin-top:18px">
         <label class="fl">Usuario u organización de GitHub <span>*</span></label>
-        <input class="fc" id="su-owner" placeholder="ej. pena-grande"/>
+        <input class="fc" id="su-owner" placeholder="ej. pena-grande" value="${esc(previo.owner)}"/>
       </div>
       <div class="fg">
         <label class="fl">Nombre del repositorio <span>*</span></label>
-        <input class="fc" id="su-repo" placeholder="ej. pena-grande-inventario"/>
+        <input class="fc" id="su-repo" placeholder="ej. pena-grande-inventario" value="${esc(previo.repo)}"/>
       </div>
       <div class="fg">
         <label class="fl">Rama <span>*</span></label>
-        <input class="fc" id="su-branch" value="main"/>
+        <input class="fc" id="su-branch" value="${esc(previo.branch)}"/>
       </div>
       <div class="fg">
         <label class="fl">Tu token personal <span>*</span></label>
@@ -32,6 +34,8 @@ export function renderSetup(container: HTMLElement, onDone: () => void) {
       <button class="btn btn-primary" style="width:100%;justify-content:center" id="su-save">Conectar y entrar</button>
     </div>
   </div>`;
+
+  if (previo.owner && previo.repo) (container.querySelector('#su-token') as HTMLInputElement)?.focus();
 
   container.querySelector('#su-save')?.addEventListener('click', () => {
     const owner = (document.getElementById('su-owner') as HTMLInputElement).value.trim();

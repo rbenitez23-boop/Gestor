@@ -1,7 +1,8 @@
 import type { Database } from '../../types';
 import { listarMaterialesConStock } from '../../domain/materiales';
 import { calcularStockTodosLosMateriales, stockVacio } from '../../domain/stock';
-import { fmtMoney, esc } from '../helpers';
+import { fmtMoney, esc, openModal, closeModal } from '../helpers';
+import { clearToken } from '../../services/auth';
 
 export function renderDashboard(container: HTMLElement, db: Database) {
   const materiales = listarMaterialesConStock(db);
@@ -35,7 +36,10 @@ export function renderDashboard(container: HTMLElement, db: Database) {
   const ultimos = [...db.movimientos].slice(-5).reverse();
 
   container.innerHTML = `
-    <div style="margin-bottom:20px"><h1 style="font-size:22px;font-weight:800">Dashboard</h1><p style="color:var(--gris-med);font-size:13px">Resumen en tiempo real</p></div>
+    <div style="margin-bottom:20px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
+      <div><h1 style="font-size:22px;font-weight:800">Dashboard</h1><p style="color:var(--gris-med);font-size:13px">Resumen en tiempo real</p></div>
+      <button class="btn btn-ghost btn-sm" id="db-cambiar-token" title="Úsalo cuando caduque tu token de GitHub">🔑 Cambiar token de GitHub</button>
+    </div>
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-label">Materiales</div><div class="stat-value">${materiales.length}</div></div>
       <div class="stat-card"><div class="stat-label">Movimientos</div><div class="stat-value">${db.movimientos.length}</div></div>
@@ -65,4 +69,19 @@ export function renderDashboard(container: HTMLElement, db: Database) {
           : '<tr><td colspan="5" class="empty-state">Sin movimientos aún</td></tr>'
       }</tbody></table></div>
     </div>`;
+
+  // ── Cambiar token de GitHub (cuando caduca) ──
+  container.querySelector('#db-cambiar-token')?.addEventListener('click', () => {
+    const modal = openModal(
+      'Cambiar token de GitHub',
+      `<p style="font-size:13px;line-height:1.6">¿Seguro? Se borrará el token guardado en <b>este navegador</b> y tendrás que pegar uno nuevo para volver a entrar.</p>
+       <p style="font-size:12px;color:var(--gris-med);margin-top:8px">Tu usuario, repositorio y rama se conservan. No se modifica ningún dato del inventario.</p>`,
+      `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="db-token-ok">Sí, cambiar token</button>`
+    );
+    modal.querySelector('#db-token-ok')?.addEventListener('click', () => {
+      clearToken();
+      closeModal();
+      window.location.reload();
+    });
+  });
 }
