@@ -71503,6 +71503,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:07:20.379Z"
+    },
+    {
+      "id": "CAL-MUPSF35I7QA",
+      "nombre": "Washington 1",
+      "tipo": "Evento",
+      "fechaInicio": "2026-10-07",
+      "fechaFin": "2026-10-07",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:07:49.781Z"
     }
   ]
 }
