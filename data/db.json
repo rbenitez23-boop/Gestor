@@ -44444,7 +44444,7 @@
       "materialNombre": "Anillo con cuerdas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -44455,7 +44455,27 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003443",
-      "totalUnidades": 2,
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0005",
+      "materialNombre": "Aros",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 20,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003444",
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -44474,7 +44494,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003444",
+      "idMov": "MOV-003445",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44494,7 +44514,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003445",
+      "idMov": "MOV-003446",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44514,7 +44534,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003446",
+      "idMov": "MOV-003447",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44534,7 +44554,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003447",
+      "idMov": "MOV-003448",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44554,7 +44574,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003448",
+      "idMov": "MOV-003449",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44574,7 +44594,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003449",
+      "idMov": "MOV-003450",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44594,7 +44614,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003450",
+      "idMov": "MOV-003451",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44614,7 +44634,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003451",
+      "idMov": "MOV-003452",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44634,7 +44654,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003452",
+      "idMov": "MOV-003453",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -44654,7 +44674,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003453",
+      "idMov": "MOV-003454",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44674,7 +44694,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003454",
+      "idMov": "MOV-003455",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44694,7 +44714,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003455",
+      "idMov": "MOV-003456",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44714,7 +44734,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003456",
+      "idMov": "MOV-003457",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44734,7 +44754,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003457",
+      "idMov": "MOV-003458",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44754,7 +44774,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003458",
+      "idMov": "MOV-003459",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44774,7 +44794,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003459",
+      "idMov": "MOV-003460",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44794,7 +44814,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003460",
+      "idMov": "MOV-003461",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44804,7 +44824,7 @@
       "materialNombre": "Palo de escoba",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -44814,8 +44834,8 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003461",
-      "totalUnidades": 2,
+      "idMov": "MOV-003462",
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -44834,7 +44854,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003462",
+      "idMov": "MOV-003463",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44854,7 +44874,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003463",
+      "idMov": "MOV-003464",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -44874,7 +44894,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003464",
+      "idMov": "MOV-003465",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -44894,7 +44914,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003465",
+      "idMov": "MOV-003466",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44914,7 +44934,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003466",
+      "idMov": "MOV-003467",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44934,7 +44954,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003467",
+      "idMov": "MOV-003468",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44954,7 +44974,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003468",
+      "idMov": "MOV-003469",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44974,7 +44994,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003469",
+      "idMov": "MOV-003470",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -64912,16 +64932,31 @@
           "materialId": "MAT-0052",
           "materialNombre": "Anillo con cuerdas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 50,
           "clasificacion": "Consumible",
-          "costoTotalItem": 100,
+          "costoTotalItem": 300,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
+        },
+        {
+          "materialId": "MAT-0005",
+          "materialNombre": "Aros",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 20,
+          "unidadesPaq": 1,
+          "totalUnidades": 20,
+          "numSeries": "",
+          "costoUnitario": 45,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 900,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
         },
         {
           "materialId": "MAT-0002",
@@ -65182,16 +65217,16 @@
           "materialId": "MAT-0053",
           "materialNombre": "Palo de escoba",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 360,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0082",
