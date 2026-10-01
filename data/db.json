@@ -9075,6 +9075,31 @@
       "tieneNumSerie": false,
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0365",
+      "nombre": "Caja de cuerda gruesa (Slakline, Naranja)",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "tieneNumSerie": false,
+      "fechaAlta": "2026-10-01T18:19:12.391Z",
+      "activo": true,
+      "seccion": "",
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
