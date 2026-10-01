@@ -3,6 +3,7 @@ import { store } from './services/store';
 import { renderSetup } from './ui/views/setup';
 import { renderShell, type ViewId } from './ui/shell';
 import { renderDashboard } from './ui/views/dashboard';
+import { renderCalendario } from './ui/views/calendario';
 import { renderMateriales } from './ui/views/materiales';
 import { renderMovimientos } from './ui/views/movimientos';
 import { renderCompras } from './ui/views/compras';
@@ -21,7 +22,7 @@ let vistaAnterior: ViewId | null = null;
 
 function parseHashView(): ViewId {
   const h = window.location.hash.replace('#', '') as ViewId;
-  const valid: ViewId[] = ['dashboard', 'materiales', 'movimientos', 'remisiones', 'proveedores', 'recetario', 'compras', 'contable', 'autoremision', 'layouts', 'scanner', 'etiquetasqr'];
+  const valid: ViewId[] = ['dashboard', 'calendario', 'materiales', 'movimientos', 'remisiones', 'proveedores', 'recetario', 'compras', 'contable', 'autoremision', 'layouts', 'scanner', 'etiquetasqr'];
   return valid.includes(h) ? h : 'dashboard';
 }
 
@@ -83,6 +84,9 @@ function paintView(view: ViewId, contentEl: HTMLElement) {
   switch (view) {
     case 'dashboard':
       renderDashboard(contentEl, db);
+      break;
+    case 'calendario':
+      renderCalendario(contentEl, db, refresh);
       break;
     case 'materiales':
       renderMateriales(contentEl, db, refresh);
