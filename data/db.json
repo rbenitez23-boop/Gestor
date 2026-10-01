@@ -71536,6 +71536,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:08:52.843Z"
+    },
+    {
+      "id": "CAL-MUPSH69598E",
+      "nombre": "Washington 5",
+      "tipo": "Evento",
+      "fechaInicio": "2026-10-14",
+      "fechaFin": "2026-10-14",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:09:26.929Z"
     }
   ]
 }
