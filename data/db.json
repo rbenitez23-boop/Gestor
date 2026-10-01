@@ -71522,7 +71522,7 @@
       "fechaInicio": "2026-10-08",
       "fechaFin": "2026-10-08",
       "notas": "",
-      "programaRecibido": false,
+      "programaRecibido": true,
       "listaHecha": false,
       "creado": "2026-10-01T17:08:21.280Z"
     },
