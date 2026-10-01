@@ -71558,6 +71558,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:11:26.735Z"
+    },
+    {
+      "id": "CAL-MUPSMBUM03M",
+      "nombre": "NWL 2° (Todos los campus)",
+      "tipo": "Excursión",
+      "fechaInicio": "2026-10-15",
+      "fechaFin": "2026-10-15",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-01T17:13:29.308Z"
     }
   ]
 }
