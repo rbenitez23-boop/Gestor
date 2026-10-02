@@ -44625,6 +44625,26 @@
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0094",
+      "materialNombre": "Cartas Choque Eléctrico",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003451",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
       "materialId": "MAT-0033",
       "materialNombre": "Cinta diurex",
       "tipo": "Salida",
@@ -44639,7 +44659,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003451",
+      "idMov": "MOV-003452",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44659,7 +44679,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003452",
+      "idMov": "MOV-003453",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44679,7 +44699,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003453",
+      "idMov": "MOV-003454",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44699,7 +44719,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003454",
+      "idMov": "MOV-003455",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -44719,7 +44739,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003455",
+      "idMov": "MOV-003456",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44739,7 +44759,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003456",
+      "idMov": "MOV-003457",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44759,7 +44779,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003457",
+      "idMov": "MOV-003458",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44779,7 +44799,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003458",
+      "idMov": "MOV-003459",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44799,7 +44819,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003459",
+      "idMov": "MOV-003460",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44819,7 +44839,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003460",
+      "idMov": "MOV-003461",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44839,7 +44859,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003461",
+      "idMov": "MOV-003462",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44859,8 +44879,28 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003462",
+      "idMov": "MOV-003463",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0034",
+      "materialNombre": "Hojas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 20,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003464",
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -44879,7 +44919,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003463",
+      "idMov": "MOV-003465",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44899,7 +44939,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003464",
+      "idMov": "MOV-003466",
       "totalUnidades": 16,
       "regreso": false
     },
@@ -44919,7 +44959,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003465",
+      "idMov": "MOV-003467",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44939,7 +44979,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003466",
+      "idMov": "MOV-003468",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44959,7 +44999,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003467",
+      "idMov": "MOV-003469",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -44979,7 +45019,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003468",
+      "idMov": "MOV-003470",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44999,7 +45039,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003469",
+      "idMov": "MOV-003471",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45019,7 +45059,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003470",
+      "idMov": "MOV-003472",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -45039,7 +45079,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003471",
+      "idMov": "MOV-003473",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -45059,7 +45099,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003472",
+      "idMov": "MOV-003474",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45079,17 +45119,17 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003473",
+      "idMov": "MOV-003475",
       "totalUnidades": 2,
       "regreso": false
     },
     {
       "fecha": "2026-10-02T00:00:00.000Z",
-      "materialId": "MAT-0097",
-      "materialNombre": "Tijeras",
+      "materialId": "MAT-0109",
+      "materialNombre": "Tarjetas La Bomba",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -45099,8 +45139,28 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003474",
-      "totalUnidades": 3,
+      "idMov": "MOV-003476",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-02T00:00:00.000Z",
+      "materialId": "MAT-0097",
+      "materialNombre": "Tijeras",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Remi, GC: Ariadna Hernández, Paola Barbosa",
+      "notas": "Remisión REM-0023",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003477",
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -45119,7 +45179,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003475",
+      "idMov": "MOV-003478",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45139,7 +45199,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003476",
+      "idMov": "MOV-003479",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45159,7 +45219,7 @@
       "notas": "Remisión REM-0023",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003477",
+      "idMov": "MOV-003480",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -65214,6 +65274,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0094",
+          "materialNombre": "Cartas Choque Eléctrico",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 320,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0033",
           "materialNombre": "Cinta diurex",
           "tipoPaquete": "Pieza Única",
@@ -65394,6 +65469,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0034",
+          "materialNombre": "Hojas de colores",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 20,
+          "unidadesPaq": 1,
+          "totalUnidades": 20,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1600,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
+        },
+        {
           "materialId": "MAT-0308",
           "materialNombre": "Megáfono",
           "tipoPaquete": "Pieza Única",
@@ -65559,19 +65649,34 @@
           "cantPaquetesEnviar": 2
         },
         {
+          "materialId": "MAT-0109",
+          "materialNombre": "Tarjetas La Bomba",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 100,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 100,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0097",
           "materialNombre": "Tijeras",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 75,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0309",
