@@ -45085,6 +45085,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0022",
+      "materialNombre": "Pinceles",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 50,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Paola Barbosa, Paula Ángela",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003510",
+      "totalUnidades": 50,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0023",
       "materialNombre": "Pintura",
       "tipo": "Salida",
@@ -45099,7 +45119,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003510",
+      "idMov": "MOV-003511",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -45119,7 +45139,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003511",
+      "idMov": "MOV-003512",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45139,7 +45159,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003512",
+      "idMov": "MOV-003513",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45159,7 +45179,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003513",
+      "idMov": "MOV-003514",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45179,7 +45199,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003514",
+      "idMov": "MOV-003515",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45199,7 +45219,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003515",
+      "idMov": "MOV-003516",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45219,7 +45239,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003516",
+      "idMov": "MOV-003517",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65026,6 +65046,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0022",
+          "materialNombre": "Pinceles",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 50,
+          "unidadesPaq": 1,
+          "totalUnidades": 50,
+          "numSeries": "",
+          "costoUnitario": 20,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0023",
