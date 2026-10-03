@@ -8428,7 +8428,7 @@
     },
     {
       "id": "MAT-0339",
-      "nombre": "Bomba de Agua",
+      "nombre": "Dispensador de Agua",
       "tipoPaquete": "Pieza Única",
       "unidadesPaq": 1,
       "rack": "",
@@ -8438,7 +8438,7 @@
       "descripcion": "",
       "fotoUrl": "",
       "costoUnidad": null,
-      "clasificacion": "Consumible",
+      "clasificacion": "Depreciable",
       "costoUso": null,
       "tdeValor": null,
       "tdeUnidad": "Días",
