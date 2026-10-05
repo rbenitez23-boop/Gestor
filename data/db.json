@@ -44549,7 +44549,7 @@
       "materialNombre": "Aros",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 50,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -44560,7 +44560,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003558",
-      "totalUnidades": 50,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -64696,16 +64696,16 @@
           "materialId": "MAT-0005",
           "materialNombre": "Aros",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 50,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 50,
+          "totalUnidades": 60,
           "numSeries": "",
           "costoUnitario": 45,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2250,
+          "costoTotalItem": 2700,
           "stockEnDestino": 0,
-          "cantidadEnviar": 50,
-          "cantPaquetesEnviar": 50
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
         },
         {
           "materialId": "MAT-0037",
