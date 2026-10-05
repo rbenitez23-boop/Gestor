@@ -45185,6 +45185,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0091",
+      "materialNombre": "Palitos de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 50,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003590",
+      "totalUnidades": 50,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0053",
       "materialNombre": "Palo de escoba",
       "tipo": "Salida",
@@ -45199,7 +45219,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003590",
+      "idMov": "MOV-003591",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45219,7 +45239,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003591",
+      "idMov": "MOV-003592",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45239,7 +45259,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003592",
+      "idMov": "MOV-003593",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45259,7 +45279,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003593",
+      "idMov": "MOV-003594",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45279,7 +45299,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003594",
+      "idMov": "MOV-003595",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -45299,7 +45319,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003595",
+      "idMov": "MOV-003596",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45319,7 +45339,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003596",
+      "idMov": "MOV-003597",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45339,7 +45359,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003597",
+      "idMov": "MOV-003598",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -45359,7 +45379,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003598",
+      "idMov": "MOV-003599",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45379,7 +45399,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003599",
+      "idMov": "MOV-003600",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -45399,7 +45419,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003600",
+      "idMov": "MOV-003601",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -45419,7 +45439,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003601",
+      "idMov": "MOV-003602",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45439,7 +45459,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003602",
+      "idMov": "MOV-003603",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45459,7 +45479,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003603",
+      "idMov": "MOV-003604",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45479,7 +45499,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003604",
+      "idMov": "MOV-003605",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45499,7 +45519,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003605",
+      "idMov": "MOV-003606",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45519,7 +45539,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003606",
+      "idMov": "MOV-003607",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45539,7 +45559,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003607",
+      "idMov": "MOV-003608",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45559,7 +45579,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003608",
+      "idMov": "MOV-003609",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45579,7 +45599,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003609",
+      "idMov": "MOV-003610",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45599,7 +45619,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003610",
+      "idMov": "MOV-003611",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65476,6 +65496,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0091",
+          "materialNombre": "Palitos de colores",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 50,
+          "unidadesPaq": 1,
+          "totalUnidades": 50,
+          "numSeries": "",
+          "costoUnitario": 40,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 2000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0053",
