@@ -44765,6 +44765,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0253",
+      "materialNombre": "Charola de metal",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003569",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0033",
       "materialNombre": "Cinta diurex",
       "tipo": "Salida",
@@ -44779,7 +44799,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003569",
+      "idMov": "MOV-003570",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44799,7 +44819,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003570",
+      "idMov": "MOV-003571",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44819,7 +44839,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003571",
+      "idMov": "MOV-003572",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44839,7 +44859,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003572",
+      "idMov": "MOV-003573",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44859,7 +44879,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003573",
+      "idMov": "MOV-003574",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -44879,7 +44899,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003574",
+      "idMov": "MOV-003575",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -44899,7 +44919,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003575",
+      "idMov": "MOV-003576",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -44919,8 +44939,28 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003576",
+      "idMov": "MOV-003577",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0190",
+      "materialNombre": "Cuchillo de sierra",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003578",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -44939,7 +44979,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003577",
+      "idMov": "MOV-003579",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -44959,7 +44999,27 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003578",
+      "idMov": "MOV-003580",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0333",
+      "materialNombre": "Esponja de Cocina",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003581",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -44979,7 +45039,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003579",
+      "idMov": "MOV-003582",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -44999,7 +45059,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003580",
+      "idMov": "MOV-003583",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45019,7 +45079,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003581",
+      "idMov": "MOV-003584",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -45039,7 +45099,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003582",
+      "idMov": "MOV-003585",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45059,8 +45119,28 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003583",
+      "idMov": "MOV-003586",
       "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0334",
+      "materialNombre": "Jabón de trastes",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003587",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -45079,7 +45159,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003584",
+      "idMov": "MOV-003588",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -45099,7 +45179,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003585",
+      "idMov": "MOV-003589",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45119,7 +45199,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003586",
+      "idMov": "MOV-003590",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45139,7 +45219,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003587",
+      "idMov": "MOV-003591",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45159,7 +45239,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003588",
+      "idMov": "MOV-003592",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -45179,7 +45259,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003589",
+      "idMov": "MOV-003593",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45199,7 +45279,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003590",
+      "idMov": "MOV-003594",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45219,7 +45299,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003591",
+      "idMov": "MOV-003595",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -45239,7 +45319,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003592",
+      "idMov": "MOV-003596",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45259,7 +45339,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003593",
+      "idMov": "MOV-003597",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -45279,7 +45359,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003594",
+      "idMov": "MOV-003598",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -45299,7 +45379,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003595",
+      "idMov": "MOV-003599",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45319,7 +45399,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003596",
+      "idMov": "MOV-003600",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45339,7 +45419,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003597",
+      "idMov": "MOV-003601",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45359,7 +45439,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003598",
+      "idMov": "MOV-003602",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45379,7 +45459,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003599",
+      "idMov": "MOV-003603",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45399,7 +45479,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003600",
+      "idMov": "MOV-003604",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45419,7 +45499,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003601",
+      "idMov": "MOV-003605",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45439,7 +45519,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003602",
+      "idMov": "MOV-003606",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45459,7 +45539,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003603",
+      "idMov": "MOV-003607",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65008,6 +65088,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0253",
+          "materialNombre": "Charola de metal",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 320,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0033",
           "materialNombre": "Cinta diurex",
           "tipoPaquete": "Pieza Única",
@@ -65136,6 +65231,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0190",
+          "materialNombre": "Cuchillo de sierra",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 320,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0008",
           "materialNombre": "Cuerda de algodón",
           "tipoPaquete": "Pieza Única",
@@ -65166,6 +65276,21 @@
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0333",
+          "materialNombre": "Esponja de Cocina",
+          "tipoPaquete": "Bolsa",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 20,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 40,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0001",
@@ -65245,6 +65370,21 @@
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0334",
+          "materialNombre": "Jabón de trastes",
+          "tipoPaquete": "Bolsa",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 50,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0308",
