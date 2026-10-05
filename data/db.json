@@ -45225,6 +45225,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0062",
+      "materialNombre": "Pluma",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 30,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Paola Barbosa, Paula Ángela",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003592",
+      "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0011",
       "materialNombre": "Plumón",
       "tipo": "Salida",
@@ -45239,7 +45259,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003592",
+      "idMov": "MOV-003593",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45259,7 +45279,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003593",
+      "idMov": "MOV-003594",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45279,7 +45299,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003594",
+      "idMov": "MOV-003595",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45299,7 +45319,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003595",
+      "idMov": "MOV-003596",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45319,7 +45339,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003596",
+      "idMov": "MOV-003597",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45339,7 +45359,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003597",
+      "idMov": "MOV-003598",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45359,7 +45379,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003598",
+      "idMov": "MOV-003599",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45379,7 +45399,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003599",
+      "idMov": "MOV-003600",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65293,6 +65313,21 @@
           "cantidadEnviar": 15,
           "cantPaquetesEnviar": 15,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0062",
+          "materialNombre": "Pluma",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 30,
+          "unidadesPaq": 1,
+          "totalUnidades": 30,
+          "numSeries": "",
+          "costoUnitario": 10,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 300,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 30,
+          "cantPaquetesEnviar": 30
         },
         {
           "materialId": "MAT-0011",
