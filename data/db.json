@@ -45525,6 +45525,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0172",
+      "materialNombre": "Tabla de madera",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003607",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0258",
       "materialNombre": "Tela tipo mantel",
       "tipo": "Salida",
@@ -45539,7 +45559,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003607",
+      "idMov": "MOV-003608",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45559,7 +45579,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003608",
+      "idMov": "MOV-003609",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45579,7 +45599,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003609",
+      "idMov": "MOV-003610",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45599,7 +45619,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003610",
+      "idMov": "MOV-003611",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45619,7 +45639,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003611",
+      "idMov": "MOV-003612",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65767,6 +65787,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0172",
+          "materialNombre": "Tabla de madera",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 100,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 400,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0258",
