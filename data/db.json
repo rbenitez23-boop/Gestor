@@ -45305,6 +45305,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0097",
+      "materialNombre": "Tijeras",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Paola Barbosa, Paula Ángela",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003596",
+      "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0309",
       "materialNombre": "Tinaja",
       "tipo": "Salida",
@@ -45319,7 +45339,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003596",
+      "idMov": "MOV-003597",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45339,7 +45359,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003597",
+      "idMov": "MOV-003598",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45359,7 +45379,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003598",
+      "idMov": "MOV-003599",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65335,6 +65355,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0097",
+          "materialNombre": "Tijeras",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 250,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0309",
