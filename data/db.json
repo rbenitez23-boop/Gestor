@@ -44629,7 +44629,7 @@
       "materialNombre": "Bandera PG",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 10,
+      "cantPaquetes": 11,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -44640,7 +44640,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003562",
-      "totalUnidades": 10,
+      "totalUnidades": 11,
       "regreso": false
     },
     {
@@ -65080,16 +65080,16 @@
           "materialId": "MAT-0014",
           "materialNombre": "Bandera PG",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 10,
+          "cantPaquetes": 11,
           "unidadesPaq": 1,
-          "totalUnidades": 10,
+          "totalUnidades": 11,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1500,
+          "costoTotalItem": 1650,
           "stockEnDestino": 0,
-          "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantidadEnviar": 11,
+          "cantPaquetesEnviar": 11
         },
         {
           "materialId": "MAT-0002",
