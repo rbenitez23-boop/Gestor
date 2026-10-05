@@ -44645,8 +44645,8 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
-      "materialId": "MAT-0080",
-      "materialNombre": "Bomba de balones",
+      "materialId": "MAT-0203",
+      "materialNombre": "Bomba de globos",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 2,
@@ -64768,20 +64768,19 @@
           "cantPaquetesEnviar": 1
         },
         {
-          "materialId": "MAT-0080",
-          "materialNombre": "Bomba de balones",
+          "materialId": "MAT-0203",
+          "materialNombre": "Bomba de globos",
           "tipoPaquete": "Pieza Única",
           "cantPaquetes": 2,
           "unidadesPaq": 1,
           "totalUnidades": 2,
           "numSeries": "",
-          "costoUnitario": 120,
+          "costoUnitario": 50,
           "clasificacion": "Consumible",
-          "costoTotalItem": 240,
+          "costoTotalItem": 100,
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2,
-          "checkSalida": false
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0312",
