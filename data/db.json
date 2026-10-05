@@ -45025,6 +45025,26 @@
     },
     {
       "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0034",
+      "materialNombre": "Hojas de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003582",
+      "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
       "materialId": "MAT-0308",
       "materialNombre": "Megáfono",
       "tipo": "Salida",
@@ -45039,8 +45059,28 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003582",
+      "idMov": "MOV-003583",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-06T00:00:00.000Z",
+      "materialId": "MAT-0053",
+      "materialNombre": "Palo de escoba",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Primaria alta",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
+      "notas": "Remisión REM-0022",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003584",
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -45059,7 +45099,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003583",
+      "idMov": "MOV-003585",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45079,7 +45119,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003584",
+      "idMov": "MOV-003586",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45099,7 +45139,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003585",
+      "idMov": "MOV-003587",
       "totalUnidades": 19,
       "regreso": false
     },
@@ -45119,7 +45159,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003586",
+      "idMov": "MOV-003588",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45139,7 +45179,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003587",
+      "idMov": "MOV-003589",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45159,7 +45199,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003588",
+      "idMov": "MOV-003590",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -45179,7 +45219,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003589",
+      "idMov": "MOV-003591",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45199,7 +45239,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003590",
+      "idMov": "MOV-003592",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -45219,7 +45259,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003591",
+      "idMov": "MOV-003593",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -45239,7 +45279,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003592",
+      "idMov": "MOV-003594",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45259,7 +45299,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003593",
+      "idMov": "MOV-003595",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -45279,7 +45319,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003594",
+      "idMov": "MOV-003596",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45299,7 +45339,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003595",
+      "idMov": "MOV-003597",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -45319,7 +45359,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003596",
+      "idMov": "MOV-003598",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -45339,7 +45379,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003597",
+      "idMov": "MOV-003599",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -45359,7 +45399,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003598",
+      "idMov": "MOV-003600",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -45379,7 +45419,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003599",
+      "idMov": "MOV-003601",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -45399,7 +45439,7 @@
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003600",
+      "idMov": "MOV-003602",
       "totalUnidades": 20,
       "regreso": false
     }
@@ -65156,6 +65196,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0034",
+          "materialNombre": "Hojas de colores",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 800,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
+        },
+        {
           "materialId": "MAT-0308",
           "materialNombre": "Megáfono",
           "tipoPaquete": "Pieza Única",
@@ -65170,6 +65225,21 @@
           "cantidadEnviar": 3,
           "cantPaquetesEnviar": 3,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0053",
+          "materialNombre": "Palo de escoba",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 600,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0118",
