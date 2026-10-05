@@ -65343,7 +65343,8 @@
           "costoTotalItem": 600,
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
-          "cantPaquetesEnviar": 20
+          "cantPaquetesEnviar": 20,
+          "checkSalida": true
         }
       ],
       "fotos": [],
