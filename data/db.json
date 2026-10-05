@@ -44658,7 +44658,7 @@
       "responsable": "Dir: Bruno, GC: Regina Adán, Xiomara",
       "notas": "Remisión REM-0022",
       "fechaRegreso": "",
-      "numSeries": "",
+      "numSeries": "3",
       "idMov": "MOV-003563",
       "totalUnidades": 1,
       "regreso": false
@@ -65099,7 +65099,7 @@
           "cantPaquetes": 1,
           "unidadesPaq": 1,
           "totalUnidades": 1,
-          "numSeries": "",
+          "numSeries": "3",
           "costoUnitario": 350,
           "clasificacion": "Consumible",
           "costoTotalItem": 350,
