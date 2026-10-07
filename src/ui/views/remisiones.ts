@@ -349,11 +349,20 @@ function montarListaMateriales(modal: HTMLElement, db: Database, idsExistentes: 
 // ── MODAL: NUEVA REMISIÓN ────────────────────────────────────────────
 let itemCount = 0;
 
-function openNuevaRemisionModal(db: Database, onChanged: () => void) {
+/**
+ * Nueva remisión. Si se pasa `base`, es un DUPLICADO: el formulario se abre
+ * prellenado con los datos y materiales de esa remisión; el folio nuevo se
+ * asigna al guardar. Fechas y números de serie quedan en blanco/hoy a
+ * propósito (es otro evento y probablemente otra pieza).
+ */
+function openNuevaRemisionModal(db: Database, onChanged: () => void, base?: Remision, onCreada?: (folio: string) => void) {
   itemCount = 0;
   const almacenOptions = db.almacenes.filter((a) => a.activo !== false).map((a) => `<option value="${esc(a.nombre)}">${esc(a.nombre)}</option>`).join('');
 
-  const body = `
+  const avisoDuplicado = base
+    ? `<div class="card" style="padding:10px 14px;margin-bottom:14px;font-size:12px;background:var(--blanco)">📄 Copia de <b>${esc(base.folio)}</b> — revisa fechas y datos; al guardar se crea con un folio nuevo. La original no cambia.</div>`
+    : '';
+  const body = `${avisoDuplicado}
     <div class="frow">
       <div class="fg"><label class="fl">Cliente / Colegio <span>*</span></label><input class="fc" id="rm-cliente"/></div>
       <div class="fg"><label class="fl">Evento</label><input class="fc" id="rm-evento"/></div>
@@ -391,12 +400,36 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
       </div>
       <div id="rm-items-list"></div>
     </div>`;
-  const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">Crear remisión</button>`;
-  const modal = openModal('Nueva remisión', body, footer);
+  const footer = `<button class="btn btn-ghost" data-close-modal>Cancelar</button><button class="btn btn-primary" id="rm-save">${base ? 'Crear copia' : 'Crear remisión'}</button>`;
+  const modal = openModal(base ? `Duplicar remisión ${base.folio}` : 'Nueva remisión', body, footer);
   agregarVentanaRecetario(modal, db);
 
-  const lista = montarListaMateriales(modal, db);
-  lista.addItemRow();
+  const lista = montarListaMateriales(modal, db, base ? base.items.map((it) => it.materialId) : []);
+  if (base) {
+    const poner = (id: string, valor: string | number) => {
+      const el = modal.querySelector(`#${id}`) as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement | null;
+      if (!el) return;
+      // En un <select>, solo se asigna si la opción existe (p. ej. un almacén dado de baja se ignora).
+      if (el instanceof HTMLSelectElement && !Array.from(el.options).some((o) => o.value === String(valor))) return;
+      el.value = String(valor ?? '');
+    };
+    poner('rm-cliente', base.cliente);
+    poner('rm-evento', base.evento);
+    poner('rm-almacen', base.almacen);
+    poner('rm-resp', base.responsable);
+    poner('rm-almacen-sede', base.almacenSede);
+    poner('rm-notas', base.notas);
+    poner('rm-tipo-evento', base.tipoEvento);
+    poner('rm-equipos', base.numEquipos);
+    poner('rm-campistas', base.numCampistas);
+    poner('rm-staff', base.numStaff);
+    poner('rm-maestros', base.numMaestros);
+    // Se agregan en orden inverso porque cada fila nueva entra hasta arriba.
+    [...base.items].reverse().forEach((it) => lista.addItemRow(it.materialId, it.totalUnidades, '', it.materialNombre));
+    lista.marcarDuplicados();
+  } else {
+    lista.addItemRow();
+  }
 
   modal.querySelector('#rm-save')?.addEventListener('click', async () => {
     const cliente = (document.getElementById('rm-cliente') as HTMLInputElement).value.trim();
@@ -434,10 +467,11 @@ function openNuevaRemisionModal(db: Database, onChanged: () => void) {
         });
         folioCreado = folio;
         return next;
-      }, `Nueva remisión: ${cliente}`);
+      }, base ? `Nueva remisión: ${cliente} (copia de ${base.folio})` : `Nueva remisión: ${cliente}`);
       toast(`Remisión ${folioCreado} creada ✓`, 's');
       closeModal();
-      onChanged();
+      if (onCreada) onCreada(folioCreado);
+      else onChanged();
     } catch (e) {
       toast('Error: ' + (e as Error).message, 'e');
     } finally {
@@ -471,6 +505,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-scan-regreso">📷 Escanear regreso</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-success" id="rd-regreso">Registrar regreso (manual)</button>` : ''}
         ${!rem.cerrada ? `<button class="btn btn-ghost" id="rd-editar">✏️ Editar</button>` : ''}
+        <button class="btn btn-ghost" id="rd-duplicar" title="Crea una remisión nueva con los mismos datos y materiales">📄 Duplicar</button>
         <button class="btn btn-ghost" id="rd-etiquetas">🏷️ Etiquetas de esta remisión</button>
         <button class="btn btn-ghost" id="rd-toggle">${rem.cerrada ? '🔓 Reabrir' : '🔒 Cerrar'}</button>
         <button class="btn btn-orange" id="rd-print">🖨️ Imprimir / Descargar PDF</button>
@@ -597,6 +632,10 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
 
   container.querySelector('#rd-regreso')?.addEventListener('click', () => openRegresoModal(rem.folio, db, refrescarDetalle));
   container.querySelector('#rd-editar')?.addEventListener('click', () => openEditarRemisionModal(rem.folio, db, refrescarDetalle));
+  // Al crear la copia, se abre directamente la remisión nueva.
+  container.querySelector('#rd-duplicar')?.addEventListener('click', () =>
+    openNuevaRemisionModal(db, onChanged, rem, (folioNuevo) => renderRemisionDetalle(container, store.current!, folioNuevo, onChanged))
+  );
   container.querySelector('#rd-etiquetas')?.addEventListener('click', () => renderEtiquetasDeRemision(container, db, rem, onChanged));
   container.querySelector('#rd-scan-salida')?.addEventListener('click', () => openEscaneoSalidaModal(rem.folio, db, refrescarDetalle));
   container.querySelector('#rd-scan-regreso')?.addEventListener('click', () => openEscaneoRegresoModal(rem.folio, db, refrescarDetalle));
