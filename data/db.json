@@ -46578,7 +46578,7 @@
       "responsable": "Dir: Bruno, GC: Victoria Ortiz, Sophie García",
       "notas": "Remisión REM-0025",
       "fechaRegreso": "",
-      "numSeries": "",
+      "numSeries": "1",
       "idMov": "MOV-003659",
       "totalUnidades": 1,
       "regreso": false
@@ -69307,7 +69307,7 @@
           "cantPaquetes": 1,
           "unidadesPaq": 1,
           "totalUnidades": 1,
-          "numSeries": "",
+          "numSeries": "1",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
           "costoTotalItem": 80,
