@@ -46005,26 +46005,6 @@
     },
     {
       "fecha": "2026-10-07T00:00:00.000Z",
-      "materialId": "MAT-0340",
-      "materialNombre": "Naranja",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Washington 5°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0024",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003631",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-07T00:00:00.000Z",
       "materialId": "MAT-0004",
       "materialNombre": "Paliacates",
       "tipo": "Salida",
@@ -46039,7 +46019,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003632",
+      "idMov": "MOV-003631",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46059,7 +46039,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003633",
+      "idMov": "MOV-003632",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -46079,7 +46059,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003634",
+      "idMov": "MOV-003633",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -46099,7 +46079,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003635",
+      "idMov": "MOV-003634",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -46119,7 +46099,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003636",
+      "idMov": "MOV-003635",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46139,7 +46119,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003637",
+      "idMov": "MOV-003636",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46159,7 +46139,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003638",
+      "idMov": "MOV-003637",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -46179,7 +46159,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003639",
+      "idMov": "MOV-003638",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -46199,7 +46179,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003640",
+      "idMov": "MOV-003639",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46219,7 +46199,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003641",
+      "idMov": "MOV-003640",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -46239,7 +46219,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003642",
+      "idMov": "MOV-003641",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -46259,7 +46239,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003643",
+      "idMov": "MOV-003642",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -46279,7 +46259,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003644",
+      "idMov": "MOV-003643",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -67455,21 +67435,6 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0340",
-          "materialNombre": "Naranja",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": null,
-          "clasificacion": "Consumible",
-          "costoTotalItem": null,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0004",
