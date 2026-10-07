@@ -46045,6 +46045,26 @@
     },
     {
       "fecha": "2026-10-07T00:00:00.000Z",
+      "materialId": "MAT-0091",
+      "materialNombre": "Palitos de colores",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 50,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 5°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0024",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003633",
+      "totalUnidades": 50,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-07T00:00:00.000Z",
       "materialId": "MAT-0013",
       "materialNombre": "Pelota inflable yoga",
       "tipo": "Salida",
@@ -46059,7 +46079,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003633",
+      "idMov": "MOV-003634",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -46079,7 +46099,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003634",
+      "idMov": "MOV-003635",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -46099,7 +46119,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003635",
+      "idMov": "MOV-003636",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -46119,7 +46139,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003636",
+      "idMov": "MOV-003637",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46139,7 +46159,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003637",
+      "idMov": "MOV-003638",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46159,7 +46179,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003638",
+      "idMov": "MOV-003639",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -46179,7 +46199,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003639",
+      "idMov": "MOV-003640",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -46199,7 +46219,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003640",
+      "idMov": "MOV-003641",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -46219,7 +46239,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003641",
+      "idMov": "MOV-003642",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -46239,7 +46259,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003642",
+      "idMov": "MOV-003643",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -46259,7 +46279,7 @@
       "notas": "Remisión REM-0024",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003643",
+      "idMov": "MOV-003644",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -67466,6 +67486,21 @@
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0091",
+          "materialNombre": "Palitos de colores",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 50,
+          "unidadesPaq": 1,
+          "totalUnidades": 50,
+          "numSeries": "",
+          "costoUnitario": 40,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 2000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0013",
