@@ -48739,7 +48739,7 @@
       "materialNombre": "Pluma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 100,
+      "cantPaquetes": 110,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -48750,7 +48750,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003765",
-      "totalUnidades": 100,
+      "totalUnidades": 110,
       "regreso": false
     },
     {
@@ -49011,6 +49011,26 @@
       "numSeries": "",
       "idMov": "MOV-003778",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0318",
+      "materialNombre": "Válvula",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003779",
+      "totalUnidades": 2,
       "regreso": false
     }
   ],
@@ -72297,16 +72317,16 @@
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 100,
+          "cantPaquetes": 110,
           "unidadesPaq": 1,
-          "totalUnidades": 100,
+          "totalUnidades": 110,
           "numSeries": "",
           "costoUnitario": 10,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1000,
+          "costoTotalItem": 1100,
           "stockEnDestino": 0,
-          "cantidadEnviar": 100,
-          "cantPaquetesEnviar": 100
+          "cantidadEnviar": 110,
+          "cantPaquetesEnviar": 110
         },
         {
           "materialId": "MAT-0011",
@@ -72511,6 +72531,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0318",
+          "materialNombre": "Válvula",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         }
       ],
       "fotos": [],
