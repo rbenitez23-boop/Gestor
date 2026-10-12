@@ -9100,6 +9100,31 @@
       "seccion": "",
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0366",
+      "nombre": "Guitarra",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "tieneNumSerie": false,
+      "fechaAlta": "2026-10-12T15:32:32.691Z",
+      "activo": true,
+      "seccion": "",
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
