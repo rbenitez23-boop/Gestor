@@ -47845,6 +47845,26 @@
     },
     {
       "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0148",
+      "materialNombre": "Bowl de metal",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003723",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
       "materialId": "MAT-0313",
       "materialNombre": "Caja de Medicamentos",
       "tipo": "Salida",
@@ -47859,7 +47879,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003723",
+      "idMov": "MOV-003724",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -47879,7 +47899,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003724",
+      "idMov": "MOV-003725",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -47899,7 +47919,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003725",
+      "idMov": "MOV-003726",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -47919,8 +47939,28 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003726",
+      "idMov": "MOV-003727",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0253",
+      "materialNombre": "Charola de metal",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003728",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -47939,7 +47979,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003727",
+      "idMov": "MOV-003729",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -47959,7 +47999,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003728",
+      "idMov": "MOV-003730",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -47979,7 +48019,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003729",
+      "idMov": "MOV-003731",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -47999,7 +48039,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003730",
+      "idMov": "MOV-003732",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -48019,7 +48059,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003731",
+      "idMov": "MOV-003733",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -48039,7 +48079,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003732",
+      "idMov": "MOV-003734",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48059,7 +48099,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003733",
+      "idMov": "MOV-003735",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48079,7 +48119,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003734",
+      "idMov": "MOV-003736",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48099,7 +48139,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003735",
+      "idMov": "MOV-003737",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48119,8 +48159,28 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003736",
+      "idMov": "MOV-003738",
       "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0167",
+      "materialNombre": "Gorro de chef",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003739",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -48139,7 +48199,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003737",
+      "idMov": "MOV-003740",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48159,7 +48219,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003738",
+      "idMov": "MOV-003741",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48179,7 +48239,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003739",
+      "idMov": "MOV-003742",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48199,7 +48259,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003740",
+      "idMov": "MOV-003743",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48219,7 +48279,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003741",
+      "idMov": "MOV-003744",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -48239,7 +48299,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003742",
+      "idMov": "MOV-003745",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48259,8 +48319,28 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003743",
+      "idMov": "MOV-003746",
       "totalUnidades": 60,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0013",
+      "materialNombre": "Pelota inflable yoga",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003747",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -48279,7 +48359,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003744",
+      "idMov": "MOV-003748",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48299,7 +48379,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003745",
+      "idMov": "MOV-003749",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48319,7 +48399,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003746",
+      "idMov": "MOV-003750",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -48339,7 +48419,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003747",
+      "idMov": "MOV-003751",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48359,7 +48439,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003748",
+      "idMov": "MOV-003752",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48379,7 +48459,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003749",
+      "idMov": "MOV-003753",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48399,8 +48479,28 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003750",
+      "idMov": "MOV-003754",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0172",
+      "materialNombre": "Tabla de madera",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003755",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -48419,7 +48519,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003751",
+      "idMov": "MOV-003756",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48439,7 +48539,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003752",
+      "idMov": "MOV-003757",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -48459,7 +48559,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003753",
+      "idMov": "MOV-003758",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -71082,6 +71182,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0148",
+          "materialNombre": "Bowl de metal",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 320,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0313",
           "materialNombre": "Caja de Medicamentos",
           "tipoPaquete": "Pieza Única",
@@ -71140,6 +71255,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0253",
+          "materialNombre": "Charola de metal",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 320,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0033",
@@ -71292,6 +71422,21 @@
           "cantPaquetesEnviar": 4
         },
         {
+          "materialId": "MAT-0167",
+          "materialNombre": "Gorro de chef",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 80,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 80,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0034",
           "materialNombre": "Hojas de colores",
           "tipoPaquete": "Pieza Única",
@@ -71397,6 +71542,21 @@
           "cantPaquetesEnviar": 60
         },
         {
+          "materialId": "MAT-0013",
+          "materialNombre": "Pelota inflable yoga",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 250,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 250,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0201",
           "materialNombre": "Pelota Waterpolo",
           "tipoPaquete": "Pieza Única",
@@ -71500,6 +71660,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0172",
+          "materialNombre": "Tabla de madera",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 100,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 400,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0307",
