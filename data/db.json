@@ -48515,26 +48515,6 @@
     },
     {
       "fecha": "2026-10-13T00:00:00.000Z",
-      "materialId": "MAT-0218",
-      "materialNombre": "Leña",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Maxei Secundaria",
-      "estado": "Ocupado",
-      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
-      "notas": "Remisión REM-0026",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003754",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-13T00:00:00.000Z",
       "materialId": "MAT-0328",
       "materialNombre": "Luces para Noche Disco",
       "tipo": "Salida",
@@ -48549,7 +48529,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003755",
+      "idMov": "MOV-003754",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -48569,7 +48549,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003756",
+      "idMov": "MOV-003755",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48589,7 +48569,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003757",
+      "idMov": "MOV-003756",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -48609,7 +48589,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003758",
+      "idMov": "MOV-003757",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -48629,7 +48609,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003759",
+      "idMov": "MOV-003758",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48649,7 +48629,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003760",
+      "idMov": "MOV-003759",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -48669,7 +48649,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003761",
+      "idMov": "MOV-003760",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48689,7 +48669,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003762",
+      "idMov": "MOV-003761",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48709,7 +48689,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003763",
+      "idMov": "MOV-003762",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48729,7 +48709,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003764",
+      "idMov": "MOV-003763",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48749,7 +48729,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003765",
+      "idMov": "MOV-003764",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48769,7 +48749,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003766",
+      "idMov": "MOV-003765",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -48789,7 +48769,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003767",
+      "idMov": "MOV-003766",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48809,7 +48789,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003768",
+      "idMov": "MOV-003767",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48829,7 +48809,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003769",
+      "idMov": "MOV-003768",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48849,7 +48829,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003770",
+      "idMov": "MOV-003769",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48869,7 +48849,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003771",
+      "idMov": "MOV-003770",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48889,7 +48869,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003772",
+      "idMov": "MOV-003771",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48909,7 +48889,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003773",
+      "idMov": "MOV-003772",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48929,7 +48909,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003774",
+      "idMov": "MOV-003773",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48949,7 +48929,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003775",
+      "idMov": "MOV-003774",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48969,7 +48949,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003776",
+      "idMov": "MOV-003775",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -48989,7 +48969,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003777",
+      "idMov": "MOV-003776",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -49009,7 +48989,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003778",
+      "idMov": "MOV-003777",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -72114,21 +72094,6 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6
-        },
-        {
-          "materialId": "MAT-0218",
-          "materialNombre": "Leña",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 80,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 80,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0328",
