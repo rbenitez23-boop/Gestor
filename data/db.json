@@ -48715,6 +48715,26 @@
     },
     {
       "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0168",
+      "materialNombre": "Plumón pintacaritas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003764",
+      "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
       "materialId": "MAT-0200",
       "materialNombre": "Porterías armables",
       "tipo": "Salida",
@@ -48729,7 +48749,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003764",
+      "idMov": "MOV-003765",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48749,7 +48769,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003765",
+      "idMov": "MOV-003766",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48769,7 +48789,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003766",
+      "idMov": "MOV-003767",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48789,7 +48809,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003767",
+      "idMov": "MOV-003768",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48809,7 +48829,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003768",
+      "idMov": "MOV-003769",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48829,7 +48849,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003769",
+      "idMov": "MOV-003770",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48849,7 +48869,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003770",
+      "idMov": "MOV-003771",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48869,7 +48889,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003771",
+      "idMov": "MOV-003772",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48889,7 +48909,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003772",
+      "idMov": "MOV-003773",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -48909,7 +48929,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003773",
+      "idMov": "MOV-003774",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48929,7 +48949,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003774",
+      "idMov": "MOV-003775",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -72165,6 +72185,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 40,
           "cantPaquetesEnviar": 40
+        },
+        {
+          "materialId": "MAT-0168",
+          "materialNombre": "Plumón pintacaritas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 300,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0200",
