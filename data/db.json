@@ -48499,7 +48499,7 @@
       "materialNombre": "Juegos de Mesa",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 8,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -48510,7 +48510,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003753",
-      "totalUnidades": 6,
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -72091,16 +72091,16 @@
           "materialId": "MAT-0364",
           "materialNombre": "Juegos de Mesa",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 8,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 8,
           "numSeries": "",
           "costoUnitario": 0,
           "clasificacion": "Depreciable",
           "costoTotalItem": 0,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6,
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8,
           "checkSalida": true
         },
         {
