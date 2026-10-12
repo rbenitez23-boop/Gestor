@@ -48335,6 +48335,26 @@
     },
     {
       "fecha": "2026-10-13T00:00:00.000Z",
+      "materialId": "MAT-0364",
+      "materialNombre": "Juegos de Mesa",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 6,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei Secundaria",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gera, GC: Montserrat Palma, Paula Ángela",
+      "notas": "Remisión REM-0026",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-003745",
+      "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-13T00:00:00.000Z",
       "materialId": "MAT-0218",
       "materialNombre": "Leña",
       "tipo": "Salida",
@@ -48349,7 +48369,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003745",
+      "idMov": "MOV-003746",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48369,7 +48389,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003746",
+      "idMov": "MOV-003747",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -48389,7 +48409,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003747",
+      "idMov": "MOV-003748",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48409,7 +48429,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003748",
+      "idMov": "MOV-003749",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -48429,7 +48449,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003749",
+      "idMov": "MOV-003750",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48449,7 +48469,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003750",
+      "idMov": "MOV-003751",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -48469,7 +48489,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003751",
+      "idMov": "MOV-003752",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48489,7 +48509,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003752",
+      "idMov": "MOV-003753",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48509,7 +48529,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003753",
+      "idMov": "MOV-003754",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48529,7 +48549,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003754",
+      "idMov": "MOV-003755",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48549,7 +48569,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003755",
+      "idMov": "MOV-003756",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -48569,7 +48589,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003756",
+      "idMov": "MOV-003757",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -48589,7 +48609,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003757",
+      "idMov": "MOV-003758",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48609,7 +48629,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003758",
+      "idMov": "MOV-003759",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -48629,7 +48649,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003759",
+      "idMov": "MOV-003760",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48649,7 +48669,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003760",
+      "idMov": "MOV-003761",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -48669,7 +48689,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003761",
+      "idMov": "MOV-003762",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48689,7 +48709,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003762",
+      "idMov": "MOV-003763",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -48709,7 +48729,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003763",
+      "idMov": "MOV-003764",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -48729,7 +48749,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003764",
+      "idMov": "MOV-003765",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -48749,7 +48769,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003765",
+      "idMov": "MOV-003766",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -48769,7 +48789,7 @@
       "notas": "Remisión REM-0026",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003766",
+      "idMov": "MOV-003767",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -71720,6 +71740,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0364",
+          "materialNombre": "Juegos de Mesa",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 6,
+          "unidadesPaq": 1,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": 0,
+          "clasificacion": "Depreciable",
+          "costoTotalItem": 0,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0218",
