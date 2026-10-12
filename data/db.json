@@ -48499,7 +48499,7 @@
       "materialNombre": "Jabón de trastes",
       "tipo": "Salida",
       "tipoPaquete": "Bolsa",
-      "cantPaquetes": 1,
+      "cantPaquetes": 3,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -48510,7 +48510,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003753",
-      "totalUnidades": 1,
+      "totalUnidades": 3,
       "regreso": false
     },
     {
@@ -72133,16 +72133,16 @@
           "materialId": "MAT-0334",
           "materialNombre": "Jabón de trastes",
           "tipoPaquete": "Bolsa",
-          "cantPaquetes": 1,
+          "cantPaquetes": 3,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 3,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 25,
+          "costoTotalItem": 75,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 3,
+          "cantPaquetesEnviar": 3
         },
         {
           "materialId": "MAT-0364",
