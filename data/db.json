@@ -9125,6 +9125,31 @@
       "seccion": "",
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0367",
+      "nombre": "ukulele",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "tieneNumSerie": false,
+      "fechaAlta": "2026-10-12T15:33:13.370Z",
+      "activo": true,
+      "seccion": "",
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
