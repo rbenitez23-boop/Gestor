@@ -48559,7 +48559,7 @@
       "materialNombre": "Luces para Noche Disco",
       "tipo": "Salida",
       "tipoPaquete": "Paquete Armado",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 6,
       "origen": "Matriz",
       "destino": "",
@@ -48570,7 +48570,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003756",
-      "totalUnidades": 12,
+      "totalUnidades": 24,
       "regreso": false
     },
     {
@@ -72203,16 +72203,16 @@
           "materialId": "MAT-0328",
           "materialNombre": "Luces para Noche Disco",
           "tipoPaquete": "Paquete Armado",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 6,
-          "totalUnidades": 10,
+          "totalUnidades": 19,
           "numSeries": "",
           "costoUnitario": 66.66666666666667,
           "clasificacion": "Consumible",
-          "costoTotalItem": 666.67,
+          "costoTotalItem": 1266.67,
           "stockEnDestino": 0,
-          "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 19,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0215",
