@@ -72442,7 +72442,8 @@
           "costoTotalItem": 250,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0309",
