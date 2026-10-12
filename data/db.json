@@ -71965,7 +71965,8 @@
           "costoTotalItem": 540,
           "stockEnDestino": 0,
           "cantidadEnviar": 9,
-          "cantPaquetesEnviar": 9
+          "cantPaquetesEnviar": 9,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0001",
