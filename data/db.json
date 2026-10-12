@@ -76310,7 +76310,7 @@
       "fechaInicio": "2026-10-13",
       "fechaFin": "2026-10-15",
       "notas": "",
-      "programaRecibido": false,
+      "programaRecibido": true,
       "listaHecha": false,
       "creado": "2026-10-01T17:08:52.843Z"
     },
