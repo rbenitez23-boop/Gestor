@@ -51095,6 +51095,26 @@
     },
     {
       "fecha": "2026-10-14T00:00:00.000Z",
+      "materialId": "MAT-0305",
+      "materialNombre": "Cutter",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Ana Pau Sodi. GC: Jorge Lazo, Camila González",
+      "notas": "Remisión REM-0027",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004005",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-14T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -51109,7 +51129,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004005",
+      "idMov": "MOV-004006",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -51129,7 +51149,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004006",
+      "idMov": "MOV-004007",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -51149,7 +51169,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004007",
+      "idMov": "MOV-004008",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -51169,7 +51189,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004008",
+      "idMov": "MOV-004009",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -51189,7 +51209,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004009",
+      "idMov": "MOV-004010",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51209,7 +51229,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004010",
+      "idMov": "MOV-004011",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51229,7 +51249,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004011",
+      "idMov": "MOV-004012",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51249,7 +51269,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004012",
+      "idMov": "MOV-004013",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -51269,8 +51289,28 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004013",
+      "idMov": "MOV-004014",
       "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-14T00:00:00.000Z",
+      "materialId": "MAT-0097",
+      "materialNombre": "Tijeras",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Ana Pau Sodi. GC: Jorge Lazo, Camila González",
+      "notas": "Remisión REM-0027",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004015",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -51289,7 +51329,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004014",
+      "idMov": "MOV-004016",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -75085,6 +75125,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0305",
+          "materialNombre": "Cutter",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 25,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
@@ -75222,6 +75277,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0097",
+          "materialNombre": "Tijeras",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 50,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0291",
