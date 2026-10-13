@@ -75015,7 +75015,8 @@
           "costoTotalItem": 1500,
           "stockEnDestino": 0,
           "cantidadEnviar": 25,
-          "cantPaquetesEnviar": 25
+          "cantPaquetesEnviar": 25,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0007",
