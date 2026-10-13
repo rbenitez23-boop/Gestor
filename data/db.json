@@ -49879,7 +49879,7 @@
       "materialNombre": "Cofres",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 8,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -49890,7 +49890,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003822",
-      "totalUnidades": 4,
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -50419,7 +50419,7 @@
       "materialNombre": "Monedas de chocolate",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 32,
+      "cantPaquetes": 40,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50430,7 +50430,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003849",
-      "totalUnidades": 32,
+      "totalUnidades": 40,
       "regreso": false
     },
     {
@@ -50679,7 +50679,7 @@
       "materialNombre": "Pistas de rally",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 8,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50690,7 +50690,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003862",
-      "totalUnidades": 4,
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -75222,16 +75222,16 @@
           "materialId": "MAT-0016",
           "materialNombre": "Cofres",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 8,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 8,
           "numSeries": "",
           "costoUnitario": 120,
           "clasificacion": "Consumible",
-          "costoTotalItem": 480,
+          "costoTotalItem": 960,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8
         },
         {
           "materialId": "MAT-0166",
@@ -75627,16 +75627,16 @@
           "materialId": "MAT-0060",
           "materialNombre": "Monedas de chocolate",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 32,
+          "cantPaquetes": 40,
           "unidadesPaq": 1,
-          "totalUnidades": 32,
+          "totalUnidades": 40,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2560,
+          "costoTotalItem": 3200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 32,
-          "cantPaquetesEnviar": 32
+          "cantidadEnviar": 40,
+          "cantPaquetesEnviar": 40
         },
         {
           "materialId": "MAT-0340",
@@ -75822,16 +75822,16 @@
           "materialId": "MAT-0061",
           "materialNombre": "Pistas de rally",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 8,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 8,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 600,
+          "costoTotalItem": 1200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8
         },
         {
           "materialId": "MAT-0191",
