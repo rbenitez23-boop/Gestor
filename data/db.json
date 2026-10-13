@@ -49479,7 +49479,7 @@
       "materialNombre": "Balón de futbol",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -49490,7 +49490,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003802",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -49499,7 +49499,7 @@
       "materialNombre": "Balón de volleyball",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -49510,7 +49510,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003803",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -49619,7 +49619,7 @@
       "materialNombre": "Bomba de balones",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -49630,7 +49630,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003809",
-      "totalUnidades": 1,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -50019,7 +50019,7 @@
       "materialNombre": "Esponjas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 8,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50030,27 +50030,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003829",
-      "totalUnidades": 4,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-15T00:00:00.000Z",
-      "materialId": "MAT-0198",
-      "materialNombre": "Esponjas",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Austriaco 4°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0028",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-003830",
-      "totalUnidades": 1,
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -50069,7 +50049,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003831",
+      "idMov": "MOV-003830",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -50089,7 +50069,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003832",
+      "idMov": "MOV-003831",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50109,7 +50089,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003833",
+      "idMov": "MOV-003832",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50129,7 +50109,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003834",
+      "idMov": "MOV-003833",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -50149,7 +50129,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003835",
+      "idMov": "MOV-003834",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50169,7 +50149,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003836",
+      "idMov": "MOV-003835",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50189,7 +50169,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003837",
+      "idMov": "MOV-003836",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50209,7 +50189,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003838",
+      "idMov": "MOV-003837",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -50229,7 +50209,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003839",
+      "idMov": "MOV-003838",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50249,7 +50229,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003840",
+      "idMov": "MOV-003839",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50269,7 +50249,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003841",
+      "idMov": "MOV-003840",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -50289,7 +50269,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003842",
+      "idMov": "MOV-003841",
       "totalUnidades": 43,
       "regreso": false
     },
@@ -50309,7 +50289,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003843",
+      "idMov": "MOV-003842",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -50329,7 +50309,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003844",
+      "idMov": "MOV-003843",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -50349,7 +50329,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003845",
+      "idMov": "MOV-003844",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50369,7 +50349,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003846",
+      "idMov": "MOV-003845",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50389,7 +50369,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003847",
+      "idMov": "MOV-003846",
       "totalUnidades": 64,
       "regreso": false
     },
@@ -50409,7 +50389,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003848",
+      "idMov": "MOV-003847",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50429,7 +50409,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003849",
+      "idMov": "MOV-003848",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50449,7 +50429,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003850",
+      "idMov": "MOV-003849",
       "totalUnidades": 32,
       "regreso": false
     },
@@ -50469,7 +50449,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003851",
+      "idMov": "MOV-003850",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50489,7 +50469,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003852",
+      "idMov": "MOV-003851",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -50509,7 +50489,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003853",
+      "idMov": "MOV-003852",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -50529,7 +50509,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003854",
+      "idMov": "MOV-003853",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50549,7 +50529,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003855",
+      "idMov": "MOV-003854",
       "totalUnidades": 43,
       "regreso": false
     },
@@ -50569,7 +50549,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003856",
+      "idMov": "MOV-003855",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50589,7 +50569,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003857",
+      "idMov": "MOV-003856",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -50609,7 +50589,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003858",
+      "idMov": "MOV-003857",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50629,17 +50609,17 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003859",
+      "idMov": "MOV-003858",
       "totalUnidades": 1,
       "regreso": false
     },
     {
       "fecha": "2026-10-15T00:00:00.000Z",
-      "materialId": "MAT-0201",
-      "materialNombre": "Pelota Waterpolo",
+      "materialId": "MAT-0078",
+      "materialNombre": "Pelota wuiky ball",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50649,8 +50629,8 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003860",
-      "totalUnidades": 2,
+      "idMov": "MOV-003859",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -50669,7 +50649,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003861",
+      "idMov": "MOV-003860",
       "totalUnidades": 32,
       "regreso": false
     },
@@ -50689,7 +50669,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003862",
+      "idMov": "MOV-003861",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -50709,7 +50689,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003863",
+      "idMov": "MOV-003862",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -50729,7 +50709,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003864",
+      "idMov": "MOV-003863",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -50749,7 +50729,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003865",
+      "idMov": "MOV-003864",
       "totalUnidades": 96,
       "regreso": false
     },
@@ -50769,7 +50749,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003866",
+      "idMov": "MOV-003865",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -50789,7 +50769,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003867",
+      "idMov": "MOV-003866",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50809,7 +50789,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003868",
+      "idMov": "MOV-003867",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -50829,7 +50809,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003869",
+      "idMov": "MOV-003868",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50849,7 +50829,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003870",
+      "idMov": "MOV-003869",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -50869,7 +50849,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003871",
+      "idMov": "MOV-003870",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -50889,7 +50869,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003872",
+      "idMov": "MOV-003871",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50909,7 +50889,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003873",
+      "idMov": "MOV-003872",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -50929,7 +50909,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003874",
+      "idMov": "MOV-003873",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50949,7 +50929,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003875",
+      "idMov": "MOV-003874",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -50959,7 +50939,7 @@
       "materialNombre": "Telas de volley toalla",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 32,
+      "cantPaquetes": 30,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50969,8 +50949,8 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003876",
-      "totalUnidades": 32,
+      "idMov": "MOV-003875",
+      "totalUnidades": 30,
       "regreso": false
     },
     {
@@ -50989,7 +50969,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003877",
+      "idMov": "MOV-003876",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -51009,7 +50989,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003878",
+      "idMov": "MOV-003877",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51029,7 +51009,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-003879",
+      "idMov": "MOV-003878",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -74942,31 +74922,31 @@
           "materialId": "MAT-0047",
           "materialNombre": "Balón de futbol",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0070",
           "materialNombre": "Balón de volleyball",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
-          "costoTotalItem": 250,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0162",
@@ -75047,16 +75027,16 @@
           "materialId": "MAT-0080",
           "materialNombre": "Bomba de balones",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 120,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 240,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0203",
@@ -75347,31 +75327,16 @@
           "materialId": "MAT-0198",
           "materialNombre": "Esponjas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 8,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 8,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 240,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4
-        },
-        {
-          "materialId": "MAT-0198",
-          "materialNombre": "Esponjas",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 30,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 30,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8
         },
         {
           "materialId": "MAT-0170",
@@ -75809,19 +75774,19 @@
           "cantPaquetesEnviar": 1
         },
         {
-          "materialId": "MAT-0201",
-          "materialNombre": "Pelota Waterpolo",
+          "materialId": "MAT-0078",
+          "materialNombre": "Pelota wuiky ball",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 4,
           "numSeries": "",
-          "costoUnitario": 250,
+          "costoUnitario": 50,
           "clasificacion": "Consumible",
-          "costoTotalItem": 500,
+          "costoTotalItem": 200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0081",
@@ -76052,16 +76017,16 @@
           "materialId": "MAT-0199",
           "materialNombre": "Telas de volley toalla",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 32,
+          "cantPaquetes": 30,
           "unidadesPaq": 1,
-          "totalUnidades": 32,
+          "totalUnidades": 30,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4800,
+          "costoTotalItem": 4500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 32,
-          "cantPaquetesEnviar": 32
+          "cantidadEnviar": 30,
+          "cantPaquetesEnviar": 30
         },
         {
           "materialId": "MAT-0309",
