@@ -51159,7 +51159,7 @@
       "materialNombre": "Paliacates",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 8,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -51170,7 +51170,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004008",
-      "totalUnidades": 4,
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -75131,16 +75131,16 @@
           "materialId": "MAT-0004",
           "materialNombre": "Paliacates",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 8,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 8,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 100,
+          "costoTotalItem": 200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8
         },
         {
           "materialId": "MAT-0030",
