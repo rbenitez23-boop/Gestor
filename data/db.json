@@ -82261,7 +82261,7 @@
       "fechaFin": "2026-10-14",
       "notas": "",
       "programaRecibido": true,
-      "listaHecha": false,
+      "listaHecha": true,
       "creado": "2026-10-01T17:09:26.929Z"
     },
     {
