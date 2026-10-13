@@ -49659,7 +49659,7 @@
       "materialNombre": "Bombones",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 43,
+      "cantPaquetes": 2,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -49670,7 +49670,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003811",
-      "totalUnidades": 43,
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -50519,7 +50519,7 @@
       "materialNombre": "Palito de bombón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 43,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50530,7 +50530,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003854",
-      "totalUnidades": 43,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -75057,16 +75057,16 @@
           "materialId": "MAT-0214",
           "materialNombre": "Bombones",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 43,
+          "cantPaquetes": 2,
           "unidadesPaq": 1,
-          "totalUnidades": 43,
+          "totalUnidades": 2,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2580,
+          "costoTotalItem": 120,
           "stockEnDestino": 0,
-          "cantidadEnviar": 43,
-          "cantPaquetesEnviar": 43
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0312",
@@ -75702,16 +75702,16 @@
           "materialId": "MAT-0135",
           "materialNombre": "Palito de bombón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 43,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 43,
+          "totalUnidades": 60,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1290,
+          "costoTotalItem": 1800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 43,
-          "cantPaquetesEnviar": 43
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
         },
         {
           "materialId": "MAT-0030",
