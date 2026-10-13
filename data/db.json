@@ -50719,7 +50719,7 @@
       "materialNombre": "Pluma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 96,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50730,7 +50730,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003864",
-      "totalUnidades": 96,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -50959,7 +50959,7 @@
       "materialNombre": "Toco Soco Loco Impreso",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 5,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -50970,7 +50970,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-003876",
-      "totalUnidades": 1,
+      "totalUnidades": 5,
       "regreso": false
     },
     {
@@ -75832,16 +75832,16 @@
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 96,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 96,
+          "totalUnidades": 60,
           "numSeries": "",
           "costoUnitario": 10,
           "clasificacion": "Consumible",
-          "costoTotalItem": 960,
+          "costoTotalItem": 600,
           "stockEnDestino": 0,
-          "cantidadEnviar": 96,
-          "cantPaquetesEnviar": 96
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
         },
         {
           "materialId": "MAT-0011",
@@ -76012,16 +76012,16 @@
           "materialId": "MAT-0124",
           "materialNombre": "Toco Soco Loco Impreso",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 5,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 5,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 80,
+          "costoTotalItem": 400,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 5,
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0155",
