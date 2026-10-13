@@ -82260,7 +82260,7 @@
       "fechaInicio": "2026-10-14",
       "fechaFin": "2026-10-14",
       "notas": "",
-      "programaRecibido": false,
+      "programaRecibido": true,
       "listaHecha": false,
       "creado": "2026-10-01T17:09:26.929Z"
     },
