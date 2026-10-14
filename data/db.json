@@ -50995,6 +50995,46 @@
     },
     {
       "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0022",
+      "materialNombre": "Pinceles",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 60,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Austriaco 4°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0028",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004088",
+      "totalUnidades": 60,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0023",
+      "materialNombre": "Pintura",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 15,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Colegio Austriaco 4°",
+      "estado": "Ocupado",
+      "responsable": "",
+      "notas": "Remisión REM-0028",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004089",
+      "totalUnidades": 15,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
       "materialId": "MAT-0133",
       "materialNombre": "Pinturas caballito",
       "tipo": "Salida",
@@ -51009,7 +51049,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004088",
+      "idMov": "MOV-004090",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -51029,7 +51069,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004089",
+      "idMov": "MOV-004091",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51049,7 +51089,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004090",
+      "idMov": "MOV-004092",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51069,7 +51109,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004091",
+      "idMov": "MOV-004093",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -51089,7 +51129,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004092",
+      "idMov": "MOV-004094",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -51109,7 +51149,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004093",
+      "idMov": "MOV-004095",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51129,7 +51169,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004094",
+      "idMov": "MOV-004096",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -51149,7 +51189,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004095",
+      "idMov": "MOV-004097",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -51169,7 +51209,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004096",
+      "idMov": "MOV-004098",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51189,7 +51229,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004097",
+      "idMov": "MOV-004099",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51209,7 +51249,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004098",
+      "idMov": "MOV-004100",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51229,7 +51269,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004099",
+      "idMov": "MOV-004101",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -51249,7 +51289,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004100",
+      "idMov": "MOV-004102",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -51269,7 +51309,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004101",
+      "idMov": "MOV-004103",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -51289,7 +51329,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004102",
+      "idMov": "MOV-004104",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -51309,7 +51349,7 @@
       "notas": "Remisión REM-0028",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004103",
+      "idMov": "MOV-004105",
       "totalUnidades": 5,
       "regreso": false
     }
@@ -76449,6 +76489,36 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0022",
+          "materialNombre": "Pinceles",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 60,
+          "unidadesPaq": 1,
+          "totalUnidades": 60,
+          "numSeries": "",
+          "costoUnitario": 20,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1200,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
+        },
+        {
+          "materialId": "MAT-0023",
+          "materialNombre": "Pintura",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 15,
+          "unidadesPaq": 1,
+          "totalUnidades": 15,
+          "numSeries": "",
+          "costoUnitario": 35,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 525,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 15,
+          "cantPaquetesEnviar": 15
         },
         {
           "materialId": "MAT-0133",
