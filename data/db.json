@@ -51332,26 +51332,6 @@
       "idMov": "MOV-004104",
       "totalUnidades": 5,
       "regreso": false
-    },
-    {
-      "fecha": "2026-10-15T00:00:00.000Z",
-      "materialId": "MAT-0155",
-      "materialNombre": "Vasos desechables minis",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Colegio Austriaco 4°",
-      "estado": "Ocupado",
-      "responsable": "",
-      "notas": "Remisión REM-0028",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-004105",
-      "totalUnidades": 1,
-      "regreso": false
     }
   ],
   "almacenes": [
@@ -76757,21 +76737,6 @@
           "cantidadEnviar": 5,
           "cantPaquetesEnviar": 5,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0155",
-          "materialNombre": "Vasos desechables minis",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 30,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 30,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         }
       ],
       "fotos": [],
