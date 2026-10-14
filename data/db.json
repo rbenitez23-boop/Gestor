@@ -51295,6 +51295,26 @@
     },
     {
       "fecha": "2026-10-14T00:00:00.000Z",
+      "materialId": "MAT-0062",
+      "materialNombre": "Pluma",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Ana Pau Sodi. GC: Jorge Lazo, Camila González",
+      "notas": "Remisión REM-0027",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004015",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-14T00:00:00.000Z",
       "materialId": "MAT-0011",
       "materialNombre": "Plumón",
       "tipo": "Salida",
@@ -51309,7 +51329,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004015",
+      "idMov": "MOV-004016",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -51329,7 +51349,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004016",
+      "idMov": "MOV-004017",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -51339,7 +51359,7 @@
       "materialNombre": "Tijeras",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -51349,8 +51369,8 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004017",
-      "totalUnidades": 2,
+      "idMov": "MOV-004018",
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -51369,7 +51389,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004018",
+      "idMov": "MOV-004019",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -51389,7 +51409,7 @@
       "notas": "Remisión REM-0027",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004019",
+      "idMov": "MOV-004020",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -75346,6 +75366,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0062",
+          "materialNombre": "Pluma",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 10,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 40,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
@@ -75381,16 +75416,16 @@
           "materialId": "MAT-0097",
           "materialNombre": "Tijeras",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 50,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6,
           "checkSalida": true
         },
         {
