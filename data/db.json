@@ -52619,7 +52619,7 @@
       "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52630,7 +52630,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004169",
-      "totalUnidades": 4,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -79294,16 +79294,16 @@
           "materialId": "MAT-0068",
           "materialNombre": "Pelota de paracaídas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 600,
+          "costoTotalItem": 900,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0227",
