@@ -52575,6 +52575,26 @@
     },
     {
       "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0118",
+      "materialNombre": "Papel kraft",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mon GC: Xiomara Carmina",
+      "notas": "Remisión REM-0030",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004167",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
       "materialId": "MAT-0030",
       "materialNombre": "Paracaídas",
       "tipo": "Salida",
@@ -52589,7 +52609,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004167",
+      "idMov": "MOV-004168",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52609,7 +52629,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004168",
+      "idMov": "MOV-004169",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52629,7 +52649,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004169",
+      "idMov": "MOV-004170",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52649,7 +52669,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004170",
+      "idMov": "MOV-004171",
       "totalUnidades": 45,
       "regreso": false
     },
@@ -52669,7 +52689,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004171",
+      "idMov": "MOV-004172",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52689,7 +52709,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004172",
+      "idMov": "MOV-004173",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52709,7 +52729,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004173",
+      "idMov": "MOV-004174",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52729,7 +52749,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004174",
+      "idMov": "MOV-004175",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52749,7 +52769,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004175",
+      "idMov": "MOV-004176",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52769,7 +52789,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004176",
+      "idMov": "MOV-004177",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52789,7 +52809,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004177",
+      "idMov": "MOV-004178",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52809,7 +52829,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004178",
+      "idMov": "MOV-004179",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52829,7 +52849,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004179",
+      "idMov": "MOV-004180",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52849,7 +52869,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004180",
+      "idMov": "MOV-004181",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -79239,6 +79259,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 8,
           "cantPaquetesEnviar": 8
+        },
+        {
+          "materialId": "MAT-0118",
+          "materialNombre": "Papel kraft",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 60,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0030",
