@@ -52455,6 +52455,26 @@
     },
     {
       "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0198",
+      "materialNombre": "Esponjas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mon GC: Xiomara Carmina",
+      "notas": "Remisión REM-0030",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004161",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -52469,7 +52489,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004161",
+      "idMov": "MOV-004162",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52489,7 +52509,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004162",
+      "idMov": "MOV-004163",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52509,7 +52529,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004163",
+      "idMov": "MOV-004164",
       "totalUnidades": 48,
       "regreso": false
     },
@@ -52529,7 +52549,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004164",
+      "idMov": "MOV-004165",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -52549,7 +52569,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004165",
+      "idMov": "MOV-004166",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -52569,7 +52589,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004166",
+      "idMov": "MOV-004167",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52589,7 +52609,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004167",
+      "idMov": "MOV-004168",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52609,7 +52629,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004168",
+      "idMov": "MOV-004169",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52629,7 +52649,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004169",
+      "idMov": "MOV-004170",
       "totalUnidades": 45,
       "regreso": false
     },
@@ -52649,7 +52669,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004170",
+      "idMov": "MOV-004171",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52669,7 +52689,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004171",
+      "idMov": "MOV-004172",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52689,7 +52709,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004172",
+      "idMov": "MOV-004173",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -52709,7 +52729,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004173",
+      "idMov": "MOV-004174",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52729,7 +52749,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004174",
+      "idMov": "MOV-004175",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52749,8 +52769,28 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004175",
+      "idMov": "MOV-004176",
       "totalUnidades": 6,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0309",
+      "materialNombre": "Tinaja",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mon GC: Xiomara Carmina",
+      "notas": "Remisión REM-0030",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004177",
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -52769,7 +52809,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004176",
+      "idMov": "MOV-004178",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52789,7 +52829,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004177",
+      "idMov": "MOV-004179",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52809,7 +52849,7 @@
       "notas": "Remisión REM-0030",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004178",
+      "idMov": "MOV-004180",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -79111,6 +79151,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0198",
+          "materialNombre": "Esponjas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
@@ -79334,6 +79389,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 6,
           "cantPaquetesEnviar": 6
+        },
+        {
+          "materialId": "MAT-0309",
+          "materialNombre": "Tinaja",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 300,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1200,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0291",
