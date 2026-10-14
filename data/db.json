@@ -52792,6 +52792,26 @@
       "idMov": "MOV-004177",
       "totalUnidades": 2,
       "regreso": false
+    },
+    {
+      "fecha": "2026-10-15T00:00:00.000Z",
+      "materialId": "MAT-0233",
+      "materialNombre": "Vasos de plastico",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 1°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mon GC: Xiomara Carmina",
+      "notas": "Remisión REM-0030",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004178",
+      "totalUnidades": 1,
+      "regreso": false
     }
   ],
   "almacenes": [
@@ -79344,6 +79364,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0233",
+          "materialNombre": "Vasos de plastico",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 30,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         }
       ],
       "fotos": [],
