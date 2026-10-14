@@ -76243,7 +76243,8 @@
           "costoTotalItem": 7200,
           "stockEnDestino": 0,
           "cantidadEnviar": 48,
-          "cantPaquetesEnviar": 48
+          "cantPaquetesEnviar": 48,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0163",
