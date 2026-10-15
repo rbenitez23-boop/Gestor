@@ -84422,7 +84422,7 @@
       "fechaInicio": "2026-10-15",
       "fechaFin": "2026-10-15",
       "notas": "",
-      "programaRecibido": false,
+      "programaRecibido": true,
       "listaHecha": false,
       "creado": "2026-10-01T17:13:29.308Z"
     },
