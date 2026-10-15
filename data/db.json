@@ -52319,7 +52319,7 @@
       "materialNombre": "Cofres",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 8,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52330,7 +52330,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004154",
-      "totalUnidades": 8,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -52539,7 +52539,7 @@
       "materialNombre": "Monedas de chocolate",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 60,
+      "cantPaquetes": 48,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52550,7 +52550,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004165",
-      "totalUnidades": 60,
+      "totalUnidades": 48,
       "regreso": false
     },
     {
@@ -79089,16 +79089,16 @@
           "materialId": "MAT-0016",
           "materialNombre": "Cofres",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 8,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 8,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 120,
           "clasificacion": "Consumible",
-          "costoTotalItem": 960,
+          "costoTotalItem": 480,
           "stockEnDestino": 0,
-          "cantidadEnviar": 8,
-          "cantPaquetesEnviar": 8
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0006",
@@ -79254,16 +79254,16 @@
           "materialId": "MAT-0060",
           "materialNombre": "Monedas de chocolate",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 60,
+          "cantPaquetes": 48,
           "unidadesPaq": 1,
-          "totalUnidades": 60,
+          "totalUnidades": 48,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 4800,
+          "costoTotalItem": 3840,
           "stockEnDestino": 0,
-          "cantidadEnviar": 60,
-          "cantPaquetesEnviar": 60
+          "cantidadEnviar": 48,
+          "cantPaquetesEnviar": 48
         },
         {
           "materialId": "MAT-0004",
