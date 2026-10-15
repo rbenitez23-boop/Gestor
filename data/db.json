@@ -84423,7 +84423,7 @@
       "fechaFin": "2026-10-15",
       "notas": "",
       "programaRecibido": true,
-      "listaHecha": false,
+      "listaHecha": true,
       "creado": "2026-10-01T17:13:29.308Z"
     },
     {
