@@ -84480,6 +84480,17 @@
       "programaRecibido": false,
       "listaHecha": false,
       "creado": "2026-10-01T17:21:26.940Z"
+    },
+    {
+      "id": "CAL-MVB6ZSFIOZK",
+      "nombre": "Puerta Real",
+      "tipo": "Campamento",
+      "fechaInicio": "2026-10-30",
+      "fechaFin": "2026-10-30",
+      "notas": "",
+      "programaRecibido": false,
+      "listaHecha": false,
+      "creado": "2026-10-16T16:39:00.767Z"
     }
   ]
 }
