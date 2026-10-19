@@ -52135,6 +52135,26 @@
     },
     {
       "fecha": "2026-10-21T00:00:00.000Z",
+      "materialId": "MAT-0317",
+      "materialNombre": "Bombita de Fogata",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 6°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Xiomara Carmina (Clau Peduzzi) GC: Maria jose Doniz, Jorge Lazo",
+      "notas": "Remisión REM-0031",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004249",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-21T00:00:00.000Z",
       "materialId": "MAT-0214",
       "materialNombre": "Bombones",
       "tipo": "Salida",
@@ -52149,7 +52169,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004249",
+      "idMov": "MOV-004250",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52169,7 +52189,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004250",
+      "idMov": "MOV-004251",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52189,7 +52209,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004251",
+      "idMov": "MOV-004252",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52209,7 +52229,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004252",
+      "idMov": "MOV-004253",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52229,7 +52249,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004253",
+      "idMov": "MOV-004254",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52249,7 +52269,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004254",
+      "idMov": "MOV-004255",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52269,7 +52289,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004255",
+      "idMov": "MOV-004256",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52289,7 +52309,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004256",
+      "idMov": "MOV-004257",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52309,7 +52329,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004257",
+      "idMov": "MOV-004258",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -52329,7 +52349,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004258",
+      "idMov": "MOV-004259",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -52349,7 +52369,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004259",
+      "idMov": "MOV-004260",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52369,7 +52389,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004260",
+      "idMov": "MOV-004261",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52389,7 +52409,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004261",
+      "idMov": "MOV-004262",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -52409,7 +52429,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004262",
+      "idMov": "MOV-004263",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52429,8 +52449,28 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004263",
+      "idMov": "MOV-004264",
       "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-21T00:00:00.000Z",
+      "materialId": "MAT-0283",
+      "materialNombre": "Fogatero",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 6°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Xiomara Carmina (Clau Peduzzi) GC: Maria jose Doniz, Jorge Lazo",
+      "notas": "Remisión REM-0031",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004265",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -52449,7 +52489,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004264",
+      "idMov": "MOV-004266",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52469,7 +52509,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004265",
+      "idMov": "MOV-004267",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52489,7 +52529,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004266",
+      "idMov": "MOV-004268",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52509,7 +52549,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004267",
+      "idMov": "MOV-004269",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52529,7 +52569,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004268",
+      "idMov": "MOV-004270",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -52549,7 +52589,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004269",
+      "idMov": "MOV-004271",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52569,7 +52609,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004270",
+      "idMov": "MOV-004272",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -52589,7 +52629,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004271",
+      "idMov": "MOV-004273",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52609,7 +52649,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004272",
+      "idMov": "MOV-004274",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -52629,7 +52669,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004273",
+      "idMov": "MOV-004275",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52649,7 +52689,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004274",
+      "idMov": "MOV-004276",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52669,7 +52709,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004275",
+      "idMov": "MOV-004277",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52689,7 +52729,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004276",
+      "idMov": "MOV-004278",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52709,7 +52749,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004277",
+      "idMov": "MOV-004279",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -78771,6 +78811,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0317",
+          "materialNombre": "Bombita de Fogata",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 30,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 30,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0214",
           "materialNombre": "Bombones",
           "tipoPaquete": "Pieza Única",
@@ -78994,6 +79049,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0283",
+          "materialNombre": "Fogatero",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 500,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 500,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0334",
