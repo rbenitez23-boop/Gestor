@@ -52639,7 +52639,7 @@
       "materialNombre": "Tinaja",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52650,7 +52650,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004274",
-      "totalUnidades": 2,
+      "totalUnidades": 1,
       "regreso": false
     }
   ],
@@ -79089,16 +79089,16 @@
           "materialId": "MAT-0309",
           "materialNombre": "Tinaja",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 1,
           "numSeries": "",
           "costoUnitario": 300,
           "clasificacion": "Consumible",
-          "costoTotalItem": 600,
+          "costoTotalItem": 300,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         }
       ],
       "fotos": [],
