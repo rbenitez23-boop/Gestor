@@ -586,7 +586,7 @@ Minimum version required to store current data is: `+n+`.
       <div class="print-evaluacion">
         <div class="print-eval-titulo">Evaluaci\xF3n del Material \u2014 a llenar por el director/encargado al regresar</div>
         <div class="print-eval-preg"><span>\xBFRecib\xED mi material en tiempo y forma?</span><span>\u2610 S\xED</span><span>\u2610 No</span></div>
-        <div class="print-eval-preg"><span>\xBFMe salt\xF3 material?</span><span>\u2610 S\xED</span><span>\u2610 No</span></div>
+        <div class="print-eval-preg"><span>\xBFMe falt\xF3 material?</span><span>\u2610 S\xED</span><span>\u2610 No</span></div>
         <div class="print-eval-preg"><span>\xBFQu\xE9 me falt\xF3?</span><span class="print-eval-linea"></span></div>
         <div class="print-eval-preg"><span>\xBFC\xF3mo evaluar\xEDas tu material en el campamento?</span><span>\u2610 Mal</span><span>\u2610 Regular</span><span>\u2610 Bien</span><span>\u2610 Excelente</span></div>
       </div>
