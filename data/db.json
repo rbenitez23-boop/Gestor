@@ -50999,7 +50999,7 @@
       "materialNombre": "Botella de agua vacía (Tipo Bolsa PG)",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 8,
+      "cantPaquetes": 7,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -51010,7 +51010,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004192",
-      "totalUnidades": 8,
+      "totalUnidades": 7,
       "regreso": false
     },
     {
@@ -74744,16 +74744,16 @@
           "materialId": "MAT-0144",
           "materialNombre": "Botella de agua vacía (Tipo Bolsa PG)",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 8,
+          "cantPaquetes": 7,
           "unidadesPaq": 1,
-          "totalUnidades": 8,
+          "totalUnidades": 7,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 240,
+          "costoTotalItem": 210,
           "stockEnDestino": 0,
-          "cantidadEnviar": 8,
-          "cantPaquetesEnviar": 8
+          "cantidadEnviar": 7,
+          "cantPaquetesEnviar": 7
         },
         {
           "materialId": "MAT-0312",
