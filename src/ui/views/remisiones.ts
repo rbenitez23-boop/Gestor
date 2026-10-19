@@ -592,7 +592,7 @@ function renderRemisionDetalle(container: HTMLElement, db: Database, folio: stri
       <div class="print-evaluacion">
         <div class="print-eval-titulo">Evaluación del Material — a llenar por el director/encargado al regresar</div>
         <div class="print-eval-preg"><span>¿Recibí mi material en tiempo y forma?</span><span>☐ Sí</span><span>☐ No</span></div>
-        <div class="print-eval-preg"><span>¿Me saltó material?</span><span>☐ Sí</span><span>☐ No</span></div>
+        <div class="print-eval-preg"><span>¿Me faltó material?</span><span>☐ Sí</span><span>☐ No</span></div>
         <div class="print-eval-preg"><span>¿Qué me faltó?</span><span class="print-eval-linea"></span></div>
         <div class="print-eval-preg"><span>¿Cómo evaluarías tu material en el campamento?</span><span>☐ Mal</span><span>☐ Regular</span><span>☐ Bien</span><span>☐ Excelente</span></div>
       </div>
