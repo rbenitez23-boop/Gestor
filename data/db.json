@@ -52395,6 +52395,26 @@
     },
     {
       "fecha": "2026-10-21T00:00:00.000Z",
+      "materialId": "MAT-0305",
+      "materialNombre": "Cutter",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 6°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Xiomara Carmina (Clau Peduzzi) GC: Maria jose Doniz, Jorge Lazo",
+      "notas": "Remisión REM-0031",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004262",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-21T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -52409,7 +52429,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004262",
+      "idMov": "MOV-004263",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -52429,7 +52449,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004263",
+      "idMov": "MOV-004264",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52449,7 +52469,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004264",
+      "idMov": "MOV-004265",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52469,7 +52489,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004265",
+      "idMov": "MOV-004266",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52489,7 +52509,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004266",
+      "idMov": "MOV-004267",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -52509,7 +52529,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004267",
+      "idMov": "MOV-004268",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52529,7 +52549,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004268",
+      "idMov": "MOV-004269",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -52549,7 +52569,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004269",
+      "idMov": "MOV-004270",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52569,7 +52589,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004270",
+      "idMov": "MOV-004271",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -52589,8 +52609,28 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004271",
+      "idMov": "MOV-004272",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-21T00:00:00.000Z",
+      "materialId": "MAT-0062",
+      "materialNombre": "Pluma",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 8,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Washington 6°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Xiomara Carmina (Clau Peduzzi) GC: Maria jose Doniz, Jorge Lazo",
+      "notas": "Remisión REM-0031",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004273",
+      "totalUnidades": 8,
       "regreso": false
     },
     {
@@ -52609,7 +52649,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004272",
+      "idMov": "MOV-004274",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -52629,7 +52669,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004273",
+      "idMov": "MOV-004275",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52649,7 +52689,7 @@
       "notas": "Remisión REM-0031",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004274",
+      "idMov": "MOV-004276",
       "totalUnidades": 1,
       "regreso": false
     }
@@ -78906,6 +78946,21 @@
           "cantPaquetesEnviar": 3
         },
         {
+          "materialId": "MAT-0305",
+          "materialNombre": "Cutter",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 25,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
@@ -79054,6 +79109,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0062",
+          "materialNombre": "Pluma",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 8,
+          "unidadesPaq": 1,
+          "totalUnidades": 8,
+          "numSeries": "",
+          "costoUnitario": 10,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 80,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 8,
+          "cantPaquetesEnviar": 8
         },
         {
           "materialId": "MAT-0011",
