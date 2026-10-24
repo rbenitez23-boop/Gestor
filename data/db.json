@@ -52779,7 +52779,7 @@
       "materialNombre": "Bombones",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 132,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52790,7 +52790,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004281",
-      "totalUnidades": 132,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -53255,26 +53255,6 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
-      "materialId": "MAT-0218",
-      "materialNombre": "Leña",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Maxei 3° y 4°",
-      "estado": "Ocupado",
-      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
-      "notas": "Remisión REM-0032",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-004305",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0324",
       "materialNombre": "Linterna",
       "tipo": "Salida",
@@ -53289,7 +53269,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004306",
+      "idMov": "MOV-004305",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53309,7 +53289,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004307",
+      "idMov": "MOV-004306",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53329,7 +53309,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004308",
+      "idMov": "MOV-004307",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53349,7 +53329,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004309",
+      "idMov": "MOV-004308",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -53369,7 +53349,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004310",
+      "idMov": "MOV-004309",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53379,7 +53359,7 @@
       "materialNombre": "Palito de bombón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 132,
+      "cantPaquetes": 100,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53389,8 +53369,8 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004311",
-      "totalUnidades": 132,
+      "idMov": "MOV-004310",
+      "totalUnidades": 100,
       "regreso": false
     },
     {
@@ -53409,7 +53389,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004312",
+      "idMov": "MOV-004311",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53429,7 +53409,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004313",
+      "idMov": "MOV-004312",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -53449,7 +53429,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004314",
+      "idMov": "MOV-004313",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -53469,7 +53449,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004315",
+      "idMov": "MOV-004314",
       "totalUnidades": 54,
       "regreso": false
     },
@@ -53489,7 +53469,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004316",
+      "idMov": "MOV-004315",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -53509,7 +53489,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004317",
+      "idMov": "MOV-004316",
       "totalUnidades": 79,
       "regreso": false
     },
@@ -53529,7 +53509,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004318",
+      "idMov": "MOV-004317",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53549,7 +53529,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004319",
+      "idMov": "MOV-004318",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -53569,7 +53549,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004320",
+      "idMov": "MOV-004319",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -53589,7 +53569,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004321",
+      "idMov": "MOV-004320",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -53609,7 +53589,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004322",
+      "idMov": "MOV-004321",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53629,7 +53609,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004323",
+      "idMov": "MOV-004322",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -53649,7 +53629,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004324",
+      "idMov": "MOV-004323",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -53669,7 +53649,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004325",
+      "idMov": "MOV-004324",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -53689,7 +53669,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004326",
+      "idMov": "MOV-004325",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -80255,16 +80235,16 @@
           "materialId": "MAT-0214",
           "materialNombre": "Bombones",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 132,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 132,
+          "totalUnidades": 1,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 7920,
+          "costoTotalItem": 60,
           "stockEnDestino": 0,
-          "cantidadEnviar": 132,
-          "cantPaquetesEnviar": 132
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0312",
@@ -80612,21 +80592,6 @@
           "cantPaquetesEnviar": 66
         },
         {
-          "materialId": "MAT-0218",
-          "materialNombre": "Leña",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 80,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 80,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0324",
           "materialNombre": "Linterna",
           "tipoPaquete": "Pieza Única",
@@ -80705,16 +80670,16 @@
           "materialId": "MAT-0135",
           "materialNombre": "Palito de bombón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 132,
+          "cantPaquetes": 100,
           "unidadesPaq": 1,
-          "totalUnidades": 132,
+          "totalUnidades": 100,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 3960,
+          "costoTotalItem": 3000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 132,
-          "cantPaquetesEnviar": 132
+          "cantidadEnviar": 100,
+          "cantPaquetesEnviar": 100
         },
         {
           "materialId": "MAT-0030",
