@@ -53619,7 +53619,7 @@
       "materialNombre": "Tarjetas Figura Espejo",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 12,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53630,7 +53630,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004323",
-      "totalUnidades": 6,
+      "totalUnidades": 12,
       "regreso": false
     },
     {
@@ -80885,16 +80885,16 @@
           "materialId": "MAT-0103",
           "materialNombre": "Tarjetas Figura Espejo",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 12,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 12,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 900,
+          "costoTotalItem": 1800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantidadEnviar": 12,
+          "cantPaquetesEnviar": 12
         },
         {
           "materialId": "MAT-0003",
