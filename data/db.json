@@ -82117,7 +82117,8 @@
           "costoTotalItem": 3000,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
-          "cantPaquetesEnviar": 10
+          "cantPaquetesEnviar": 10,
+          "checkSalida": true
         }
       ],
       "fotos": [],
