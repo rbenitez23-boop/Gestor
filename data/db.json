@@ -54039,7 +54039,7 @@
       "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 15,
+      "cantPaquetes": 25,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54050,7 +54050,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004344",
-      "totalUnidades": 15,
+      "totalUnidades": 25,
       "regreso": false
     },
     {
@@ -54159,7 +54159,7 @@
       "materialNombre": "Galletas María",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 110,
+      "cantPaquetes": 1,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54170,7 +54170,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004350",
-      "totalUnidades": 110,
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -81821,16 +81821,16 @@
           "materialId": "MAT-0006",
           "materialNombre": "Cono alto",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 15,
+          "cantPaquetes": 25,
           "unidadesPaq": 1,
-          "totalUnidades": 15,
+          "totalUnidades": 25,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 900,
+          "costoTotalItem": 1500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 15,
-          "cantPaquetesEnviar": 15
+          "cantidadEnviar": 25,
+          "cantPaquetesEnviar": 25
         },
         {
           "materialId": "MAT-0007",
@@ -81911,16 +81911,16 @@
           "materialId": "MAT-0165",
           "materialNombre": "Galletas María",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 110,
+          "cantPaquetes": 1,
           "unidadesPaq": 1,
-          "totalUnidades": 110,
+          "totalUnidades": 1,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2750,
+          "costoTotalItem": 25,
           "stockEnDestino": 0,
-          "cantidadEnviar": 110,
-          "cantPaquetesEnviar": 110
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0179",
