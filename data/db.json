@@ -53710,11 +53710,11 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
-      "materialId": "MAT-0161",
-      "materialNombre": "Argollas para llavero",
+      "materialId": "MAT-0005",
+      "materialNombre": "Aros",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 54,
+      "cantPaquetes": 10,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53725,7 +53725,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004380",
-      "totalUnidades": 54,
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -54110,26 +54110,6 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
-      "materialId": "MAT-0160",
-      "materialNombre": "Cuentas de colores",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Maxei 3° y 4°",
-      "estado": "Ocupado",
-      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
-      "notas": "Remisión REM-0032",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-004400",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0008",
       "materialNombre": "Cuerda de algodón",
       "tipo": "Salida",
@@ -54144,7 +54124,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004401",
+      "idMov": "MOV-004400",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -54164,7 +54144,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004402",
+      "idMov": "MOV-004401",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -54184,7 +54164,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004403",
+      "idMov": "MOV-004402",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54204,7 +54184,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004404",
+      "idMov": "MOV-004403",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54224,8 +54204,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004405",
+      "idMov": "MOV-004404",
       "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0333",
+      "materialNombre": "Esponja de Cocina",
+      "tipo": "Salida",
+      "tipoPaquete": "Bolsa",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004405",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -81667,19 +81667,19 @@
       "notas": "Creada vía Auto-Remisión",
       "items": [
         {
-          "materialId": "MAT-0161",
-          "materialNombre": "Argollas para llavero",
+          "materialId": "MAT-0005",
+          "materialNombre": "Aros",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 54,
+          "cantPaquetes": 10,
           "unidadesPaq": 1,
-          "totalUnidades": 54,
+          "totalUnidades": 10,
           "numSeries": "",
-          "costoUnitario": 30,
+          "costoUnitario": 45,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1620,
+          "costoTotalItem": 450,
           "stockEnDestino": 0,
-          "cantidadEnviar": 54,
-          "cantPaquetesEnviar": 54
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0037",
@@ -81984,21 +81984,6 @@
           "cantPaquetesEnviar": 1
         },
         {
-          "materialId": "MAT-0160",
-          "materialNombre": "Cuentas de colores",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 40,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 40,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
-        },
-        {
           "materialId": "MAT-0008",
           "materialNombre": "Cuerda de algodón",
           "tipoPaquete": "Pieza Única",
@@ -82075,6 +82060,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 4,
           "cantPaquetesEnviar": 4
+        },
+        {
+          "materialId": "MAT-0333",
+          "materialNombre": "Esponja de Cocina",
+          "tipoPaquete": "Bolsa",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 20,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 20,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0198",
