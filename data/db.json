@@ -54670,6 +54670,26 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0213",
+      "materialNombre": "Pistola de agua",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004428",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -54684,7 +54704,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004428",
+      "idMov": "MOV-004429",
       "totalUnidades": 65,
       "regreso": false
     },
@@ -54704,7 +54724,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004429",
+      "idMov": "MOV-004430",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -54724,7 +54744,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004430",
+      "idMov": "MOV-004431",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54744,7 +54764,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004431",
+      "idMov": "MOV-004432",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54764,7 +54784,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004432",
+      "idMov": "MOV-004433",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54784,7 +54804,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004433",
+      "idMov": "MOV-004434",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54804,7 +54824,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004434",
+      "idMov": "MOV-004435",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -54824,7 +54844,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004435",
+      "idMov": "MOV-004436",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54844,7 +54864,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004436",
+      "idMov": "MOV-004437",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54864,7 +54884,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004437",
+      "idMov": "MOV-004438",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -54884,7 +54904,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004438",
+      "idMov": "MOV-004439",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54904,7 +54924,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004439",
+      "idMov": "MOV-004440",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -54924,7 +54944,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004440",
+      "idMov": "MOV-004441",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54944,7 +54964,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004441",
+      "idMov": "MOV-004442",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -82204,6 +82224,21 @@
           "cantidadEnviar": 15,
           "cantPaquetesEnviar": 15,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0213",
+          "materialNombre": "Pistola de agua",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 240,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0062",
