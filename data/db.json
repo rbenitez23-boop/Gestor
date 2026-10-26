@@ -54750,6 +54750,26 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0370",
+      "materialNombre": "Rompe cabezas de Foamy",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004432",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0322",
       "materialNombre": "Sacapuntas",
       "tipo": "Salida",
@@ -54764,7 +54784,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004432",
+      "idMov": "MOV-004433",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -54784,7 +54804,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004433",
+      "idMov": "MOV-004434",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54804,7 +54824,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004434",
+      "idMov": "MOV-004435",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54824,7 +54844,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004435",
+      "idMov": "MOV-004436",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -54844,7 +54864,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004436",
+      "idMov": "MOV-004437",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54864,7 +54884,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004437",
+      "idMov": "MOV-004438",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -54884,7 +54904,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004438",
+      "idMov": "MOV-004439",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54904,7 +54924,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004439",
+      "idMov": "MOV-004440",
       "totalUnidades": 2,
       "regreso": false
     }
@@ -82228,6 +82248,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2
+        },
+        {
+          "materialId": "MAT-0370",
+          "materialNombre": "Rompe cabezas de Foamy",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0322",
