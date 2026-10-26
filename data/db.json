@@ -81881,7 +81881,8 @@
           "costoTotalItem": 432,
           "stockEnDestino": 0,
           "cantidadEnviar": 54,
-          "cantPaquetesEnviar": 54
+          "cantPaquetesEnviar": 54,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0195",
