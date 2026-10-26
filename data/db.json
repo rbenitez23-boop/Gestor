@@ -9200,6 +9200,31 @@
       "seccion": "",
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0370",
+      "nombre": "Rompe cabezas de Foamy",
+      "tipoPaquete": "Pieza Única",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "tieneNumSerie": false,
+      "fechaAlta": "2026-10-26T17:58:12.809Z",
+      "activo": true,
+      "seccion": "",
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
