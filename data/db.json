@@ -54755,6 +54755,26 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0013",
+      "materialNombre": "Pelota inflable yoga",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004431",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0227",
       "materialNombre": "Pelota mini (Bote o morral)",
       "tipo": "Salida",
@@ -54769,7 +54789,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004431",
+      "idMov": "MOV-004432",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -54789,7 +54809,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004432",
+      "idMov": "MOV-004433",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54809,7 +54829,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004433",
+      "idMov": "MOV-004434",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -54829,7 +54849,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004434",
+      "idMov": "MOV-004435",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -54849,7 +54869,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004435",
+      "idMov": "MOV-004436",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -54869,7 +54889,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004436",
+      "idMov": "MOV-004437",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -54889,7 +54909,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004437",
+      "idMov": "MOV-004438",
       "totalUnidades": 65,
       "regreso": false
     },
@@ -54909,7 +54929,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004438",
+      "idMov": "MOV-004439",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -54929,7 +54949,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004439",
+      "idMov": "MOV-004440",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54949,7 +54969,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004440",
+      "idMov": "MOV-004441",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54969,7 +54989,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004441",
+      "idMov": "MOV-004442",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54989,7 +55009,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004442",
+      "idMov": "MOV-004443",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55009,7 +55029,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004443",
+      "idMov": "MOV-004444",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -55029,7 +55049,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004444",
+      "idMov": "MOV-004445",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55049,7 +55069,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004445",
+      "idMov": "MOV-004446",
       "totalUnidades": 69,
       "regreso": false
     },
@@ -55069,7 +55089,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004446",
+      "idMov": "MOV-004447",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55089,7 +55109,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004447",
+      "idMov": "MOV-004448",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -55109,7 +55129,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004448",
+      "idMov": "MOV-004449",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -55129,7 +55149,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004449",
+      "idMov": "MOV-004450",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -55149,7 +55169,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004450",
+      "idMov": "MOV-004451",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -55169,7 +55189,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004451",
+      "idMov": "MOV-004452",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -55189,7 +55209,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004452",
+      "idMov": "MOV-004453",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -82505,6 +82525,21 @@
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0013",
+          "materialNombre": "Pelota inflable yoga",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 250,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 250,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0227",
