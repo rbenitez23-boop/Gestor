@@ -52715,6 +52715,26 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0070",
+      "materialNombre": "Balón de volleyball",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004278",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0306",
       "materialNombre": "Bloque de Domino (Espuma)",
       "tipo": "Salida",
@@ -52729,7 +52749,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004278",
+      "idMov": "MOV-004279",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52749,7 +52769,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004279",
+      "idMov": "MOV-004280",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52769,8 +52789,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004280",
+      "idMov": "MOV-004281",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0080",
+      "materialNombre": "Bomba de balones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004282",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -52789,7 +52829,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004281",
+      "idMov": "MOV-004283",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52809,7 +52849,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004282",
+      "idMov": "MOV-004284",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52829,7 +52869,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004283",
+      "idMov": "MOV-004285",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52849,7 +52889,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004284",
+      "idMov": "MOV-004286",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52869,7 +52909,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004285",
+      "idMov": "MOV-004287",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -52889,7 +52929,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004286",
+      "idMov": "MOV-004288",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52909,7 +52949,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004287",
+      "idMov": "MOV-004289",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52929,7 +52969,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004288",
+      "idMov": "MOV-004290",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52949,7 +52989,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004289",
+      "idMov": "MOV-004291",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52969,7 +53009,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004290",
+      "idMov": "MOV-004292",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -52989,7 +53029,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004291",
+      "idMov": "MOV-004293",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -53009,7 +53049,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004292",
+      "idMov": "MOV-004294",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -53029,7 +53069,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004293",
+      "idMov": "MOV-004295",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53049,7 +53089,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004294",
+      "idMov": "MOV-004296",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53069,7 +53109,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004295",
+      "idMov": "MOV-004297",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -53089,7 +53129,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004296",
+      "idMov": "MOV-004298",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -53109,7 +53149,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004297",
+      "idMov": "MOV-004299",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53129,7 +53169,27 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004298",
+      "idMov": "MOV-004300",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0077",
+      "materialNombre": "Frisbee",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004301",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -53149,7 +53209,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004299",
+      "idMov": "MOV-004302",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -53169,7 +53229,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004300",
+      "idMov": "MOV-004303",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -53189,7 +53249,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004301",
+      "idMov": "MOV-004304",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53209,7 +53269,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004302",
+      "idMov": "MOV-004305",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53229,7 +53289,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004303",
+      "idMov": "MOV-004306",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -53249,7 +53309,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004304",
+      "idMov": "MOV-004307",
       "totalUnidades": 54,
       "regreso": false
     },
@@ -53269,7 +53329,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004305",
+      "idMov": "MOV-004308",
       "totalUnidades": 66,
       "regreso": false
     },
@@ -53289,7 +53349,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004306",
+      "idMov": "MOV-004309",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53309,7 +53369,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004307",
+      "idMov": "MOV-004310",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53329,7 +53389,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004308",
+      "idMov": "MOV-004311",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53349,7 +53409,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004309",
+      "idMov": "MOV-004312",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -53369,7 +53429,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004310",
+      "idMov": "MOV-004313",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53389,7 +53449,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004311",
+      "idMov": "MOV-004314",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -53409,7 +53469,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004312",
+      "idMov": "MOV-004315",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53429,7 +53489,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004313",
+      "idMov": "MOV-004316",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -53449,8 +53509,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004314",
+      "idMov": "MOV-004317",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0201",
+      "materialNombre": "Pelota Waterpolo",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004318",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -53469,7 +53549,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004315",
+      "idMov": "MOV-004319",
       "totalUnidades": 60,
       "regreso": false
     },
@@ -53489,7 +53569,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004316",
+      "idMov": "MOV-004320",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -53509,7 +53589,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004317",
+      "idMov": "MOV-004321",
       "totalUnidades": 79,
       "regreso": false
     },
@@ -53529,8 +53609,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004318",
+      "idMov": "MOV-004322",
       "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0200",
+      "materialNombre": "Porterías armables",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004323",
+      "totalUnidades": 2,
       "regreso": false
     },
     {
@@ -53549,7 +53649,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004319",
+      "idMov": "MOV-004324",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -53569,7 +53669,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004320",
+      "idMov": "MOV-004325",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -53589,8 +53689,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004321",
+      "idMov": "MOV-004326",
       "totalUnidades": 20,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0202",
+      "materialNombre": "Salvavidas inflable",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004327",
+      "totalUnidades": 1,
       "regreso": false
     },
     {
@@ -53609,7 +53729,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004322",
+      "idMov": "MOV-004328",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53629,7 +53749,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004323",
+      "idMov": "MOV-004329",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -53649,7 +53769,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004324",
+      "idMov": "MOV-004330",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -53669,7 +53789,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004325",
+      "idMov": "MOV-004331",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -53689,7 +53809,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004326",
+      "idMov": "MOV-004332",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -80207,6 +80327,21 @@
           "cantPaquetesEnviar": 54
         },
         {
+          "materialId": "MAT-0070",
+          "materialNombre": "Balón de volleyball",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 250,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 500,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
           "materialId": "MAT-0306",
           "materialNombre": "Bloque de Domino (Espuma)",
           "tipoPaquete": "Pieza Única",
@@ -80250,6 +80385,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0080",
+          "materialNombre": "Bomba de balones",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 120,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 240,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0317",
@@ -80522,6 +80672,21 @@
           "cantPaquetesEnviar": 2
         },
         {
+          "materialId": "MAT-0077",
+          "materialNombre": "Frisbee",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
           "materialId": "MAT-0018",
           "materialNombre": "Goma para lápiz",
           "tipoPaquete": "Pieza Única",
@@ -80762,6 +80927,21 @@
           "cantPaquetesEnviar": 3
         },
         {
+          "materialId": "MAT-0201",
+          "materialNombre": "Pelota Waterpolo",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 250,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 500,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
           "materialId": "MAT-0022",
           "materialNombre": "Pinceles",
           "tipoPaquete": "Pieza Única",
@@ -80822,6 +81002,21 @@
           "cantPaquetesEnviar": 10
         },
         {
+          "materialId": "MAT-0200",
+          "materialNombre": "Porterías armables",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 600,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1200,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
           "materialId": "MAT-0050",
           "materialNombre": "Red de pesca",
           "tipoPaquete": "Pieza Única",
@@ -80865,6 +81060,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 20,
           "cantPaquetesEnviar": 20
+        },
+        {
+          "materialId": "MAT-0202",
+          "materialNombre": "Salvavidas inflable",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 200,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 200,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0307",
