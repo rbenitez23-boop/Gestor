@@ -86822,20 +86822,20 @@
           "cantidad": 2,
           "escala": "Campamento",
           "notas": "",
-          "tipoUso": "Reutilizable"
+          "tipoUso": "Consumible"
         },
         {
           "material": "Bocina",
           "cantidad": 1,
           "escala": "Campamento",
           "notas": "",
-          "tipoUso": "Reutilizable"
+          "tipoUso": "Consumible"
         },
         {
-          "material": "Tarjetas con figuras impresas",
+          "material": "Tarjetas Figura Espejo",
           "cantidad": 10,
           "escala": "Campamento",
-          "notas": "Figuras diferentes",
+          "notas": "",
           "tipoUso": "Consumible"
         }
       ]
