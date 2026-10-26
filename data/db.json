@@ -54790,6 +54790,26 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0090",
+      "materialNombre": "Pizarrón",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 4,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004434",
+      "totalUnidades": 4,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -54804,7 +54824,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004434",
+      "idMov": "MOV-004435",
       "totalUnidades": 65,
       "regreso": false
     },
@@ -54824,8 +54844,28 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004435",
+      "idMov": "MOV-004436",
       "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-27T00:00:00.000Z",
+      "materialId": "MAT-0089",
+      "materialNombre": "Plumón de pizarrón",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 5,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Maxei 3° y 4°",
+      "estado": "Ocupado",
+      "responsable": "Dir: Gerardo Sordo. GC: Pedro García, Paola Barbosa",
+      "notas": "Remisión REM-0032",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004437",
+      "totalUnidades": 5,
       "regreso": false
     },
     {
@@ -54844,7 +54884,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004436",
+      "idMov": "MOV-004438",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54864,7 +54904,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004437",
+      "idMov": "MOV-004439",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54884,7 +54924,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004438",
+      "idMov": "MOV-004440",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -54904,7 +54944,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004439",
+      "idMov": "MOV-004441",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54924,7 +54964,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004440",
+      "idMov": "MOV-004442",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54944,7 +54984,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004441",
+      "idMov": "MOV-004443",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -54964,7 +55004,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004442",
+      "idMov": "MOV-004444",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54984,7 +55024,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004443",
+      "idMov": "MOV-004445",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55004,7 +55044,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004444",
+      "idMov": "MOV-004446",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -55024,7 +55064,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004445",
+      "idMov": "MOV-004447",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -55044,7 +55084,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004446",
+      "idMov": "MOV-004448",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -55064,7 +55104,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004447",
+      "idMov": "MOV-004449",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -55084,7 +55124,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004448",
+      "idMov": "MOV-004450",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -55104,7 +55144,7 @@
       "notas": "Remisión REM-0032",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004449",
+      "idMov": "MOV-004451",
       "totalUnidades": 6,
       "regreso": false
     }
@@ -82456,6 +82496,21 @@
           "cantPaquetesEnviar": 4
         },
         {
+          "materialId": "MAT-0090",
+          "materialNombre": "Pizarrón",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 4,
+          "unidadesPaq": 1,
+          "totalUnidades": 4,
+          "numSeries": "",
+          "costoUnitario": 500,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 2000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
+        },
+        {
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
@@ -82486,6 +82541,21 @@
           "cantidadEnviar": 30,
           "cantPaquetesEnviar": 30,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0089",
+          "materialNombre": "Plumón de pizarrón",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 5,
+          "unidadesPaq": 1,
+          "totalUnidades": 5,
+          "numSeries": "",
+          "costoUnitario": 20,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 100,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 5,
+          "cantPaquetesEnviar": 5
         },
         {
           "materialId": "MAT-0086",
