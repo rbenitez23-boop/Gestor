@@ -54550,11 +54550,11 @@
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
-      "materialId": "MAT-0215",
-      "materialNombre": "Material reciclado",
+      "materialId": "MAT-0193",
+      "materialNombre": "Manzana",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 40,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54565,13 +54565,13 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004422",
-      "totalUnidades": 1,
+      "totalUnidades": 40,
       "regreso": false
     },
     {
       "fecha": "2026-10-27T00:00:00.000Z",
-      "materialId": "MAT-0340",
-      "materialNombre": "Naranja",
+      "materialId": "MAT-0215",
+      "materialNombre": "Material reciclado",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
       "cantPaquetes": 1,
@@ -82337,6 +82337,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0193",
+          "materialNombre": "Manzana",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 40,
+          "unidadesPaq": 1,
+          "totalUnidades": 40,
+          "numSeries": "",
+          "costoUnitario": 35,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1400,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 40,
+          "cantPaquetesEnviar": 40
+        },
+        {
           "materialId": "MAT-0215",
           "materialNombre": "Material reciclado",
           "tipoPaquete": "Pieza Única",
@@ -82351,21 +82366,6 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0340",
-          "materialNombre": "Naranja",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": null,
-          "clasificacion": "Consumible",
-          "costoTotalItem": null,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0217",
