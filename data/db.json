@@ -52859,7 +52859,7 @@
       "materialNombre": "Cajas de insectos",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 5,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -52870,7 +52870,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004285",
-      "totalUnidades": 5,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -53159,7 +53159,7 @@
       "materialNombre": "Insect book",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 54,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53170,7 +53170,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004300",
-      "totalUnidades": 54,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -53459,7 +53459,7 @@
       "materialNombre": "Pinceles",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 54,
+      "cantPaquetes": 60,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53470,7 +53470,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004315",
-      "totalUnidades": 54,
+      "totalUnidades": 60,
       "regreso": false
     },
     {
@@ -53519,7 +53519,7 @@
       "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 10,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53530,7 +53530,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004318",
-      "totalUnidades": 1,
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -80315,16 +80315,16 @@
           "materialId": "MAT-0025",
           "materialNombre": "Cajas de insectos",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 5,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 5,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 750,
+          "costoTotalItem": 900,
           "stockEnDestino": 0,
-          "cantidadEnviar": 5,
-          "cantPaquetesEnviar": 5
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0315",
@@ -80540,16 +80540,16 @@
           "materialId": "MAT-0024",
           "materialNombre": "Insect book",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 54,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 54,
+          "totalUnidades": 60,
           "numSeries": "",
           "costoUnitario": 200,
           "clasificacion": "Consumible",
-          "costoTotalItem": 10800,
+          "costoTotalItem": 12000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 54,
-          "cantPaquetesEnviar": 54
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
         },
         {
           "materialId": "MAT-0334",
@@ -80765,16 +80765,16 @@
           "materialId": "MAT-0022",
           "materialNombre": "Pinceles",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 54,
+          "cantPaquetes": 60,
           "unidadesPaq": 1,
-          "totalUnidades": 54,
+          "totalUnidades": 60,
           "numSeries": "",
           "costoUnitario": 20,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1080,
+          "costoTotalItem": 1200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 54,
-          "cantPaquetesEnviar": 54
+          "cantidadEnviar": 60,
+          "cantPaquetesEnviar": 60
         },
         {
           "materialId": "MAT-0023",
@@ -80810,16 +80810,16 @@
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 10,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 10,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0050",
