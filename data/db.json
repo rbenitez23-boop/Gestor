@@ -54519,7 +54519,7 @@
       "materialNombre": "Lata de espuma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 66,
+      "cantPaquetes": 72,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54530,7 +54530,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004419",
-      "totalUnidades": 66,
+      "totalUnidades": 72,
       "regreso": false
     },
     {
@@ -82338,16 +82338,16 @@
           "materialId": "MAT-0195",
           "materialNombre": "Lata de espuma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 66,
+          "cantPaquetes": 72,
           "unidadesPaq": 1,
-          "totalUnidades": 66,
+          "totalUnidades": 72,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 9900,
+          "costoTotalItem": 10800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 66,
-          "cantPaquetesEnviar": 66
+          "cantidadEnviar": 72,
+          "cantPaquetesEnviar": 72
         },
         {
           "materialId": "MAT-0324",
