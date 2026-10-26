@@ -82347,7 +82347,8 @@
           "costoTotalItem": 10800,
           "stockEnDestino": 0,
           "cantidadEnviar": 72,
-          "cantPaquetesEnviar": 72
+          "cantPaquetesEnviar": 72,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0324",
