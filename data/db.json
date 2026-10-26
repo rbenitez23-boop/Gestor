@@ -53139,7 +53139,7 @@
       "materialNombre": "Esponjas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -53150,7 +53150,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004299",
-      "totalUnidades": 1,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -80645,16 +80645,16 @@
           "materialId": "MAT-0198",
           "materialNombre": "Esponjas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": 30,
           "clasificacion": "Consumible",
-          "costoTotalItem": 30,
+          "costoTotalItem": 180,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6
         },
         {
           "materialId": "MAT-0001",
