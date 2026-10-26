@@ -53915,6 +53915,26 @@
     },
     {
       "fecha": "2026-10-30T00:00:00.000Z",
+      "materialId": "MAT-0231",
+      "materialNombre": "Caja para pulseras",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Puerta Real",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mafer Ortiz Diego Gómez, Gabriel Perdomo, Fernanda Linares ",
+      "notas": "Remisión REM-0033",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004338",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-30T00:00:00.000Z",
       "materialId": "MAT-0315",
       "materialNombre": "Cangurera",
       "tipo": "Salida",
@@ -53929,7 +53949,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004338",
+      "idMov": "MOV-004339",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53949,7 +53969,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004339",
+      "idMov": "MOV-004340",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53969,7 +53989,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004340",
+      "idMov": "MOV-004341",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -53989,7 +54009,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004341",
+      "idMov": "MOV-004342",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54009,7 +54029,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004342",
+      "idMov": "MOV-004343",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54029,7 +54049,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004343",
+      "idMov": "MOV-004344",
       "totalUnidades": 50,
       "regreso": false
     },
@@ -54049,7 +54069,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004344",
+      "idMov": "MOV-004345",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -54069,7 +54089,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004345",
+      "idMov": "MOV-004346",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -54089,7 +54109,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004346",
+      "idMov": "MOV-004347",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54109,7 +54129,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004347",
+      "idMov": "MOV-004348",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54129,7 +54149,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004348",
+      "idMov": "MOV-004349",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54149,7 +54169,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004349",
+      "idMov": "MOV-004350",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54169,7 +54189,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004350",
+      "idMov": "MOV-004351",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54189,7 +54209,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004351",
+      "idMov": "MOV-004352",
       "totalUnidades": 7,
       "regreso": false
     },
@@ -54209,7 +54229,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004352",
+      "idMov": "MOV-004353",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -54229,7 +54249,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004353",
+      "idMov": "MOV-004354",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54249,7 +54269,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004354",
+      "idMov": "MOV-004355",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54269,7 +54289,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004355",
+      "idMov": "MOV-004356",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -54289,28 +54309,8 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004356",
-      "totalUnidades": 10,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-30T00:00:00.000Z",
-      "materialId": "MAT-0131",
-      "materialNombre": "Resorte de pulseras",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Puerta Real",
-      "estado": "Ocupado",
-      "responsable": "Dir: Mafer Ortiz Diego Gómez, Gabriel Perdomo, Fernanda Linares ",
-      "notas": "Remisión REM-0033",
-      "fechaRegreso": "",
-      "numSeries": "",
       "idMov": "MOV-004357",
-      "totalUnidades": 2,
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -81768,6 +81768,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0231",
+          "materialNombre": "Caja para pulseras",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 120,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
+        },
+        {
           "materialId": "MAT-0315",
           "materialNombre": "Cangurera",
           "tipoPaquete": "Pieza Única",
@@ -82051,21 +82066,6 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
-        },
-        {
-          "materialId": "MAT-0131",
-          "materialNombre": "Resorte de pulseras",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
-          "unidadesPaq": 1,
-          "totalUnidades": 2,
-          "numSeries": "",
-          "costoUnitario": 40,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 80,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0097",
