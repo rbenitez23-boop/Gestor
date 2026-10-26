@@ -54809,7 +54809,7 @@
       "materialNombre": "Tijeras",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 20,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54820,7 +54820,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004436",
-      "totalUnidades": 3,
+      "totalUnidades": 20,
       "regreso": false
     },
     {
@@ -82251,16 +82251,16 @@
           "materialId": "MAT-0097",
           "materialNombre": "Tijeras",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 20,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 20,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 75,
+          "costoTotalItem": 500,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 20,
+          "cantPaquetesEnviar": 20
         },
         {
           "materialId": "MAT-0309",
