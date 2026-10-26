@@ -54335,6 +54335,26 @@
     },
     {
       "fecha": "2026-10-30T00:00:00.000Z",
+      "materialId": "MAT-0103",
+      "materialNombre": "Tarjetas Figura Espejo",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Puerta Real",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mafer Ortiz Diego Gómez, Gabriel Perdomo, Fernanda Linares ",
+      "notas": "Remisión REM-0033",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004359",
+      "totalUnidades": 10,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-30T00:00:00.000Z",
       "materialId": "MAT-0097",
       "materialNombre": "Tijeras",
       "tipo": "Salida",
@@ -54349,7 +54369,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004359",
+      "idMov": "MOV-004360",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -82098,6 +82118,21 @@
           "costoUnitario": 15,
           "clasificacion": "Consumible",
           "costoTotalItem": 150,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
+        },
+        {
+          "materialId": "MAT-0103",
+          "materialNombre": "Tarjetas Figura Espejo",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 150,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1500,
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10
