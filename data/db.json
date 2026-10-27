@@ -82273,7 +82273,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 60,
           "cantPaquetesEnviar": 60,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0334",
