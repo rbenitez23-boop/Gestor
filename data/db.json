@@ -54935,6 +54935,26 @@
     },
     {
       "fecha": "2026-10-30T00:00:00.000Z",
+      "materialId": "MAT-0305",
+      "materialNombre": "Cutter",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Puerta Real",
+      "estado": "Ocupado",
+      "responsable": "Dir: Mafer Ortiz Diego Gómez, Gabriel Perdomo, Fernanda Linares ",
+      "notas": "Remisión REM-0033",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004468",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-10-30T00:00:00.000Z",
       "materialId": "MAT-0001",
       "materialNombre": "Extensión",
       "tipo": "Salida",
@@ -54949,7 +54969,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004468",
+      "idMov": "MOV-004469",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54969,7 +54989,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004469",
+      "idMov": "MOV-004470",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54989,7 +55009,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004470",
+      "idMov": "MOV-004471",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -55009,7 +55029,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004471",
+      "idMov": "MOV-004472",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55029,7 +55049,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004472",
+      "idMov": "MOV-004473",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55049,7 +55069,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004473",
+      "idMov": "MOV-004474",
       "totalUnidades": 6,
       "regreso": false
     },
@@ -55069,7 +55089,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004474",
+      "idMov": "MOV-004475",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -55089,7 +55109,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004475",
+      "idMov": "MOV-004476",
       "totalUnidades": 10,
       "regreso": false
     },
@@ -55109,7 +55129,7 @@
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004476",
+      "idMov": "MOV-004477",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -83031,6 +83051,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 30,
           "cantPaquetesEnviar": 30
+        },
+        {
+          "materialId": "MAT-0305",
+          "materialNombre": "Cutter",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 25,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 25,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0001",
