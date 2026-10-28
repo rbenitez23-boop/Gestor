@@ -54855,26 +54855,6 @@
     },
     {
       "fecha": "2026-10-30T00:00:00.000Z",
-      "materialId": "MAT-0216",
-      "materialNombre": "Cerillos",
-      "tipo": "Salida",
-      "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
-      "unidadesPaq": 1,
-      "origen": "Matriz",
-      "destino": "",
-      "cliente": "Marcelona Maestros",
-      "estado": "Ocupado",
-      "responsable": "Dir: Clau Peduzzi",
-      "notas": "Remisión REM-0034",
-      "fechaRegreso": "",
-      "numSeries": "",
-      "idMov": "MOV-004483",
-      "totalUnidades": 1,
-      "regreso": false
-    },
-    {
-      "fecha": "2026-10-30T00:00:00.000Z",
       "materialId": "MAT-0033",
       "materialNombre": "Cinta diurex",
       "tipo": "Salida",
@@ -54889,7 +54869,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004484",
+      "idMov": "MOV-004483",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54909,7 +54889,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004485",
+      "idMov": "MOV-004484",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54929,7 +54909,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004486",
+      "idMov": "MOV-004485",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -54949,7 +54929,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004487",
+      "idMov": "MOV-004486",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -54969,7 +54949,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004488",
+      "idMov": "MOV-004487",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -54989,7 +54969,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004489",
+      "idMov": "MOV-004488",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55009,7 +54989,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004490",
+      "idMov": "MOV-004489",
       "totalUnidades": 20,
       "regreso": false
     },
@@ -55029,7 +55009,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004491",
+      "idMov": "MOV-004490",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -55049,7 +55029,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004492",
+      "idMov": "MOV-004491",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -55069,7 +55049,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004493",
+      "idMov": "MOV-004492",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -55089,7 +55069,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004494",
+      "idMov": "MOV-004493",
       "totalUnidades": 8,
       "regreso": false
     },
@@ -55109,7 +55089,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004495",
+      "idMov": "MOV-004494",
       "totalUnidades": 25,
       "regreso": false
     },
@@ -55129,7 +55109,7 @@
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004496",
+      "idMov": "MOV-004495",
       "totalUnidades": 10,
       "regreso": false
     }
@@ -83319,21 +83299,6 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
-        },
-        {
-          "materialId": "MAT-0216",
-          "materialNombre": "Cerillos",
-          "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
-          "unidadesPaq": 1,
-          "totalUnidades": 1,
-          "numSeries": "",
-          "costoUnitario": 15,
-          "clasificacion": "Consumible",
-          "costoTotalItem": 15,
-          "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
         },
         {
           "materialId": "MAT-0033",
