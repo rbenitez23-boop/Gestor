@@ -83202,7 +83202,7 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 10,
           "cantPaquetesEnviar": 10,
-          "checkSalida": false
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0097",
