@@ -54748,7 +54748,7 @@
       "responsable": "Dir: Mafer Ortiz Diego Gómez, Gabriel Perdomo, Fernanda Linares ",
       "notas": "Remisión REM-0033",
       "fechaRegreso": "",
-      "numSeries": "",
+      "numSeries": "5",
       "idMov": "MOV-004458",
       "totalUnidades": 1,
       "regreso": false
@@ -82907,7 +82907,7 @@
           "cantPaquetes": 1,
           "unidadesPaq": 1,
           "totalUnidades": 1,
-          "numSeries": "",
+          "numSeries": "5",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
