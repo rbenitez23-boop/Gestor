@@ -54679,7 +54679,7 @@
       "materialNombre": "Accesorios divertidos (Maleta de Disfraces)",
       "tipo": "Salida",
       "tipoPaquete": "Bolsa",
-      "cantPaquetes": 1,
+      "cantPaquetes": 13,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -54690,7 +54690,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004455",
-      "totalUnidades": 1,
+      "totalUnidades": 13,
       "regreso": false
     },
     {
@@ -82856,16 +82856,16 @@
           "materialId": "MAT-0223",
           "materialNombre": "Accesorios divertidos (Maleta de Disfraces)",
           "tipoPaquete": "Bolsa",
-          "cantPaquetes": 1,
+          "cantPaquetes": 13,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 13,
           "numSeries": "",
           "costoUnitario": 400,
           "clasificacion": "Consumible",
-          "costoTotalItem": 400,
+          "costoTotalItem": 5200,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 13,
+          "cantPaquetesEnviar": 13
         },
         {
           "materialId": "MAT-0005",
