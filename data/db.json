@@ -7788,7 +7788,7 @@
       "rack": "",
       "seccion": "",
       "zona": "",
-      "tieneNumSerie": false,
+      "tieneNumSerie": true,
       "stockMin": null,
       "stockMax": null,
       "costoUnidad": 100,
