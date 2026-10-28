@@ -54808,7 +54808,7 @@
       "responsable": "Dir: Clau Peduzzi",
       "notas": "Remisión REM-0034",
       "fechaRegreso": "",
-      "numSeries": "",
+      "numSeries": "1",
       "idMov": "MOV-004480",
       "totalUnidades": 1,
       "regreso": false
@@ -83259,7 +83259,7 @@
           "cantPaquetes": 1,
           "unidadesPaq": 1,
           "totalUnidades": 1,
-          "numSeries": "",
+          "numSeries": "1",
           "costoUnitario": 250,
           "clasificacion": "Consumible",
           "costoTotalItem": 250,
