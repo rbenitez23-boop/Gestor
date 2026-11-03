@@ -56599,7 +56599,7 @@
       "materialNombre": "Cuerda de tirolesa",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 4,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56610,7 +56610,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004605",
-      "totalUnidades": 3,
+      "totalUnidades": 4,
       "regreso": false
     },
     {
@@ -86586,16 +86586,16 @@
           "materialId": "MAT-0075",
           "materialNombre": "Cuerda de tirolesa",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 4,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 4,
           "numSeries": "",
           "costoUnitario": 600,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1800,
+          "costoTotalItem": 2400,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 4,
+          "cantPaquetesEnviar": 4
         },
         {
           "materialId": "MAT-0066",
