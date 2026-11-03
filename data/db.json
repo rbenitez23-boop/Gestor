@@ -57315,6 +57315,26 @@
     },
     {
       "fecha": "2026-11-05T00:00:00.000Z",
+      "materialId": "MAT-0064",
+      "materialNombre": "Tabla de equilibrio",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno Morales. GC: Xiomara Carmina, Mon Palma",
+      "notas": "Remisión REM-0038",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004636",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-05T00:00:00.000Z",
       "materialId": "MAT-0307",
       "materialNombre": "Tajín",
       "tipo": "Salida",
@@ -57329,7 +57349,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004636",
+      "idMov": "MOV-004637",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57349,7 +57369,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004637",
+      "idMov": "MOV-004638",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -57369,7 +57389,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004638",
+      "idMov": "MOV-004639",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57389,7 +57409,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004639",
+      "idMov": "MOV-004640",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -87461,6 +87481,21 @@
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0064",
+          "materialNombre": "Tabla de equilibrio",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 400,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 800,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0307",
