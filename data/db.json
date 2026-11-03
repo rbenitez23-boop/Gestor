@@ -86751,7 +86751,8 @@
           "costoTotalItem": null,
           "stockEnDestino": 0,
           "cantidadEnviar": 12,
-          "cantPaquetesEnviar": 12
+          "cantPaquetesEnviar": 12,
+          "checkSalida": true
         },
         {
           "materialId": "MAT-0216",
