@@ -56675,6 +56675,26 @@
     },
     {
       "fecha": "2026-11-05T00:00:00.000Z",
+      "materialId": "MAT-0057",
+      "materialNombre": "Casacas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 30,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno Morales. GC: Xiomara Carmina, Mon Palma",
+      "notas": "Remisión REM-0038",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004604",
+      "totalUnidades": 30,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-05T00:00:00.000Z",
       "materialId": "MAT-0343",
       "materialNombre": "Casco",
       "tipo": "Salida",
@@ -56689,7 +56709,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004604",
+      "idMov": "MOV-004605",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -56709,7 +56729,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004605",
+      "idMov": "MOV-004606",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56729,7 +56749,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004606",
+      "idMov": "MOV-004607",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56749,7 +56769,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004607",
+      "idMov": "MOV-004608",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56769,7 +56789,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004608",
+      "idMov": "MOV-004609",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56789,7 +56809,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004609",
+      "idMov": "MOV-004610",
       "totalUnidades": 39,
       "regreso": false
     },
@@ -56809,7 +56829,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004610",
+      "idMov": "MOV-004611",
       "totalUnidades": 40,
       "regreso": false
     },
@@ -56829,7 +56849,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004611",
+      "idMov": "MOV-004612",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56849,7 +56869,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004612",
+      "idMov": "MOV-004613",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56869,7 +56889,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004613",
+      "idMov": "MOV-004614",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -56889,7 +56909,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004614",
+      "idMov": "MOV-004615",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -56909,7 +56929,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004615",
+      "idMov": "MOV-004616",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -56929,7 +56949,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004616",
+      "idMov": "MOV-004617",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56949,7 +56969,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004617",
+      "idMov": "MOV-004618",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -56969,7 +56989,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004618",
+      "idMov": "MOV-004619",
       "totalUnidades": 9,
       "regreso": false
     },
@@ -56989,7 +57009,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004619",
+      "idMov": "MOV-004620",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -57009,7 +57029,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004620",
+      "idMov": "MOV-004621",
       "totalUnidades": 100,
       "regreso": false
     },
@@ -57029,7 +57049,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004621",
+      "idMov": "MOV-004622",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57049,7 +57069,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004622",
+      "idMov": "MOV-004623",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57069,8 +57089,28 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004623",
+      "idMov": "MOV-004624",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-05T00:00:00.000Z",
+      "materialId": "MAT-0053",
+      "materialNombre": "Palo de escoba",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 17,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno Morales. GC: Xiomara Carmina, Mon Palma",
+      "notas": "Remisión REM-0038",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004625",
+      "totalUnidades": 17,
       "regreso": false
     },
     {
@@ -57089,7 +57129,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004624",
+      "idMov": "MOV-004626",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57109,7 +57149,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004625",
+      "idMov": "MOV-004627",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -57129,7 +57169,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004626",
+      "idMov": "MOV-004628",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57149,7 +57189,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004627",
+      "idMov": "MOV-004629",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57169,7 +57209,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004628",
+      "idMov": "MOV-004630",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57189,7 +57229,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004629",
+      "idMov": "MOV-004631",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57209,7 +57249,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004630",
+      "idMov": "MOV-004632",
       "totalUnidades": 130,
       "regreso": false
     },
@@ -57229,7 +57269,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004631",
+      "idMov": "MOV-004633",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -57249,7 +57289,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004632",
+      "idMov": "MOV-004634",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57269,7 +57309,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004633",
+      "idMov": "MOV-004635",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57289,7 +57329,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004634",
+      "idMov": "MOV-004636",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -57309,7 +57349,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004635",
+      "idMov": "MOV-004637",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -57329,7 +57369,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004636",
+      "idMov": "MOV-004638",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57349,7 +57389,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004637",
+      "idMov": "MOV-004639",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57369,7 +57409,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004638",
+      "idMov": "MOV-004640",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57389,7 +57429,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004639",
+      "idMov": "MOV-004641",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -57409,7 +57449,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004640",
+      "idMov": "MOV-004642",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57429,7 +57469,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004641",
+      "idMov": "MOV-004643",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -87002,6 +87042,21 @@
           "checkSalida": true
         },
         {
+          "materialId": "MAT-0057",
+          "materialNombre": "Casacas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 30,
+          "unidadesPaq": 1,
+          "totalUnidades": 30,
+          "numSeries": "",
+          "costoUnitario": 100,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 3000,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 30,
+          "cantPaquetesEnviar": 30
+        },
+        {
           "materialId": "MAT-0343",
           "materialNombre": "Casco",
           "tipoPaquete": "Pieza Única",
@@ -87311,6 +87366,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0053",
+          "materialNombre": "Palo de escoba",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 17,
+          "unidadesPaq": 1,
+          "totalUnidades": 17,
+          "numSeries": "",
+          "costoUnitario": 60,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 1020,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 17,
+          "cantPaquetesEnviar": 17
         },
         {
           "materialId": "MAT-0030",
