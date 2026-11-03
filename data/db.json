@@ -9300,6 +9300,31 @@
       "seccion": "",
       "provAlt2": "",
       "provAlt3": ""
+    },
+    {
+      "id": "MAT-0374",
+      "nombre": "Juego de Hacha",
+      "tipoPaquete": "Paquete Armado",
+      "unidadesPaq": 1,
+      "rack": "",
+      "zona": "",
+      "stockMin": null,
+      "stockMax": null,
+      "descripcion": "",
+      "fotoUrl": "",
+      "costoUnidad": null,
+      "clasificacion": "Consumible",
+      "costoUso": null,
+      "tdeValor": null,
+      "tdeUnidad": "Días",
+      "provPrincipal": "",
+      "provAlt1": "",
+      "tieneNumSerie": false,
+      "fechaAlta": "2026-11-03T19:35:48.530Z",
+      "activo": true,
+      "seccion": "",
+      "provAlt2": "",
+      "provAlt3": ""
     }
   ],
   "movimientos": [
