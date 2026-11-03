@@ -57025,6 +57025,26 @@
     },
     {
       "fecha": "2026-11-05T00:00:00.000Z",
+      "materialId": "MAT-0373",
+      "materialNombre": "Pizarron Gigante",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno Morales. GC: Xiomara Carmina, Mon Palma",
+      "notas": "Remisión REM-0038",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004624",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-05T00:00:00.000Z",
       "materialId": "MAT-0062",
       "materialNombre": "Pluma",
       "tipo": "Salida",
@@ -57039,7 +57059,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004624",
+      "idMov": "MOV-004625",
       "totalUnidades": 130,
       "regreso": false
     },
@@ -57059,7 +57079,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004625",
+      "idMov": "MOV-004626",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -57079,7 +57099,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004626",
+      "idMov": "MOV-004627",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57099,7 +57119,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004627",
+      "idMov": "MOV-004628",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57119,7 +57139,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004628",
+      "idMov": "MOV-004629",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -57139,7 +57159,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004629",
+      "idMov": "MOV-004630",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -57159,7 +57179,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004630",
+      "idMov": "MOV-004631",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57179,7 +57199,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004631",
+      "idMov": "MOV-004632",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57199,7 +57219,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004632",
+      "idMov": "MOV-004633",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -57219,7 +57239,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004633",
+      "idMov": "MOV-004634",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57239,7 +57259,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004634",
+      "idMov": "MOV-004635",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -87121,6 +87141,21 @@
           "cantidadEnviar": 2,
           "cantPaquetesEnviar": 2,
           "checkSalida": true
+        },
+        {
+          "materialId": "MAT-0373",
+          "materialNombre": "Pizarron Gigante",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0062",
