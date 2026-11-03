@@ -56539,7 +56539,7 @@
       "materialNombre": "Hojas de colores",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 11,
+      "cantPaquetes": 100,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56550,7 +56550,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004567",
-      "totalUnidades": 11,
+      "totalUnidades": 100,
       "regreso": false
     },
     {
@@ -56719,7 +56719,7 @@
       "materialNombre": "Pizarrón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 11,
+      "cantPaquetes": 12,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56730,7 +56730,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004576",
-      "totalUnidades": 11,
+      "totalUnidades": 12,
       "regreso": false
     },
     {
@@ -56739,7 +56739,7 @@
       "materialNombre": "Pluma",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 2,
+      "cantPaquetes": 130,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56750,7 +56750,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004577",
-      "totalUnidades": 2,
+      "totalUnidades": 130,
       "regreso": false
     },
     {
@@ -56779,7 +56779,7 @@
       "materialNombre": "Plumón de pizarrón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 11,
+      "cantPaquetes": 12,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56790,7 +56790,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004579",
-      "totalUnidades": 11,
+      "totalUnidades": 12,
       "regreso": false
     },
     {
@@ -86381,16 +86381,16 @@
           "materialId": "MAT-0034",
           "materialNombre": "Hojas de colores",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 11,
+          "cantPaquetes": 100,
           "unidadesPaq": 1,
-          "totalUnidades": 11,
+          "totalUnidades": 100,
           "numSeries": "",
           "costoUnitario": 80,
           "clasificacion": "Consumible",
-          "costoTotalItem": 880,
+          "costoTotalItem": 8000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 11,
-          "cantPaquetesEnviar": 11
+          "cantidadEnviar": 100,
+          "cantPaquetesEnviar": 100
         },
         {
           "materialId": "MAT-0334",
@@ -86516,31 +86516,31 @@
           "materialId": "MAT-0090",
           "materialNombre": "Pizarrón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 11,
+          "cantPaquetes": 12,
           "unidadesPaq": 1,
-          "totalUnidades": 11,
+          "totalUnidades": 12,
           "numSeries": "",
           "costoUnitario": 500,
           "clasificacion": "Consumible",
-          "costoTotalItem": 5500,
+          "costoTotalItem": 6000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 11,
-          "cantPaquetesEnviar": 11
+          "cantidadEnviar": 12,
+          "cantPaquetesEnviar": 12
         },
         {
           "materialId": "MAT-0062",
           "materialNombre": "Pluma",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 2,
+          "cantPaquetes": 130,
           "unidadesPaq": 1,
-          "totalUnidades": 2,
+          "totalUnidades": 130,
           "numSeries": "",
           "costoUnitario": 10,
           "clasificacion": "Consumible",
-          "costoTotalItem": 20,
+          "costoTotalItem": 1300,
           "stockEnDestino": 0,
-          "cantidadEnviar": 2,
-          "cantPaquetesEnviar": 2
+          "cantidadEnviar": 130,
+          "cantPaquetesEnviar": 130
         },
         {
           "materialId": "MAT-0011",
@@ -86561,16 +86561,16 @@
           "materialId": "MAT-0089",
           "materialNombre": "Plumón de pizarrón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 11,
+          "cantPaquetes": 12,
           "unidadesPaq": 1,
-          "totalUnidades": 11,
+          "totalUnidades": 12,
           "numSeries": "",
           "costoUnitario": 20,
           "clasificacion": "Consumible",
-          "costoTotalItem": 220,
+          "costoTotalItem": 240,
           "stockEnDestino": 0,
-          "cantidadEnviar": 11,
-          "cantPaquetesEnviar": 11
+          "cantidadEnviar": 12,
+          "cantPaquetesEnviar": 12
         },
         {
           "materialId": "MAT-0307",
