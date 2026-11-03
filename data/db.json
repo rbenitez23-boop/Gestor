@@ -56484,7 +56484,7 @@
       "materialNombre": "Canasta de Ropa",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 4,
+      "cantPaquetes": 6,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56495,7 +56495,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004598",
-      "totalUnidades": 4,
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -86675,16 +86675,16 @@
           "materialId": "MAT-0372",
           "materialNombre": "Canasta de Ropa",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 4,
+          "cantPaquetes": 6,
           "unidadesPaq": 1,
-          "totalUnidades": 4,
+          "totalUnidades": 6,
           "numSeries": "",
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
           "stockEnDestino": 0,
-          "cantidadEnviar": 4,
-          "cantPaquetesEnviar": 4,
+          "cantidadEnviar": 6,
+          "cantPaquetesEnviar": 6,
           "checkSalida": true
         },
         {
