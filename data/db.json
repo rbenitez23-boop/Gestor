@@ -56399,7 +56399,7 @@
       "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 22,
+      "cantPaquetes": 30,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56410,7 +56410,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004560",
-      "totalUnidades": 22,
+      "totalUnidades": 30,
       "regreso": false
     },
     {
@@ -56419,7 +56419,7 @@
       "materialNombre": "Cono plato",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 11,
+      "cantPaquetes": 40,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56430,7 +56430,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004561",
-      "totalUnidades": 11,
+      "totalUnidades": 40,
       "regreso": false
     },
     {
@@ -56619,7 +56619,7 @@
       "materialNombre": "Palitos de Madera",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 3,
+      "cantPaquetes": 50,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56630,7 +56630,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004571",
-      "totalUnidades": 3,
+      "totalUnidades": 50,
       "regreso": false
     },
     {
@@ -56679,7 +56679,7 @@
       "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 22,
+      "cantPaquetes": 15,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56690,7 +56690,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004574",
-      "totalUnidades": 22,
+      "totalUnidades": 15,
       "regreso": false
     },
     {
@@ -56759,7 +56759,7 @@
       "materialNombre": "Plumón",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 1,
+      "cantPaquetes": 10,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56770,7 +56770,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004578",
-      "totalUnidades": 1,
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -86276,31 +86276,31 @@
           "materialId": "MAT-0006",
           "materialNombre": "Cono alto",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 22,
+          "cantPaquetes": 30,
           "unidadesPaq": 1,
-          "totalUnidades": 22,
+          "totalUnidades": 30,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1320,
+          "costoTotalItem": 1800,
           "stockEnDestino": 0,
-          "cantidadEnviar": 22,
-          "cantPaquetesEnviar": 22
+          "cantidadEnviar": 30,
+          "cantPaquetesEnviar": 30
         },
         {
           "materialId": "MAT-0007",
           "materialNombre": "Cono plato",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 11,
+          "cantPaquetes": 40,
           "unidadesPaq": 1,
-          "totalUnidades": 11,
+          "totalUnidades": 40,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 275,
+          "costoTotalItem": 1000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 11,
-          "cantPaquetesEnviar": 11
+          "cantidadEnviar": 40,
+          "cantPaquetesEnviar": 40
         },
         {
           "materialId": "MAT-0171",
@@ -86441,16 +86441,16 @@
           "materialId": "MAT-0032",
           "materialNombre": "Palitos de Madera",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 3,
+          "cantPaquetes": 50,
           "unidadesPaq": 1,
-          "totalUnidades": 3,
+          "totalUnidades": 50,
           "numSeries": "",
           "costoUnitario": 40,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 2000,
           "stockEnDestino": 0,
-          "cantidadEnviar": 3,
-          "cantPaquetesEnviar": 3
+          "cantidadEnviar": 50,
+          "cantPaquetesEnviar": 50
         },
         {
           "materialId": "MAT-0282",
@@ -86486,16 +86486,16 @@
           "materialId": "MAT-0068",
           "materialNombre": "Pelota de paracaídas",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 22,
+          "cantPaquetes": 15,
           "unidadesPaq": 1,
-          "totalUnidades": 22,
+          "totalUnidades": 15,
           "numSeries": "",
           "costoUnitario": 150,
           "clasificacion": "Consumible",
-          "costoTotalItem": 3300,
+          "costoTotalItem": 2250,
           "stockEnDestino": 0,
-          "cantidadEnviar": 22,
-          "cantPaquetesEnviar": 22
+          "cantidadEnviar": 15,
+          "cantPaquetesEnviar": 15
         },
         {
           "materialId": "MAT-0227",
@@ -86546,16 +86546,16 @@
           "materialId": "MAT-0011",
           "materialNombre": "Plumón",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 1,
+          "cantPaquetes": 10,
           "unidadesPaq": 1,
-          "totalUnidades": 1,
+          "totalUnidades": 10,
           "numSeries": "",
           "costoUnitario": 15,
           "clasificacion": "Consumible",
-          "costoTotalItem": 15,
+          "costoTotalItem": 150,
           "stockEnDestino": 0,
-          "cantidadEnviar": 1,
-          "cantPaquetesEnviar": 1
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0089",
