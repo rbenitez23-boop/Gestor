@@ -56195,6 +56195,26 @@
     },
     {
       "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0348",
+      "materialNombre": "Bluetooth para microfono",
+      "tipo": "Salida",
+      "tipoPaquete": "Caja",
+      "cantPaquetes": 1,
+      "unidadesPaq": 3,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004550",
+      "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
       "materialId": "MAT-0002",
       "materialNombre": "Bocina",
       "tipo": "Salida",
@@ -56209,8 +56229,28 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004550",
+      "idMov": "MOV-004551",
       "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0363",
+      "materialNombre": "Bocinas Alien",
+      "tipo": "Salida",
+      "tipoPaquete": "Paquete Armado",
+      "cantPaquetes": 1,
+      "unidadesPaq": 6,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004552",
+      "totalUnidades": 6,
       "regreso": false
     },
     {
@@ -56229,7 +56269,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004551",
+      "idMov": "MOV-004553",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56249,7 +56289,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004552",
+      "idMov": "MOV-004554",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56269,7 +56309,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004553",
+      "idMov": "MOV-004555",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56289,7 +56329,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004554",
+      "idMov": "MOV-004556",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56309,7 +56349,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004555",
+      "idMov": "MOV-004557",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56329,7 +56369,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004556",
+      "idMov": "MOV-004558",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56349,7 +56389,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004557",
+      "idMov": "MOV-004559",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56369,7 +56409,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004558",
+      "idMov": "MOV-004560",
       "totalUnidades": 22,
       "regreso": false
     },
@@ -56389,7 +56429,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004559",
+      "idMov": "MOV-004561",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56409,7 +56449,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004560",
+      "idMov": "MOV-004562",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56429,7 +56469,27 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004561",
+      "idMov": "MOV-004563",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0349",
+      "materialNombre": "Etiqueta blanca (para nombres)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004564",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56449,7 +56509,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004562",
+      "idMov": "MOV-004565",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -56469,7 +56529,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004563",
+      "idMov": "MOV-004566",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56489,7 +56549,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004564",
+      "idMov": "MOV-004567",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56509,7 +56569,27 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004565",
+      "idMov": "MOV-004568",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0221",
+      "materialNombre": "Micrófono",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004569",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56529,7 +56609,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004566",
+      "idMov": "MOV-004570",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56549,8 +56629,28 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004567",
+      "idMov": "MOV-004571",
       "totalUnidades": 3,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0282",
+      "materialNombre": "Palos con listones",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 10,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004572",
+      "totalUnidades": 10,
       "regreso": false
     },
     {
@@ -56569,7 +56669,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004568",
+      "idMov": "MOV-004573",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56589,7 +56689,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004569",
+      "idMov": "MOV-004574",
       "totalUnidades": 22,
       "regreso": false
     },
@@ -56609,7 +56709,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004570",
+      "idMov": "MOV-004575",
       "totalUnidades": 55,
       "regreso": false
     },
@@ -56629,7 +56729,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004571",
+      "idMov": "MOV-004576",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56649,7 +56749,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004572",
+      "idMov": "MOV-004577",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -56669,7 +56769,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004573",
+      "idMov": "MOV-004578",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56689,7 +56789,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004574",
+      "idMov": "MOV-004579",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56709,7 +56809,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004575",
+      "idMov": "MOV-004580",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -56729,7 +56829,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004576",
+      "idMov": "MOV-004581",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56749,7 +56849,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004577",
+      "idMov": "MOV-004582",
       "totalUnidades": 248,
       "regreso": false
     }
@@ -86023,6 +86123,21 @@
       "notas": "Creada vía Auto-Remisión",
       "items": [
         {
+          "materialId": "MAT-0348",
+          "materialNombre": "Bluetooth para microfono",
+          "tipoPaquete": "Caja",
+          "cantPaquetes": 1,
+          "unidadesPaq": 3,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0002",
           "materialNombre": "Bocina",
           "tipoPaquete": "Pieza Única",
@@ -86035,6 +86150,21 @@
           "costoTotalItem": 350,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0363",
+          "materialNombre": "Bocinas Alien",
+          "tipoPaquete": "Paquete Armado",
+          "cantPaquetes": 1,
+          "unidadesPaq": 6,
+          "totalUnidades": 6,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 6,
           "cantPaquetesEnviar": 1
         },
         {
@@ -86203,6 +86333,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0349",
+          "materialNombre": "Etiqueta blanca (para nombres)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": null,
+          "clasificacion": "Consumible",
+          "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0001",
           "materialNombre": "Extensión",
           "tipoPaquete": "Pieza Única",
@@ -86263,6 +86408,21 @@
           "cantPaquetesEnviar": 1
         },
         {
+          "materialId": "MAT-0221",
+          "materialNombre": "Micrófono",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 400,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 400,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
           "materialId": "MAT-0340",
           "materialNombre": "Naranja",
           "tipoPaquete": "Pieza Única",
@@ -86291,6 +86451,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 3,
           "cantPaquetesEnviar": 3
+        },
+        {
+          "materialId": "MAT-0282",
+          "materialNombre": "Palos con listones",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 10,
+          "unidadesPaq": 1,
+          "totalUnidades": 10,
+          "numSeries": "",
+          "costoUnitario": 50,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 500,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 10,
+          "cantPaquetesEnviar": 10
         },
         {
           "materialId": "MAT-0030",
