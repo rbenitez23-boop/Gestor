@@ -87231,7 +87231,8 @@
           "costoTotalItem": 720,
           "stockEnDestino": 0,
           "cantidadEnviar": 12,
-          "cantPaquetesEnviar": 12
+          "cantPaquetesEnviar": 12,
+          "checkSalida": true
         }
       ],
       "fotos": [],
