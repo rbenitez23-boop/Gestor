@@ -56624,7 +56624,7 @@
       "materialNombre": "Cono alto",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 40,
+      "cantPaquetes": 39,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56635,7 +56635,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004605",
-      "totalUnidades": 40,
+      "totalUnidades": 39,
       "regreso": false
     },
     {
@@ -56644,7 +56644,7 @@
       "materialNombre": "Cono plato",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 50,
+      "cantPaquetes": 30,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56655,7 +56655,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004606",
-      "totalUnidades": 50,
+      "totalUnidades": 30,
       "regreso": false
     },
     {
@@ -86751,31 +86751,31 @@
           "materialId": "MAT-0006",
           "materialNombre": "Cono alto",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 40,
+          "cantPaquetes": 39,
           "unidadesPaq": 1,
-          "totalUnidades": 40,
+          "totalUnidades": 39,
           "numSeries": "",
           "costoUnitario": 60,
           "clasificacion": "Consumible",
-          "costoTotalItem": 2400,
+          "costoTotalItem": 2340,
           "stockEnDestino": 0,
-          "cantidadEnviar": 40,
-          "cantPaquetesEnviar": 40
+          "cantidadEnviar": 39,
+          "cantPaquetesEnviar": 39
         },
         {
           "materialId": "MAT-0007",
           "materialNombre": "Cono plato",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 50,
+          "cantPaquetes": 30,
           "unidadesPaq": 1,
-          "totalUnidades": 50,
+          "totalUnidades": 30,
           "numSeries": "",
           "costoUnitario": 25,
           "clasificacion": "Consumible",
-          "costoTotalItem": 1250,
+          "costoTotalItem": 750,
           "stockEnDestino": 0,
-          "cantidadEnviar": 50,
-          "cantPaquetesEnviar": 50
+          "cantidadEnviar": 30,
+          "cantPaquetesEnviar": 30
         },
         {
           "materialId": "MAT-0171",
