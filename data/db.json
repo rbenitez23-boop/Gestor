@@ -56784,7 +56784,7 @@
       "materialNombre": "Flecha Arco",
       "tipo": "Salida",
       "tipoPaquete": "Pieza Única",
-      "cantPaquetes": 6,
+      "cantPaquetes": 9,
       "unidadesPaq": 1,
       "origen": "Matriz",
       "destino": "",
@@ -56795,7 +56795,7 @@
       "fechaRegreso": "",
       "numSeries": "",
       "idMov": "MOV-004613",
-      "totalUnidades": 6,
+      "totalUnidades": 9,
       "regreso": false
     },
     {
@@ -86874,16 +86874,16 @@
           "materialId": "MAT-0325",
           "materialNombre": "Flecha Arco",
           "tipoPaquete": "Pieza Única",
-          "cantPaquetes": 6,
+          "cantPaquetes": 9,
           "unidadesPaq": 1,
-          "totalUnidades": 6,
+          "totalUnidades": 9,
           "numSeries": "",
           "costoUnitario": 20,
           "clasificacion": "Consumible",
-          "costoTotalItem": 120,
+          "costoTotalItem": 180,
           "stockEnDestino": 0,
-          "cantidadEnviar": 6,
-          "cantPaquetesEnviar": 6
+          "cantidadEnviar": 9,
+          "cantPaquetesEnviar": 9
         },
         {
           "materialId": "MAT-0077",
