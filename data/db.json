@@ -56835,6 +56835,26 @@
     },
     {
       "fecha": "2026-11-07T00:00:00.000Z",
+      "materialId": "MAT-0015",
+      "materialNombre": "Tangrams de espuma (Gigante)",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 2,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Municipio de Querétaro",
+      "estado": "Ocupado",
+      "responsable": "Dir: Rodrigo Navarrete. GC: Camila González",
+      "notas": "Remisión REM-0037",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004582",
+      "totalUnidades": 2,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-07T00:00:00.000Z",
       "materialId": "MAT-0309",
       "materialNombre": "Tinaja",
       "tipo": "Salida",
@@ -56849,7 +56869,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004582",
+      "idMov": "MOV-004583",
       "totalUnidades": 11,
       "regreso": false
     },
@@ -56869,7 +56889,7 @@
       "notas": "Remisión REM-0037",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004583",
+      "idMov": "MOV-004584",
       "totalUnidades": 248,
       "regreso": false
     }
@@ -86621,6 +86641,21 @@
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0015",
+          "materialNombre": "Tangrams de espuma (Gigante)",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 2,
+          "unidadesPaq": 1,
+          "totalUnidades": 2,
+          "numSeries": "",
+          "costoUnitario": 350,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 700,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 2,
+          "cantPaquetesEnviar": 2
         },
         {
           "materialId": "MAT-0309",
