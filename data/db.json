@@ -56965,6 +56965,26 @@
     },
     {
       "fecha": "2026-11-05T00:00:00.000Z",
+      "materialId": "MAT-0030",
+      "materialNombre": "Paracaídas",
+      "tipo": "Salida",
+      "tipoPaquete": "Pieza Única",
+      "cantPaquetes": 1,
+      "unidadesPaq": 1,
+      "origen": "Matriz",
+      "destino": "",
+      "cliente": "Plenus Sec",
+      "estado": "Ocupado",
+      "responsable": "Dir: Bruno Morales. GC: Xiomara Carmina, Mon Palma",
+      "notas": "Remisión REM-0038",
+      "fechaRegreso": "",
+      "numSeries": "",
+      "idMov": "MOV-004621",
+      "totalUnidades": 1,
+      "regreso": false
+    },
+    {
+      "fecha": "2026-11-05T00:00:00.000Z",
       "materialId": "MAT-0068",
       "materialNombre": "Pelota de paracaídas",
       "tipo": "Salida",
@@ -56979,7 +56999,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004621",
+      "idMov": "MOV-004622",
       "totalUnidades": 15,
       "regreso": false
     },
@@ -56999,7 +57019,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004622",
+      "idMov": "MOV-004623",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57019,7 +57039,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004623",
+      "idMov": "MOV-004624",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57039,7 +57059,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004624",
+      "idMov": "MOV-004625",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57059,7 +57079,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004625",
+      "idMov": "MOV-004626",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57079,7 +57099,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004626",
+      "idMov": "MOV-004627",
       "totalUnidades": 130,
       "regreso": false
     },
@@ -57099,7 +57119,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004627",
+      "idMov": "MOV-004628",
       "totalUnidades": 30,
       "regreso": false
     },
@@ -57119,7 +57139,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004628",
+      "idMov": "MOV-004629",
       "totalUnidades": 2,
       "regreso": false
     },
@@ -57139,7 +57159,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004629",
+      "idMov": "MOV-004630",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57159,7 +57179,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004630",
+      "idMov": "MOV-004631",
       "totalUnidades": 4,
       "regreso": false
     },
@@ -57179,7 +57199,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004631",
+      "idMov": "MOV-004632",
       "totalUnidades": 3,
       "regreso": false
     },
@@ -57199,7 +57219,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004632",
+      "idMov": "MOV-004633",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57219,7 +57239,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004633",
+      "idMov": "MOV-004634",
       "totalUnidades": 1,
       "regreso": false
     },
@@ -57239,7 +57259,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004634",
+      "idMov": "MOV-004635",
       "totalUnidades": 5,
       "regreso": false
     },
@@ -57259,7 +57279,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004635",
+      "idMov": "MOV-004636",
       "totalUnidades": 12,
       "regreso": false
     },
@@ -57279,7 +57299,7 @@
       "notas": "Remisión REM-0038",
       "fechaRegreso": "",
       "numSeries": "",
-      "idMov": "MOV-004636",
+      "idMov": "MOV-004637",
       "totalUnidades": 4,
       "regreso": false
     }
@@ -87110,6 +87130,21 @@
           "costoUnitario": null,
           "clasificacion": "Consumible",
           "costoTotalItem": null,
+          "stockEnDestino": 0,
+          "cantidadEnviar": 1,
+          "cantPaquetesEnviar": 1
+        },
+        {
+          "materialId": "MAT-0030",
+          "materialNombre": "Paracaídas",
+          "tipoPaquete": "Pieza Única",
+          "cantPaquetes": 1,
+          "unidadesPaq": 1,
+          "totalUnidades": 1,
+          "numSeries": "",
+          "costoUnitario": 600,
+          "clasificacion": "Consumible",
+          "costoTotalItem": 600,
           "stockEnDestino": 0,
           "cantidadEnviar": 1,
           "cantPaquetesEnviar": 1
