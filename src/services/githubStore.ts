@@ -79,8 +79,12 @@ function decodeBase64Utf8(b64: string): string {
 
 function encodeBase64Utf8(text: string): string {
   const bytes = new TextEncoder().encode(text);
+  // Por bloques: carácter por carácter era lento con archivos de varios MB.
   let binary = '';
-  bytes.forEach((b) => (binary += String.fromCharCode(b)));
+  const BLOQUE = 0x8000;
+  for (let i = 0; i < bytes.length; i += BLOQUE) {
+    binary += String.fromCharCode(...bytes.subarray(i, i + BLOQUE));
+  }
   return btoa(binary);
 }
 
@@ -105,14 +109,14 @@ export async function loadDatabase(): Promise<LoadedDatabase> {
   const { url, headers } = apiBase();
 
   // 1) Metadatos — siempre trae el `sha` actual, sin importar el tamaño.
-  const metaRes = await fetch(url, { headers, cache: 'no-store' });
+  const metaRes = await fetchConLimite(url, { headers, cache: 'no-store' });
   if (metaRes.status === 401 || metaRes.status === 403) throw new AuthError();
   if (!metaRes.ok) throw new Error(`No se pudo leer la base de datos (HTTP ${metaRes.status})`);
   const meta = await metaRes.json();
 
   // 2) Contenido real por su sha exacto — inmune a caché desactualizada.
   const blobUrl = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/git/blobs/${meta.sha}`;
-  const blobRes = await fetch(blobUrl, { headers, cache: 'no-store' });
+  const blobRes = await fetchConLimite(blobUrl, { headers, cache: 'no-store' }, 120_000);
   if (blobRes.status === 401 || blobRes.status === 403) throw new AuthError();
   if (!blobRes.ok) throw new Error(`No se pudo leer el contenido de la base de datos (HTTP ${blobRes.status})`);
   const blob = await blobRes.json();
@@ -120,41 +124,115 @@ export async function loadDatabase(): Promise<LoadedDatabase> {
   return { data: JSON.parse(content) as Database, sha: meta.sha };
 }
 
+// ── Tiempo límite por petición ──
+// Sin esto, si GitHub no responde, la app se quedaba "cargando" para
+// siempre sin decir nada. Ahora, pasado el límite, se muestra un error claro.
+const LIMITE_MS = 60_000;
+
+export class TimeoutError extends Error {
+  constructor() {
+    super('GitHub tardó demasiado en responder. Revisa tu internet e intenta de nuevo.');
+    this.name = 'TimeoutError';
+  }
+}
+
+async function fetchConLimite(url: string, init: RequestInit = {}, limiteMs = LIMITE_MS): Promise<Response> {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), limiteMs);
+  try {
+    return await fetch(url, { ...init, signal: ctrl.signal });
+  } catch (e) {
+    if ((e as Error).name === 'AbortError') throw new TimeoutError();
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /**
  * Guarda la base de datos completa como un nuevo commit.
+ *
+ * Usa la API de "Git Data" (blob → tree → commit → ref) en lugar del PUT de
+ * la API de Contents: el PUT de Contents se vuelve lento o se cuelga con
+ * archivos de varios MB (como db.json, que ya pasa de 2 MB), mientras que
+ * los blobs están hechos para archivos grandes (hasta 100 MB).
+ *
+ * Además, el JSON se guarda compacto (sin sangrías): ~30% más ligero, mismo
+ * contenido. El historial de GitHub lo sigue mostrando normal.
+ *
+ * Control de concurrencia (igual que antes, nunca se pisan cambios):
+ *  1) Si db.json ya no tiene el `sha` que cargamos → ConflictError.
+ *  2) El commit nuevo cuelga del último commit de la rama; si alguien hizo
+ *     otro commit en medio, GitHub rechaza mover la rama (no fast-forward)
+ *     → ConflictError, y saveWithRetry reintenta con datos frescos.
+ *
  * @param data   El estado completo a guardar (se sobreescribe el archivo).
- * @param sha    El `sha` obtenido en el último `loadDatabase()` — es la
- *               prueba de "esto es lo último que vi"; si ya no coincide,
- *               GitHub responde 409 y lanzamos ConflictError.
- * @param message Mensaje de commit legible — aparece en el historial real
- *               de git, así que se redacta como bitácora del negocio.
+ * @param sha    El `sha` de db.json obtenido en el último `loadDatabase()`.
+ * @param message Mensaje de commit legible (bitácora del negocio).
  */
 export async function saveDatabase(data: Database, sha: string, message: string): Promise<{ sha: string }> {
   const cfg = getStoredConfig();
   if (!cfg) throw new NotConfiguredError();
-  const { url } = apiBase();
-  const putUrl = url.split('?')[0] ?? url;
-  const body = {
-    message,
-    content: encodeBase64Utf8(JSON.stringify(data, null, 2)),
-    sha,
-    branch: cfg.branch,
+  const repoApi = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}`;
+  const headers = {
+    Authorization: `Bearer ${cfg.token}`,
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Content-Type': 'application/json',
   };
-  const res = await fetch(putUrl, {
-    method: 'PUT',
-    headers: {
-      Authorization: `Bearer ${cfg.token}`,
-      Accept: 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28',
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(body),
-  });
-  if (res.status === 409) throw new ConflictError();
-  if (res.status === 401 || res.status === 403) throw new AuthError();
-  if (!res.ok) throw new Error(`No se pudo guardar (HTTP ${res.status})`);
-  const json = await res.json();
-  return { sha: json.content.sha as string };
+  const revisar = async (res: Response, que: string) => {
+    if (res.status === 401 || res.status === 403) throw new AuthError();
+    if (res.status === 409) throw new ConflictError();
+    if (!res.ok) throw new Error(`No se pudo guardar (${que}, HTTP ${res.status})`);
+    return res.json();
+  };
+  const refUrl = `${repoApi}/git/refs/heads/${encodeURIComponent(cfg.branch)}`;
+
+  // 1) ¿Sigue db.json igual a como lo cargamos? (solo metadatos, es ligero)
+  const meta = await revisar(await fetchConLimite(apiBase().url, { headers, cache: 'no-store' }), 'leer versión actual');
+  if (meta.sha !== sha) throw new ConflictError();
+
+  // 2) Último commit de la rama y su árbol de archivos.
+  const ref = await revisar(await fetchConLimite(refUrl, { headers, cache: 'no-store' }), 'leer rama');
+  const headSha: string = ref.object.sha;
+  const headCommit = await revisar(await fetchConLimite(`${repoApi}/git/commits/${headSha}`, { headers, cache: 'no-store' }), 'leer commit');
+
+  // 3) Sube el contenido nuevo como blob (la parte pesada; tiene más margen de tiempo).
+  const blob = await revisar(
+    await fetchConLimite(
+      `${repoApi}/git/blobs`,
+      { method: 'POST', headers, body: JSON.stringify({ content: encodeBase64Utf8(JSON.stringify(data)), encoding: 'base64' }) },
+      120_000
+    ),
+    'subir datos'
+  );
+
+  // 4) Árbol nuevo = árbol actual con db.json reemplazado.
+  const tree = await revisar(
+    await fetchConLimite(`${repoApi}/git/trees`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ base_tree: headCommit.tree.sha, tree: [{ path: DB_PATH, mode: '100644', type: 'blob', sha: blob.sha }] }),
+    }),
+    'armar cambios'
+  );
+
+  // 5) Commit nuevo encima del último.
+  const commit = await revisar(
+    await fetchConLimite(`${repoApi}/git/commits`, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ message, tree: tree.sha, parents: [headSha] }),
+    }),
+    'crear commit'
+  );
+
+  // 6) Mueve la rama al commit nuevo (sin forzar: si alguien se adelantó, falla → conflicto).
+  const mover = await fetchConLimite(refUrl, { method: 'PATCH', headers, body: JSON.stringify({ sha: commit.sha, force: false }) });
+  if (mover.status === 422 || mover.status === 409) throw new ConflictError();
+  await revisar(mover, 'actualizar rama');
+
+  return { sha: blob.sha as string };
 }
 
 /**
