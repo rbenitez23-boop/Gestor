@@ -29,6 +29,15 @@ import type { Database } from '../types';
 import { getStoredConfig } from './auth';
 
 const DB_PATH = 'data/db.json';
+/**
+ * Formato comprimido (gzip). db.json pasó de 2.7 MB y las subidas se volvían
+ * lentísimas o se cortaban. Comprimido pesa ~17 veces menos (2 MB → ~120 KB),
+ * así que cada guardado sube y baja muchísimo menos.
+ * Migración automática: si aún no existe db.json.gz, se lee db.json; el
+ * primer guardado crea db.json.gz y elimina db.json en el mismo commit.
+ */
+const DB_PATH_GZ = 'data/db.json.gz';
+type Formato = 'gz' | 'json';
 
 export class ConflictError extends Error {
   constructor() {
@@ -54,13 +63,14 @@ export class NotConfiguredError extends Error {
 interface LoadedDatabase {
   data: Database;
   sha: string;
+  formato: Formato;
 }
 
-function apiBase(): { url: string; headers: Record<string, string> } {
+function apiBase(ruta: string = DB_PATH): { url: string; headers: Record<string, string> } {
   const cfg = getStoredConfig();
   if (!cfg) throw new NotConfiguredError();
   return {
-    url: `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${DB_PATH}?ref=${cfg.branch}`,
+    url: `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${ruta}?ref=${encodeURIComponent(cfg.branch)}`,
     headers: {
       Authorization: `Bearer ${cfg.token}`,
       Accept: 'application/vnd.github+json',
@@ -71,21 +81,33 @@ function apiBase(): { url: string; headers: Record<string, string> } {
 
 // Los archivos se escriben/leen codificados en base64 estándar; usamos
 // TextDecoder/Encoder para soportar acentos y ñ correctamente (UTF-8).
-function decodeBase64Utf8(b64: string): string {
+function base64ABytes(b64: string): Uint8Array {
   const binary = atob(b64.replace(/\n/g, ''));
-  const bytes = Uint8Array.from(binary, (c) => c.charCodeAt(0));
-  return new TextDecoder('utf-8').decode(bytes);
+  return Uint8Array.from(binary, (c) => c.charCodeAt(0));
 }
 
-function encodeBase64Utf8(text: string): string {
-  const bytes = new TextEncoder().encode(text);
-  // Por bloques: carácter por carácter era lento con archivos de varios MB.
+function decodeBase64Utf8(b64: string): string {
+  return new TextDecoder('utf-8').decode(base64ABytes(b64));
+}
+
+function bytesABase64(bytes: Uint8Array): string {
+  // Por bloques: carácter por carácter es lento con archivos grandes.
   let binary = '';
   const BLOQUE = 0x8000;
   for (let i = 0; i < bytes.length; i += BLOQUE) {
     binary += String.fromCharCode(...bytes.subarray(i, i + BLOQUE));
   }
   return btoa(binary);
+}
+
+async function gzipTexto(texto: string): Promise<Uint8Array> {
+  const stream = new Blob([texto]).stream().pipeThrough(new CompressionStream('gzip'));
+  return new Uint8Array(await new Response(stream).arrayBuffer());
+}
+
+async function gunzipTexto(bytes: Uint8Array): Promise<string> {
+  const stream = new Blob([bytes as BlobPart]).stream().pipeThrough(new DecompressionStream('gzip'));
+  return new Response(stream).text();
 }
 
 /**
@@ -106,22 +128,27 @@ function encodeBase64Utf8(text: string): string {
 export async function loadDatabase(): Promise<LoadedDatabase> {
   const cfg = getStoredConfig();
   if (!cfg) throw new NotConfiguredError();
-  const { url, headers } = apiBase();
+  const { headers } = apiBase();
 
-  // 1) Metadatos — siempre trae el `sha` actual, sin importar el tamaño.
-  const metaRes = await fetchConLimite(url, { headers, cache: 'no-store' });
+  // 1) Metadatos — primero el formato comprimido; si no existe aún, el db.json de siempre.
+  let formato: Formato = 'gz';
+  let metaRes = await fetchConLimite(apiBase(DB_PATH_GZ).url, { headers, cache: 'no-store' }, LIMITE_MS, 'leer base de datos');
+  if (metaRes.status === 404) {
+    formato = 'json';
+    metaRes = await fetchConLimite(apiBase(DB_PATH).url, { headers, cache: 'no-store' }, LIMITE_MS, 'leer base de datos');
+  }
   if (metaRes.status === 401 || metaRes.status === 403) throw new AuthError();
   if (!metaRes.ok) throw new Error(`No se pudo leer la base de datos (HTTP ${metaRes.status})`);
   const meta = await metaRes.json();
 
   // 2) Contenido real por su sha exacto — inmune a caché desactualizada.
   const blobUrl = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/git/blobs/${meta.sha}`;
-  const blobRes = await fetchConLimite(blobUrl, { headers, cache: 'no-store' }, 120_000);
+  const blobRes = await fetchConLimite(blobUrl, { headers, cache: 'no-store' }, 180_000, 'descargar base de datos');
   if (blobRes.status === 401 || blobRes.status === 403) throw new AuthError();
   if (!blobRes.ok) throw new Error(`No se pudo leer el contenido de la base de datos (HTTP ${blobRes.status})`);
   const blob = await blobRes.json();
-  const content = decodeBase64Utf8(blob.content);
-  return { data: JSON.parse(content) as Database, sha: meta.sha };
+  const content = formato === 'gz' ? await gunzipTexto(base64ABytes(blob.content)) : decodeBase64Utf8(blob.content);
+  return { data: JSON.parse(content) as Database, sha: meta.sha, formato };
 }
 
 // ── Tiempo límite por petición ──
@@ -130,20 +157,21 @@ export async function loadDatabase(): Promise<LoadedDatabase> {
 const LIMITE_MS = 60_000;
 
 export class TimeoutError extends Error {
-  constructor() {
-    super('GitHub tardó demasiado en responder. Revisa tu internet e intenta de nuevo.');
+  constructor(paso = '') {
+    super(`GitHub tardó demasiado en responder${paso ? ` (${paso})` : ''}. Revisa tu internet e intenta de nuevo.`);
     this.name = 'TimeoutError';
   }
 }
 
-async function fetchConLimite(url: string, init: RequestInit = {}, limiteMs = LIMITE_MS): Promise<Response> {
+async function fetchConLimite(url: string, init: RequestInit = {}, limiteMs = LIMITE_MS, paso = ''): Promise<Response> {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), limiteMs);
   try {
     return await fetch(url, { ...init, signal: ctrl.signal });
   } catch (e) {
-    if ((e as Error).name === 'AbortError') throw new TimeoutError();
-    throw e;
+    if ((e as Error).name === 'AbortError') throw new TimeoutError(paso);
+    // "Failed to fetch": la conexión se cortó antes de que GitHub contestara.
+    throw new Error(`Se perdió la conexión con GitHub${paso ? ` (${paso})` : ''}. Revisa tu internet e intenta de nuevo.`);
   } finally {
     clearTimeout(timer);
   }
@@ -170,7 +198,7 @@ async function fetchConLimite(url: string, init: RequestInit = {}, limiteMs = LI
  * @param sha    El `sha` de db.json obtenido en el último `loadDatabase()`.
  * @param message Mensaje de commit legible (bitácora del negocio).
  */
-export async function saveDatabase(data: Database, sha: string, message: string): Promise<{ sha: string }> {
+export async function saveDatabase(data: Database, sha: string, message: string, formato: Formato = 'gz'): Promise<{ sha: string }> {
   const cfg = getStoredConfig();
   if (!cfg) throw new NotConfiguredError();
   const repoApi = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}`;
@@ -188,47 +216,59 @@ export async function saveDatabase(data: Database, sha: string, message: string)
   };
   const refUrl = `${repoApi}/git/refs/heads/${encodeURIComponent(cfg.branch)}`;
 
-  // 1) ¿Sigue db.json igual a como lo cargamos? (solo metadatos, es ligero)
-  const meta = await revisar(await fetchConLimite(apiBase().url, { headers, cache: 'no-store' }), 'leer versión actual');
+  // 1) ¿Sigue la base igual a como la cargamos? (solo metadatos, es ligero)
+  //    404 = otro equipo ya la migró a comprimida → conflicto → se reintenta con datos frescos.
+  const metaRes = await fetchConLimite(apiBase(formato === 'gz' ? DB_PATH_GZ : DB_PATH).url, { headers, cache: 'no-store' }, LIMITE_MS, 'leer versión actual');
+  if (metaRes.status === 404) throw new ConflictError();
+  const meta = await revisar(metaRes, 'leer versión actual');
   if (meta.sha !== sha) throw new ConflictError();
 
   // 2) Último commit de la rama y su árbol de archivos.
-  const ref = await revisar(await fetchConLimite(refUrl, { headers, cache: 'no-store' }), 'leer rama');
+  const ref = await revisar(await fetchConLimite(refUrl, { headers, cache: 'no-store' }, LIMITE_MS, 'leer rama'), 'leer rama');
   const headSha: string = ref.object.sha;
-  const headCommit = await revisar(await fetchConLimite(`${repoApi}/git/commits/${headSha}`, { headers, cache: 'no-store' }), 'leer commit');
+  const headCommit = await revisar(await fetchConLimite(`${repoApi}/git/commits/${headSha}`, { headers, cache: 'no-store' }, LIMITE_MS, 'leer commit'), 'leer commit');
 
-  // 3) Sube el contenido nuevo como blob (la parte pesada; tiene más margen de tiempo).
+  // 3) Sube el contenido nuevo, comprimido, como blob.
+  const comprimido = await gzipTexto(JSON.stringify(data));
   const blob = await revisar(
     await fetchConLimite(
       `${repoApi}/git/blobs`,
-      { method: 'POST', headers, body: JSON.stringify({ content: encodeBase64Utf8(JSON.stringify(data)), encoding: 'base64' }) },
-      120_000
+      { method: 'POST', headers, body: JSON.stringify({ content: bytesABase64(comprimido), encoding: 'base64' }) },
+      180_000,
+      'subir datos'
     ),
     'subir datos'
   );
 
-  // 4) Árbol nuevo = árbol actual con db.json reemplazado.
+  // 4) Árbol nuevo = árbol actual con db.json.gz reemplazado
+  //    (y, solo la primera vez, db.json viejo eliminado: migración).
+  const cambios: Array<{ path: string; mode: string; type: string; sha: string | null }> = [
+    { path: DB_PATH_GZ, mode: '100644', type: 'blob', sha: blob.sha },
+  ];
+  if (formato === 'json') cambios.push({ path: DB_PATH, mode: '100644', type: 'blob', sha: null });
   const tree = await revisar(
-    await fetchConLimite(`${repoApi}/git/trees`, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ base_tree: headCommit.tree.sha, tree: [{ path: DB_PATH, mode: '100644', type: 'blob', sha: blob.sha }] }),
-    }),
+    await fetchConLimite(
+      `${repoApi}/git/trees`,
+      { method: 'POST', headers, body: JSON.stringify({ base_tree: headCommit.tree.sha, tree: cambios }) },
+      LIMITE_MS,
+      'armar cambios'
+    ),
     'armar cambios'
   );
 
   // 5) Commit nuevo encima del último.
   const commit = await revisar(
-    await fetchConLimite(`${repoApi}/git/commits`, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ message, tree: tree.sha, parents: [headSha] }),
-    }),
+    await fetchConLimite(
+      `${repoApi}/git/commits`,
+      { method: 'POST', headers, body: JSON.stringify({ message, tree: tree.sha, parents: [headSha] }) },
+      LIMITE_MS,
+      'crear commit'
+    ),
     'crear commit'
   );
 
   // 6) Mueve la rama al commit nuevo (sin forzar: si alguien se adelantó, falla → conflicto).
-  const mover = await fetchConLimite(refUrl, { method: 'PATCH', headers, body: JSON.stringify({ sha: commit.sha, force: false }) });
+  const mover = await fetchConLimite(refUrl, { method: 'PATCH', headers, body: JSON.stringify({ sha: commit.sha, force: false }) }, LIMITE_MS, 'actualizar rama');
   if (mover.status === 422 || mover.status === 409) throw new ConflictError();
   await revisar(mover, 'actualizar rama');
 
@@ -253,9 +293,9 @@ export async function saveWithRetry(
   while (intentos < 5) {
     intentos++;
     try {
-      const { data, sha } = await loadDatabase();
+      const { data, sha, formato } = await loadDatabase();
       const next = mutate(data);
-      await saveDatabase(next, sha, message);
+      await saveDatabase(next, sha, message, formato);
       return next;
     } catch (e) {
       ultimoError = e;
