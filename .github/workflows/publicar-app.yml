@@ -1,0 +1,44 @@
+# Publica la app (carpeta docs/) en GitHub Pages.
+# Solo se ejecuta cuando cambia algo dentro de docs/ (una versión nueva de la app),
+# o a mano desde Actions → "Publicar app" → Run workflow.
+# Los guardados de datos (data/db.json.gz) ya NO disparan publicaciones.
+name: Publicar app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se suben varios cambios seguidos, solo se publica el último.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar carpeta docs
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publicar
+        id: despliegue
+        uses: actions/deploy-pages@v4
